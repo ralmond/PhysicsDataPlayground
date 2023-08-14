@@ -1,0 +1,51 @@
+---
+title: "Codebook"
+---
+
+## IDs  _Russell_
+
+## Study Conditions _Ginny_
+
+## Demographic Varibles _Ginny_?
+
+## Pretest/Post-test _Ginny_
+
+### Energy Can Transfer (ECT) Near and Far
+
+### Properties of Torque (POT) Near and Far
+
+## Intrinsic Motivation Inventory _Ginny_
+
+Reverse Coded Items
+
+Subscores
+
+## Physics Animation (Learning Support) Questionnaire _Ginny_
+
+## Bayesian Network Scores _Russell (from here on down)._
+
+* _context_
+
+### Marginal Distributions
+
+### EAP and MAP Scores
+
+## Observables (Attempts and Results)
+
+First and Last
+
+Timestamps
+
+Trophys
+
+Attempts
+
+## Learning Supports
+
+Timestamps
+
+Durations
+
+Video lengths
+
+

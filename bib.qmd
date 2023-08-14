@@ -1,0 +1,35 @@
+---
+title: "Bibliography"
+nocite: |
+  @*
+---
+
+::: {#refs}
+:::
+
+
+Shute, V. J., &amp; Rahimi, S. (2021). <a href="https://myweb.fsu.edu/vshute/pdf/creativity_CHB.pdf" target="_blank" rel="noopener">Stealth assessment of creativity in a physics video game</a>. <em>Computers in Human Behavior, 116 </em>1-13. https://doi.org/10.1016/j.chb.2020.106647
+
+Rahimi, S., Shute, V. J., Kuba, R., Dai, C-P., Yang, X., Smith, G., &amp; Alonso Fenandez, C. (2021). <a href="https://myweb.fsu.edu/vshute/pdf/incentives.pdf" target="_blank" rel="noopener">The effects of incentive systems on learning and performance in educational games</a>. <em>Computers &amp; Education, 165, </em>1-17. https://doi.org/10.1016/j.compedu.2021.104135
+
+Shute, V. J., Rahimi S., Smith, G., Ke, F., Almond, R., Dai, C-P, Kamikabeya, R., Liu, Z., Yang, X., &amp; Sun, C. (2020). <a href="http://myweb.fsu.edu/vshute/pdf/JCAL2020.pdf">Maximizing learning without sacrificing the fun: Stealth assessment, adaptivity, and learning supports in Physics Playground.</a> <em>Journal of Computer-Assisted Learning </em>(38 pages).
+
+Spann, C. A., Shute, V. J., Rahimi, S., &amp; D'Mello, S. K. (2019). <a href="http://myweb.fsu.edu/vshute/pdf/Emo.pdf">The productive role of cognitive reappraisal in regulating frustration during game-based learning</a>. <em>Computers in Human Behavior.</em> <a href="https://doi-org.proxy.lib.fsu.edu/10.1016/j.chb.2019.03.002">https://doi-org.proxy.lib.fsu.edu/10.1016/j.chb.2019.03.002</a>
+
+Shute, V. J., Rahimi, S., &amp; Smith, G. (2019). <a href="http://myweb.fsu.edu/vshute/pdf/gamification.pdf">Game-based learning analytics in Physics Playground</a>. In M. Chang &amp; A. Tlili (Eds.), <em>Data analytics approaches in educational games and gamification systems. </em>(pp. 69-93). New York, NY: Springer.
+
+Shute, V. J., Ke, F., Almond, R. G., Rahimi, S., Smith, G., &amp; Lu, X. (2019). <a href="http://myweb.fsu.edu/vshute/pdf/feldman.pdf">How to increase learning while not decreasing the fun in educational games</a>. In R. Feldman (Ed.), <em>Learning Science: Theory, Research, and Practice</em> (pp. 327-357). New York, NY: McGraw Hill.
+
+Karumbaiah, S., Rahimi, S., Baker, R. S., Shute, V. J., &amp; D’Mello, S. (2018). <a href="http://myweb.fsu.edu/vshute/pdf/icls2018.pdf">Is student frustration in learning games more associated with game mechanics or conceptual understanding?</a>. In J. Kay, R. Luckin, M. Mavrikis, &amp; K. Porayska-Pomsta (Eds.), <em>International Conference of Learning Sciences </em>(pp. 1-2). London, UK.
+
+Kim, Y. J., Almond, R. G., &amp; Shute, V. J. (2016). <a href="http://myweb.fsu.edu/vshute/pdf/IJT.pdf">Applying Evidence-Centered Design for the development of game-based assessments in Physics Playground</a>. <em>International Journal of Testing, 16</em>(2), 142-163.
+
+Shute, V. J. &amp; Wang, L. (2016). <a href="http://myweb.fsu.edu/vshute/pdf/HTM.pdf">Assessing and supporting hard-to-measure constructs</a>. In A. A. Rupp, &amp; J. P. Leighton (Eds.), <em>The handbook of cognition and assessment: Frameworks, methodologies, and application,</em> (pp. 535-562). Hoboken, NJ: John Wiley &amp; Sons, Inc.
+
+Bosch, N., Chen, H., Baker, R., Shute, V. J., &amp; D’Mello, S. (2015). <a href="http://myweb.fsu.edu/vshute/pdf/icmi15.pdf">Accuracy vs. availability heuristic in multimodal affect detection in the wild</a>. <em>Proceedings of the 17th International Conference on Multimodal Interaction (ICMI)</em>, Seattle, WA.
+
+Kim, Y. J., &amp; Shute, V. J. (2015). <a href="http://myweb.fsu.edu/vshute/pdf/kim_shute_2015.pdf">The interplay of game elements with psychometric qualities, learning, and enjoyment in gamebased assessment</a>. <em>Computers &amp; Education, 87</em>, 340-356.
+
+Shute, V. J., D'Mello, S. K., Baker, R., Cho, K., Bosch, N., Ocumpaugh, J., Ventura, M., &amp; Almeda, V. (2015). <a href="http://myweb.fsu.edu/vshute/pdf/SEM1.pdf" target="_blank" rel="noopener">Modeling how incoming knowledge, persistence, affective states, and in-game progress influence student learning from an educational game</a>. <em>Computers &amp; Education, 86,</em> 224-235.
+
+Shute, V. J., Ventura, M., &amp; Kim, Y. J. (2013). <a href="http://myweb.fsu.edu/vshute/pdf/JER.pdf">Assessment and learning of qualitative physics in Newton’s Playground</a>. <em>The Journal of Educational Research, 106</em>, 423-430.

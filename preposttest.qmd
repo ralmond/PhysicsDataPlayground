@@ -1,0 +1,46 @@
+---
+title: "Pretest and Posttest"
+---
+
+## Concepts Covered
+
+## Near and Far Transfer
+
+## Form A and Form B
+
+* _Form A Pretest_ -- This consisted of all Form A items, and was used as the pretest for
+the Affective Support Study.
+
+* _ECT Posttest_ -- This consisted of all Form A ECT items, both near and far transfer.  Due to a
+mix-up while constructing the forms, the Near POT items were also presented to the students but
+not included in the score.  This was given on Day 3 or 5 of the Affective Support Study, depending
+on study condition.
+
+* _POT Posttest_ -- This consisted of all Form A ECT items, both near and far transfer.   This was given on Day 3 or 5 of the Affective Support Study, depending
+on study condition.
+
+
+## Use during the studies
+
+In the Affective Support Study, the students received all Form A items, ECT and POT and Near and Far, 
+on the first day (Monday) of the study before starting game play.  
+
+Students in Groups A, C and F played the ECT levels on Tuesday and Wednesday, taking the ECT posttest, 
+both Near and Far items on Wednesday during the last 20 minutes of the class period.  Then on Thursday
+and Friday, these groups played the POT game levels on Thursday and Friday and took the POT posttest on Friday.
+
+Students in Groups B, D, and E reversed the ordering of the ECT and POT levels.  Playing POT game levels
+on Tuesday and Wednesday, taking the POT posttest on Wednesday, playing ECT game levels on Thursday and
+Friday, and taking the ECT posttest on Friday.
+
+Due to a mix-up during the construction of the post-test for the Affective Support Study, 
+Form A items were used for both the pretest and posttest.  At least two days of gameplay occured
+between the two uses.
+
+## Near Transfer:  Energy Can Transfer (ECT-Near)
+
+## Near Transfer: Properties of Torque (POT-Near)
+
+## Far Transfer:  Energy Can Transfer (ECT-Far)
+
+## Far Transfer:  Properties of Torque (POT-Far)

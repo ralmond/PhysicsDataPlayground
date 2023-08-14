@@ -1,0 +1,24 @@
+---
+title: "Software"
+---
+
+## Physics Playground Game Engine
+
+## Peanut Bayesian network engine
+
+### RNetica
+
+### Model Spreadsheets
+
+## Proc4 Scoring Framework
+
+### Mongo Database
+
+### Learning Locker -> Proc4
+
+### Evidence Identification -- EIEvent
+
+### Evidence Accumulation -- EABN
+
+### Dongle
+

@@ -1,0 +1,345 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "PhysicsDataPlayground",
+    "section": "",
+    "text": "This file contains data from the IES project Physics Playground"
+  },
+  {
+    "objectID": "index.html#licences",
+    "href": "index.html#licences",
+    "title": "PhysicsDataPlayground",
+    "section": "Licences",
+    "text": "Licences\n (C) 2023. Except for the linked papers (which have their own licenses), this website and its contents (the instruments and data) are licensed under a Creative Commons Attribution-ShareAlike 4.0 International License."
+  },
+  {
+    "objectID": "index.html#support",
+    "href": "index.html#support",
+    "title": "PhysicsDataPlayground",
+    "section": "Support:",
+    "text": "Support:\n‘Institute of Educational Statistics Grant: “Exploring adaptive cognitive and affective learning support for next-generation STEM learning games.” (no. R305A170376-20, Val Shute and Russell Almond, PIs)’ )\n\n‘Bill & Melinda Gates Foundation grant “Games as Learning/Assessment: Stealth Assessment” (no. 0PP1035331, Val Shute, PI)’,\n‘National Science Foundation grant “DIP: Game-based Assessment and Support of STEM-related Competencies” (no. 1628937, Val Shute, PI)’,\n‘National Scient Foundation grant “Mathematical Learning via Architectual Design and Modeling Using E-Rebuild.” (no. 1720533, Fengfeng Ke, PI)’,"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "preposttest.html#near-and-far-transfer",
+    "href": "preposttest.html#near-and-far-transfer",
+    "title": "Pretest and Posttest",
+    "section": "Near and Far Transfer",
+    "text": "Near and Far Transfer"
+  },
+  {
+    "objectID": "preposttest.html#form-a-and-form-b",
+    "href": "preposttest.html#form-a-and-form-b",
+    "title": "Pretest and Posttest",
+    "section": "Form A and Form B",
+    "text": "Form A and Form B\n\nForm A Pretest – This consisted of all Form A items, and was used as the pretest for the Affective Support Study.\nECT Posttest – This consisted of all Form A ECT items, both near and far transfer. Due to a mix-up while constructing the forms, the Near POT items were also presented to the students but not included in the score. This was given on Day 3 or 5 of the Affective Support Study, depending on study condition.\nPOT Posttest – This consisted of all Form A ECT items, both near and far transfer. This was given on Day 3 or 5 of the Affective Support Study, depending on study condition."
+  },
+  {
+    "objectID": "preposttest.html#use-during-the-studies",
+    "href": "preposttest.html#use-during-the-studies",
+    "title": "Pretest and Posttest",
+    "section": "Use during the studies",
+    "text": "Use during the studies\nIn the Affective Support Study, the students received all Form A items, ECT and POT and Near and Far, on the first day (Monday) of the study before starting game play.\nStudents in Groups A, C and F played the ECT levels on Tuesday and Wednesday, taking the ECT posttest, both Near and Far items on Wednesday during the last 20 minutes of the class period. Then on Thursday and Friday, these groups played the POT game levels on Thursday and Friday and took the POT posttest on Friday.\nStudents in Groups B, D, and E reversed the ordering of the ECT and POT levels. Playing POT game levels on Tuesday and Wednesday, taking the POT posttest on Wednesday, playing ECT game levels on Thursday and Friday, and taking the ECT posttest on Friday.\nDue to a mix-up during the construction of the post-test for the Affective Support Study, Form A items were used for both the pretest and posttest. At least two days of gameplay occured between the two uses."
+  },
+  {
+    "objectID": "preposttest.html#near-transfer-energy-can-transfer-ect-near",
+    "href": "preposttest.html#near-transfer-energy-can-transfer-ect-near",
+    "title": "Pretest and Posttest",
+    "section": "Near Transfer: Energy Can Transfer (ECT-Near)",
+    "text": "Near Transfer: Energy Can Transfer (ECT-Near)"
+  },
+  {
+    "objectID": "preposttest.html#near-transfer-properties-of-torque-pot-near",
+    "href": "preposttest.html#near-transfer-properties-of-torque-pot-near",
+    "title": "Pretest and Posttest",
+    "section": "Near Transfer: Properties of Torque (POT-Near)",
+    "text": "Near Transfer: Properties of Torque (POT-Near)"
+  },
+  {
+    "objectID": "preposttest.html#far-transfer-energy-can-transfer-ect-far",
+    "href": "preposttest.html#far-transfer-energy-can-transfer-ect-far",
+    "title": "Pretest and Posttest",
+    "section": "Far Transfer: Energy Can Transfer (ECT-Far)",
+    "text": "Far Transfer: Energy Can Transfer (ECT-Far)"
+  },
+  {
+    "objectID": "preposttest.html#far-transfer-properties-of-torque-pot-far",
+    "href": "preposttest.html#far-transfer-properties-of-torque-pot-far",
+    "title": "Pretest and Posttest",
+    "section": "Far Transfer: Properties of Torque (POT-Far)",
+    "text": "Far Transfer: Properties of Torque (POT-Far)"
+  },
+  {
+    "objectID": "bib.html",
+    "href": "bib.html",
+    "title": "Bibliography",
+    "section": "",
+    "text": "Almond, R. (2015). An IRT-based Parameterization for Conditional Probability Tables. In J. M. Agosta & R. N. Carvalho (Eds.), Proceedings of the Twelfth UAI Bayesian Modeling Applications Workshop (BMAW 2015) (Vol. 1565, pp. 14–23).\n\n\nAlmond, R. G. (2010). “I can name that Bayesian Network in Two Matrixes.” International Journal of Approximate Reasoning, 51, 167–178. https://doi.org/10.1016/j.ijar.2009.04.005\n\n\nAlmond, R. G. (2015). Tips and Tricks for Building Bayesian Networks for Scoring Game-Based Assessments. In J. Suzuki & M. Ueno (Eds.), Advanced Methodologies for Bayesian Networks (Vol. 9505, pp. 250–263). Springer International Publishing. https://doi.org/10.1007/978-3-319-28379-1_18\n\n\nAlmond, R. G. (2023a). CPTtools: Tools for Creating Conditional Probability Tables.\n\n\nAlmond, R. G. (2023b). Peanut: Parameterized Bayesian Networks, Abstract Classes.\n\n\nAlmond, R. G. (2023c). PNetica: Parameterized Bayesian Networks, Netica Interface.\n\n\nAlmond, R. G. (2023d). RNetica: R interface to Netica(R) Bayesian Network Engine.\n\n\nAlmond, R. G. (2023e). EIEvent: Evidence Identification Event Processing Engine.\n\n\nAlmond, R. G. (2023f). Mongo: Higher level inferface to Mongo database.\n\n\nAlmond, R. G. (2023g). Proc4: Four Process Assessment Database and Dispatcher.\n\n\nAlmond, R. G. (2023h). EABN: Evidence Accumulation Bayes Net Engine.\n\n\nAlmond, R. G., Kim, Y. J., Shute, V. J., & Ventura, M. (2013). Debugging the Evidence Chain. In R. G. Almond & O. Mengshoel (Eds.), Proceedings of the 2013 UAI Application Workshops: Big Data meet Complex Models and Models for Spatial, Temporal and Network Data (UAI2013AW) (pp. 1–10).\n\n\nAlmond, R. G., Kim, Y. J., Velasquez, G., & Shute, V. J. (2014). How Task Features Impact Evidence from Assessments Embedded in Simulations and Games. Measurement: Interdisciplinary Research and Perspectives, 12(1), 1–33. https://doi.org/10.1080/15366367.2014.910060\n\n\nAlmond, R. G., & Lipnevich, A. (2009). Value of Evidence: A Decision Theoretic Approach to Validity for Diagnostic Assessment.\n\n\nAlmond, R. G., Mislevy, R. J., Steinberg, L. S., Williamson, D. M., & Yan, D. (2015). Bayesian Networks in Educational Assessment. Springer New York.\n\n\nAlmond, R. G., Shute, V. J., Underwood, J. S., & Zapata-Rivera, J.-D. (2009). Bayesian Networks: A Teacher’s View. International Journal of Approximate Reasoning, 50, 450–460. https://doi.org/10.1016/j.ijar.2008.04.011\n\n\nAlmond, R. G., & Zapata-Rivera, D. (2019). Bayesian Networks. In M. von Davier & Y. S. Lee (Eds.), Handbook of Diagnostic classification models. (pp. 81–106). Springer. https://doi.org/10.1007/978-3-030-05584-4_4\n\n\nChen, Y., Liu, Y., & Xu, S. (2018). Mutual Information Reliability for Latent Class Analysis. Applied Psychological Measurement, 42(6), 460–477. https://doi.org/10.1177/0146621617748324\n\n\nChoi, Y., & Mislevy, R. J. (2021). An evidence-centered design framework and dynamic Bayesian networks for modeling learning progression in a formative assessment system (ETS 2021-0026.R1). Educational Testing Service.\n\n\nDetrano, R., Janosi, A., Steinbrunn, W., Pfisterer, M., Schmid, J.-J., Sandhu, S., Guppy, K. H., Lee, S., & Froelicher, V. (1989). International Application of New Probability Algorithm for the Diagnosis of Coronary Artery Disease. American Journal of Cardiology, 64, 304–310. https://doi.org/10.1016/0002-9149(89)90524-9\n\n\nDetrano, R., Salcedo, E., Hobbs, R., & Yinanikas, J. (1986). Cardio cinefluoroscopy as an inexpensive aid in the diagnosis of coronary artery disease. American Journal of Cardiology, 57, 1041–1046. https://doi.org/10.1016/0002-9149(86)90671-5\n\n\nFriendly, M. (2022). vcdExtra: ’Vcd’ Extensions and Additions.\n\n\nFriendly, M., & Meyer, D. (2016). Discrete Data Analysis with R. CRC Press.\n\n\nFuchs, L. S., & Vaughn, S. (2012). Responsiveness-to-Intervention: A decade later. Journal of Learning Disabilities, 45, 195–203. https://doi.org/10.1177/0022219412442150\n\n\nGood, I. J. (1950). Probability and the Weighing of Evidence. Charles Griffin.\n\n\nGood, I. J., & Card, W. (1971). The diagnostic process with special reference to errors. Methods of Information in Medicine, 10, 176–188.\n\n\nHansen, M., Cai, L., Monroe, S., & Li, Z. (2016). Limited-information goodness-of-fit testing of diagnostic classification item response models. British Journal of Mathematical and Statistical Psychology, 69(3), 225–252. https://doi.org/10.1111/bmsp.12074\n\n\nJanosi, A., Steinbrunn, W., Pfisterer, M., & Detrano, R. (1989). Heart Disease. UCI Machine Learning Repository. https://doi.org/10.24432/C52P4X\n\n\nKim, Y. J., Almond, R. G., & Shute, V. J. (2016). Applying evidence-centered design for development of game-based assessments in Physics Playground. International Journal of Testing, 16(2), 142–163. https://doi.org/15305058.2015.1108322\n\n\nKim, Y. J., Ventura, M., Shute, V., & Almond, R. G. (2012). Newton’s Playground: How to use evidence centered design (ECD) to develop game-based assessment.\n\n\nLevy, R. (2019). Dynamic Bayesian Network Modeling of Game-Based Diagnostic Assessments. Multivariate Behavioral Research, 54(6), 771–794. https://doi.org/10.1080/00273171.2019.1590794\n\n\nMadigan, D., & Almond, R. G. (1995). Test selection strategies for belief networks. In D. Fisher & H. J. Lenz (Eds.), Learning from Data: AI and Statistics V (pp. 89–98). Springer-Verlag.\n\n\nMadigan, D., Mosurski, K., & Almond, R. G. (1997). Graphical explanation in belief networks. Journal of Computational and Graphical Statistics, 6(2), 160–181. https://doi.org/10.1080/10618600.1997.10474735\n\n\nMeyer, D., Zeileis, A., & Hornik, K. (2007). Vcd: Visualizing Categorical Data.\n\n\nMislevy, R. J. (2013). Evidence-Centered Design for Simulation-Based Assessment. Military Medicine, 178(10S), 107–114. https://doi.org/10.7205/MILMED-D-13-00213\n\n\nMislevy, R. J., Oranje, A., Bauer, M. I., von Davier, A., Hao, J., Corrigan, S., Hoffman, E., DiCerbo, K., & Joh, M. (2015). Psychometric considerations in game-based assessment. GlassLab: Institute of Play.\n\n\nMurphy, K. P. (2002). Dynamic Bayesian networks: Representation, inference and learning [PhD thesis]. University of California.\n\n\nMurphy, P. M., & Aha, D. W. (1992). UCI Repository of Machine Learning Databases.\n\n\nReichenberg, R. (2018). Dynamic Bayesian Networks in Educational Measurement: Reviewing and Advancing the State of the Field. Applied Measurement in Education, 31(4), 335–350. https://doi.org/10.1080/08957347.2018.1495217\n\n\nReye, J. (2004). Student Modelling Based on Belief Networks. Internationl Journal of Artificial Intelligence in Education, 14, 63–96.\n\n\nRupp, A. A., Templin, J., & Hensen, R. J. (2010). Diagnostic measurement: Theory, methods, and applications. Guilford Press.\n\n\nShute, V. J., Hansen, E. G., & Almond, R. G. (2008). You Can’t Fatten A Hog by Weighing It - Or Can You? Evaluating an Assessment for Learning System Called ACED. International Journal of Artificial Intelligence in Education, 18(4), 289–316.\n\n\nShute, V. J., & Ventura, M. (2013). Stealth assessment in digital games. MIT series.\n\n\nSinharay, S. (2006). Model diagnostics for Bayesian networks. Journal of Educational and Behavioral Statistics, 31(1), 1–33.\n\n\nTatsuoka, K. K. (1983). Rule space: An approach for dealing with misconceptions based on item response theory. Journal of Educational Measurement, 20, 345–354.\n\n\nTemplin, J., & Bradshaw, L. (2013). Measuring the Reliability of Diagnostic Classification Model Examinee Estimates. Journal of Classification, 30(2), 251–275. https://doi.org/10.1007/s00357-013-9129-4\n\n\nTokac, U., & Almond, R. G. (2016). The Efficacy of the POMDP-RTI Approach for Early Reading Intervention. In K. B. Laskey & R. N. Carvalho (Eds.), Proceedings of the Thirteenth UAI Bayesian Modeling Applications Workshop (BMAW 2016) (pp. 36–43).\n\n\nWang, C., Chang, H.-H., & Boughton, K. A. (2011). Kullback and Its Applications in Multi-Dimensional Adaptive Testing. Psychometrika, 76(1), 13–39. https://doi.org/10.1007/s11336-010-9186-0\n\n\nShute, V. J., & Rahimi, S. (2021). Stealth assessment of creativity in a physics video game. Computers in Human Behavior, 116 1-13. https://doi.org/10.1016/j.chb.2020.106647\nRahimi, S., Shute, V. J., Kuba, R., Dai, C-P., Yang, X., Smith, G., & Alonso Fenandez, C. (2021). The effects of incentive systems on learning and performance in educational games. Computers & Education, 165, 1-17. https://doi.org/10.1016/j.compedu.2021.104135\nShute, V. J., Rahimi S., Smith, G., Ke, F., Almond, R., Dai, C-P, Kamikabeya, R., Liu, Z., Yang, X., & Sun, C. (2020). Maximizing learning without sacrificing the fun: Stealth assessment, adaptivity, and learning supports in Physics Playground. Journal of Computer-Assisted Learning (38 pages).\nSpann, C. A., Shute, V. J., Rahimi, S., & D’Mello, S. K. (2019). The productive role of cognitive reappraisal in regulating frustration during game-based learning. Computers in Human Behavior. https://doi-org.proxy.lib.fsu.edu/10.1016/j.chb.2019.03.002\nShute, V. J., Rahimi, S., & Smith, G. (2019). Game-based learning analytics in Physics Playground. In M. Chang & A. Tlili (Eds.), Data analytics approaches in educational games and gamification systems. (pp. 69-93). New York, NY: Springer.\nShute, V. J., Ke, F., Almond, R. G., Rahimi, S., Smith, G., & Lu, X. (2019). How to increase learning while not decreasing the fun in educational games. In R. Feldman (Ed.), Learning Science: Theory, Research, and Practice (pp. 327-357). New York, NY: McGraw Hill.\nKarumbaiah, S., Rahimi, S., Baker, R. S., Shute, V. J., & D’Mello, S. (2018). Is student frustration in learning games more associated with game mechanics or conceptual understanding?. In J. Kay, R. Luckin, M. Mavrikis, & K. Porayska-Pomsta (Eds.), International Conference of Learning Sciences (pp. 1-2). London, UK.\nKim, Y. J., Almond, R. G., & Shute, V. J. (2016). Applying Evidence-Centered Design for the development of game-based assessments in Physics Playground. International Journal of Testing, 16(2), 142-163.\nShute, V. J. & Wang, L. (2016). Assessing and supporting hard-to-measure constructs. In A. A. Rupp, & J. P. Leighton (Eds.), The handbook of cognition and assessment: Frameworks, methodologies, and application, (pp. 535-562). Hoboken, NJ: John Wiley & Sons, Inc.\nBosch, N., Chen, H., Baker, R., Shute, V. J., & D’Mello, S. (2015). Accuracy vs. availability heuristic in multimodal affect detection in the wild. Proceedings of the 17th International Conference on Multimodal Interaction (ICMI), Seattle, WA.\nKim, Y. J., & Shute, V. J. (2015). The interplay of game elements with psychometric qualities, learning, and enjoyment in gamebased assessment. Computers & Education, 87, 340-356.\nShute, V. J., D’Mello, S. K., Baker, R., Cho, K., Bosch, N., Ocumpaugh, J., Ventura, M., & Almeda, V. (2015). Modeling how incoming knowledge, persistence, affective states, and in-game progress influence student learning from an educational game. Computers & Education, 86, 224-235.\nShute, V. J., Ventura, M., & Kim, Y. J. (2013). Assessment and learning of qualitative physics in Newton’s Playground. The Journal of Educational Research, 106, 423-430."
+  },
+  {
+    "objectID": "PA.html",
+    "href": "PA.html",
+    "title": "Learning Support Reactions",
+    "section": "",
+    "text": "Learning Support (Physics Animation; PA) Reactions"
+  },
+  {
+    "objectID": "Articles.html#key-articles-from-other-physics-playgound-projects",
+    "href": "Articles.html#key-articles-from-other-physics-playgound-projects",
+    "title": "Physics Playground Articles",
+    "section": "Key articles from other Physics playgound projects",
+    "text": "Key articles from other Physics playgound projects"
+  },
+  {
+    "objectID": "Articles.html#key-articles-on-evidence-centered-design-and-stealth-assessment",
+    "href": "Articles.html#key-articles-on-evidence-centered-design-and-stealth-assessment",
+    "title": "Physics Playground Articles",
+    "section": "Key articles on Evidence-Centered Design and Stealth Assessment",
+    "text": "Key articles on Evidence-Centered Design and Stealth Assessment"
+  },
+  {
+    "objectID": "Codebook.html#study-conditions",
+    "href": "Codebook.html#study-conditions",
+    "title": "Codebook",
+    "section": "Study Conditions",
+    "text": "Study Conditions"
+  },
+  {
+    "objectID": "Codebook.html#demographic-varibles",
+    "href": "Codebook.html#demographic-varibles",
+    "title": "Codebook",
+    "section": "Demographic Varibles",
+    "text": "Demographic Varibles"
+  },
+  {
+    "objectID": "Codebook.html#pretestpost-test",
+    "href": "Codebook.html#pretestpost-test",
+    "title": "Codebook",
+    "section": "Pretest/Post-test",
+    "text": "Pretest/Post-test\n\nEnergy Can Transfer (ECT) Near and Far\n\n\nProperties of Torque (POT) Near and Far"
+  },
+  {
+    "objectID": "Codebook.html#intrinsic-motivation-inventory",
+    "href": "Codebook.html#intrinsic-motivation-inventory",
+    "title": "Codebook",
+    "section": "Intrinsic Motivation Inventory",
+    "text": "Intrinsic Motivation Inventory\nReverse Coded Items\nSubscores"
+  },
+  {
+    "objectID": "Codebook.html#physics-animation-learning-support-questionnaire",
+    "href": "Codebook.html#physics-animation-learning-support-questionnaire",
+    "title": "Codebook",
+    "section": "Physics Animation (Learning Support) Questionnaire",
+    "text": "Physics Animation (Learning Support) Questionnaire"
+  },
+  {
+    "objectID": "Codebook.html#bayesian-network-scores",
+    "href": "Codebook.html#bayesian-network-scores",
+    "title": "Codebook",
+    "section": "Bayesian Network Scores",
+    "text": "Bayesian Network Scores\n\ncontext\n\n\nMarginal Distributions\n\n\nEAP and MAP Scores"
+  },
+  {
+    "objectID": "Codebook.html#observables-attempts-and-results",
+    "href": "Codebook.html#observables-attempts-and-results",
+    "title": "Codebook",
+    "section": "Observables (Attempts and Results)",
+    "text": "Observables (Attempts and Results)\nFirst and Last\nTimestamps\nTrophys\nAttempts"
+  },
+  {
+    "objectID": "Codebook.html#learning-supports",
+    "href": "Codebook.html#learning-supports",
+    "title": "Codebook",
+    "section": "Learning Supports",
+    "text": "Learning Supports\nTimestamps\nDurations\nVideo lengths"
+  },
+  {
+    "objectID": "Software.html#peanut-bayesian-network-engine",
+    "href": "Software.html#peanut-bayesian-network-engine",
+    "title": "Software",
+    "section": "Peanut Bayesian network engine",
+    "text": "Peanut Bayesian network engine\n\nRNetica\n\n\nModel Spreadsheets"
+  },
+  {
+    "objectID": "Software.html#proc4-scoring-framework",
+    "href": "Software.html#proc4-scoring-framework",
+    "title": "Software",
+    "section": "Proc4 Scoring Framework",
+    "text": "Proc4 Scoring Framework\n\nMongo Database\n\n\nLearning Locker -&gt; Proc4\n\n\nEvidence Identification – EIEvent\n\n\nEvidence Accumulation – EABN\n\n\nDongle"
+  },
+  {
+    "objectID": "Affective.html#subjects",
+    "href": "Affective.html#subjects",
+    "title": "Affective Support Protocol",
+    "section": "Subjects",
+    "text": "Subjects"
+  },
+  {
+    "objectID": "Affective.html#treatment-groups",
+    "href": "Affective.html#treatment-groups",
+    "title": "Affective Support Protocol",
+    "section": "Treatment Groups",
+    "text": "Treatment Groups"
+  },
+  {
+    "objectID": "Affective.html#measures",
+    "href": "Affective.html#measures",
+    "title": "Affective Support Protocol",
+    "section": "Measures",
+    "text": "Measures"
+  },
+  {
+    "objectID": "Affective.html#procedures",
+    "href": "Affective.html#procedures",
+    "title": "Affective Support Protocol",
+    "section": "Procedures",
+    "text": "Procedures"
+  },
+  {
+    "objectID": "Affective.html#results",
+    "href": "Affective.html#results",
+    "title": "Affective Support Protocol",
+    "section": "Results",
+    "text": "Results"
+  },
+  {
+    "objectID": "Events.html#table-of-known-verbs-and-objects",
+    "href": "Events.html#table-of-known-verbs-and-objects",
+    "title": "Event Logs",
+    "section": "Table of known verbs and objects",
+    "text": "Table of known verbs and objects"
+  },
+  {
+    "objectID": "Events.html#links-to-data",
+    "href": "Events.html#links-to-data",
+    "title": "Event Logs",
+    "section": "Links to data",
+    "text": "Links to data"
+  },
+  {
+    "objectID": "Before-After.html#subjects",
+    "href": "Before-After.html#subjects",
+    "title": "Before/After Study Protocol",
+    "section": "Subjects",
+    "text": "Subjects"
+  },
+  {
+    "objectID": "Before-After.html#treatment-groups",
+    "href": "Before-After.html#treatment-groups",
+    "title": "Before/After Study Protocol",
+    "section": "Treatment Groups",
+    "text": "Treatment Groups"
+  },
+  {
+    "objectID": "Before-After.html#measures",
+    "href": "Before-After.html#measures",
+    "title": "Before/After Study Protocol",
+    "section": "Measures",
+    "text": "Measures"
+  },
+  {
+    "objectID": "Before-After.html#procedures",
+    "href": "Before-After.html#procedures",
+    "title": "Before/After Study Protocol",
+    "section": "Procedures",
+    "text": "Procedures"
+  },
+  {
+    "objectID": "Before-After.html#results",
+    "href": "Before-After.html#results",
+    "title": "Before/After Study Protocol",
+    "section": "Results",
+    "text": "Results"
+  },
+  {
+    "objectID": "BAdata.html",
+    "href": "BAdata.html",
+    "title": "Before After Data",
+    "section": "",
+    "text": "Data from the Before/After Study"
+  },
+  {
+    "objectID": "Personnel.html#beforeafter-study-team",
+    "href": "Personnel.html#beforeafter-study-team",
+    "title": "Personnel",
+    "section": "Before/After Study Team",
+    "text": "Before/After Study Team"
+  },
+  {
+    "objectID": "Personnel.html#affective-support-team",
+    "href": "Personnel.html#affective-support-team",
+    "title": "Personnel",
+    "section": "Affective Support Team",
+    "text": "Affective Support Team\n\n\n\nGinny Smith, Project Manager"
+  },
+  {
+    "objectID": "Personnel.html#physics-playground-alumni",
+    "href": "Personnel.html#physics-playground-alumni",
+    "title": "Personnel",
+    "section": "Physics Playground Alumni",
+    "text": "Physics Playground Alumni"
+  },
+  {
+    "objectID": "Codebook.html#study-conditions-ginny",
+    "href": "Codebook.html#study-conditions-ginny",
+    "title": "Codebook",
+    "section": "Study Conditions Ginny",
+    "text": "Study Conditions Ginny"
+  },
+  {
+    "objectID": "Codebook.html#demographic-varibles-ginny",
+    "href": "Codebook.html#demographic-varibles-ginny",
+    "title": "Codebook",
+    "section": "Demographic Varibles Ginny?",
+    "text": "Demographic Varibles Ginny?"
+  },
+  {
+    "objectID": "Codebook.html#pretestpost-test-ginny",
+    "href": "Codebook.html#pretestpost-test-ginny",
+    "title": "Codebook",
+    "section": "Pretest/Post-test Ginny",
+    "text": "Pretest/Post-test Ginny\n\nEnergy Can Transfer (ECT) Near and Far\n\n\nProperties of Torque (POT) Near and Far"
+  },
+  {
+    "objectID": "Codebook.html#intrinsic-motivation-inventory-ginny",
+    "href": "Codebook.html#intrinsic-motivation-inventory-ginny",
+    "title": "Codebook",
+    "section": "Intrinsic Motivation Inventory Ginny",
+    "text": "Intrinsic Motivation Inventory Ginny\nReverse Coded Items\nSubscores"
+  },
+  {
+    "objectID": "Codebook.html#physics-animation-learning-support-questionnaire-ginny",
+    "href": "Codebook.html#physics-animation-learning-support-questionnaire-ginny",
+    "title": "Codebook",
+    "section": "Physics Animation (Learning Support) Questionnaire Ginny",
+    "text": "Physics Animation (Learning Support) Questionnaire Ginny"
+  },
+  {
+    "objectID": "Codebook.html#bayesian-network-scores-russell-from-here-on-down.",
+    "href": "Codebook.html#bayesian-network-scores-russell-from-here-on-down.",
+    "title": "Codebook",
+    "section": "Bayesian Network Scores Russell (from here on down).",
+    "text": "Bayesian Network Scores Russell (from here on down).\n\ncontext\n\n\nMarginal Distributions\n\n\nEAP and MAP Scores"
+  },
+  {
+    "objectID": "Overview.html",
+    "href": "Overview.html",
+    "title": "Physics Playground Overview",
+    "section": "",
+    "text": "Video Overview\n\n\n\n\n\nPhysics Playground Short Film\n\n\n\n\nUse the following links for the game:   \n\nUsername: demo2\nPassword: demo2pass\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nVideo 1. The sketching level “Caveman.” The path of the green ball is blocked by a wooden club. To solve the level, players need to draw a lever to lift the wooden club that blocks the path.\n\nFigure 1. The sketching level “Caveman.” The path of the green ball is blocked by a wooden club.\n\nFigure 2. Worked example of the sketching level “Caveman.” To solve the level, players need to draw a lever to lift the wooden club that blocks the path.\nhttps://youtu.be/qiYtPngpUpA\n\n\n\n\n\nVideo 2. The manipulation level “Cookie Monster.” In the level, mass and gravity are set to default levels, air resistance is medium, the static blower is in full force, and bounciness is available. To make the ball hit the balloon, players need to reduce air resistance and gravity and enable bounciness.\n\nFigure 3. The manipulation level “Cookie Monster.” In the level, mass and gravity are set to default levels, air resistance is medium, the static blower is in full force, and bounciness is available.\n\nFigure 4. Worked example of the manipulation level “Cookie Monster.” To make the ball hit the balloon, players need to reduce air resistance and gravity and enable bounciness.\nhttps://youtu.be/K7trh3Gkuug"
+  },
+  {
+    "objectID": "Overview.html#the-game",
+    "href": "Overview.html#the-game",
+    "title": "Physics Playground Overview",
+    "section": "",
+    "text": "Use the following links for the game:   \n\nUsername: demo2\nPassword: demo2pass\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nVideo 1. The sketching level “Caveman.” The path of the green ball is blocked by a wooden club. To solve the level, players need to draw a lever to lift the wooden club that blocks the path.\n\nFigure 1. The sketching level “Caveman.” The path of the green ball is blocked by a wooden club.\n\nFigure 2. Worked example of the sketching level “Caveman.” To solve the level, players need to draw a lever to lift the wooden club that blocks the path.\nhttps://youtu.be/qiYtPngpUpA\n\n\n\n\n\nVideo 2. The manipulation level “Cookie Monster.” In the level, mass and gravity are set to default levels, air resistance is medium, the static blower is in full force, and bounciness is available. To make the ball hit the balloon, players need to reduce air resistance and gravity and enable bounciness.\n\nFigure 3. The manipulation level “Cookie Monster.” In the level, mass and gravity are set to default levels, air resistance is medium, the static blower is in full force, and bounciness is available.\n\nFigure 4. Worked example of the manipulation level “Cookie Monster.” To make the ball hit the balloon, players need to reduce air resistance and gravity and enable bounciness.\nhttps://youtu.be/K7trh3Gkuug"
+  }
+]

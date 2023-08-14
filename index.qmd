@@ -1,0 +1,54 @@
+---
+title: "PhysicsDataPlayground"
+Date:  2023-07-24
+---
+
+This file contains data from the IES project _Physics Playground_
+
+* [Overview](Overview.qmd) **Ginny**
+* [Articles](Articles.qmd) 
+* [Codebook](Codebook.qmd) **Ginny**
+* Instruments
+  - [Pre/Post test](preposttest.qmd)
+    - Form A
+    - Form B
+  - [Intrinsic Motivation Inventory](IMI.qmd)
+  - [Physics Animations](PA.qmd)
+* Protocols
+  - [Before/After Study](Before-After.qmd)
+  - [Affective Support](Affective.qmd)
+* Data **Russell**
+  - [Before/After Study](BAdata.qmd) <<Includes summary statistics>>
+  - [Affective Support](AffectiveData.qmd) <<Includes summary statistics>>
+  - [Log files](Events.qmd)
+* [Analysis Scripts](Analyses.qmd) **Russell**
+* [Software](Software.qmd) **Russell**
+* [Personnel](Personnel.qmd) **Ginny**
+* [Bibliography](bib.qmd) **Russell**
+
+## Licences 
+
+<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />
+(C) 2023.  Except for the linked papers (which have their own licenses), this website and its contents (the instruments and data) are licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
+
+## Support: 
+
+   'Institute of Educational Statistics Grant: 
+   "Exploring adaptive cognitive and affective learning support 
+   for next-generation STEM learning games." (no. R305A170376-20, 
+   Val Shute and Russell Almond, PIs)'	)
+
+
+*   'Bill & Melinda Gates Foundation grant
+   "Games as Learning/Assessment:  Stealth Assessment" (no. 0PP1035331,
+   Val Shute, PI)',
+
+*   'National Science Foundation grant "DIP:
+   Game-based Assessment and Support of STEM-related Competencies"
+   (no. 1628937, Val Shute, PI)',
+
+*   'National Scient Foundation grant "Mathematical Learning via
+   Architectual Design and Modeling Using E-Rebuild." (no. 1720533,
+   Fengfeng Ke, PI)',
+
+    

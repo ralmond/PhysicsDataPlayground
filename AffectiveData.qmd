@@ -1,0 +1,15 @@
+---
+title: "Affective Support Data"
+---
+
+# Data from the Affective Support Study
+
+## Pretest, Posttest, demographic and Questionnaire data
+
+## Game level outcome data
+
+## Learning support usage data
+
+## Bayesian network scores
+
+## Log files

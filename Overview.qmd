@@ -1,0 +1,89 @@
+---
+title: "Physics Playground Overview"
+---
+
+# Overview of Physics Playground
+
+![Video Overview](https://youtu.be/RRR2vBzCIQQ)
+
+![Physics Playground Short Film](https://www.youtube.com/watch?v=HqIY9x5dUf0)
+
+
+## The Game
+
+Use the following links for the game:
+![Version 1: With Store](http://35.196.157.53/pp/wstore/demo.html)
+![Version 2: Without Store](http://35.196.157.53/pp/game/demo.html)
+![Level Editor](http://35.196.157.53/pp/editor/demo.html)
+
+* Username: _demo2_
+* Password: _demo2pass_
+
+
+### Game Videos
+
+<iframe src="//www.youtube.com/embed/HqIY9x5dUf0" width="460" height="258" allowfullscreen="allowfullscreen" data-mce-fragment="1"></iframe>
+
+<iframe src="//www.youtube.com/embed/RRR2vBzCIQQ" width="460" height="258" allowfullscreen="allowfullscreen"></iframe>
+
+<iframe src="//www.youtube.com/embed/jZ2bVhcWv1g" width="460" height="258" allowfullscreen="allowfullscreen"></iframe>
+
+<iframe src="//www.youtube.com/embed/YCLTSPmkp2o" width="460" height="258" allowfullscreen="allowfullscreen"></iframe>
+
+
+
+
+### Drawing Levels
+
+<iframe src="https://www.youtube.com/embed/qiYtPngpUpA" width="560" height="315" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
+
+Video 1. The sketching level “Caveman.” The path of the green ball is blocked by a wooden club. To solve the level, players need to draw a lever to lift the wooden club that blocks the path.
+
+<img class="alignnone wp-image-125 size-large" src="https://pluto.coe.fsu.edu/ppteam/wp-content/uploads/2017/09/1-1024x492.png" alt="" width="525" height="252" />
+
+Figure 1. The sketching level “Caveman.” The path of the green ball is blocked by a wooden club.
+
+<img class="alignnone wp-image-126 size-full" src="https://pluto.coe.fsu.edu/ppteam/wp-content/uploads/2017/09/2.png" alt="" width="849" height="483" />
+
+Figure 2. Worked example of the sketching level “Caveman.” To solve the level, players need to draw a lever to lift the wooden club that blocks the path.
+
+<a href="https://youtu.be/qiYtPngpUpA">https://youtu.be/qiYtPngpUpA</a>
+
+
+### Manipulation Levels
+
+<iframe src="https://www.youtube.com/embed/K7trh3Gkuug" width="560" height="315" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
+
+Video 2. The manipulation level “Cookie Monster.” In the level, mass and gravity are set to default levels, air resistance is medium, the static blower is in full force, and bounciness is available. To make the ball hit the balloon, players need to reduce air resistance and gravity and enable bounciness.
+
+<img class="alignnone wp-image-127 size-large" src="https://pluto.coe.fsu.edu/ppteam/wp-content/uploads/2017/09/3-1024x469.png" alt="" width="525" height="240" />
+
+Figure 3. The manipulation level “Cookie Monster.” In the level, mass and gravity are set to default levels, air resistance is medium, the static blower is in full force, and bounciness is available.
+
+<img class="alignnone wp-image-128 size-full" src="https://pluto.coe.fsu.edu/ppteam/wp-content/uploads/2017/09/4.png" alt="" width="850" height="469" />
+
+Figure 4. Worked example of the manipulation level “Cookie Monster.” To make the ball hit the balloon, players need to reduce air resistance and gravity and enable bounciness.
+
+<a href="https://youtu.be/K7trh3Gkuug">https://youtu.be/K7trh3Gkuug</a>
+
+
+## Learning Supports
+
+### Cognitvie Supports
+
+### Affective Supports
+
+## The Stealth Assessment
+
+### Event collection
+
+### Evidence Idnetification
+
+### Evidence Accumulation
+
+## The Studies
+
+### Before/After Study
+
+### Affective Support Study
+

@@ -1,0 +1,58 @@
+project:
+  type: website
+
+website:
+  title: "Physics Data Playground"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: Overview.qmd
+        text: Overview
+      - href: Articles.qmd
+        text: "Articles"
+      - href: Codebook.qmd
+        text: Codebook
+      - text: Instruments
+        menu:
+        - href: preposttest.qmd
+          text: "Pre/Post test"
+        - href: IMI.qmd
+          text: "Intrinsic Motivation Inventory"
+        - href: PA.qmd
+          text: "Physics Animations"
+      - text: "Protocols"
+      - href: Before-After.qmd
+        text: "Before/After Study"
+      - href: Affective.qmd
+        text: "Affective Support"
+      - text: "Data"
+      - href: BAdata.qmd) <<Includes summary statistics>
+        text: "Before/After Study"
+      - href: AffectiveData.qmd) <<Includes summary statistics>
+        text: "Affective Support"
+      - href: Events.qmd
+        text: "Log files"
+      - href: Analyses.qmd
+        text: "Analysis Scripts"
+      - href: Software.qmd
+        text: "Software"
+      - href: Personnel.qmd
+        text: "Personnel"
+      - href: bib.qmd
+        text: "Bibliography"
+      - about.qmd
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+
+margin-header: |
+  ![Physics Playground Logo](/img/PP-Website-BG.jpg)
+
+bibliography:  PeanutTutorial.bib
+csl:  apa.csl
+
+
