@@ -1,4 +1,4 @@
- Simple workflow for deploying static content to Pluto Server
+# Simple workflow for deploying static content to Pluto Server
 name: Deploy static content to Pluto
 
 on:
