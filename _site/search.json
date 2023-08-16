@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "PhysicsDataPlayground",
     "section": "",
-    "text": "This file contains data from the IES project Physics Playground"
+    "text": "Caution\n\n\n\nThis is a draft version of the website and does not represent the final content. You can email suggestions to Russell Almond.\nThis file contains data from the IES project Physics Playground"
   },
   {
     "objectID": "index.html#licences",
@@ -18,7 +18,7 @@
     "href": "index.html#support",
     "title": "PhysicsDataPlayground",
     "section": "Support:",
-    "text": "Support:\n‘Institute of Educational Statistics Grant: “Exploring adaptive cognitive and affective learning support for next-generation STEM learning games.” (no. R305A170376-20, Val Shute and Russell Almond, PIs)’ )\n\n‘Bill & Melinda Gates Foundation grant “Games as Learning/Assessment: Stealth Assessment” (no. 0PP1035331, Val Shute, PI)’,\n‘National Science Foundation grant “DIP: Game-based Assessment and Support of STEM-related Competencies” (no. 1628937, Val Shute, PI)’,\n‘National Scient Foundation grant “Mathematical Learning via Architectual Design and Modeling Using E-Rebuild.” (no. 1720533, Fengfeng Ke, PI)’,"
+    "text": "Support:\nThis report is based on research supported by Institute of Education Sciences, U.S. Department of Education to Florida State University.\n\n“Exploring adaptive cognitive and affective learning support for next-generation STEM learning games.” (Institute of Education Sciences award no. R305A170376, Val Shute and Russell Almond, PIs)\n\nAdditional support (for previous version of Physics Playground and the Peanut and Proc4 scoring engines) was provided by:\n\n‘Bill & Melinda Gates Foundation grant “Games as Learning/Assessment: Stealth Assessment” (no. 0PP1035331, Val Shute, PI)’,\n‘National Science Foundation grant “DIP: Game-based Assessment and Support of STEM-related Competencies” (no. 1628937, Val Shute, PI)’,\n‘National Science Foundation grant “Mathematical Learning via Architectual Design and Modeling Using E-Rebuild.” (no. 1720533, Fengfeng Ke, PI)’,\n\nThe opinions express are those of the authors and do not represent views of any of the sponsoring agencies."
   },
   {
     "objectID": "about.html",
@@ -32,14 +32,14 @@
     "href": "preposttest.html#near-and-far-transfer",
     "title": "Pretest and Posttest",
     "section": "Near and Far Transfer",
-    "text": "Near and Far Transfer"
+    "text": "Near and Far Transfer\nForm A\nForm B"
   },
   {
     "objectID": "preposttest.html#form-a-and-form-b",
     "href": "preposttest.html#form-a-and-form-b",
     "title": "Pretest and Posttest",
     "section": "Form A and Form B",
-    "text": "Form A and Form B\n\nForm A Pretest – This consisted of all Form A items, and was used as the pretest for the Affective Support Study.\nECT Posttest – This consisted of all Form A ECT items, both near and far transfer. Due to a mix-up while constructing the forms, the Near POT items were also presented to the students but not included in the score. This was given on Day 3 or 5 of the Affective Support Study, depending on study condition.\nPOT Posttest – This consisted of all Form A ECT items, both near and far transfer. This was given on Day 3 or 5 of the Affective Support Study, depending on study condition."
+    "text": "Form A and Form B\n\nForm A Pretest – This consisted of all Form A items, and was used as the pretest for the Affective Support Study.\n\nPDF of Form A\n\nECT Posttest – This consisted of all Form A ECT items, both near and far transfer. Due to a mix-up while constructing the forms, the Near POT items were also presented to the students but not included in the score. This was given on Day 3 or 5 of the Affective Support Study, depending on study condition.\n\nECT Posttest\n\nPOT Posttest – This consisted of all Form A ECT items, both near and far transfer. This was given on Day 3 or 5 of the Affective Support Study, depending on study condition.\n\nPOT Posttest"
   },
   {
     "objectID": "preposttest.html#use-during-the-studies",
@@ -270,21 +270,21 @@
     "href": "Personnel.html#beforeafter-study-team",
     "title": "Personnel",
     "section": "Before/After Study Team",
-    "text": "Before/After Study Team"
+    "text": "Before/After Study Team\n\n\n\n\n\n\nChen Sun\n\n\n\n\nChen Sun\n\n???\nWorked in variuos parts of the project including level design, and scoring engine construction\nHomepage:\n\n\n\n\n\n\n\n\nXiaotong Yang\n\n\n\n\nXiaotong Yang\n\nFlorida State University\nWorked on development of pretest and posttest\nHomepage:\n\n\n\n\n\n\n\n\nZhichun “Lukas” Liu\n\n\n\n\nZhichun “Lukas” Liu\n\n???\nWorked on analysis of log files\nHomepage:"
   },
   {
     "objectID": "Personnel.html#affective-support-team",
     "href": "Personnel.html#affective-support-team",
     "title": "Personnel",
     "section": "Affective Support Team",
-    "text": "Affective Support Team\n\n\n\nGinny Smith, Project Manager"
+    "text": "Affective Support Team\n\n\n\n\n\n\nGinny Smith, Project Manager\n\n\n\n\nGinny L. Smith\n\nFlorida State University (Graduated, 2022)\nProject Manager in the latter phase of the project.\nHomepage:"
   },
   {
     "objectID": "Personnel.html#physics-playground-alumni",
     "href": "Personnel.html#physics-playground-alumni",
     "title": "Personnel",
     "section": "Physics Playground Alumni",
-    "text": "Physics Playground Alumni"
+    "text": "Physics Playground Alumni\n\n\n\n\n\n\nFengfeng Ke, FSU & NSF\n\n\n\n\nFengfeng Ke\n\nFlorida State University (Currently on Sabbatical at NSF)\nCo-PI for NSF and Gates projects.\nHomepage: Check out her other project, eRebuild\n\n\n\n\n\n\n\n\nStefan Slater\n\n\n\n\nStefan Slater\n\n\n\nHomepage:\n\n\n\n\n\n\n\n\nKatie Bainbridge\n\n\n\n\nKatie Bainbridge\n\n\n\nHomepage:\n\n\n\n\n\n\n\n\nChih-Pu Dai\n\n\n\n\nChih-Pu Dai\n\nFlorida State University (Graduated 2023)\nWorked on NSF project\nHomepage:\n\n\n\n\n\n\n\n\nRenata Kuba\n\n\n\n\nRenata Kuba\n\nFlorida State University (Graduated ??)\nWorked on NSF project\nHomepage:\n\n\n\n\n\n\n\n\nXi Lu\n\n\n\n\nXi Lu\n\nFlorida State University (??)\nResponsible for many of the game levels\nHomepage:\n\n\n\n\n\n\n\n\nSeyfullah Tinger\n\n\n\n\nSeyfullah Tinger\n\nCambian\nWorked on developing the scoring engine\nHomepage:\n\n\n\n\n\n\n\n\nCatherin Spann\n\n\n\n\nCatherine Spann\n\n\n\nHomepage:\n\n\n\n\n\n\n\n\nWeinan Zhao\n\n\n\n\nWeinan Zhao\n\n\nResponsible for porting the game into Unity\nHomepage:\n\n\n\n\n\n\n\n\nXinhao Xu\n\n\n\n\nXinhao Xu\n\n\n\nHomepage:\n\n\n\n\n\n\n\n\nDon Franceschetti\n\n\n\n\nDon Franceschetti (1948–2019)\n\nUniversity of Memphis (Emeritus)\nUntil his death in 2019, Don severed as the primary Physics advisor on the project\nObituary: https://paw.princeton.edu/memorial/donald-r-franceschetti-74\n\n\n\n\n\n\n\n\nShamya Karumbaiah\n\n\n\n\nShamya Karubain\n\n\n\nHomepage:"
   },
   {
     "objectID": "Codebook.html#study-conditions-ginny",
@@ -333,13 +333,69 @@
     "href": "Overview.html",
     "title": "Physics Playground Overview",
     "section": "",
-    "text": "Video Overview\n\n\n\n\n\nPhysics Playground Short Film\n\n\n\n\nUse the following links for the game:   \n\nUsername: demo2\nPassword: demo2pass\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nVideo 1. The sketching level “Caveman.” The path of the green ball is blocked by a wooden club. To solve the level, players need to draw a lever to lift the wooden club that blocks the path.\n\nFigure 1. The sketching level “Caveman.” The path of the green ball is blocked by a wooden club.\n\nFigure 2. Worked example of the sketching level “Caveman.” To solve the level, players need to draw a lever to lift the wooden club that blocks the path.\nhttps://youtu.be/qiYtPngpUpA\n\n\n\n\n\nVideo 2. The manipulation level “Cookie Monster.” In the level, mass and gravity are set to default levels, air resistance is medium, the static blower is in full force, and bounciness is available. To make the ball hit the balloon, players need to reduce air resistance and gravity and enable bounciness.\n\nFigure 3. The manipulation level “Cookie Monster.” In the level, mass and gravity are set to default levels, air resistance is medium, the static blower is in full force, and bounciness is available.\n\nFigure 4. Worked example of the manipulation level “Cookie Monster.” To make the ball hit the balloon, players need to reduce air resistance and gravity and enable bounciness.\nhttps://youtu.be/K7trh3Gkuug"
+    "text": "Video Overview \nPhysics Playground Short Film: https://www.youtube.com/watch?v=HqIY9x5dUf0\n\n\nUse the following links for the game:\n\nVersion 1: With Store: http://35.196.157.53/pp/wstore/demo.html\nVersion 2: Without Store: http://35.196.157.53/pp/game/demo.html\nLevel Editor: http://35.196.157.53/pp/editor/demo.html\nUsername: demo2\nPassword: demo2pass\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nVideo 1. The sketching level “Caveman.” The path of the green ball is blocked by a wooden club. To solve the level, players need to draw a lever to lift the wooden club that blocks the path.\nCaveman Setup Figure 1. The sketching level “Caveman.” The path of the green ball is blocked by a wooden club.\nCaveman Solution Figure 2. Worked example of the sketching level “Caveman.” To solve the level, players need to draw a lever to lift the wooden club that blocks the path.\nhttps://youtu.be/qiYtPngpUpA\n\n\n\n\n\nVideo 2. The manipulation level “Cookie Monster.” In the level, mass and gravity are set to default levels, air resistance is medium, the static blower is in full force, and bounciness is available. To make the ball hit the balloon, players need to reduce air resistance and gravity and enable bounciness.\nCookie Monster Start\nFigure 3. The manipulation level “Cookie Monster.” In the level, mass and gravity are set to default levels, air resistance is medium, the static blower is in full force, and bounciness is available.\nCookie Monster Solution\nFigure 4. Worked example of the manipulation level “Cookie Monster.” To make the ball hit the balloon, players need to reduce air resistance and gravity and enable bounciness.\nhttps://youtu.be/K7trh3Gkuug"
   },
   {
     "objectID": "Overview.html#the-game",
     "href": "Overview.html#the-game",
     "title": "Physics Playground Overview",
     "section": "",
-    "text": "Use the following links for the game:   \n\nUsername: demo2\nPassword: demo2pass\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nVideo 1. The sketching level “Caveman.” The path of the green ball is blocked by a wooden club. To solve the level, players need to draw a lever to lift the wooden club that blocks the path.\n\nFigure 1. The sketching level “Caveman.” The path of the green ball is blocked by a wooden club.\n\nFigure 2. Worked example of the sketching level “Caveman.” To solve the level, players need to draw a lever to lift the wooden club that blocks the path.\nhttps://youtu.be/qiYtPngpUpA\n\n\n\n\n\nVideo 2. The manipulation level “Cookie Monster.” In the level, mass and gravity are set to default levels, air resistance is medium, the static blower is in full force, and bounciness is available. To make the ball hit the balloon, players need to reduce air resistance and gravity and enable bounciness.\n\nFigure 3. The manipulation level “Cookie Monster.” In the level, mass and gravity are set to default levels, air resistance is medium, the static blower is in full force, and bounciness is available.\n\nFigure 4. Worked example of the manipulation level “Cookie Monster.” To make the ball hit the balloon, players need to reduce air resistance and gravity and enable bounciness.\nhttps://youtu.be/K7trh3Gkuug"
+    "text": "Use the following links for the game:\n\nVersion 1: With Store: http://35.196.157.53/pp/wstore/demo.html\nVersion 2: Without Store: http://35.196.157.53/pp/game/demo.html\nLevel Editor: http://35.196.157.53/pp/editor/demo.html\nUsername: demo2\nPassword: demo2pass\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nVideo 1. The sketching level “Caveman.” The path of the green ball is blocked by a wooden club. To solve the level, players need to draw a lever to lift the wooden club that blocks the path.\nCaveman Setup Figure 1. The sketching level “Caveman.” The path of the green ball is blocked by a wooden club.\nCaveman Solution Figure 2. Worked example of the sketching level “Caveman.” To solve the level, players need to draw a lever to lift the wooden club that blocks the path.\nhttps://youtu.be/qiYtPngpUpA\n\n\n\n\n\nVideo 2. The manipulation level “Cookie Monster.” In the level, mass and gravity are set to default levels, air resistance is medium, the static blower is in full force, and bounciness is available. To make the ball hit the balloon, players need to reduce air resistance and gravity and enable bounciness.\nCookie Monster Start\nFigure 3. The manipulation level “Cookie Monster.” In the level, mass and gravity are set to default levels, air resistance is medium, the static blower is in full force, and bounciness is available.\nCookie Monster Solution\nFigure 4. Worked example of the manipulation level “Cookie Monster.” To make the ball hit the balloon, players need to reduce air resistance and gravity and enable bounciness.\nhttps://youtu.be/K7trh3Gkuug"
+  },
+  {
+    "objectID": "Personnel.html",
+    "href": "Personnel.html",
+    "title": "Personnel",
+    "section": "",
+    "text": "Val Shute, FSU, PI Emeritus\n\n\n\n\nVal Shute\n\nFlorida State University (Retired)\nPI through most versions\nHomepage: \n\n\n\n\n\n\n\n\nRussell Almond, FSU, Current PI\n\n\n\n\nRussell Almond\n\nFlorida State University\nPI for final year of project; Design and coding of scoring system\nHomepage: https://ralmond.net, R code: https://r-universe.dev/, Github: https://github.com/ralmond\n\n\n\n\n\n\n\n\nRyan S. Baker, U. Penn\n\n\n\n\nRyan S. Baker\n\nUniversity of Pennsylvania\nCo-PI and worked on developing logic for supports\nHomepage: \n\n\n\n\n\n\n\n\nSydney D’Mello, U. of Colorado\n\n\n\n\nSydney D’Mello\n\nUniversity of Colorado\nCo-PI and responsible for design of affective supports\nHomepage: \n\n\n\n\n\n\n\n\nSeyed Ahmad Rahimi, UF, lead programmer\n\n\n\n\nSeyed Ahmad Rahimi\n\nUniversity of Florida\nLead developer of current version of the game\nHomepage: \n\n\n\n\n\n\n\n\nAdam Lamee, UCF, Physics Teacher\n\n\n\n\nAdam Lamee\n\nUniversity of Central Florida\nExpert in Physics Teaching\nHomepage:"
+  },
+  {
+    "objectID": "Personnel.html#lead-investigators",
+    "href": "Personnel.html#lead-investigators",
+    "title": "Personnel",
+    "section": "",
+    "text": "Val Shute, FSU, PI Emeritus\n\n\n\n\nVal Shute\n\nFlorida State University (Retired)\nPI through most versions\nHomepage: \n\n\n\n\n\n\n\n\nRussell Almond, FSU, Current PI\n\n\n\n\nRussell Almond\n\nFlorida State University\nPI for final year of project; Design and coding of scoring system\nHomepage: https://ralmond.net, R code: https://r-universe.dev/, Github: https://github.com/ralmond\n\n\n\n\n\n\n\n\nRyan S. Baker, U. Penn\n\n\n\n\nRyan S. Baker\n\nUniversity of Pennsylvania\nCo-PI and worked on developing logic for supports\nHomepage: \n\n\n\n\n\n\n\n\nSydney D’Mello, U. of Colorado\n\n\n\n\nSydney D’Mello\n\nUniversity of Colorado\nCo-PI and responsible for design of affective supports\nHomepage: \n\n\n\n\n\n\n\n\nSeyed Ahmad Rahimi, UF, lead programmer\n\n\n\n\nSeyed Ahmad Rahimi\n\nUniversity of Florida\nLead developer of current version of the game\nHomepage: \n\n\n\n\n\n\n\n\nAdam Lamee, UCF, Physics Teacher\n\n\n\n\nAdam Lamee\n\nUniversity of Central Florida\nExpert in Physics Teaching\nHomepage:"
+  },
+  {
+    "objectID": "AffectiveData.html",
+    "href": "AffectiveData.html",
+    "title": "Affective Support Data",
+    "section": "",
+    "text": "The complete data are available in the following formats:\n\nComma Separated Value\nSPSS Save file\n\n\n\nThis data subset contains just the data from the pretest and posttest questionnaires.\nPosttest columns are marked with either .ect or .pot depending on which posttest the items appear on. Note that students received the ECT and POT tests on Wednesday or Friday of the study week depending on their treatment group.\nPre, Post Data\n\n\n\nThese data contain information on how the learning supports were played. * Timestamp_XXX – These give the time at which the level was played. * TrophyLevel_XXX – what trophy the player earned. This can be gold, silver, quit or missing. The quit indicates that the player attempted the level but did not earn a trophy. * NumberAttempts_XXX – The number of attempts the player made for this game level.\nNote that the player may have attempted each level several times. There are two versions of this data file, one showing the values related to the first level and one to the last levels. In the full data set the suffixes .first and .last are added to the column names to indicate which version is used.\n\nObservables, First Attempt\nObservables, Last Attempt\n\n\n\n\nThis is data about the usage of the learning supports.\nLearning Support\n\n\n\nThis provides scores from the Bayesian Network model, which probabilities for the nine nodes in the competency model. For each none, there are three columns giving the marginal probability of the High, Medium and Low proficiency respectively. The EAP (expected a posteriori) scores are produced by assigning Low=-1, Medium=0 and High=1 and calculating the expected value.\nBayesian Network Scores\n\n\n\nThe raw JSON data is available at https://pluto.coe.fsu.edu/PhysicsPlayground/data/IES2022-AllP4Events.json.gz\nThe filtered data containing only “interesting” events is at: https://pluto.coe.fsu.edu/PhysicsPlayground/data/PPIES2022-P4Filtered.json.gz\nBoth files are compressed using gnu zip (gzip)"
+  },
+  {
+    "objectID": "AffectiveData.html#pretest-posttest-demographic-and-questionnaire-data",
+    "href": "AffectiveData.html#pretest-posttest-demographic-and-questionnaire-data",
+    "title": "Affective Support Data",
+    "section": "",
+    "text": "This data subset contains just the data from the pretest and posttest questionnaires.\nPosttest columns are marked with either .ect or .pot depending on which posttest the items appear on. Note that students received the ECT and POT tests on Wednesday or Friday of the study week depending on their treatment group.\nPre, Post Data"
+  },
+  {
+    "objectID": "AffectiveData.html#game-level-outcome-data",
+    "href": "AffectiveData.html#game-level-outcome-data",
+    "title": "Affective Support Data",
+    "section": "",
+    "text": "These data contain information on how the learning supports were played. * Timestamp_XXX – These give the time at which the level was played. * TrophyLevel_XXX – what trophy the player earned. This can be gold, silver, quit or missing. The quit indicates that the player attempted the level but did not earn a trophy. * NumberAttempts_XXX – The number of attempts the player made for this game level.\nNote that the player may have attempted each level several times. There are two versions of this data file, one showing the values related to the first level and one to the last levels. In the full data set the suffixes .first and .last are added to the column names to indicate which version is used.\n\nObservables, First Attempt\nObservables, Last Attempt"
+  },
+  {
+    "objectID": "AffectiveData.html#learning-support-usage-data",
+    "href": "AffectiveData.html#learning-support-usage-data",
+    "title": "Affective Support Data",
+    "section": "",
+    "text": "This is data about the usage of the learning supports.\nLearning Support"
+  },
+  {
+    "objectID": "AffectiveData.html#bayesian-network-scores",
+    "href": "AffectiveData.html#bayesian-network-scores",
+    "title": "Affective Support Data",
+    "section": "",
+    "text": "This provides scores from the Bayesian Network model, which probabilities for the nine nodes in the competency model. For each none, there are three columns giving the marginal probability of the High, Medium and Low proficiency respectively. The EAP (expected a posteriori) scores are produced by assigning Low=-1, Medium=0 and High=1 and calculating the expected value.\nBayesian Network Scores"
+  },
+  {
+    "objectID": "AffectiveData.html#log-files",
+    "href": "AffectiveData.html#log-files",
+    "title": "Affective Support Data",
+    "section": "",
+    "text": "The raw JSON data is available at https://pluto.coe.fsu.edu/PhysicsPlayground/data/IES2022-AllP4Events.json.gz\nThe filtered data containing only “interesting” events is at: https://pluto.coe.fsu.edu/PhysicsPlayground/data/PPIES2022-P4Filtered.json.gz\nBoth files are compressed using gnu zip (gzip)"
   }
 ]

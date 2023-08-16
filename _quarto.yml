@@ -22,17 +22,19 @@ website:
         - href: PA.qmd
           text: "Physics Animations"
       - text: "Protocols"
-      - href: Before-After.qmd
-        text: "Before/After Study"
-      - href: Affective.qmd
-        text: "Affective Support"
+        menu:
+        - href: Before-After.qmd
+          text: "Before/After Study"
+        - href: Affective.qmd
+          text: "Affective Support"
       - text: "Data"
-      - href: BAdata.qmd) <<Includes summary statistics>
-        text: "Before/After Study"
-      - href: AffectiveData.qmd) <<Includes summary statistics>
-        text: "Affective Support"
-      - href: Events.qmd
-        text: "Log files"
+        menu:
+        - href: BAdata.qmd <<Includes summary statistics>
+          text: "Before/After Study"
+        - href: AffectiveData.qmd <<Includes summary statistics>
+          text: "Affective Support"
+        - href: Events.qmd
+          text: "Log files"
       - href: Analyses.qmd
         text: "Analysis Scripts"
       - href: Software.qmd

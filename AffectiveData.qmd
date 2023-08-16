@@ -4,12 +4,63 @@ title: "Affective Support Data"
 
 # Data from the Affective Support Study
 
+The complete data are available in the following formats:
+
+* [Comma Separated Value](Data/PPIESFall2022Full.csv)
+* [SPSS Save file](Data/PPIESFall2022BigDaddy.sav)
+
 ## Pretest, Posttest, demographic and Questionnaire data
+
+This data subset contains just the data from the pretest and posttest questionnaires.
+
+Posttest columns are marked with either `.ect` or `.pot` depending on which
+posttest the items appear on.  Note that students received the ECT and POT 
+tests on Wednesday or Friday of the study week depending on their treatment group.
+
+[Pre, Post Data](Data/PPIESFall2022PrePost.csv)
 
 ## Game level outcome data
 
+These data contain information on how the learning supports were played.
+* `Timestamp_XXX` -- These give the time at which the level was played.
+* `TrophyLevel_XXX` -- what trophy the player earned.  This can be `gold`,
+`silver`, `quit` or missing.  The `quit` indicates that the player attempted
+the level but did not earn a trophy.
+* `NumberAttempts_XXX` -- The number of attempts the player made for this game level.
+
+Note that the player may have attempted each level several times.  There 
+are two versions of this data file, one showing the values related to the
+first level and one to the last levels.  In the full data set the suffixes
+`.first` and `.last` are added to the column names to indicate which
+version is used.
+
+* [Observables, First Attempt](Data/PPIESFall2022obsFirst.csv)
+* [Observables, Last Attempt](Data/PPIESFall2022obsLast.csv)
+
 ## Learning support usage data
+
+This is data about the usage of the learning supports.
+
+[Learning Support](Data/PPIESFall2022ls.csv)
 
 ## Bayesian network scores
 
+This provides scores from the Bayesian Network model, which probabilities
+for the nine nodes in the competency model.  For each none, there are three
+columns giving the marginal probability of the `High`, `Medium` and `Low`
+proficiency respectively.  The `EAP` (expected a posteriori) scores are
+produced by assigning `Low=-1`, `Medium=0` and `High=1` and calculating the
+expected value.
+
+[Bayesian Network Scores](Data/PPIESFall2022BN.csv)
+
 ## Log files
+
+The raw JSON data is available at
+<https://pluto.coe.fsu.edu/PhysicsPlayground/data/IES2022-AllP4Events.json.gz>
+
+The filtered data containing only “interesting” events is at:
+<https://pluto.coe.fsu.edu/PhysicsPlayground/data/PPIES2022-P4Filtered.json.gz>
+
+Both files are compressed using gnu zip (gzip)
+

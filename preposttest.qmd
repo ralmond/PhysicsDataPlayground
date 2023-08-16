@@ -6,19 +6,28 @@ title: "Pretest and Posttest"
 
 ## Near and Far Transfer
 
+[Form A](Instruments/PretestA.pdf)
+
+[Form B](Instruments/PretestB.pdf)
+
 ## Form A and Form B
 
 * _Form A Pretest_ -- This consisted of all Form A items, and was used as the pretest for
 the Affective Support Study.
+
+[PDF of Form A](Instruments/BigStudyPretest.pdf)
 
 * _ECT Posttest_ -- This consisted of all Form A ECT items, both near and far transfer.  Due to a
 mix-up while constructing the forms, the Near POT items were also presented to the students but
 not included in the score.  This was given on Day 3 or 5 of the Affective Support Study, depending
 on study condition.
 
+[ECT Posttest](Instruments/ECTPosttest.pdf)
+
 * _POT Posttest_ -- This consisted of all Form A ECT items, both near and far transfer.   This was given on Day 3 or 5 of the Affective Support Study, depending
 on study condition.
 
+[POT Posttest](Instruments/POTPosttest.pdf)
 
 ## Use during the studies
 

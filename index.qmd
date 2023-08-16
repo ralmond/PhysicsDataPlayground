@@ -3,6 +3,12 @@ title: "PhysicsDataPlayground"
 Date:  2023-07-24
 ---
 
+::: {.callout-caution}
+This is a draft version of the website and does not represent the final content.  You can email suggestions to Russell Almond.
+:::
+
+
+
 This file contains data from the IES project _Physics Playground_
 
 * [Overview](Overview.qmd) **Ginny**
@@ -33,11 +39,13 @@ This file contains data from the IES project _Physics Playground_
 
 ## Support: 
 
-   'Institute of Educational Statistics Grant: 
-   "Exploring adaptive cognitive and affective learning support 
-   for next-generation STEM learning games." (no. R305A170376-20, 
-   Val Shute and Russell Almond, PIs)'	)
+This report is based on research supported by Institute of Education Sciences, U.S. Department of Education to Florida State University.
 
+* "Exploring adaptive cognitive and affective learning support 
+   for next-generation STEM learning games." (Institute of Education
+   Sciences award no. R305A170376, Val Shute and Russell Almond, PIs)
+   
+Additional support (for previous version of _Physics Playground_ and the _Peanut_ and _Proc4_ scoring engines) was provided by:
 
 *   'Bill & Melinda Gates Foundation grant
    "Games as Learning/Assessment:  Stealth Assessment" (no. 0PP1035331,
@@ -47,8 +55,9 @@ This file contains data from the IES project _Physics Playground_
    Game-based Assessment and Support of STEM-related Competencies"
    (no. 1628937, Val Shute, PI)',
 
-*   'National Scient Foundation grant "Mathematical Learning via
+*   'National Science Foundation grant "Mathematical Learning via
    Architectual Design and Modeling Using E-Rebuild." (no. 1720533,
    Fengfeng Ke, PI)',
 
-    
+The opinions express are those of the authors and do not represent views of
+any of the sponsoring agencies.

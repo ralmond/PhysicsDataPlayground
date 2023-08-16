@@ -1,37 +1,310 @@
 ---
 title: "Personnel"
+editor: 
+  markdown: 
+    wrap: 72
 ---
 
 ## Lead Investigators
 
-![Val Shute, FSU, PI Emeritus](img/Val_project1.jpg)
-![Russell Almond, FSU, Current PI](img/Russelljpg)
-![Ryan S. Baker, U. Penn](img/RyanBaker.png)
-![Sydney D'Mello, U. of Colorado](img/SydneyDMello.png)
-![Seyed Ahmad Rahimi, UF, lead programmer](img/Ahmad4.jpg)
-![Adam Lamee, UCF, Physics Teacher](img/Adam.jpeg)
+::: {layout="[ 30, 70 ]"}
+::: {#first-Column}
+![Val Shute, FSU, PI Emeritus](img/Val_project1.jpg){width="300"}
+:::
+
+::: {#second-column}
+Val Shute 
+
+* Florida State University (Retired) 
+* PI through most versions 
+* Homepage: <homepage>
+:::
+
+::: {#first-Column}
+![Russell Almond, FSU, Current PI](img/Russell.jpg){width="300"}
+:::
+
+::: {#second-column}
+Russell Almond 
+
+* Florida State University 
+* PI for final year of
+project; Design and coding of scoring system 
+* Homepage:
+<https://ralmond.net>, R code: <https://r-universe.dev/>, Github:
+<https://github.com/ralmond>
+:::
+
+::: {#first-Column}
+![Ryan S. Baker, U. Penn](img/RyanBaker.png){width="300"}
+:::
+
+::: {#second-column}
+Ryan S. Baker 
+
+* University of Pennsylvania 
+* Co-PI and worked on
+developing logic for supports 
+* Homepage: <homepage>
+:::
+
+::: {#first-Column}
+![Sydney D'Mello, U. of Colorado](img/SydneyDMello.png){width="300"}
+:::
+
+::: {#second-column}
+Sydney D'Mello 
+
+* University of Colorado 
+* Co-PI and responsible for design of affective supports 
+* Homepage: <homepage>
+:::
+
+::: {#first-Column}
+![Seyed Ahmad Rahimi, UF, lead programmer](img/Ahmad4.jpg){width="300"}
+:::
+
+::: {#second-column}
+Seyed Ahmad Rahimi 
+
+* University of Florida 
+* Lead developer of current
+version of the game 
+* Homepage: <homepage>
+:::
+
+::: {#first-Column}
+![Adam Lamee, UCF, Physics Teacher](img/Adam.jpeg){width="300"}
+:::
+
+::: {#second-column}
+Adam Lamee 
+
+* University of Central Florida 
+* Expert in Physics
+Teaching 
+* Homepage: <homepage>
+:::
+
+::::
 
 ## Affective Support Team
 
-![Ginny Smith, Project Manager](img/Ginny.jpg)
+:::: {layout="[ 30, 70 ]"}
+
+::: {#first-Column}
+![Ginny Smith, Project Manager](img/Ginny.jpg){width="300"}
+:::
+
+::: {#second-column}
+Ginny L. Smith 
+
+* Florida State University (Graduated, 2022) 
+* Project
+Manager in the latter phase of the project. 
+* Homepage:
+:::
+
+::::
 
 ## Before/After Study Team
 
-![Chen Sun, ??](img/Chen.jpg)
+:::: {layout="[ 30, 70 ]"}
+
+::: {#first-Column}
+![Chen Sun](img/Chen.jpg){width="300"}
+:::
+
+::: {#second-column}
+Chen Sun 
+
+* ??? 
+* Worked in variuos parts of the project including
+level design, and scoring engine construction 
+* Homepage:
+:::
+
+::: {#first-Column}
 ![Xiaotong Yang](img/Xiaotong.jpg)
-![Zhichun "Lukas" Liu](img/Lukas.jpg)
+:::
+
+::: {#second-column}
+Xiaotong Yang 
+
+* Florida State University 
+* Worked on development of
+pretest and posttest 
+* Homepage:
+:::
+
+::: {#first-Column}
+![Zhichun "Lukas" Liu](img/Lukas.jpg){width="300"}
+:::
+
+::: {#second-column}
+Zhichun "Lukas" Liu 
+
+* ??? 
+* Worked on analysis of log files 
+*
+Homepage:
+:::
+
+::::
 
 ## Physics Playground Alumni
 
-![Fengfeng Ke, FSU & NSF](img/Fengfeng1.jpg)
-![Stefan Slater](img/StefanSlater.jpg)
-![Katie Bainbridge](img/KatieBainbridge.jpg)
-![Chih-Pu Dai](img/C-P.Dai_.png)
-![Renata Kuba](img/renata.jpg)
-![Xi Lu](img/Xi.jpg)
-![Seyfullah Tinger](img/Seyfullah.jpg)
-![Catherin Spann](img/CatherineSpann.png)
-![Weinan Zhao](img/Weinan.jpg)
-![Xinhao Xu](img/XH.jpg)
-![Don Franceschetti](img/franceschetti_w.jpg)
-![Shamya Karumbaiah](img/Shamya.png)
+:::: {layout="[ 30, 70 ]"}
+
+
+::: {#first-Column}
+![Fengfeng Ke, FSU & NSF](img/Fengfeng1.jpg){width="300"}
+:::
+
+::: {#second-column}
+Fengfeng Ke 
+
+* Florida State University (Currently on Sabbatical at NSF)
+* Co-PI for NSF and Gates projects.
+* Homepage:
+Check out her other project, [*eRebuild*](https://erebuild.coe.fsu.edu/)
+:::
+
+::: {#first-Column}
+![Stefan Slater](img/StefanSlater.jpg){width="300"}
+:::
+
+::: {#second-column}
+Stefan Slater 
+
+* 
+* 
+* Homepage:
+:::
+
+::: {#first-Column}
+![Katie Bainbridge](img/KatieBainbridge.jpg){width="300"}
+:::
+
+::: {#second-column}
+Katie Bainbridge 
+
+* 
+* 
+* Homepage:
+:::
+
+::: {#first-Column}
+![Chih-Pu Dai](img/C-P.Dai_.png){width="300"}
+:::
+
+::: {#second-column}
+Chih-Pu Dai 
+
+* Florida State University (Graduated 2023) 
+* Worked on NSF project 
+* Homepage:
+:::
+
+::: {#first-Column}
+![Renata Kuba](img/renata.jpg){width="300"}
+:::
+
+::: {#second-column}
+Renata Kuba 
+
+* Florida State University (Graduated ??) 
+* Worked on NSF project 
+* Homepage:
+:::
+
+::: {#first-Column}
+![Xi Lu](img/Xi.jpg){width="300"}
+:::
+
+::: {#second-column}
+Xi Lu 
+
+* Florida State University (??) 
+* Responsible for many of the game levels 
+* Homepage:
+:::
+
+::: {#first-Column}
+![Seyfullah Tinger](img/Seyfullah.jpg){width="300"}
+:::
+
+::: {#second-column}
+Seyfullah Tinger 
+
+* Cambian 
+* Worked on developing the scoring engine
+* Homepage:
+:::
+
+::: {#first-Column}
+![Catherin Spann](img/CatherineSpann.png){width="300"}
+:::
+
+::: {#second-column}
+
+Catherine Spann 
+
+* 
+* 
+* Homepage:
+:::
+
+::: {#first-Column}
+![Weinan Zhao](img/Weinan.jpg){width="300"}
+:::
+
+::: {#second-column}
+Weinan Zhao 
+
+* 
+* Responsible for porting the game into Unity 
+*
+Homepage:
+:::
+
+::: {#first-Column}
+![Xinhao Xu](img/XH.jpg){width="300"}
+:::
+
+::: {#second-column}
+Xinhao Xu 
+
+* 
+* 
+* Homepage:
+:::
+
+::: {#first-Column}
+![Don Franceschetti](img/franceschetti_w.jpg){width="300"}
+:::
+
+::: {#second-column}
+Don Franceschetti (1948--2019) 
+
+* University of Memphis (Emeritus) 
+* Until his death in 2019, Don severed as the primary Physics advisor on
+the project 
+* Obituary:
+<https://paw.princeton.edu/memorial/donald-r-franceschetti-74>
+:::
+
+
+::: {#first-Column}
+![Shamya Karumbaiah](img/Shamya.png){width="300"}
+:::
+
+::: {#second-column}
+Shamya Karubain 
+
+* 
+* 
+* Homepage:
+:::
+
+::::
