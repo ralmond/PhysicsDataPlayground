@@ -1,0 +1,100 @@
+---
+title: "Untitled"
+author: "Russell Almond"
+date: "2023-08-29"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r load}
+library(googlesheets4)
+```
+
+```{r loadSheets}
+gs4_auth(path=Sys.getenv("SHINY_PROTOCOL"))
+personsheet <- gs4_get("1mKxvy3VQx6qOj_c2PBXsiSk9GsTiohvU-Y9uMAEqcuA")
+```
+
+```{r loadtable}
+persons <- read_sheet(personsheet)
+persons
+```
+## Parameters
+
+```{r params}
+columns <- "[ 30, 70 ]"
+figwidth <- "300"
+```
+
+```{r headFoot}
+head <- 
+  "---
+title: \"Personnel\"
+editor: 
+  markdown: 
+    wrap: 72
+---
+"
+foot <- 
+  "
+  "
+```
+
+```{r sectionOrder}
+ord <- c("Lead Investigators","Affective Support",
+"Before/After Study", "Alumni")
+```
+
+## Build-it
+
+```{r openFile}
+if (file.exists("Personnel.qmd")) 
+  file.remove("Personnel.qmd")
+pfile <- file("Personnel.qmd")
+open(pfile,open="wt")
+cat(head,file=pfile)
+```
+
+```{r mainLoop}
+for (sec in ord) {
+  cat("\n\n##",sec,"\n\n",file=pfile)
+  cat(":::: { layout = ",dQuote(columns,FALSE),"}\n\n",
+      file=pfile)
+  
+  for (pp in grep(sec,persons$`Project group`)) {
+    cat("::: {#first-column}\n",file=pfile)
+    
+    cat("![",persons$Name[pp],",",
+        persons$`University abbrv`[pp],"]",
+        "(",persons$`Photo link`[pp],")\n",
+        sep="", file=pfile)
+    
+    cat(":::\n",file=pfile)
+    cat("::: {#second-column}\n",file=pfile)
+    
+    cat("\n* ",persons$Name[pp],"\n",file=pfile)
+    cat("*", persons$University[pp],"\n",file=pfile)
+    cat("* **Role:** ",persons$`Role in the project`[pp],
+        "\n",file=pfile)
+    if (!is.na(persons$Homepage[pp]))
+      cat("* **Homepage:** <",persons$Homepage[pp],
+          ">\n",sep="",file=pfile)
+    cat("* **Google Scholar:** <",
+        persons$`Google Scholar`[pp],">\n",
+        sep="",file=pfile)
+    if (!is.na(persons$`Other links`[pp]))
+      cat("* ",persons$`Other links`[pp],"\n",file=pfile)
+    cat(":::\n\n",file=pfile)  
+  }
+  cat("::::\n\n",file=pfile)
+}
+```
+
+```{r close}
+cat(foot,file=pfile)
+close(pfile)
+```
+

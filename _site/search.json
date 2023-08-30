@@ -397,5 +397,19 @@
     "title": "Affective Support Data",
     "section": "",
     "text": "The raw JSON data is available at https://pluto.coe.fsu.edu/PhysicsPlayground/data/IES2022-AllP4Events.json.gz\nThe filtered data containing only “interesting” events is at: https://pluto.coe.fsu.edu/PhysicsPlayground/data/PPIES2022-P4Filtered.json.gz\nBoth files are compressed using gnu zip (gzip)"
+  },
+  {
+    "objectID": "scripts/reloadPeople.html",
+    "href": "scripts/reloadPeople.html",
+    "title": "Untitled",
+    "section": "",
+    "text": "library(googlesheets4)\ngs4_auth(path=Sys.getenv(\"SHINY_PROTOCOL\"))\npersonsheet &lt;- gs4_get(\"1mKxvy3VQx6qOj_c2PBXsiSk9GsTiohvU-Y9uMAEqcuA\")\npersons &lt;- read_sheet(personsheet)\n\n✔ Reading from \"Personnel\".\n\n\n✔ Range 'For https://pluto.coe.fsu.edu/PhysicsDataPlayground/Personnel.html'.\n\npersons\n\n# A tibble: 32 × 8\n   Name      University `University abbrv` `Project group` `Role in the project`\n   &lt;chr&gt;     &lt;chr&gt;      &lt;chr&gt;              &lt;chr&gt;           &lt;chr&gt;                \n 1 Valerie … Florida S… FSU                Lead Investiga… PI Emeritus (Retired…\n 2 Russell … Florida S… FSU                Lead Investiga… PI for final year of…\n 3 Ryan S. … Universit… UPenn              Lead Investiga… Co-PI, developing lo…\n 4 Sidney D… Universit… CUBoulder          Lead Investiga… Co-PI, design of aff…\n 5 Seyed Ah… Universit… UF                 Lead Investiga… Lead developer of th…\n 6 Adam Lam… Universit… UCF                Lead Investiga… Expert in physics te…\n 7 Ginny Sm… Florida S… FSU                Affective Supp… Project manager, exp…\n 8 Jaclyn O… Universit… UPenn              Affective Supp… Supervising and coor…\n 9 Brandon … Universit… CUBoulder          Affective Supp… Game testing         \n10 Valdemar… Universit… UPenn              Affective Supp… Leading the experime…\n# ℹ 22 more rows\n# ℹ 3 more variables: `Google Scholar` &lt;chr&gt;, Homepage &lt;chr&gt;,\n#   `Photo link` &lt;chr&gt;"
+  },
+  {
+    "objectID": "scripts/reloadPeople.html#parameters",
+    "href": "scripts/reloadPeople.html#parameters",
+    "title": "Untitled",
+    "section": "Parameters",
+    "text": "Parameters\n\ncolumns &lt;- \"[ 30, 70 ]\"\nfigwidth &lt;- \"300\""
   }
 ]
