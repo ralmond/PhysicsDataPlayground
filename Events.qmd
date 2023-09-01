@@ -4,7 +4,70 @@ title: "Event Logs"
 
 ## Proc4 and xAPI formats
 
+Events are stored in the Proc 4 format [@ralmond2019a].  It is converted from the 
+xAPI [@xAPI] format using in Learning Locker [@LearningLocker] by the dongle code 
+in the Proc4 [@Proc4] package.  In particular, it means that messages are identified by
+`(verb, object)` pairs (xAPI-style) not single `mess` strings (Proc4-style)
+
+The JSON format is as follows:
+
+```{json}
+{
+  app: "ecd://epls.coe.fsu.edu/PhysicsPlayground/IES/Fall22/BigStudy",  /* Fixed String */
+  uid: "[A-F]0000",
+  context: "Game Level",
+  sender: "PP Learning Locker",  /* Fixed String */
+  verb: <<see event vocabulary>>, 
+  object <<see event vocabulary>>, 
+  timestamp: POSIX time string, /* When event was logged. */
+  processed: logical,  /* For internal EI use */
+  pErr: string, /* Error code from processing (if any) */
+  data: { <<Arbitrary JSON document>>}
+}
+```
+
+
+ The `app` and `sender` strings are constant, so are probably not interesting.
+
+The first character of the `uid` gives the study condition.
+
+
 ## Table of known verbs and objects
 
+The master list of levels: <Data/LevelData.csv>
+
+The list of all verb--object pairs:  <Data/EventTable.csv>
+
+### Object List 
+
+```{r}
+objectList <- c("game level", "silverWin", "game object", "learning support",
+                "goldWin", "newPurchase", "newMoneyEarned", "replayButton",
+                "game (Physics Playground)", "ball", "footBall",
+                "billiardStripeBall", "glossary", "definition", "golfBall",
+                "formula", "module")
+objectList
+```
+
+### Object Type
+
+These are the values of the `gemeObjectType` [sic] field, indicating the type of object
+from the object classification system.
+
+```{r objectType}
+objectTypes <- c("freeform", "Ramp", "Lever", "ball", "pin", "Pendulum",
+                 "Springboard","Weight")
+objectTypes
+```
+
+
 ## Links to data
+
+The raw JSON data is available at
+<https://pluto.coe.fsu.edu/PhysicsPlayground/data/IES2022-AllP4Events.json.gz>
+
+The filtered data containing only “interesting” events is at:
+<https://pluto.coe.fsu.edu/PhysicsPlayground/data/PPIES2022-P4Filtered.json.gz>
+
+Both files are compressed using gnu zip (`gzip`)
 

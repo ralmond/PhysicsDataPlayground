@@ -229,6 +229,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
    
   <ul>
   <li><a href="#parameters" id="toc-parameters" class="nav-link active" data-scroll-target="#parameters">Parameters</a></li>
+  <li><a href="#build-it" id="toc-build-it" class="nav-link" data-scroll-target="#build-it">Build-it</a></li>
   </ul>
 </nav>
     </div>
@@ -281,7 +282,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </div>
 <div class="sourceCode cell-code" id="cb6"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a>persons</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
-<pre><code># A tibble: 32 × 8
+<pre><code># A tibble: 32 × 9
    Name      University `University abbrv` `Project group` `Role in the project`
    &lt;chr&gt;     &lt;chr&gt;      &lt;chr&gt;              &lt;chr&gt;           &lt;chr&gt;                
  1 Valerie … Florida S… FSU                Lead Investiga… PI Emeritus (Retired…
@@ -295,8 +296,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
  9 Brandon … Universit… CUBoulder          Affective Supp… Game testing         
 10 Valdemar… Universit… UPenn              Affective Supp… Leading the experime…
 # ℹ 22 more rows
-# ℹ 3 more variables: `Google Scholar` &lt;chr&gt;, Homepage &lt;chr&gt;,
-#   `Photo link` &lt;chr&gt;</code></pre>
+# ℹ 4 more variables: `Google Scholar` &lt;chr&gt;, Homepage &lt;chr&gt;,
+#   `Other links` &lt;chr&gt;, `Photo link` &lt;chr&gt;</code></pre>
 </div>
 </div>
 <section id="parameters" class="level2">
@@ -304,6 +305,74 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <div class="cell">
 <div class="sourceCode cell-code" id="cb8"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a>columns <span class="ot">&lt;-</span> <span class="st">"[ 30, 70 ]"</span></span>
 <span id="cb8-2"><a href="#cb8-2" aria-hidden="true" tabindex="-1"></a>figwidth <span class="ot">&lt;-</span> <span class="st">"300"</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb9"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a>head <span class="ot">&lt;-</span> </span>
+<span id="cb9-2"><a href="#cb9-2" aria-hidden="true" tabindex="-1"></a>  <span class="st">"---</span></span>
+<span id="cb9-3"><a href="#cb9-3" aria-hidden="true" tabindex="-1"></a><span class="st">title: </span><span class="sc">\"</span><span class="st">Personnel</span><span class="sc">\"</span></span>
+<span id="cb9-4"><a href="#cb9-4" aria-hidden="true" tabindex="-1"></a><span class="st">editor: </span></span>
+<span id="cb9-5"><a href="#cb9-5" aria-hidden="true" tabindex="-1"></a><span class="st">  markdown: </span></span>
+<span id="cb9-6"><a href="#cb9-6" aria-hidden="true" tabindex="-1"></a><span class="st">    wrap: 72</span></span>
+<span id="cb9-7"><a href="#cb9-7" aria-hidden="true" tabindex="-1"></a><span class="st">---</span></span>
+<span id="cb9-8"><a href="#cb9-8" aria-hidden="true" tabindex="-1"></a><span class="st">"</span></span>
+<span id="cb9-9"><a href="#cb9-9" aria-hidden="true" tabindex="-1"></a>foot <span class="ot">&lt;-</span> </span>
+<span id="cb9-10"><a href="#cb9-10" aria-hidden="true" tabindex="-1"></a>  <span class="st">"</span></span>
+<span id="cb9-11"><a href="#cb9-11" aria-hidden="true" tabindex="-1"></a><span class="st">  "</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb10"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a>ord <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="st">"Lead Investigators"</span>,<span class="st">"Affective Support"</span>,</span>
+<span id="cb10-2"><a href="#cb10-2" aria-hidden="true" tabindex="-1"></a><span class="st">"Before/After Study"</span>, <span class="st">"Alumni"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+</section>
+<section id="build-it" class="level2">
+<h2 class="anchored" data-anchor-id="build-it">Build-it</h2>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb11"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a><span class="cf">if</span> (<span class="fu">file.exists</span>(<span class="st">"Personnel.qmd"</span>)) </span>
+<span id="cb11-2"><a href="#cb11-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">file.remove</span>(<span class="st">"Personnel.qmd"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] TRUE</code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb13"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb13-1"><a href="#cb13-1" aria-hidden="true" tabindex="-1"></a>pfile <span class="ot">&lt;-</span> <span class="fu">file</span>(<span class="st">"Personnel.qmd"</span>)</span>
+<span id="cb13-2"><a href="#cb13-2" aria-hidden="true" tabindex="-1"></a><span class="fu">open</span>(pfile,<span class="at">open=</span><span class="st">"wt"</span>)</span>
+<span id="cb13-3"><a href="#cb13-3" aria-hidden="true" tabindex="-1"></a><span class="fu">cat</span>(head,<span class="at">file=</span>pfile)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb14"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb14-1"><a href="#cb14-1" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> (sec <span class="cf">in</span> ord) {</span>
+<span id="cb14-2"><a href="#cb14-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">cat</span>(<span class="st">"</span><span class="sc">\n\n</span><span class="st">##"</span>,sec,<span class="st">"</span><span class="sc">\n\n</span><span class="st">"</span>,<span class="at">file=</span>pfile)</span>
+<span id="cb14-3"><a href="#cb14-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">cat</span>(<span class="st">":::: { layout = "</span>,<span class="fu">dQuote</span>(columns,<span class="cn">FALSE</span>),<span class="st">"}</span><span class="sc">\n\n</span><span class="st">"</span>,</span>
+<span id="cb14-4"><a href="#cb14-4" aria-hidden="true" tabindex="-1"></a>      <span class="at">file=</span>pfile)</span>
+<span id="cb14-5"><a href="#cb14-5" aria-hidden="true" tabindex="-1"></a>  </span>
+<span id="cb14-6"><a href="#cb14-6" aria-hidden="true" tabindex="-1"></a>  <span class="cf">for</span> (pp <span class="cf">in</span> <span class="fu">grep</span>(sec,persons<span class="sc">$</span><span class="st">`</span><span class="at">Project group</span><span class="st">`</span>)) {</span>
+<span id="cb14-7"><a href="#cb14-7" aria-hidden="true" tabindex="-1"></a>    <span class="fu">cat</span>(<span class="st">"::: {#first-column}</span><span class="sc">\n</span><span class="st">"</span>,<span class="at">file=</span>pfile)</span>
+<span id="cb14-8"><a href="#cb14-8" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb14-9"><a href="#cb14-9" aria-hidden="true" tabindex="-1"></a>    <span class="fu">cat</span>(<span class="st">"!["</span>,persons<span class="sc">$</span>Name[pp],<span class="st">","</span>,</span>
+<span id="cb14-10"><a href="#cb14-10" aria-hidden="true" tabindex="-1"></a>        persons<span class="sc">$</span><span class="st">`</span><span class="at">University abbrv</span><span class="st">`</span>[pp],<span class="st">"]"</span>,</span>
+<span id="cb14-11"><a href="#cb14-11" aria-hidden="true" tabindex="-1"></a>        <span class="st">"("</span>,persons<span class="sc">$</span><span class="st">`</span><span class="at">Photo link</span><span class="st">`</span>[pp],<span class="st">")</span><span class="sc">\n</span><span class="st">"</span>,</span>
+<span id="cb14-12"><a href="#cb14-12" aria-hidden="true" tabindex="-1"></a>        <span class="at">sep=</span><span class="st">""</span>, <span class="at">file=</span>pfile)</span>
+<span id="cb14-13"><a href="#cb14-13" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb14-14"><a href="#cb14-14" aria-hidden="true" tabindex="-1"></a>    <span class="fu">cat</span>(<span class="st">":::</span><span class="sc">\n</span><span class="st">"</span>,<span class="at">file=</span>pfile)</span>
+<span id="cb14-15"><a href="#cb14-15" aria-hidden="true" tabindex="-1"></a>    <span class="fu">cat</span>(<span class="st">"::: {#second-column}</span><span class="sc">\n</span><span class="st">"</span>,<span class="at">file=</span>pfile)</span>
+<span id="cb14-16"><a href="#cb14-16" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb14-17"><a href="#cb14-17" aria-hidden="true" tabindex="-1"></a>    <span class="fu">cat</span>(<span class="st">"</span><span class="sc">\n</span><span class="st">* "</span>,persons<span class="sc">$</span>Name[pp],<span class="st">"</span><span class="sc">\n</span><span class="st">"</span>,<span class="at">file=</span>pfile)</span>
+<span id="cb14-18"><a href="#cb14-18" aria-hidden="true" tabindex="-1"></a>    <span class="fu">cat</span>(<span class="st">"*"</span>, persons<span class="sc">$</span>University[pp],<span class="st">"</span><span class="sc">\n</span><span class="st">"</span>,<span class="at">file=</span>pfile)</span>
+<span id="cb14-19"><a href="#cb14-19" aria-hidden="true" tabindex="-1"></a>    <span class="fu">cat</span>(<span class="st">"* **Role:** "</span>,persons<span class="sc">$</span><span class="st">`</span><span class="at">Role in the project</span><span class="st">`</span>[pp],</span>
+<span id="cb14-20"><a href="#cb14-20" aria-hidden="true" tabindex="-1"></a>        <span class="st">"</span><span class="sc">\n</span><span class="st">"</span>,<span class="at">file=</span>pfile)</span>
+<span id="cb14-21"><a href="#cb14-21" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> (<span class="sc">!</span><span class="fu">is.na</span>(persons<span class="sc">$</span>Homepage[pp]))</span>
+<span id="cb14-22"><a href="#cb14-22" aria-hidden="true" tabindex="-1"></a>      <span class="fu">cat</span>(<span class="st">"* **Homepage:** &lt;"</span>,persons<span class="sc">$</span>Homepage[pp],</span>
+<span id="cb14-23"><a href="#cb14-23" aria-hidden="true" tabindex="-1"></a>          <span class="st">"&gt;</span><span class="sc">\n</span><span class="st">"</span>,<span class="at">sep=</span><span class="st">""</span>,<span class="at">file=</span>pfile)</span>
+<span id="cb14-24"><a href="#cb14-24" aria-hidden="true" tabindex="-1"></a>    <span class="fu">cat</span>(<span class="st">"* **Google Scholar:** &lt;"</span>,</span>
+<span id="cb14-25"><a href="#cb14-25" aria-hidden="true" tabindex="-1"></a>        persons<span class="sc">$</span><span class="st">`</span><span class="at">Google Scholar</span><span class="st">`</span>[pp],<span class="st">"&gt;</span><span class="sc">\n</span><span class="st">"</span>,</span>
+<span id="cb14-26"><a href="#cb14-26" aria-hidden="true" tabindex="-1"></a>        <span class="at">sep=</span><span class="st">""</span>,<span class="at">file=</span>pfile)</span>
+<span id="cb14-27"><a href="#cb14-27" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> (<span class="sc">!</span><span class="fu">is.na</span>(persons<span class="sc">$</span><span class="st">`</span><span class="at">Other links</span><span class="st">`</span>[pp]))</span>
+<span id="cb14-28"><a href="#cb14-28" aria-hidden="true" tabindex="-1"></a>      <span class="fu">cat</span>(<span class="st">"* "</span>,persons<span class="sc">$</span><span class="st">`</span><span class="at">Other links</span><span class="st">`</span>[pp],<span class="st">"</span><span class="sc">\n</span><span class="st">"</span>,<span class="at">file=</span>pfile)</span>
+<span id="cb14-29"><a href="#cb14-29" aria-hidden="true" tabindex="-1"></a>    <span class="fu">cat</span>(<span class="st">":::</span><span class="sc">\n\n</span><span class="st">"</span>,<span class="at">file=</span>pfile)  </span>
+<span id="cb14-30"><a href="#cb14-30" aria-hidden="true" tabindex="-1"></a>  }</span>
+<span id="cb14-31"><a href="#cb14-31" aria-hidden="true" tabindex="-1"></a>  <span class="fu">cat</span>(<span class="st">"::::</span><span class="sc">\n\n</span><span class="st">"</span>,<span class="at">file=</span>pfile)</span>
+<span id="cb14-32"><a href="#cb14-32" aria-hidden="true" tabindex="-1"></a>}</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb15"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb15-1"><a href="#cb15-1" aria-hidden="true" tabindex="-1"></a><span class="fu">cat</span>(foot,<span class="at">file=</span>pfile)</span>
+<span id="cb15-2"><a href="#cb15-2" aria-hidden="true" tabindex="-1"></a><span class="fu">close</span>(pfile)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 
 
