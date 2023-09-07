@@ -8,7 +8,7 @@ editor:
 
 ## Lead Investigators 
 
-:::: { layout =  "[ 30, 70 ]" }
+:::: {layout="[ 30, 70 ]"}
 
 ::: {#first-column}
 ![Valerie Shute,FSU](img/Val_project1.jpg)
@@ -88,7 +88,7 @@ editor:
 
 ## Affective Support 
 
-:::: { layout =  "[ 30, 70 ]" }
+:::: {layout="[ 30, 70 ]"}
 
 ::: {#first-column}
 ![Ginny Smith,FSU](img/Ginny.jpg)
@@ -176,7 +176,7 @@ editor:
 
 ## Before/After Study 
 
-:::: { layout =  "[ 30, 70 ]" }
+:::: {layout="[ 30, 70 ]"}
 
 ::: {#first-column}
 ![Chen Sun,NA](img/Chen.jpg)
@@ -218,7 +218,7 @@ editor:
 
 ## Alumni 
 
-:::: { layout =  "[ 30, 70 ]" }
+:::: {layout="[ 30, 70 ]"}
 
 ::: {#first-column}
 ![Fengfeng Ke,FSU](img/Fengfeng1.jpg)

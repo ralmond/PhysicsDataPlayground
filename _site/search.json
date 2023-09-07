@@ -1,33 +1,5 @@
 [
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "PhysicsDataPlayground",
-    "section": "",
-    "text": "Caution\n\n\n\nThis is a draft version of the website and does not represent the final content. You can email suggestions to Russell Almond.\nThis file contains data from the IES project Physics Playground"
-  },
-  {
-    "objectID": "index.html#licences",
-    "href": "index.html#licences",
-    "title": "PhysicsDataPlayground",
-    "section": "Licences",
-    "text": "Licences\n (C) 2023. Except for the linked papers (which have their own licenses), this website and its contents (the instruments and data) are licensed under a Creative Commons Attribution-ShareAlike 4.0 International License."
-  },
-  {
-    "objectID": "index.html#support",
-    "href": "index.html#support",
-    "title": "PhysicsDataPlayground",
-    "section": "Support:",
-    "text": "Support:\nThis report is based on research supported by Institute of Education Sciences, U.S. Department of Education to Florida State University.\n\n“Exploring adaptive cognitive and affective learning support for next-generation STEM learning games.” (Institute of Education Sciences award no. R305A170376, Val Shute and Russell Almond, PIs)\n\nAdditional support (for previous version of Physics Playground and the Peanut and Proc4 scoring engines) was provided by:\n\n‘Bill & Melinda Gates Foundation grant “Games as Learning/Assessment: Stealth Assessment” (no. 0PP1035331, Val Shute, PI)’,\n‘National Science Foundation grant “DIP: Game-based Assessment and Support of STEM-related Competencies” (no. 1628937, Val Shute, PI)’,\n‘National Science Foundation grant “Mathematical Learning via Architectual Design and Modeling Using E-Rebuild.” (no. 1720533, Fengfeng Ke, PI)’,\n\nThe opinions express are those of the authors and do not represent views of any of the sponsoring agencies."
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "About this site\n\n1 + 1\n\n[1] 2"
-  },
-  {
     "objectID": "preposttest.html#near-and-far-transfer",
     "href": "preposttest.html#near-and-far-transfer",
     "title": "Pretest and Posttest",
@@ -84,6 +56,55 @@
     "text": "Almond, R. (2015). An IRT-based Parameterization for Conditional Probability Tables. In J. M. Agosta & R. N. Carvalho (Eds.), Proceedings of the Twelfth UAI Bayesian Modeling Applications Workshop (BMAW 2015) (Vol. 1565, pp. 14–23).\n\n\nAlmond, R. G. (2010). “I can name that Bayesian Network in Two Matrixes.” International Journal of Approximate Reasoning, 51, 167–178. https://doi.org/10.1016/j.ijar.2009.04.005\n\n\nAlmond, R. G. (2015). Tips and Tricks for Building Bayesian Networks for Scoring Game-Based Assessments. In J. Suzuki & M. Ueno (Eds.), Advanced Methodologies for Bayesian Networks (Vol. 9505, pp. 250–263). Springer International Publishing. https://doi.org/10.1007/978-3-319-28379-1_18\n\n\nAlmond, R. G. (2023a). CPTtools: Tools for Creating Conditional Probability Tables.\n\n\nAlmond, R. G. (2023b). Peanut: Parameterized Bayesian Networks, Abstract Classes.\n\n\nAlmond, R. G. (2023c). PNetica: Parameterized Bayesian Networks, Netica Interface.\n\n\nAlmond, R. G. (2023d). RNetica: R interface to Netica(R) Bayesian Network Engine.\n\n\nAlmond, R. G. (2023e). EIEvent: Evidence Identification Event Processing Engine.\n\n\nAlmond, R. G. (2023f). Mongo: Higher level inferface to Mongo database.\n\n\nAlmond, R. G. (2023g). Proc4: Four Process Assessment Database and Dispatcher.\n\n\nAlmond, R. G. (2023h). EABN: Evidence Accumulation Bayes Net Engine.\n\n\nAlmond, R. G., Kim, Y. J., Shute, V. J., & Ventura, M. (2013). Debugging the Evidence Chain. In R. G. Almond & O. Mengshoel (Eds.), Proceedings of the 2013 UAI Application Workshops: Big Data meet Complex Models and Models for Spatial, Temporal and Network Data (UAI2013AW) (pp. 1–10).\n\n\nAlmond, R. G., Kim, Y. J., Velasquez, G., & Shute, V. J. (2014). How Task Features Impact Evidence from Assessments Embedded in Simulations and Games. Measurement: Interdisciplinary Research and Perspectives, 12(1), 1–33. https://doi.org/10.1080/15366367.2014.910060\n\n\nAlmond, R. G., & Lipnevich, A. (2009). Value of Evidence: A Decision Theoretic Approach to Validity for Diagnostic Assessment.\n\n\nAlmond, R. G., Mislevy, R. J., Steinberg, L. S., Williamson, D. M., & Yan, D. (2015). Bayesian Networks in Educational Assessment. Springer New York.\n\n\nAlmond, R. G., Shute, V. J., Underwood, J. S., & Zapata-Rivera, J.-D. (2009). Bayesian Networks: A Teacher’s View. International Journal of Approximate Reasoning, 50, 450–460. https://doi.org/10.1016/j.ijar.2008.04.011\n\n\nAlmond, R. G., & Zapata-Rivera, D. (2019). Bayesian Networks. In M. von Davier & Y. S. Lee (Eds.), Handbook of Diagnostic classification models. (pp. 81–106). Springer. https://doi.org/10.1007/978-3-030-05584-4_4\n\n\nChen, Y., Liu, Y., & Xu, S. (2018). Mutual Information Reliability for Latent Class Analysis. Applied Psychological Measurement, 42(6), 460–477. https://doi.org/10.1177/0146621617748324\n\n\nChoi, Y., & Mislevy, R. J. (2021). An evidence-centered design framework and dynamic Bayesian networks for modeling learning progression in a formative assessment system (ETS 2021-0026.R1). Educational Testing Service.\n\n\nDetrano, R., Janosi, A., Steinbrunn, W., Pfisterer, M., Schmid, J.-J., Sandhu, S., Guppy, K. H., Lee, S., & Froelicher, V. (1989). International Application of New Probability Algorithm for the Diagnosis of Coronary Artery Disease. American Journal of Cardiology, 64, 304–310. https://doi.org/10.1016/0002-9149(89)90524-9\n\n\nDetrano, R., Salcedo, E., Hobbs, R., & Yinanikas, J. (1986). Cardio cinefluoroscopy as an inexpensive aid in the diagnosis of coronary artery disease. American Journal of Cardiology, 57, 1041–1046. https://doi.org/10.1016/0002-9149(86)90671-5\n\n\nFriendly, M. (2022). vcdExtra: ’Vcd’ Extensions and Additions.\n\n\nFriendly, M., & Meyer, D. (2016). Discrete Data Analysis with R. CRC Press.\n\n\nFuchs, L. S., & Vaughn, S. (2012). Responsiveness-to-Intervention: A decade later. Journal of Learning Disabilities, 45, 195–203. https://doi.org/10.1177/0022219412442150\n\n\nGood, I. J. (1950). Probability and the Weighing of Evidence. Charles Griffin.\n\n\nGood, I. J., & Card, W. (1971). The diagnostic process with special reference to errors. Methods of Information in Medicine, 10, 176–188.\n\n\nHansen, M., Cai, L., Monroe, S., & Li, Z. (2016). Limited-information goodness-of-fit testing of diagnostic classification item response models. British Journal of Mathematical and Statistical Psychology, 69(3), 225–252. https://doi.org/10.1111/bmsp.12074\n\n\nJanosi, A., Steinbrunn, W., Pfisterer, M., & Detrano, R. (1989). Heart Disease. UCI Machine Learning Repository. https://doi.org/10.24432/C52P4X\n\n\nKim, Y. J., Almond, R. G., & Shute, V. J. (2016). Applying evidence-centered design for development of game-based assessments in Physics Playground. International Journal of Testing, 16(2), 142–163. https://doi.org/15305058.2015.1108322\n\n\nKim, Y. J., Ventura, M., Shute, V., & Almond, R. G. (2012). Newton’s Playground: How to use evidence centered design (ECD) to develop game-based assessment.\n\n\nLevy, R. (2019). Dynamic Bayesian Network Modeling of Game-Based Diagnostic Assessments. Multivariate Behavioral Research, 54(6), 771–794. https://doi.org/10.1080/00273171.2019.1590794\n\n\nMadigan, D., & Almond, R. G. (1995). Test selection strategies for belief networks. In D. Fisher & H. J. Lenz (Eds.), Learning from Data: AI and Statistics V (pp. 89–98). Springer-Verlag.\n\n\nMadigan, D., Mosurski, K., & Almond, R. G. (1997). Graphical explanation in belief networks. Journal of Computational and Graphical Statistics, 6(2), 160–181. https://doi.org/10.1080/10618600.1997.10474735\n\n\nMeyer, D., Zeileis, A., & Hornik, K. (2007). Vcd: Visualizing Categorical Data.\n\n\nMislevy, R. J. (2013). Evidence-Centered Design for Simulation-Based Assessment. Military Medicine, 178(10S), 107–114. https://doi.org/10.7205/MILMED-D-13-00213\n\n\nMislevy, R. J., Oranje, A., Bauer, M. I., von Davier, A., Hao, J., Corrigan, S., Hoffman, E., DiCerbo, K., & Joh, M. (2015). Psychometric considerations in game-based assessment. GlassLab: Institute of Play.\n\n\nMurphy, K. P. (2002). Dynamic Bayesian networks: Representation, inference and learning [PhD thesis]. University of California.\n\n\nMurphy, P. M., & Aha, D. W. (1992). UCI Repository of Machine Learning Databases.\n\n\nReichenberg, R. (2018). Dynamic Bayesian Networks in Educational Measurement: Reviewing and Advancing the State of the Field. Applied Measurement in Education, 31(4), 335–350. https://doi.org/10.1080/08957347.2018.1495217\n\n\nReye, J. (2004). Student Modelling Based on Belief Networks. Internationl Journal of Artificial Intelligence in Education, 14, 63–96.\n\n\nRupp, A. A., Templin, J., & Hensen, R. J. (2010). Diagnostic measurement: Theory, methods, and applications. Guilford Press.\n\n\nShute, V. J., Hansen, E. G., & Almond, R. G. (2008). You Can’t Fatten A Hog by Weighing It - Or Can You? Evaluating an Assessment for Learning System Called ACED. International Journal of Artificial Intelligence in Education, 18(4), 289–316.\n\n\nShute, V. J., & Ventura, M. (2013). Stealth assessment in digital games. MIT series.\n\n\nSinharay, S. (2006). Model diagnostics for Bayesian networks. Journal of Educational and Behavioral Statistics, 31(1), 1–33.\n\n\nTatsuoka, K. K. (1983). Rule space: An approach for dealing with misconceptions based on item response theory. Journal of Educational Measurement, 20, 345–354.\n\n\nTemplin, J., & Bradshaw, L. (2013). Measuring the Reliability of Diagnostic Classification Model Examinee Estimates. Journal of Classification, 30(2), 251–275. https://doi.org/10.1007/s00357-013-9129-4\n\n\nTokac, U., & Almond, R. G. (2016). The Efficacy of the POMDP-RTI Approach for Early Reading Intervention. In K. B. Laskey & R. N. Carvalho (Eds.), Proceedings of the Thirteenth UAI Bayesian Modeling Applications Workshop (BMAW 2016) (pp. 36–43).\n\n\nWang, C., Chang, H.-H., & Boughton, K. A. (2011). Kullback and Its Applications in Multi-Dimensional Adaptive Testing. Psychometrika, 76(1), 13–39. https://doi.org/10.1007/s11336-010-9186-0\n\n\nShute, V. J., & Rahimi, S. (2021). Stealth assessment of creativity in a physics video game. Computers in Human Behavior, 116 1-13. https://doi.org/10.1016/j.chb.2020.106647\nRahimi, S., Shute, V. J., Kuba, R., Dai, C-P., Yang, X., Smith, G., & Alonso Fenandez, C. (2021). The effects of incentive systems on learning and performance in educational games. Computers & Education, 165, 1-17. https://doi.org/10.1016/j.compedu.2021.104135\nShute, V. J., Rahimi S., Smith, G., Ke, F., Almond, R., Dai, C-P, Kamikabeya, R., Liu, Z., Yang, X., & Sun, C. (2020). Maximizing learning without sacrificing the fun: Stealth assessment, adaptivity, and learning supports in Physics Playground. Journal of Computer-Assisted Learning (38 pages).\nSpann, C. A., Shute, V. J., Rahimi, S., & D’Mello, S. K. (2019). The productive role of cognitive reappraisal in regulating frustration during game-based learning. Computers in Human Behavior. https://doi-org.proxy.lib.fsu.edu/10.1016/j.chb.2019.03.002\nShute, V. J., Rahimi, S., & Smith, G. (2019). Game-based learning analytics in Physics Playground. In M. Chang & A. Tlili (Eds.), Data analytics approaches in educational games and gamification systems. (pp. 69-93). New York, NY: Springer.\nShute, V. J., Ke, F., Almond, R. G., Rahimi, S., Smith, G., & Lu, X. (2019). How to increase learning while not decreasing the fun in educational games. In R. Feldman (Ed.), Learning Science: Theory, Research, and Practice (pp. 327-357). New York, NY: McGraw Hill.\nKarumbaiah, S., Rahimi, S., Baker, R. S., Shute, V. J., & D’Mello, S. (2018). Is student frustration in learning games more associated with game mechanics or conceptual understanding?. In J. Kay, R. Luckin, M. Mavrikis, & K. Porayska-Pomsta (Eds.), International Conference of Learning Sciences (pp. 1-2). London, UK.\nKim, Y. J., Almond, R. G., & Shute, V. J. (2016). Applying Evidence-Centered Design for the development of game-based assessments in Physics Playground. International Journal of Testing, 16(2), 142-163.\nShute, V. J. & Wang, L. (2016). Assessing and supporting hard-to-measure constructs. In A. A. Rupp, & J. P. Leighton (Eds.), The handbook of cognition and assessment: Frameworks, methodologies, and application, (pp. 535-562). Hoboken, NJ: John Wiley & Sons, Inc.\nBosch, N., Chen, H., Baker, R., Shute, V. J., & D’Mello, S. (2015). Accuracy vs. availability heuristic in multimodal affect detection in the wild. Proceedings of the 17th International Conference on Multimodal Interaction (ICMI), Seattle, WA.\nKim, Y. J., & Shute, V. J. (2015). The interplay of game elements with psychometric qualities, learning, and enjoyment in gamebased assessment. Computers & Education, 87, 340-356.\nShute, V. J., D’Mello, S. K., Baker, R., Cho, K., Bosch, N., Ocumpaugh, J., Ventura, M., & Almeda, V. (2015). Modeling how incoming knowledge, persistence, affective states, and in-game progress influence student learning from an educational game. Computers & Education, 86, 224-235.\nShute, V. J., Ventura, M., & Kim, Y. J. (2013). Assessment and learning of qualitative physics in Newton’s Playground. The Journal of Educational Research, 106, 423-430."
   },
   {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "AffectiveData.html",
+    "href": "AffectiveData.html",
+    "title": "Affective Support Data",
+    "section": "",
+    "text": "The complete data are available in the following formats:\n\nComma Separated Value\nSPSS Save file\n\n\n\nThis data subset contains just the data from the pretest and posttest questionnaires.\nPosttest columns are marked with either .ect or .pot depending on which posttest the items appear on. Note that students received the ECT and POT tests on Wednesday or Friday of the study week depending on their treatment group.\nPre, Post Data\n\n\n\nThese data contain information on how the learning supports were played. * Timestamp_XXX – These give the time at which the level was played. * TrophyLevel_XXX – what trophy the player earned. This can be gold, silver, quit or missing. The quit indicates that the player attempted the level but did not earn a trophy. * NumberAttempts_XXX – The number of attempts the player made for this game level.\nNote that the player may have attempted each level several times. There are two versions of this data file, one showing the values related to the first level and one to the last levels. In the full data set the suffixes .first and .last are added to the column names to indicate which version is used.\n\nObservables, First Attempt\nObservables, Last Attempt\n\n\n\n\nThis is data about the usage of the learning supports.\nLearning Support\n\n\n\nThis provides scores from the Bayesian Network model, which probabilities for the nine nodes in the competency model. For each none, there are three columns giving the marginal probability of the High, Medium and Low proficiency respectively. The EAP (expected a posteriori) scores are produced by assigning Low=-1, Medium=0 and High=1 and calculating the expected value.\nBayesian Network Scores\n\n\n\nThe raw JSON data is available at https://pluto.coe.fsu.edu/PhysicsPlayground/data/IES2022-AllP4Events.json.gz\nThe filtered data containing only “interesting” events is at: https://pluto.coe.fsu.edu/PhysicsPlayground/data/PPIES2022-P4Filtered.json.gz\nBoth files are compressed using gnu zip (gzip)"
+  },
+  {
+    "objectID": "AffectiveData.html#pretest-posttest-demographic-and-questionnaire-data",
+    "href": "AffectiveData.html#pretest-posttest-demographic-and-questionnaire-data",
+    "title": "Affective Support Data",
+    "section": "",
+    "text": "This data subset contains just the data from the pretest and posttest questionnaires.\nPosttest columns are marked with either .ect or .pot depending on which posttest the items appear on. Note that students received the ECT and POT tests on Wednesday or Friday of the study week depending on their treatment group.\nPre, Post Data"
+  },
+  {
+    "objectID": "AffectiveData.html#game-level-outcome-data",
+    "href": "AffectiveData.html#game-level-outcome-data",
+    "title": "Affective Support Data",
+    "section": "",
+    "text": "These data contain information on how the learning supports were played. * Timestamp_XXX – These give the time at which the level was played. * TrophyLevel_XXX – what trophy the player earned. This can be gold, silver, quit or missing. The quit indicates that the player attempted the level but did not earn a trophy. * NumberAttempts_XXX – The number of attempts the player made for this game level.\nNote that the player may have attempted each level several times. There are two versions of this data file, one showing the values related to the first level and one to the last levels. In the full data set the suffixes .first and .last are added to the column names to indicate which version is used.\n\nObservables, First Attempt\nObservables, Last Attempt"
+  },
+  {
+    "objectID": "AffectiveData.html#learning-support-usage-data",
+    "href": "AffectiveData.html#learning-support-usage-data",
+    "title": "Affective Support Data",
+    "section": "",
+    "text": "This is data about the usage of the learning supports.\nLearning Support"
+  },
+  {
+    "objectID": "AffectiveData.html#bayesian-network-scores",
+    "href": "AffectiveData.html#bayesian-network-scores",
+    "title": "Affective Support Data",
+    "section": "",
+    "text": "This provides scores from the Bayesian Network model, which probabilities for the nine nodes in the competency model. For each none, there are three columns giving the marginal probability of the High, Medium and Low proficiency respectively. The EAP (expected a posteriori) scores are produced by assigning Low=-1, Medium=0 and High=1 and calculating the expected value.\nBayesian Network Scores"
+  },
+  {
+    "objectID": "AffectiveData.html#log-files",
+    "href": "AffectiveData.html#log-files",
+    "title": "Affective Support Data",
+    "section": "",
+    "text": "The raw JSON data is available at https://pluto.coe.fsu.edu/PhysicsPlayground/data/IES2022-AllP4Events.json.gz\nThe filtered data containing only “interesting” events is at: https://pluto.coe.fsu.edu/PhysicsPlayground/data/PPIES2022-P4Filtered.json.gz\nBoth files are compressed using gnu zip (gzip)"
+  },
+  {
     "objectID": "PA.html",
     "href": "PA.html",
     "title": "Learning Support Reactions",
@@ -105,46 +126,46 @@
     "text": "Key articles on Evidence-Centered Design and Stealth Assessment"
   },
   {
-    "objectID": "Codebook.html#study-conditions",
-    "href": "Codebook.html#study-conditions",
+    "objectID": "Codebook.html#study-conditions-ginny",
+    "href": "Codebook.html#study-conditions-ginny",
     "title": "Codebook",
-    "section": "Study Conditions",
-    "text": "Study Conditions"
+    "section": "Study Conditions Ginny",
+    "text": "Study Conditions Ginny"
   },
   {
-    "objectID": "Codebook.html#demographic-varibles",
-    "href": "Codebook.html#demographic-varibles",
+    "objectID": "Codebook.html#demographic-varibles-ginny",
+    "href": "Codebook.html#demographic-varibles-ginny",
     "title": "Codebook",
-    "section": "Demographic Varibles",
-    "text": "Demographic Varibles"
+    "section": "Demographic Varibles Ginny?",
+    "text": "Demographic Varibles Ginny?"
   },
   {
-    "objectID": "Codebook.html#pretestpost-test",
-    "href": "Codebook.html#pretestpost-test",
+    "objectID": "Codebook.html#pretestpost-test-ginny",
+    "href": "Codebook.html#pretestpost-test-ginny",
     "title": "Codebook",
-    "section": "Pretest/Post-test",
-    "text": "Pretest/Post-test\n\nEnergy Can Transfer (ECT) Near and Far\n\n\nProperties of Torque (POT) Near and Far"
+    "section": "Pretest/Post-test Ginny",
+    "text": "Pretest/Post-test Ginny\n\nEnergy Can Transfer (ECT) Near and Far\n\n\nProperties of Torque (POT) Near and Far"
   },
   {
-    "objectID": "Codebook.html#intrinsic-motivation-inventory",
-    "href": "Codebook.html#intrinsic-motivation-inventory",
+    "objectID": "Codebook.html#intrinsic-motivation-inventory-ginny",
+    "href": "Codebook.html#intrinsic-motivation-inventory-ginny",
     "title": "Codebook",
-    "section": "Intrinsic Motivation Inventory",
-    "text": "Intrinsic Motivation Inventory\nReverse Coded Items\nSubscores"
+    "section": "Intrinsic Motivation Inventory Ginny",
+    "text": "Intrinsic Motivation Inventory Ginny\nReverse Coded Items\nSubscores"
   },
   {
-    "objectID": "Codebook.html#physics-animation-learning-support-questionnaire",
-    "href": "Codebook.html#physics-animation-learning-support-questionnaire",
+    "objectID": "Codebook.html#physics-animation-learning-support-questionnaire-ginny",
+    "href": "Codebook.html#physics-animation-learning-support-questionnaire-ginny",
     "title": "Codebook",
-    "section": "Physics Animation (Learning Support) Questionnaire",
-    "text": "Physics Animation (Learning Support) Questionnaire"
+    "section": "Physics Animation (Learning Support) Questionnaire Ginny",
+    "text": "Physics Animation (Learning Support) Questionnaire Ginny"
   },
   {
-    "objectID": "Codebook.html#bayesian-network-scores",
-    "href": "Codebook.html#bayesian-network-scores",
+    "objectID": "Codebook.html#bayesian-network-scores-russell-from-here-on-down.",
+    "href": "Codebook.html#bayesian-network-scores-russell-from-here-on-down.",
     "title": "Codebook",
-    "section": "Bayesian Network Scores",
-    "text": "Bayesian Network Scores\n\ncontext\n\n\nMarginal Distributions\n\n\nEAP and MAP Scores"
+    "section": "Bayesian Network Scores Russell (from here on down).",
+    "text": "Bayesian Network Scores Russell (from here on down).\n\ncontext\n\n\nMarginal Distributions\n\n\nEAP and MAP Scores"
   },
   {
     "objectID": "Codebook.html#observables-attempts-and-results",
@@ -159,6 +180,76 @@
     "title": "Codebook",
     "section": "Learning Supports",
     "text": "Learning Supports\nTimestamps\nDurations\nVideo lengths"
+  },
+  {
+    "objectID": "Overview.html",
+    "href": "Overview.html",
+    "title": "Physics Playground Overview",
+    "section": "",
+    "text": "Video Overview \nPhysics Playground Short Film: https://www.youtube.com/watch?v=HqIY9x5dUf0\n\n\nUse the following links for the game:\n\nVersion 1: With Store: http://35.196.157.53/pp/wstore/demo.html\nVersion 2: Without Store: http://35.196.157.53/pp/game/demo.html\nLevel Editor: http://35.196.157.53/pp/editor/demo.html\nUsername: demo2\nPassword: demo2pass\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nVideo 1. The sketching level “Caveman.” The path of the green ball is blocked by a wooden club. To solve the level, players need to draw a lever to lift the wooden club that blocks the path.\n Figure 1. The sketching level “Caveman.” The path of the green ball is blocked by a wooden club.\n Figure 2. Worked example of the sketching level “Caveman.” To solve the level, players need to draw a lever to lift the wooden club that blocks the path.\nhttps://youtu.be/qiYtPngpUpA\n\n\n\n\n\nVideo 2. The manipulation level “Cookie Monster.” In the level, mass and gravity are set to default levels, air resistance is medium, the static blower is in full force, and bounciness is available. To make the ball hit the balloon, players need to reduce air resistance and gravity and enable bounciness.\n\n\n\nCookie Monster Start\n\n\nFigure 3. The manipulation level “Cookie Monster.” In the level, mass and gravity are set to default levels, air resistance is medium, the static blower is in full force, and bounciness is available.\n\n\n\nCookie Monster Solution\n\n\nFigure 4. Worked example of the manipulation level “Cookie Monster.” To make the ball hit the balloon, players need to reduce air resistance and gravity and enable bounciness.\nhttps://youtu.be/K7trh3Gkuug"
+  },
+  {
+    "objectID": "Overview.html#the-game",
+    "href": "Overview.html#the-game",
+    "title": "Physics Playground Overview",
+    "section": "",
+    "text": "Use the following links for the game:\n\nVersion 1: With Store: http://35.196.157.53/pp/wstore/demo.html\nVersion 2: Without Store: http://35.196.157.53/pp/game/demo.html\nLevel Editor: http://35.196.157.53/pp/editor/demo.html\nUsername: demo2\nPassword: demo2pass\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nVideo 1. The sketching level “Caveman.” The path of the green ball is blocked by a wooden club. To solve the level, players need to draw a lever to lift the wooden club that blocks the path.\n Figure 1. The sketching level “Caveman.” The path of the green ball is blocked by a wooden club.\n Figure 2. Worked example of the sketching level “Caveman.” To solve the level, players need to draw a lever to lift the wooden club that blocks the path.\nhttps://youtu.be/qiYtPngpUpA\n\n\n\n\n\nVideo 2. The manipulation level “Cookie Monster.” In the level, mass and gravity are set to default levels, air resistance is medium, the static blower is in full force, and bounciness is available. To make the ball hit the balloon, players need to reduce air resistance and gravity and enable bounciness.\n\n\n\nCookie Monster Start\n\n\nFigure 3. The manipulation level “Cookie Monster.” In the level, mass and gravity are set to default levels, air resistance is medium, the static blower is in full force, and bounciness is available.\n\n\n\nCookie Monster Solution\n\n\nFigure 4. Worked example of the manipulation level “Cookie Monster.” To make the ball hit the balloon, players need to reduce air resistance and gravity and enable bounciness.\nhttps://youtu.be/K7trh3Gkuug"
+  },
+  {
+    "objectID": "scripts/Personnel.html",
+    "href": "scripts/Personnel.html",
+    "title": "Personnel",
+    "section": "",
+    "text": "Valerie Shute,FSU\n\n\n\n\n\nValerie Shute\nFlorida State University\nRole: PI Emeritus (Retired), PI through most versions\nHomepage: https://myweb.fsu.edu/vshute/index.html\nGoogle Scholar: https://scholar.google.com/citations?user=VfKOZ5IAAAAJ&hl=en\n\n\n\n\n\n\n\n\nRussell Almond,FSU\n\n\n\n\n\nRussell Almond\nFlorida State University\nRole: PI for final year of project, design and coding of scoring system\nHomepage: https://ralmond.net/\nGoogle Scholar: https://scholar.google.com/citations?user=1ZTrIBcAAAAJ&hl=en\nGithub: https://github.com/ralmond; R-Universe: https://ralmond.r-universe.dev/\n\n\n\n\n\n\n\n\nRyan S. Baker,UPenn\n\n\n\n\n\nRyan S. Baker\nUniversity of Pennsylvania\nRole: Co-PI, developing logic for supports\nHomepage: https://learninganalytics.upenn.edu/ryanbaker/\nGoogle Scholar: https://scholar.google.com/citations?user=hvs8PEoAAAAJ&hl=en\n\n\n\n\n\n\n\n\nSidney D’Mello,CUBoulder\n\n\n\n\n\nSidney D’Mello\nUniversity of Colorado Boulder\nRole: Co-PI, design of affective supports\nGoogle Scholar: https://scholar.google.com/citations?user=c-LG6-MAAAAJ&hl=en\n\n\n\n\n\n\n\n\nSeyed Ahmad Rahimi,UF\n\n\n\n\n\nSeyed Ahmad Rahimi\nUniversity of Florida\nRole: Lead developer of the current game version, data collection\nHomepage: https://education.ufl.edu/faculty/rahimi-seyedahmad-ahmad/\nGoogle Scholar: https://scholar.google.com/citations?user=yDnHbAMAAAAJ&hl=en\n\n\n\n\n\n\n\n\nAdam Lamee,UCF\n\n\n\n\n\nAdam Lamee\nUniversity of Central Florida\nRole: Expert in physics teaching\nHomepage: https://adamlamee.github.io/\nGoogle Scholar: https://scholar.google.com/citations?user=1j-ueo4AAAAJ&hl=en"
+  },
+  {
+    "objectID": "scripts/Personnel.html#lead-investigators",
+    "href": "scripts/Personnel.html#lead-investigators",
+    "title": "Personnel",
+    "section": "",
+    "text": "Valerie Shute,FSU\n\n\n\n\n\nValerie Shute\nFlorida State University\nRole: PI Emeritus (Retired), PI through most versions\nHomepage: https://myweb.fsu.edu/vshute/index.html\nGoogle Scholar: https://scholar.google.com/citations?user=VfKOZ5IAAAAJ&hl=en\n\n\n\n\n\n\n\n\nRussell Almond,FSU\n\n\n\n\n\nRussell Almond\nFlorida State University\nRole: PI for final year of project, design and coding of scoring system\nHomepage: https://ralmond.net/\nGoogle Scholar: https://scholar.google.com/citations?user=1ZTrIBcAAAAJ&hl=en\nGithub: https://github.com/ralmond; R-Universe: https://ralmond.r-universe.dev/\n\n\n\n\n\n\n\n\nRyan S. Baker,UPenn\n\n\n\n\n\nRyan S. Baker\nUniversity of Pennsylvania\nRole: Co-PI, developing logic for supports\nHomepage: https://learninganalytics.upenn.edu/ryanbaker/\nGoogle Scholar: https://scholar.google.com/citations?user=hvs8PEoAAAAJ&hl=en\n\n\n\n\n\n\n\n\nSidney D’Mello,CUBoulder\n\n\n\n\n\nSidney D’Mello\nUniversity of Colorado Boulder\nRole: Co-PI, design of affective supports\nGoogle Scholar: https://scholar.google.com/citations?user=c-LG6-MAAAAJ&hl=en\n\n\n\n\n\n\n\n\nSeyed Ahmad Rahimi,UF\n\n\n\n\n\nSeyed Ahmad Rahimi\nUniversity of Florida\nRole: Lead developer of the current game version, data collection\nHomepage: https://education.ufl.edu/faculty/rahimi-seyedahmad-ahmad/\nGoogle Scholar: https://scholar.google.com/citations?user=yDnHbAMAAAAJ&hl=en\n\n\n\n\n\n\n\n\nAdam Lamee,UCF\n\n\n\n\n\nAdam Lamee\nUniversity of Central Florida\nRole: Expert in physics teaching\nHomepage: https://adamlamee.github.io/\nGoogle Scholar: https://scholar.google.com/citations?user=1j-ueo4AAAAJ&hl=en"
+  },
+  {
+    "objectID": "scripts/Personnel.html#affective-support",
+    "href": "scripts/Personnel.html#affective-support",
+    "title": "Personnel",
+    "section": "Affective Support",
+    "text": "Affective Support\n\n\n\n\n\n\nGinny Smith,FSU\n\n\n\n\n\nGinny Smith\nFlorida State University\nRole: Project manager, experiment design, data collection\nGoogle Scholar: https://scholar.google.com/citations?user=Przy7_gAAAAJ&hl=en\n\n\n\n\n\n\n\n\nJaclyn Ocumpaugh,UPenn\n\n\n\n\n\nJaclyn Ocumpaugh\nUniversity of Pennsylvania\nRole: Supervising and coordinating the game testing\nHomepage: https://learninganalytics.upenn.edu/index.html\nGoogle Scholar: https://scholar.google.com/citations?user=uCl6NE4AAAAJ&hl=en\n\n\n\n\n\n\n\n\nBrandon Booth,CUBoulder\n\n\n\n\n\nBrandon Booth\nUniversity of Colorado Boulder\nRole: Game testing\nHomepage: http://www.brandonmbooth.net/\nGoogle Scholar: https://scholar.google.com/citations?user=Qr-gySYAAAAJ&hl=en\n\n\n\n\n\n\n\n\nValdemar Švábenský,UPenn\n\n\n\n\n\nValdemar Švábenský\nUniversity of Pennsylvania\nRole: Leading the experiment execution, data collection\nHomepage: https://elea.sk/valdemar/\nGoogle Scholar: https://scholar.google.com/citations?user=CSMVlf0AAAAJ&hl=en\n\n\n\n\n\n\n\n\nCurt Fulwider,FSU\n\n\n\n\n\nCurt Fulwider\nFlorida State University\nRole: Data collection\nGoogle Scholar: https://scholar.google.com/citations?user=pKYZazcAAAAJ&hl=en\n\n\n\n\n\n\n\n\nGaurav Basnet,FSU\n\n\n\n\n\nGaurav Basnet\nFlorida State University\nRole: Data collection\nGoogle Scholar: &lt;?&gt;\n\n\n\n\n\n\n\n\nChaewon Kim,FSU\n\n\n\n\n\nChaewon Kim\nFlorida State University\nRole: Data collection\nGoogle Scholar: &lt;?&gt;"
+  },
+  {
+    "objectID": "scripts/Personnel.html#beforeafter-study",
+    "href": "scripts/Personnel.html#beforeafter-study",
+    "title": "Personnel",
+    "section": "Before/After Study",
+    "text": "Before/After Study\n\n\n\n\n\n\nChen Sun,NA\n\n\n\n\n\nChen Sun\nUniversity of Manchester\nRole: Level design, scoring engine construction\nGoogle Scholar: https://scholar.google.com/citations?user=Y66npM8AAAAJ&hl=en\n\n\n\n\n\n\n\n\nXiaotong Yang,FSU\n\n\n\n\n\nXiaotong Yang\nFlorida State University\nRole: Development of pretest and posttest\nGoogle Scholar: https://scholar.google.com/citations?user=f1E8l3QAAAAJ&hl=en\n\n\n\n\n\n\n\n\nZhichun “Lukas” Liu,NA\n\n\n\n\n\nZhichun “Lukas” Liu\nUniversity of Hong Kong\nRole: Analysis of log files\nHomepage: https://web.edu.hku.hk/faculty-academics/lukasliu\nGoogle Scholar: https://scholar.google.com/citations?user=HcASJEIAAAAJ&hl=en"
+  },
+  {
+    "objectID": "scripts/Personnel.html#alumni",
+    "href": "scripts/Personnel.html#alumni",
+    "title": "Personnel",
+    "section": "Alumni",
+    "text": "Alumni\n\n\n\n\n\n\nFengfeng Ke,FSU\n\n\n\n\n\nFengfeng Ke\nFlorida State University\nRole: Co-PI for NSF and Gates projects\nHomepage: https://myweb.fsu.edu/fke/\nGoogle Scholar: https://scholar.google.com/citations?user=75jPVJIAAAAJ&hl=en\n\n\n\n\n\n\n\n\nStefan Slater,UPenn\n\n\n\n\n\nStefan Slater\nUniversity of Pennsylvania\nRole: NA\nHomepage: http://stefanslater.com/\nGoogle Scholar: https://scholar.google.com/citations?user=0yzbPoQAAAAJ&hl=en\n\n\n\n\n\n\n\n\nKatie Bainbridge,NA\n\n\n\n\n\nKatie Bainbridge\nRice University\nRole: NA\nGoogle Scholar: https://scholar.google.com/citations?user=n-anFIgAAAAJ&hl=en\n\n\n\n\n\n\n\n\nChih-Pu Dai,FSU\n\n\n\n\n\nChih-Pu Dai\nFlorida State University\nRole: Worked on NSF project\nHomepage: http://www2.hawaii.edu/~cdai/\nGoogle Scholar: https://scholar.google.com/citations?user=Vp5Y6fYAAAAJ&hl=en\n\n\n\n\n\n\n\n\nRenata Kuba,FSU\n\n\n\n\n\nRenata Kuba\nFlorida State University\nRole: Worked on NSF project\nGoogle Scholar: https://scholar.google.com/citations?user=5Ek98gwAAAAJ&hl=en\n\n\n\n\n\n\n\n\nXi Lu,FSU\n\n\n\n\n\nXi Lu\nFlorida State University\nRole: Responsible for many of the game levels\nGoogle Scholar: &lt;?&gt;\n\n\n\n\n\n\n\n\nSeyfullah Tingir,FSU\n\n\n\n\n\nSeyfullah Tingir\nFlorida State University\nRole: Worked on developing the scoring engine\nGoogle Scholar: https://scholar.google.com/citations?user=iSFVVycAAAAJ&hl=en\n\n\n\n\n\n\n\n\nCatherine A. Spann,CUBoulder\n\n\n\n\n\nCatherine A. Spann\nUniversity of Colorado Boulder\nRole: NA\nGoogle Scholar: https://scholar.google.com/citations?user=TCSu1jIAAAAJ&hl=en\n\n\n\n\n\n\n\n\nWeinan Zhao,NA\n\n\n\n\n\nWeinan Zhao\nOlivet University\nRole: Porting the game into Unity\nGoogle Scholar: https://scholar.google.com/citations?user=Lf0a9e0AAAAJ&hl=en\n\n\n\n\n\n\n\n\nXinhao Xu,NA\n\n\n\n\n\nXinhao Xu\nUniversity of Missouri\nRole: NA\nGoogle Scholar: https://scholar.google.com/citations?user=XD17HxEAAAAJ&hl=en\n\n\n\n\n\n\n\n\nShamya Karumbaiah,NA\n\n\n\n\n\nShamya Karumbaiah\nUniversity of Wisconsin-Madison\nRole: NA\nHomepage: https://shamya.github.io/\nGoogle Scholar: https://scholar.google.com/citations?user=5w4I9VMAAAAJ&hl=en\n\n\n\n\n\n\n\n\nDon Franceschetti,NA\n\n\n\n\n\nDon Franceschetti\nUniversity of Memphis\nRole: Until his death in 2019, Don served as the primary Physics advisor\nHomepage: https://paw.princeton.edu/memorial/donald-r-franceschetti-74\nGoogle Scholar: \n\n\n\n\n\n\n\n\nLubin Wang,NA\n\n\n\n\n\nLubin Wang\nNA\nRole: NA\nGoogle Scholar: \n\n\n\n\n\n\n\n\nMatthew Small,NA\n\n\n\n\n\nMatthew Small\nNA\nRole: Programmer for First (Gates) version\nGoogle Scholar: \n\n\n\n\n\n\n\n\nMatthew Ventura,NA\n\n\n\n\n\nMatthew Ventura\nNA\nRole: Leader on Gates Project, Research on Persistance\nGoogle Scholar: \n\n\n\n\n\n\n\n\nYoon-Jeon Kim,NA\n\n\n\n\n\nYoon-Jeon Kim\nNA\nRole: NA\nGoogle Scholar:"
+  },
+  {
+    "objectID": "scripts/reloadPeople.html",
+    "href": "scripts/reloadPeople.html",
+    "title": "Untitled",
+    "section": "",
+    "text": "library(googlesheets4)\ngs4_auth(path=Sys.getenv(\"SHINY_PROTOCOL\"))\npersonsheet &lt;- gs4_get(\"1mKxvy3VQx6qOj_c2PBXsiSk9GsTiohvU-Y9uMAEqcuA\")\npersons &lt;- read_sheet(personsheet)\n\n✔ Reading from \"Personnel\".\n\n\n✔ Range 'For https://pluto.coe.fsu.edu/PhysicsDataPlayground/Personnel.html'.\n\npersons\n\n# A tibble: 32 × 9\n   Name      University `University abbrv` `Project group` `Role in the project`\n   &lt;chr&gt;     &lt;chr&gt;      &lt;chr&gt;              &lt;chr&gt;           &lt;chr&gt;                \n 1 Valerie … Florida S… FSU                Lead Investiga… PI Emeritus (Retired…\n 2 Russell … Florida S… FSU                Lead Investiga… PI for final year of…\n 3 Ryan S. … Universit… UPenn              Lead Investiga… Co-PI, developing lo…\n 4 Sidney D… Universit… CUBoulder          Lead Investiga… Co-PI, design of aff…\n 5 Seyed Ah… Universit… UF                 Lead Investiga… Lead developer of th…\n 6 Adam Lam… Universit… UCF                Lead Investiga… Expert in physics te…\n 7 Ginny Sm… Florida S… FSU                Affective Supp… Project manager, exp…\n 8 Jaclyn O… Universit… UPenn              Affective Supp… Supervising and coor…\n 9 Brandon … Universit… CUBoulder          Affective Supp… Game testing         \n10 Valdemar… Universit… UPenn              Affective Supp… Leading the experime…\n# ℹ 22 more rows\n# ℹ 4 more variables: `Google Scholar` &lt;chr&gt;, Homepage &lt;chr&gt;,\n#   `Other links` &lt;chr&gt;, `Photo link` &lt;chr&gt;"
+  },
+  {
+    "objectID": "scripts/reloadPeople.html#parameters",
+    "href": "scripts/reloadPeople.html#parameters",
+    "title": "Untitled",
+    "section": "Parameters",
+    "text": "Parameters\n\ncolumns &lt;- \"[ 30, 70 ]\"\nfigwidth &lt;- \"300\"\n\n\nhead &lt;- \n  \"---\ntitle: \\\"Personnel\\\"\neditor: \n  markdown: \n    wrap: 72\n---\n\"\nfoot &lt;- \n  \"\n  \"\n\n\nord &lt;- c(\"Lead Investigators\",\"Affective Support\",\n\"Before/After Study\", \"Alumni\")"
+  },
+  {
+    "objectID": "scripts/reloadPeople.html#build-it",
+    "href": "scripts/reloadPeople.html#build-it",
+    "title": "Untitled",
+    "section": "Build-it",
+    "text": "Build-it\n\nif (file.exists(\"Personnel.qmd\")) \n  file.remove(\"Personnel.qmd\")\n\n[1] TRUE\n\npfile &lt;- file(\"Personnel.qmd\")\nopen(pfile,open=\"wt\")\ncat(head,file=pfile)\n\n\nfor (sec in ord) {\n  cat(\"\\n\\n##\",sec,\"\\n\\n\",file=pfile)\n  ## Quarto is really sensitive to whitespace\n  cat(\":::: {layout=\",dQuote(columns,FALSE),\"}\\n\\n\",\n      sep=\"\",file=pfile)\n  \n  for (pp in grep(sec,persons$`Project group`)) {\n    cat(\"::: {#first-column}\\n\",file=pfile)\n    \n    cat(\"![\",persons$Name[pp],\",\",\n        persons$`University abbrv`[pp],\"]\",\n        \"(\",persons$`Photo link`[pp],\")\\n\",\n        sep=\"\", file=pfile)\n    \n    cat(\":::\\n\",file=pfile)\n    cat(\"::: {#second-column}\\n\",file=pfile)\n    \n    cat(\"\\n* \",persons$Name[pp],\"\\n\",file=pfile)\n    cat(\"*\", persons$University[pp],\"\\n\",file=pfile)\n    cat(\"* **Role:** \",persons$`Role in the project`[pp],\n        \"\\n\",file=pfile)\n    if (!is.na(persons$Homepage[pp]))\n      cat(\"* **Homepage:** &lt;\",persons$Homepage[pp],\n          \"&gt;\\n\",sep=\"\",file=pfile)\n    cat(\"* **Google Scholar:** &lt;\",\n        persons$`Google Scholar`[pp],\"&gt;\\n\",\n        sep=\"\",file=pfile)\n    if (!is.na(persons$`Other links`[pp]))\n      cat(\"* \",persons$`Other links`[pp],\"\\n\",file=pfile)\n    cat(\":::\\n\\n\",file=pfile)  \n  }\n  cat(\"::::\\n\\n\",file=pfile)\n}\n\n\ncat(foot,file=pfile)\nclose(pfile)"
   },
   {
     "objectID": "Software.html#peanut-bayesian-network-engine",
@@ -208,6 +299,20 @@
     "title": "Affective Support Protocol",
     "section": "Results",
     "text": "Results"
+  },
+  {
+    "objectID": "Events.html",
+    "href": "Events.html",
+    "title": "Event Logs",
+    "section": "",
+    "text": "Events are stored in the Proc 4 format (ralmond2019a?). It is converted from the xAPI (xAPI?) format using in Learning Locker (LearningLocker?) by the dongle code in the Proc4 (Proc4?) package. In particular, it means that messages are identified by (verb, object) pairs (xAPI-style) not single mess strings (Proc4-style)\nThe JSON format is as follows:\n\n{\n  app: \"ecd://epls.coe.fsu.edu/PhysicsPlayground/IES/Fall22/BigStudy\",  /* Fixed String */\n  uid: \"[A-F]0000\",\n  context: \"Game Level\",\n  sender: \"PP Learning Locker\",  /* Fixed String */\n  verb: &lt;&lt;see event vocabulary&gt;&gt;, \n  object &lt;&lt;see event vocabulary&gt;&gt;, \n  timestamp: POSIX time string, /* When event was logged. */\n  processed: logical,  /* For internal EI use */\n  pErr: string, /* Error code from processing (if any) */\n  data: { &lt;&lt;Arbitrary JSON document&gt;&gt;}\n}\n\nThe app and sender strings are constant, so are probably not interesting.\nThe first character of the uid gives the study condition."
+  },
+  {
+    "objectID": "Events.html#proc4-and-xapi-formats",
+    "href": "Events.html#proc4-and-xapi-formats",
+    "title": "Event Logs",
+    "section": "",
+    "text": "Events are stored in the Proc 4 format (ralmond2019a?). It is converted from the xAPI (xAPI?) format using in Learning Locker (LearningLocker?) by the dongle code in the Proc4 (Proc4?) package. In particular, it means that messages are identified by (verb, object) pairs (xAPI-style) not single mess strings (Proc4-style)\nThe JSON format is as follows:\n\n{\n  app: \"ecd://epls.coe.fsu.edu/PhysicsPlayground/IES/Fall22/BigStudy\",  /* Fixed String */\n  uid: \"[A-F]0000\",\n  context: \"Game Level\",\n  sender: \"PP Learning Locker\",  /* Fixed String */\n  verb: &lt;&lt;see event vocabulary&gt;&gt;, \n  object &lt;&lt;see event vocabulary&gt;&gt;, \n  timestamp: POSIX time string, /* When event was logged. */\n  processed: logical,  /* For internal EI use */\n  pErr: string, /* Error code from processing (if any) */\n  data: { &lt;&lt;Arbitrary JSON document&gt;&gt;}\n}\n\nThe app and sender strings are constant, so are probably not interesting.\nThe first character of the uid gives the study condition."
   },
   {
     "objectID": "Events.html#table-of-known-verbs-and-objects",
@@ -266,206 +371,59 @@
     "text": "Data from the Before/After Study"
   },
   {
-    "objectID": "Personnel.html#beforeafter-study-team",
-    "href": "Personnel.html#beforeafter-study-team",
-    "title": "Personnel",
-    "section": "Before/After Study Team",
-    "text": "Before/After Study Team\n\n\n\n\n\n\nChen Sun\n\n\n\n\nChen Sun\n\n???\nWorked in variuos parts of the project including level design, and scoring engine construction\nHomepage:\n\n\n\n\n\n\n\n\nXiaotong Yang\n\n\n\n\nXiaotong Yang\n\nFlorida State University\nWorked on development of pretest and posttest\nHomepage:\n\n\n\n\n\n\n\n\nZhichun “Lukas” Liu\n\n\n\n\nZhichun “Lukas” Liu\n\n???\nWorked on analysis of log files\nHomepage:"
-  },
-  {
-    "objectID": "Personnel.html#affective-support-team",
-    "href": "Personnel.html#affective-support-team",
-    "title": "Personnel",
-    "section": "Affective Support Team",
-    "text": "Affective Support Team\n\n\n\n\n\n\nGinny Smith, Project Manager\n\n\n\n\nGinny L. Smith\n\nFlorida State University (Graduated, 2022)\nProject Manager in the latter phase of the project.\nHomepage:"
-  },
-  {
-    "objectID": "Personnel.html#physics-playground-alumni",
-    "href": "Personnel.html#physics-playground-alumni",
-    "title": "Personnel",
-    "section": "Physics Playground Alumni",
-    "text": "Physics Playground Alumni\n\n\n\n\n\n\nFengfeng Ke, FSU & NSF\n\n\n\n\nFengfeng Ke\n\nFlorida State University (Currently on Sabbatical at NSF)\nCo-PI for NSF and Gates projects.\nHomepage: Check out her other project, eRebuild\n\n\n\n\n\n\n\n\nStefan Slater\n\n\n\n\nStefan Slater\n\n\n\nHomepage:\n\n\n\n\n\n\n\n\nKatie Bainbridge\n\n\n\n\nKatie Bainbridge\n\n\n\nHomepage:\n\n\n\n\n\n\n\n\nChih-Pu Dai\n\n\n\n\nChih-Pu Dai\n\nFlorida State University (Graduated 2023)\nWorked on NSF project\nHomepage:\n\n\n\n\n\n\n\n\nRenata Kuba\n\n\n\n\nRenata Kuba\n\nFlorida State University (Graduated ??)\nWorked on NSF project\nHomepage:\n\n\n\n\n\n\n\n\nXi Lu\n\n\n\n\nXi Lu\n\nFlorida State University (??)\nResponsible for many of the game levels\nHomepage:\n\n\n\n\n\n\n\n\nSeyfullah Tinger\n\n\n\n\nSeyfullah Tinger\n\nCambian\nWorked on developing the scoring engine\nHomepage:\n\n\n\n\n\n\n\n\nCatherin Spann\n\n\n\n\nCatherine Spann\n\n\n\nHomepage:\n\n\n\n\n\n\n\n\nWeinan Zhao\n\n\n\n\nWeinan Zhao\n\n\nResponsible for porting the game into Unity\nHomepage:\n\n\n\n\n\n\n\n\nXinhao Xu\n\n\n\n\nXinhao Xu\n\n\n\nHomepage:\n\n\n\n\n\n\n\n\nDon Franceschetti\n\n\n\n\nDon Franceschetti (1948–2019)\n\nUniversity of Memphis (Emeritus)\nUntil his death in 2019, Don severed as the primary Physics advisor on the project\nObituary: https://paw.princeton.edu/memorial/donald-r-franceschetti-74\n\n\n\n\n\n\n\n\nShamya Karumbaiah\n\n\n\n\nShamya Karubain\n\n\n\nHomepage:"
-  },
-  {
-    "objectID": "Codebook.html#study-conditions-ginny",
-    "href": "Codebook.html#study-conditions-ginny",
-    "title": "Codebook",
-    "section": "Study Conditions Ginny",
-    "text": "Study Conditions Ginny"
-  },
-  {
-    "objectID": "Codebook.html#demographic-varibles-ginny",
-    "href": "Codebook.html#demographic-varibles-ginny",
-    "title": "Codebook",
-    "section": "Demographic Varibles Ginny?",
-    "text": "Demographic Varibles Ginny?"
-  },
-  {
-    "objectID": "Codebook.html#pretestpost-test-ginny",
-    "href": "Codebook.html#pretestpost-test-ginny",
-    "title": "Codebook",
-    "section": "Pretest/Post-test Ginny",
-    "text": "Pretest/Post-test Ginny\n\nEnergy Can Transfer (ECT) Near and Far\n\n\nProperties of Torque (POT) Near and Far"
-  },
-  {
-    "objectID": "Codebook.html#intrinsic-motivation-inventory-ginny",
-    "href": "Codebook.html#intrinsic-motivation-inventory-ginny",
-    "title": "Codebook",
-    "section": "Intrinsic Motivation Inventory Ginny",
-    "text": "Intrinsic Motivation Inventory Ginny\nReverse Coded Items\nSubscores"
-  },
-  {
-    "objectID": "Codebook.html#physics-animation-learning-support-questionnaire-ginny",
-    "href": "Codebook.html#physics-animation-learning-support-questionnaire-ginny",
-    "title": "Codebook",
-    "section": "Physics Animation (Learning Support) Questionnaire Ginny",
-    "text": "Physics Animation (Learning Support) Questionnaire Ginny"
-  },
-  {
-    "objectID": "Codebook.html#bayesian-network-scores-russell-from-here-on-down.",
-    "href": "Codebook.html#bayesian-network-scores-russell-from-here-on-down.",
-    "title": "Codebook",
-    "section": "Bayesian Network Scores Russell (from here on down).",
-    "text": "Bayesian Network Scores Russell (from here on down).\n\ncontext\n\n\nMarginal Distributions\n\n\nEAP and MAP Scores"
-  },
-  {
-    "objectID": "Overview.html",
-    "href": "Overview.html",
-    "title": "Physics Playground Overview",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "PhysicsDataPlayground",
     "section": "",
-    "text": "Video Overview \nPhysics Playground Short Film: https://www.youtube.com/watch?v=HqIY9x5dUf0\n\n\nUse the following links for the game:\n\nVersion 1: With Store: http://35.196.157.53/pp/wstore/demo.html\nVersion 2: Without Store: http://35.196.157.53/pp/game/demo.html\nLevel Editor: http://35.196.157.53/pp/editor/demo.html\nUsername: demo2\nPassword: demo2pass\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nVideo 1. The sketching level “Caveman.” The path of the green ball is blocked by a wooden club. To solve the level, players need to draw a lever to lift the wooden club that blocks the path.\nCaveman Setup Figure 1. The sketching level “Caveman.” The path of the green ball is blocked by a wooden club.\nCaveman Solution Figure 2. Worked example of the sketching level “Caveman.” To solve the level, players need to draw a lever to lift the wooden club that blocks the path.\nhttps://youtu.be/qiYtPngpUpA\n\n\n\n\n\nVideo 2. The manipulation level “Cookie Monster.” In the level, mass and gravity are set to default levels, air resistance is medium, the static blower is in full force, and bounciness is available. To make the ball hit the balloon, players need to reduce air resistance and gravity and enable bounciness.\nCookie Monster Start\nFigure 3. The manipulation level “Cookie Monster.” In the level, mass and gravity are set to default levels, air resistance is medium, the static blower is in full force, and bounciness is available.\nCookie Monster Solution\nFigure 4. Worked example of the manipulation level “Cookie Monster.” To make the ball hit the balloon, players need to reduce air resistance and gravity and enable bounciness.\nhttps://youtu.be/K7trh3Gkuug"
+    "text": "Caution\n\n\n\nThis is a draft version of the website and does not represent the final content. You can email suggestions to Russell Almond.\nThis file contains data from the IES project Physics Playground"
   },
   {
-    "objectID": "Overview.html#the-game",
-    "href": "Overview.html#the-game",
-    "title": "Physics Playground Overview",
-    "section": "",
-    "text": "Use the following links for the game:\n\nVersion 1: With Store: http://35.196.157.53/pp/wstore/demo.html\nVersion 2: Without Store: http://35.196.157.53/pp/game/demo.html\nLevel Editor: http://35.196.157.53/pp/editor/demo.html\nUsername: demo2\nPassword: demo2pass\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nVideo 1. The sketching level “Caveman.” The path of the green ball is blocked by a wooden club. To solve the level, players need to draw a lever to lift the wooden club that blocks the path.\nCaveman Setup Figure 1. The sketching level “Caveman.” The path of the green ball is blocked by a wooden club.\nCaveman Solution Figure 2. Worked example of the sketching level “Caveman.” To solve the level, players need to draw a lever to lift the wooden club that blocks the path.\nhttps://youtu.be/qiYtPngpUpA\n\n\n\n\n\nVideo 2. The manipulation level “Cookie Monster.” In the level, mass and gravity are set to default levels, air resistance is medium, the static blower is in full force, and bounciness is available. To make the ball hit the balloon, players need to reduce air resistance and gravity and enable bounciness.\nCookie Monster Start\nFigure 3. The manipulation level “Cookie Monster.” In the level, mass and gravity are set to default levels, air resistance is medium, the static blower is in full force, and bounciness is available.\nCookie Monster Solution\nFigure 4. Worked example of the manipulation level “Cookie Monster.” To make the ball hit the balloon, players need to reduce air resistance and gravity and enable bounciness.\nhttps://youtu.be/K7trh3Gkuug"
+    "objectID": "index.html#licences",
+    "href": "index.html#licences",
+    "title": "PhysicsDataPlayground",
+    "section": "Licences",
+    "text": "Licences\n (C) 2023. Except for the linked papers (which have their own licenses), this website and its contents (the instruments and data) are licensed under a Creative Commons Attribution-ShareAlike 4.0 International License."
+  },
+  {
+    "objectID": "index.html#support",
+    "href": "index.html#support",
+    "title": "PhysicsDataPlayground",
+    "section": "Support:",
+    "text": "Support:\nThis report is based on research supported by Institute of Education Sciences, U.S. Department of Education to Florida State University.\n\n“Exploring adaptive cognitive and affective learning support for next-generation STEM learning games.” (Institute of Education Sciences award no. R305A170376, Val Shute and Russell Almond, PIs)\n\nAdditional support (for previous version of Physics Playground and the Peanut and Proc4 scoring engines) was provided by:\n\n‘Bill & Melinda Gates Foundation grant “Games as Learning/Assessment: Stealth Assessment” (no. 0PP1035331, Val Shute, PI)’,\n‘National Science Foundation grant “DIP: Game-based Assessment and Support of STEM-related Competencies” (no. 1628937, Val Shute, PI)’,\n‘National Science Foundation grant “Mathematical Learning via Architectual Design and Modeling Using E-Rebuild.” (no. 1720533, Fengfeng Ke, PI)’,\n\nThe opinions express are those of the authors and do not represent views of any of the sponsoring agencies."
   },
   {
     "objectID": "Personnel.html",
     "href": "Personnel.html",
     "title": "Personnel",
     "section": "",
-    "text": "Val Shute, FSU, PI Emeritus\n\n\n\n\nVal Shute\n\nFlorida State University (Retired)\nPI through most versions\nHomepage: \n\n\n\n\n\n\n\n\nRussell Almond, FSU, Current PI\n\n\n\n\nRussell Almond\n\nFlorida State University\nPI for final year of project; Design and coding of scoring system\nHomepage: https://ralmond.net, R code: https://r-universe.dev/, Github: https://github.com/ralmond\n\n\n\n\n\n\n\n\nRyan S. Baker, U. Penn\n\n\n\n\nRyan S. Baker\n\nUniversity of Pennsylvania\nCo-PI and worked on developing logic for supports\nHomepage: \n\n\n\n\n\n\n\n\nSydney D’Mello, U. of Colorado\n\n\n\n\nSydney D’Mello\n\nUniversity of Colorado\nCo-PI and responsible for design of affective supports\nHomepage: \n\n\n\n\n\n\n\n\nSeyed Ahmad Rahimi, UF, lead programmer\n\n\n\n\nSeyed Ahmad Rahimi\n\nUniversity of Florida\nLead developer of current version of the game\nHomepage: \n\n\n\n\n\n\n\n\nAdam Lamee, UCF, Physics Teacher\n\n\n\n\nAdam Lamee\n\nUniversity of Central Florida\nExpert in Physics Teaching\nHomepage:"
+    "text": "Valerie Shute,FSU\n\n\n\n\n\nValerie Shute\nFlorida State University\nRole: PI Emeritus (Retired), PI through most versions\nHomepage: https://myweb.fsu.edu/vshute/index.html\nGoogle Scholar: https://scholar.google.com/citations?user=VfKOZ5IAAAAJ&hl=en\n\n\n\n\n\n\n\n\nRussell Almond,FSU\n\n\n\n\n\nRussell Almond\nFlorida State University\nRole: PI for final year of project, design and coding of scoring system\nHomepage: https://ralmond.net/\nGoogle Scholar: https://scholar.google.com/citations?user=1ZTrIBcAAAAJ&hl=en\nGithub: https://github.com/ralmond; R-Universe: https://ralmond.r-universe.dev/\n\n\n\n\n\n\n\n\nRyan S. Baker,UPenn\n\n\n\n\n\nRyan S. Baker\nUniversity of Pennsylvania\nRole: Co-PI, developing logic for supports\nHomepage: https://learninganalytics.upenn.edu/ryanbaker/\nGoogle Scholar: https://scholar.google.com/citations?user=hvs8PEoAAAAJ&hl=en\n\n\n\n\n\n\n\n\nSidney D’Mello,CUBoulder\n\n\n\n\n\nSidney D’Mello\nUniversity of Colorado Boulder\nRole: Co-PI, design of affective supports\nGoogle Scholar: https://scholar.google.com/citations?user=c-LG6-MAAAAJ&hl=en\n\n\n\n\n\n\n\n\nSeyed Ahmad Rahimi,UF\n\n\n\n\n\nSeyed Ahmad Rahimi\nUniversity of Florida\nRole: Lead developer of the current game version, data collection\nHomepage: https://education.ufl.edu/faculty/rahimi-seyedahmad-ahmad/\nGoogle Scholar: https://scholar.google.com/citations?user=yDnHbAMAAAAJ&hl=en\n\n\n\n\n\n\n\n\nAdam Lamee,UCF\n\n\n\n\n\nAdam Lamee\nUniversity of Central Florida\nRole: Expert in physics teaching\nHomepage: https://adamlamee.github.io/\nGoogle Scholar: https://scholar.google.com/citations?user=1j-ueo4AAAAJ&hl=en"
   },
   {
     "objectID": "Personnel.html#lead-investigators",
     "href": "Personnel.html#lead-investigators",
     "title": "Personnel",
     "section": "",
-    "text": "Val Shute, FSU, PI Emeritus\n\n\n\n\nVal Shute\n\nFlorida State University (Retired)\nPI through most versions\nHomepage: \n\n\n\n\n\n\n\n\nRussell Almond, FSU, Current PI\n\n\n\n\nRussell Almond\n\nFlorida State University\nPI for final year of project; Design and coding of scoring system\nHomepage: https://ralmond.net, R code: https://r-universe.dev/, Github: https://github.com/ralmond\n\n\n\n\n\n\n\n\nRyan S. Baker, U. Penn\n\n\n\n\nRyan S. Baker\n\nUniversity of Pennsylvania\nCo-PI and worked on developing logic for supports\nHomepage: \n\n\n\n\n\n\n\n\nSydney D’Mello, U. of Colorado\n\n\n\n\nSydney D’Mello\n\nUniversity of Colorado\nCo-PI and responsible for design of affective supports\nHomepage: \n\n\n\n\n\n\n\n\nSeyed Ahmad Rahimi, UF, lead programmer\n\n\n\n\nSeyed Ahmad Rahimi\n\nUniversity of Florida\nLead developer of current version of the game\nHomepage: \n\n\n\n\n\n\n\n\nAdam Lamee, UCF, Physics Teacher\n\n\n\n\nAdam Lamee\n\nUniversity of Central Florida\nExpert in Physics Teaching\nHomepage:"
+    "text": "Valerie Shute,FSU\n\n\n\n\n\nValerie Shute\nFlorida State University\nRole: PI Emeritus (Retired), PI through most versions\nHomepage: https://myweb.fsu.edu/vshute/index.html\nGoogle Scholar: https://scholar.google.com/citations?user=VfKOZ5IAAAAJ&hl=en\n\n\n\n\n\n\n\n\nRussell Almond,FSU\n\n\n\n\n\nRussell Almond\nFlorida State University\nRole: PI for final year of project, design and coding of scoring system\nHomepage: https://ralmond.net/\nGoogle Scholar: https://scholar.google.com/citations?user=1ZTrIBcAAAAJ&hl=en\nGithub: https://github.com/ralmond; R-Universe: https://ralmond.r-universe.dev/\n\n\n\n\n\n\n\n\nRyan S. Baker,UPenn\n\n\n\n\n\nRyan S. Baker\nUniversity of Pennsylvania\nRole: Co-PI, developing logic for supports\nHomepage: https://learninganalytics.upenn.edu/ryanbaker/\nGoogle Scholar: https://scholar.google.com/citations?user=hvs8PEoAAAAJ&hl=en\n\n\n\n\n\n\n\n\nSidney D’Mello,CUBoulder\n\n\n\n\n\nSidney D’Mello\nUniversity of Colorado Boulder\nRole: Co-PI, design of affective supports\nGoogle Scholar: https://scholar.google.com/citations?user=c-LG6-MAAAAJ&hl=en\n\n\n\n\n\n\n\n\nSeyed Ahmad Rahimi,UF\n\n\n\n\n\nSeyed Ahmad Rahimi\nUniversity of Florida\nRole: Lead developer of the current game version, data collection\nHomepage: https://education.ufl.edu/faculty/rahimi-seyedahmad-ahmad/\nGoogle Scholar: https://scholar.google.com/citations?user=yDnHbAMAAAAJ&hl=en\n\n\n\n\n\n\n\n\nAdam Lamee,UCF\n\n\n\n\n\nAdam Lamee\nUniversity of Central Florida\nRole: Expert in physics teaching\nHomepage: https://adamlamee.github.io/\nGoogle Scholar: https://scholar.google.com/citations?user=1j-ueo4AAAAJ&hl=en"
   },
   {
-    "objectID": "AffectiveData.html",
-    "href": "AffectiveData.html",
-    "title": "Affective Support Data",
-    "section": "",
-    "text": "The complete data are available in the following formats:\n\nComma Separated Value\nSPSS Save file\n\n\n\nThis data subset contains just the data from the pretest and posttest questionnaires.\nPosttest columns are marked with either .ect or .pot depending on which posttest the items appear on. Note that students received the ECT and POT tests on Wednesday or Friday of the study week depending on their treatment group.\nPre, Post Data\n\n\n\nThese data contain information on how the learning supports were played. * Timestamp_XXX – These give the time at which the level was played. * TrophyLevel_XXX – what trophy the player earned. This can be gold, silver, quit or missing. The quit indicates that the player attempted the level but did not earn a trophy. * NumberAttempts_XXX – The number of attempts the player made for this game level.\nNote that the player may have attempted each level several times. There are two versions of this data file, one showing the values related to the first level and one to the last levels. In the full data set the suffixes .first and .last are added to the column names to indicate which version is used.\n\nObservables, First Attempt\nObservables, Last Attempt\n\n\n\n\nThis is data about the usage of the learning supports.\nLearning Support\n\n\n\nThis provides scores from the Bayesian Network model, which probabilities for the nine nodes in the competency model. For each none, there are three columns giving the marginal probability of the High, Medium and Low proficiency respectively. The EAP (expected a posteriori) scores are produced by assigning Low=-1, Medium=0 and High=1 and calculating the expected value.\nBayesian Network Scores\n\n\n\nThe raw JSON data is available at https://pluto.coe.fsu.edu/PhysicsPlayground/data/IES2022-AllP4Events.json.gz\nThe filtered data containing only “interesting” events is at: https://pluto.coe.fsu.edu/PhysicsPlayground/data/PPIES2022-P4Filtered.json.gz\nBoth files are compressed using gnu zip (gzip)"
-  },
-  {
-    "objectID": "AffectiveData.html#pretest-posttest-demographic-and-questionnaire-data",
-    "href": "AffectiveData.html#pretest-posttest-demographic-and-questionnaire-data",
-    "title": "Affective Support Data",
-    "section": "",
-    "text": "This data subset contains just the data from the pretest and posttest questionnaires.\nPosttest columns are marked with either .ect or .pot depending on which posttest the items appear on. Note that students received the ECT and POT tests on Wednesday or Friday of the study week depending on their treatment group.\nPre, Post Data"
-  },
-  {
-    "objectID": "AffectiveData.html#game-level-outcome-data",
-    "href": "AffectiveData.html#game-level-outcome-data",
-    "title": "Affective Support Data",
-    "section": "",
-    "text": "These data contain information on how the learning supports were played. * Timestamp_XXX – These give the time at which the level was played. * TrophyLevel_XXX – what trophy the player earned. This can be gold, silver, quit or missing. The quit indicates that the player attempted the level but did not earn a trophy. * NumberAttempts_XXX – The number of attempts the player made for this game level.\nNote that the player may have attempted each level several times. There are two versions of this data file, one showing the values related to the first level and one to the last levels. In the full data set the suffixes .first and .last are added to the column names to indicate which version is used.\n\nObservables, First Attempt\nObservables, Last Attempt"
-  },
-  {
-    "objectID": "AffectiveData.html#learning-support-usage-data",
-    "href": "AffectiveData.html#learning-support-usage-data",
-    "title": "Affective Support Data",
-    "section": "",
-    "text": "This is data about the usage of the learning supports.\nLearning Support"
-  },
-  {
-    "objectID": "AffectiveData.html#bayesian-network-scores",
-    "href": "AffectiveData.html#bayesian-network-scores",
-    "title": "Affective Support Data",
-    "section": "",
-    "text": "This provides scores from the Bayesian Network model, which probabilities for the nine nodes in the competency model. For each none, there are three columns giving the marginal probability of the High, Medium and Low proficiency respectively. The EAP (expected a posteriori) scores are produced by assigning Low=-1, Medium=0 and High=1 and calculating the expected value.\nBayesian Network Scores"
-  },
-  {
-    "objectID": "AffectiveData.html#log-files",
-    "href": "AffectiveData.html#log-files",
-    "title": "Affective Support Data",
-    "section": "",
-    "text": "The raw JSON data is available at https://pluto.coe.fsu.edu/PhysicsPlayground/data/IES2022-AllP4Events.json.gz\nThe filtered data containing only “interesting” events is at: https://pluto.coe.fsu.edu/PhysicsPlayground/data/PPIES2022-P4Filtered.json.gz\nBoth files are compressed using gnu zip (gzip)"
-  },
-  {
-    "objectID": "scripts/reloadPeople.html",
-    "href": "scripts/reloadPeople.html",
-    "title": "Untitled",
-    "section": "",
-    "text": "library(googlesheets4)\ngs4_auth(path=Sys.getenv(\"SHINY_PROTOCOL\"))\npersonsheet &lt;- gs4_get(\"1mKxvy3VQx6qOj_c2PBXsiSk9GsTiohvU-Y9uMAEqcuA\")\npersons &lt;- read_sheet(personsheet)\n\n✔ Reading from \"Personnel\".\n\n\n✔ Range 'For https://pluto.coe.fsu.edu/PhysicsDataPlayground/Personnel.html'.\n\npersons\n\n# A tibble: 32 × 9\n   Name      University `University abbrv` `Project group` `Role in the project`\n   &lt;chr&gt;     &lt;chr&gt;      &lt;chr&gt;              &lt;chr&gt;           &lt;chr&gt;                \n 1 Valerie … Florida S… FSU                Lead Investiga… PI Emeritus (Retired…\n 2 Russell … Florida S… FSU                Lead Investiga… PI for final year of…\n 3 Ryan S. … Universit… UPenn              Lead Investiga… Co-PI, developing lo…\n 4 Sidney D… Universit… CUBoulder          Lead Investiga… Co-PI, design of aff…\n 5 Seyed Ah… Universit… UF                 Lead Investiga… Lead developer of th…\n 6 Adam Lam… Universit… UCF                Lead Investiga… Expert in physics te…\n 7 Ginny Sm… Florida S… FSU                Affective Supp… Project manager, exp…\n 8 Jaclyn O… Universit… UPenn              Affective Supp… Supervising and coor…\n 9 Brandon … Universit… CUBoulder          Affective Supp… Game testing         \n10 Valdemar… Universit… UPenn              Affective Supp… Leading the experime…\n# ℹ 22 more rows\n# ℹ 4 more variables: `Google Scholar` &lt;chr&gt;, Homepage &lt;chr&gt;,\n#   `Other links` &lt;chr&gt;, `Photo link` &lt;chr&gt;"
-  },
-  {
-    "objectID": "scripts/reloadPeople.html#parameters",
-    "href": "scripts/reloadPeople.html#parameters",
-    "title": "Untitled",
-    "section": "Parameters",
-    "text": "Parameters\n\ncolumns &lt;- \"[ 30, 70 ]\"\nfigwidth &lt;- \"300\"\n\n\nhead &lt;- \n  \"---\ntitle: \\\"Personnel\\\"\neditor: \n  markdown: \n    wrap: 72\n---\n\"\nfoot &lt;- \n  \"\n  \"\n\n\nord &lt;- c(\"Lead Investigators\",\"Affective Support\",\n\"Before/After Study\", \"Alumni\")"
-  },
-  {
-    "objectID": "scripts/reloadPeople.html#build-it",
-    "href": "scripts/reloadPeople.html#build-it",
-    "title": "Untitled",
-    "section": "Build-it",
-    "text": "Build-it\n\nif (file.exists(\"Personnel.qmd\")) \n  file.remove(\"Personnel.qmd\")\n\n[1] TRUE\n\npfile &lt;- file(\"Personnel.qmd\")\nopen(pfile,open=\"wt\")\ncat(head,file=pfile)\n\n\nfor (sec in ord) {\n  cat(\"\\n\\n##\",sec,\"\\n\\n\",file=pfile)\n  cat(\":::: { layout = \",dQuote(columns,FALSE),\"}\\n\\n\",\n      file=pfile)\n  \n  for (pp in grep(sec,persons$`Project group`)) {\n    cat(\"::: {#first-column}\\n\",file=pfile)\n    \n    cat(\"![\",persons$Name[pp],\",\",\n        persons$`University abbrv`[pp],\"]\",\n        \"(\",persons$`Photo link`[pp],\")\\n\",\n        sep=\"\", file=pfile)\n    \n    cat(\":::\\n\",file=pfile)\n    cat(\"::: {#second-column}\\n\",file=pfile)\n    \n    cat(\"\\n* \",persons$Name[pp],\"\\n\",file=pfile)\n    cat(\"*\", persons$University[pp],\"\\n\",file=pfile)\n    cat(\"* **Role:** \",persons$`Role in the project`[pp],\n        \"\\n\",file=pfile)\n    if (!is.na(persons$Homepage[pp]))\n      cat(\"* **Homepage:** &lt;\",persons$Homepage[pp],\n          \"&gt;\\n\",sep=\"\",file=pfile)\n    cat(\"* **Google Scholar:** &lt;\",\n        persons$`Google Scholar`[pp],\"&gt;\\n\",\n        sep=\"\",file=pfile)\n    if (!is.na(persons$`Other links`[pp]))\n      cat(\"* \",persons$`Other links`[pp],\"\\n\",file=pfile)\n    cat(\":::\\n\\n\",file=pfile)  \n  }\n  cat(\"::::\\n\\n\",file=pfile)\n}\n\n\ncat(foot,file=pfile)\nclose(pfile)"
-  },
-  {
-    "objectID": "scripts/Personnel.html",
-    "href": "scripts/Personnel.html",
-    "title": "Personnel",
-    "section": "",
-    "text": ":::: { layout = “[ 30, 70 ]” }\n\n\n\n\nValerie Shute,FSU\n\n\n\n\n\nValerie Shute\nFlorida State University\nRole: PI Emeritus (Retired), PI through most versions\nHomepage: https://myweb.fsu.edu/vshute/index.html\nGoogle Scholar: https://scholar.google.com/citations?user=VfKOZ5IAAAAJ&hl=en\n\n\n\n\n\n\nRussell Almond,FSU\n\n\n\n\n\nRussell Almond\nFlorida State University\nRole: PI for final year of project, design and coding of scoring system\nHomepage: https://ralmond.net/\nGoogle Scholar: https://scholar.google.com/citations?user=1ZTrIBcAAAAJ&hl=en\nGithub: https://github.com/ralmond; R-Universe: https://ralmond.r-universe.dev/\n\n\n\n\n\n\nRyan S. Baker,UPenn\n\n\n\n\n\nRyan S. Baker\nUniversity of Pennsylvania\nRole: Co-PI, developing logic for supports\nHomepage: https://learninganalytics.upenn.edu/ryanbaker/\nGoogle Scholar: https://scholar.google.com/citations?user=hvs8PEoAAAAJ&hl=en\n\n\n\n\n\n\nSidney D’Mello,CUBoulder\n\n\n\n\n\nSidney D’Mello\nUniversity of Colorado Boulder\nRole: Co-PI, design of affective supports\nGoogle Scholar: https://scholar.google.com/citations?user=c-LG6-MAAAAJ&hl=en\n\n\n\n\n\n\nSeyed Ahmad Rahimi,UF\n\n\n\n\n\nSeyed Ahmad Rahimi\nUniversity of Florida\nRole: Lead developer of the current game version, data collection\nHomepage: https://education.ufl.edu/faculty/rahimi-seyedahmad-ahmad/\nGoogle Scholar: https://scholar.google.com/citations?user=yDnHbAMAAAAJ&hl=en\n\n\n\n\n\n\nAdam Lamee,UCF\n\n\n\n\n\nAdam Lamee\nUniversity of Central Florida\nRole: Expert in physics teaching\nHomepage: https://adamlamee.github.io/\nGoogle Scholar: https://scholar.google.com/citations?user=1j-ueo4AAAAJ&hl=en\n\n\n::::"
-  },
-  {
-    "objectID": "scripts/Personnel.html#lead-investigators",
-    "href": "scripts/Personnel.html#lead-investigators",
-    "title": "Personnel",
-    "section": "",
-    "text": ":::: { layout = “[ 30, 70 ]” }\n\n\n\n\nValerie Shute,FSU\n\n\n\n\n\nValerie Shute\nFlorida State University\nRole: PI Emeritus (Retired), PI through most versions\nHomepage: https://myweb.fsu.edu/vshute/index.html\nGoogle Scholar: https://scholar.google.com/citations?user=VfKOZ5IAAAAJ&hl=en\n\n\n\n\n\n\nRussell Almond,FSU\n\n\n\n\n\nRussell Almond\nFlorida State University\nRole: PI for final year of project, design and coding of scoring system\nHomepage: https://ralmond.net/\nGoogle Scholar: https://scholar.google.com/citations?user=1ZTrIBcAAAAJ&hl=en\nGithub: https://github.com/ralmond; R-Universe: https://ralmond.r-universe.dev/\n\n\n\n\n\n\nRyan S. Baker,UPenn\n\n\n\n\n\nRyan S. Baker\nUniversity of Pennsylvania\nRole: Co-PI, developing logic for supports\nHomepage: https://learninganalytics.upenn.edu/ryanbaker/\nGoogle Scholar: https://scholar.google.com/citations?user=hvs8PEoAAAAJ&hl=en\n\n\n\n\n\n\nSidney D’Mello,CUBoulder\n\n\n\n\n\nSidney D’Mello\nUniversity of Colorado Boulder\nRole: Co-PI, design of affective supports\nGoogle Scholar: https://scholar.google.com/citations?user=c-LG6-MAAAAJ&hl=en\n\n\n\n\n\n\nSeyed Ahmad Rahimi,UF\n\n\n\n\n\nSeyed Ahmad Rahimi\nUniversity of Florida\nRole: Lead developer of the current game version, data collection\nHomepage: https://education.ufl.edu/faculty/rahimi-seyedahmad-ahmad/\nGoogle Scholar: https://scholar.google.com/citations?user=yDnHbAMAAAAJ&hl=en\n\n\n\n\n\n\nAdam Lamee,UCF\n\n\n\n\n\nAdam Lamee\nUniversity of Central Florida\nRole: Expert in physics teaching\nHomepage: https://adamlamee.github.io/\nGoogle Scholar: https://scholar.google.com/citations?user=1j-ueo4AAAAJ&hl=en\n\n\n::::"
-  },
-  {
-    "objectID": "scripts/Personnel.html#affective-support",
-    "href": "scripts/Personnel.html#affective-support",
+    "objectID": "Personnel.html#affective-support",
+    "href": "Personnel.html#affective-support",
     "title": "Personnel",
     "section": "Affective Support",
-    "text": "Affective Support\n:::: { layout = “[ 30, 70 ]” }\n\n\n\n\nGinny Smith,FSU\n\n\n\n\n\nGinny Smith\nFlorida State University\nRole: Project manager, experiment design, data collection\nGoogle Scholar: https://scholar.google.com/citations?user=Przy7_gAAAAJ&hl=en\n\n\n\n\n\n\nJaclyn Ocumpaugh,UPenn\n\n\n\n\n\nJaclyn Ocumpaugh\nUniversity of Pennsylvania\nRole: Supervising and coordinating the game testing\nHomepage: https://learninganalytics.upenn.edu/index.html\nGoogle Scholar: https://scholar.google.com/citations?user=uCl6NE4AAAAJ&hl=en\n\n\n\n\n\n\nBrandon Booth,CUBoulder\n\n\n\n\n\nBrandon Booth\nUniversity of Colorado Boulder\nRole: Game testing\nHomepage: http://www.brandonmbooth.net/\nGoogle Scholar: https://scholar.google.com/citations?user=Qr-gySYAAAAJ&hl=en\n\n\n\n\n\n\nValdemar Švábenský,UPenn\n\n\n\n\n\nValdemar Švábenský\nUniversity of Pennsylvania\nRole: Leading the experiment execution, data collection\nHomepage: https://elea.sk/valdemar/\nGoogle Scholar: https://scholar.google.com/citations?user=CSMVlf0AAAAJ&hl=en\n\n\n\n\n\n\nCurt Fulwider,FSU\n\n\n\n\n\nCurt Fulwider\nFlorida State University\nRole: Data collection\nGoogle Scholar: https://scholar.google.com/citations?user=pKYZazcAAAAJ&hl=en\n\n\n\n\n\n\nGaurav Basnet,FSU\n\n\n\n\n\nGaurav Basnet\nFlorida State University\nRole: Data collection\nGoogle Scholar: &lt;?&gt;\n\n\n\n\n\n\nChaewon Kim,FSU\n\n\n\n\n\nChaewon Kim\nFlorida State University\nRole: Data collection\nGoogle Scholar: &lt;?&gt;\n\n\n::::"
+    "text": "Affective Support\n\n\n\n\n\n\nGinny Smith,FSU\n\n\n\n\n\nGinny Smith\nFlorida State University\nRole: Project manager, experiment design, data collection\nGoogle Scholar: https://scholar.google.com/citations?user=Przy7_gAAAAJ&hl=en\n\n\n\n\n\n\n\n\nJaclyn Ocumpaugh,UPenn\n\n\n\n\n\nJaclyn Ocumpaugh\nUniversity of Pennsylvania\nRole: Supervising and coordinating the game testing\nHomepage: https://learninganalytics.upenn.edu/index.html\nGoogle Scholar: https://scholar.google.com/citations?user=uCl6NE4AAAAJ&hl=en\n\n\n\n\n\n\n\n\nBrandon Booth,CUBoulder\n\n\n\n\n\nBrandon Booth\nUniversity of Colorado Boulder\nRole: Game testing\nHomepage: http://www.brandonmbooth.net/\nGoogle Scholar: https://scholar.google.com/citations?user=Qr-gySYAAAAJ&hl=en\n\n\n\n\n\n\n\n\nValdemar Švábenský,UPenn\n\n\n\n\n\nValdemar Švábenský\nUniversity of Pennsylvania\nRole: Leading the experiment execution, data collection\nHomepage: https://elea.sk/valdemar/\nGoogle Scholar: https://scholar.google.com/citations?user=CSMVlf0AAAAJ&hl=en\n\n\n\n\n\n\n\n\nCurt Fulwider,FSU\n\n\n\n\n\nCurt Fulwider\nFlorida State University\nRole: Data collection\nGoogle Scholar: https://scholar.google.com/citations?user=pKYZazcAAAAJ&hl=en\n\n\n\n\n\n\n\n\nGaurav Basnet,FSU\n\n\n\n\n\nGaurav Basnet\nFlorida State University\nRole: Data collection\nGoogle Scholar: &lt;?&gt;\n\n\n\n\n\n\n\n\nChaewon Kim,FSU\n\n\n\n\n\nChaewon Kim\nFlorida State University\nRole: Data collection\nGoogle Scholar: &lt;?&gt;"
   },
   {
-    "objectID": "scripts/Personnel.html#beforeafter-study",
-    "href": "scripts/Personnel.html#beforeafter-study",
+    "objectID": "Personnel.html#beforeafter-study",
+    "href": "Personnel.html#beforeafter-study",
     "title": "Personnel",
     "section": "Before/After Study",
-    "text": "Before/After Study\n:::: { layout = “[ 30, 70 ]” }\n\n\n\n\nChen Sun,NA\n\n\n\n\n\nChen Sun\nUniversity of Manchester\nRole: Level design, scoring engine construction\nGoogle Scholar: https://scholar.google.com/citations?user=Y66npM8AAAAJ&hl=en\n\n\n\n\n\n\nXiaotong Yang,FSU\n\n\n\n\n\nXiaotong Yang\nFlorida State University\nRole: Development of pretest and posttest\nGoogle Scholar: https://scholar.google.com/citations?user=f1E8l3QAAAAJ&hl=en\n\n\n\n\n\n\nZhichun “Lukas” Liu,NA\n\n\n\n\n\nZhichun “Lukas” Liu\nUniversity of Hong Kong\nRole: Analysis of log files\nHomepage: https://web.edu.hku.hk/faculty-academics/lukasliu\nGoogle Scholar: https://scholar.google.com/citations?user=HcASJEIAAAAJ&hl=en\n\n\n::::"
+    "text": "Before/After Study\n\n\n\n\n\n\nChen Sun,NA\n\n\n\n\n\nChen Sun\nUniversity of Manchester\nRole: Level design, scoring engine construction\nGoogle Scholar: https://scholar.google.com/citations?user=Y66npM8AAAAJ&hl=en\n\n\n\n\n\n\n\n\nXiaotong Yang,FSU\n\n\n\n\n\nXiaotong Yang\nFlorida State University\nRole: Development of pretest and posttest\nGoogle Scholar: https://scholar.google.com/citations?user=f1E8l3QAAAAJ&hl=en\n\n\n\n\n\n\n\n\nZhichun “Lukas” Liu,NA\n\n\n\n\n\nZhichun “Lukas” Liu\nUniversity of Hong Kong\nRole: Analysis of log files\nHomepage: https://web.edu.hku.hk/faculty-academics/lukasliu\nGoogle Scholar: https://scholar.google.com/citations?user=HcASJEIAAAAJ&hl=en"
   },
   {
-    "objectID": "scripts/Personnel.html#alumni",
-    "href": "scripts/Personnel.html#alumni",
+    "objectID": "Personnel.html#alumni",
+    "href": "Personnel.html#alumni",
     "title": "Personnel",
     "section": "Alumni",
-    "text": "Alumni\n:::: { layout = “[ 30, 70 ]” }\n\n\n\n\nFengfeng Ke,FSU\n\n\n\n\n\nFengfeng Ke\nFlorida State University\nRole: Co-PI for NSF and Gates projects\nHomepage: https://myweb.fsu.edu/fke/\nGoogle Scholar: https://scholar.google.com/citations?user=75jPVJIAAAAJ&hl=en\n\n\n\n\n\n\nStefan Slater,UPenn\n\n\n\n\n\nStefan Slater\nUniversity of Pennsylvania\nRole: NA\nHomepage: http://stefanslater.com/\nGoogle Scholar: https://scholar.google.com/citations?user=0yzbPoQAAAAJ&hl=en\n\n\n\n\n\n\nKatie Bainbridge,NA\n\n\n\n\n\nKatie Bainbridge\nRice University\nRole: NA\nGoogle Scholar: https://scholar.google.com/citations?user=n-anFIgAAAAJ&hl=en\n\n\n\n\n\n\nChih-Pu Dai,FSU\n\n\n\n\n\nChih-Pu Dai\nFlorida State University\nRole: Worked on NSF project\nHomepage: http://www2.hawaii.edu/~cdai/\nGoogle Scholar: https://scholar.google.com/citations?user=Vp5Y6fYAAAAJ&hl=en\n\n\n\n\n\n\nRenata Kuba,FSU\n\n\n\n\n\nRenata Kuba\nFlorida State University\nRole: Worked on NSF project\nGoogle Scholar: https://scholar.google.com/citations?user=5Ek98gwAAAAJ&hl=en\n\n\n\n\n\n\nXi Lu,FSU\n\n\n\n\n\nXi Lu\nFlorida State University\nRole: Responsible for many of the game levels\nGoogle Scholar: &lt;?&gt;\n\n\n\n\n\n\nSeyfullah Tingir,FSU\n\n\n\n\n\nSeyfullah Tingir\nFlorida State University\nRole: Worked on developing the scoring engine\nGoogle Scholar: https://scholar.google.com/citations?user=iSFVVycAAAAJ&hl=en\n\n\n\n\n\n\nCatherine A. Spann,CUBoulder\n\n\n\n\n\nCatherine A. Spann\nUniversity of Colorado Boulder\nRole: NA\nGoogle Scholar: https://scholar.google.com/citations?user=TCSu1jIAAAAJ&hl=en\n\n\n\n\n\n\nWeinan Zhao,NA\n\n\n\n\n\nWeinan Zhao\nOlivet University\nRole: Porting the game into Unity\nGoogle Scholar: https://scholar.google.com/citations?user=Lf0a9e0AAAAJ&hl=en\n\n\n\n\n\n\nXinhao Xu,NA\n\n\n\n\n\nXinhao Xu\nUniversity of Missouri\nRole: NA\nGoogle Scholar: https://scholar.google.com/citations?user=XD17HxEAAAAJ&hl=en\n\n\n\n\n\n\nShamya Karumbaiah,NA\n\n\n\n\n\nShamya Karumbaiah\nUniversity of Wisconsin-Madison\nRole: NA\nHomepage: https://shamya.github.io/\nGoogle Scholar: https://scholar.google.com/citations?user=5w4I9VMAAAAJ&hl=en\n\n\n\n\n\n\nDon Franceschetti,NA\n\n\n\n\n\nDon Franceschetti\nUniversity of Memphis\nRole: Until his death in 2019, Don served as the primary Physics advisor\nHomepage: https://paw.princeton.edu/memorial/donald-r-franceschetti-74\nGoogle Scholar: \n\n\n\n\n\n\nLubin Wang,NA\n\n\n\n\n\nLubin Wang\nNA\nRole: NA\nGoogle Scholar: \n\n\n\n\n\n\nMatthew Small,NA\n\n\n\n\n\nMatthew Small\nNA\nRole: Programmer for First (Gates) version\nGoogle Scholar: \n\n\n\n\n\n\nMatthew Ventura,NA\n\n\n\n\n\nMatthew Ventura\nNA\nRole: Leader on Gates Project, Research on Persistance\nGoogle Scholar: \n\n\n\n\n\n\nYoon-Jeon Kim,NA\n\n\n\n\n\nYoon-Jeon Kim\nNA\nRole: NA\nGoogle Scholar: \n\n\n::::"
-  },
-  {
-    "objectID": "Events.html",
-    "href": "Events.html",
-    "title": "Event Logs",
-    "section": "",
-    "text": "Events are stored in the Proc 4 format (ralmond2019a?). It is converted from the xAPI (xAPI?) format using in Learning Locker (LearningLocker?) by the dongle code in the Proc4 (Proc4?) package. In particular, it means that messages are identified by (verb, object) pairs (xAPI-style) not single mess strings (Proc4-style)\nThe JSON format is as follows:\n\n{\n  app: \"ecd://epls.coe.fsu.edu/PhysicsPlayground/IES/Fall22/BigStudy\",  /* Fixed String */\n  uid: \"[A-F]0000\",\n  context: \"Game Level\",\n  sender: \"PP Learning Locker\",  /* Fixed String */\n  verb: &lt;&lt;see event vocabulary&gt;&gt;, \n  object &lt;&lt;see event vocabulary&gt;&gt;, \n  timestamp: POSIX time string, /* When event was logged. */\n  processed: logical,  /* For internal EI use */\n  pErr: string, /* Error code from processing (if any) */\n  data: { &lt;&lt;Arbitrary JSON document&gt;&gt;}\n}\n\nThe app and sender strings are constant, so are probably not interesting.\nThe first character of the uid gives the study condition."
-  },
-  {
-    "objectID": "Events.html#proc4-and-xapi-formats",
-    "href": "Events.html#proc4-and-xapi-formats",
-    "title": "Event Logs",
-    "section": "",
-    "text": "Events are stored in the Proc 4 format (ralmond2019a?). It is converted from the xAPI (xAPI?) format using in Learning Locker (LearningLocker?) by the dongle code in the Proc4 (Proc4?) package. In particular, it means that messages are identified by (verb, object) pairs (xAPI-style) not single mess strings (Proc4-style)\nThe JSON format is as follows:\n\n{\n  app: \"ecd://epls.coe.fsu.edu/PhysicsPlayground/IES/Fall22/BigStudy\",  /* Fixed String */\n  uid: \"[A-F]0000\",\n  context: \"Game Level\",\n  sender: \"PP Learning Locker\",  /* Fixed String */\n  verb: &lt;&lt;see event vocabulary&gt;&gt;, \n  object &lt;&lt;see event vocabulary&gt;&gt;, \n  timestamp: POSIX time string, /* When event was logged. */\n  processed: logical,  /* For internal EI use */\n  pErr: string, /* Error code from processing (if any) */\n  data: { &lt;&lt;Arbitrary JSON document&gt;&gt;}\n}\n\nThe app and sender strings are constant, so are probably not interesting.\nThe first character of the uid gives the study condition."
+    "text": "Alumni\n\n\n\n\n\n\nFengfeng Ke,FSU\n\n\n\n\n\nFengfeng Ke\nFlorida State University\nRole: Co-PI for NSF and Gates projects\nHomepage: https://myweb.fsu.edu/fke/\nGoogle Scholar: https://scholar.google.com/citations?user=75jPVJIAAAAJ&hl=en\n\n\n\n\n\n\n\n\nStefan Slater,UPenn\n\n\n\n\n\nStefan Slater\nUniversity of Pennsylvania\nRole: NA\nHomepage: http://stefanslater.com/\nGoogle Scholar: https://scholar.google.com/citations?user=0yzbPoQAAAAJ&hl=en\n\n\n\n\n\n\n\n\nKatie Bainbridge,NA\n\n\n\n\n\nKatie Bainbridge\nRice University\nRole: NA\nGoogle Scholar: https://scholar.google.com/citations?user=n-anFIgAAAAJ&hl=en\n\n\n\n\n\n\n\n\nChih-Pu Dai,FSU\n\n\n\n\n\nChih-Pu Dai\nFlorida State University\nRole: Worked on NSF project\nHomepage: http://www2.hawaii.edu/~cdai/\nGoogle Scholar: https://scholar.google.com/citations?user=Vp5Y6fYAAAAJ&hl=en\n\n\n\n\n\n\n\n\nRenata Kuba,FSU\n\n\n\n\n\nRenata Kuba\nFlorida State University\nRole: Worked on NSF project\nGoogle Scholar: https://scholar.google.com/citations?user=5Ek98gwAAAAJ&hl=en\n\n\n\n\n\n\n\n\nXi Lu,FSU\n\n\n\n\n\nXi Lu\nFlorida State University\nRole: Responsible for many of the game levels\nGoogle Scholar: &lt;?&gt;\n\n\n\n\n\n\n\n\nSeyfullah Tingir,FSU\n\n\n\n\n\nSeyfullah Tingir\nFlorida State University\nRole: Worked on developing the scoring engine\nGoogle Scholar: https://scholar.google.com/citations?user=iSFVVycAAAAJ&hl=en\n\n\n\n\n\n\n\n\nCatherine A. Spann,CUBoulder\n\n\n\n\n\nCatherine A. Spann\nUniversity of Colorado Boulder\nRole: NA\nGoogle Scholar: https://scholar.google.com/citations?user=TCSu1jIAAAAJ&hl=en\n\n\n\n\n\n\n\n\nWeinan Zhao,NA\n\n\n\n\n\nWeinan Zhao\nOlivet University\nRole: Porting the game into Unity\nGoogle Scholar: https://scholar.google.com/citations?user=Lf0a9e0AAAAJ&hl=en\n\n\n\n\n\n\n\n\nXinhao Xu,NA\n\n\n\n\n\nXinhao Xu\nUniversity of Missouri\nRole: NA\nGoogle Scholar: https://scholar.google.com/citations?user=XD17HxEAAAAJ&hl=en\n\n\n\n\n\n\n\n\nShamya Karumbaiah,NA\n\n\n\n\n\nShamya Karumbaiah\nUniversity of Wisconsin-Madison\nRole: NA\nHomepage: https://shamya.github.io/\nGoogle Scholar: https://scholar.google.com/citations?user=5w4I9VMAAAAJ&hl=en\n\n\n\n\n\n\n\n\nDon Franceschetti,NA\n\n\n\n\n\nDon Franceschetti\nUniversity of Memphis\nRole: Until his death in 2019, Don served as the primary Physics advisor\nHomepage: https://paw.princeton.edu/memorial/donald-r-franceschetti-74\nGoogle Scholar: \n\n\n\n\n\n\n\n\nLubin Wang,NA\n\n\n\n\n\nLubin Wang\nNA\nRole: NA\nGoogle Scholar: \n\n\n\n\n\n\n\n\nMatthew Small,NA\n\n\n\n\n\nMatthew Small\nNA\nRole: Programmer for First (Gates) version\nGoogle Scholar: \n\n\n\n\n\n\n\n\nMatthew Ventura,NA\n\n\n\n\n\nMatthew Ventura\nNA\nRole: Leader on Gates Project, Research on Persistance\nGoogle Scholar: \n\n\n\n\n\n\n\n\nYoon-Jeon Kim,NA\n\n\n\n\n\nYoon-Jeon Kim\nNA\nRole: NA\nGoogle Scholar:"
   }
 ]

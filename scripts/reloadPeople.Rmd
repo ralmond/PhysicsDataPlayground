@@ -61,8 +61,9 @@ cat(head,file=pfile)
 ```{r mainLoop}
 for (sec in ord) {
   cat("\n\n##",sec,"\n\n",file=pfile)
-  cat(":::: { layout = ",dQuote(columns,FALSE),"}\n\n",
-      file=pfile)
+  ## Quarto is really sensitive to whitespace
+  cat(":::: {layout=",dQuote(columns,FALSE),"}\n\n",
+      sep="",file=pfile)
   
   for (pp in grep(sec,persons$`Project group`)) {
     cat("::: {#first-column}\n",file=pfile)
