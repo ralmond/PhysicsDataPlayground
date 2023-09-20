@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.3.450">
+<meta name="generator" content="quarto-1.3.353">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -55,8 +55,7 @@ ul.task-list li input[type="checkbox"] {
     "search-more-matches-text": "more matches in this document",
     "search-clear-button-title": "Clear",
     "search-detached-cancel-button-title": "Cancel",
-    "search-submit-button-title": "Submit",
-    "search-label": "Search"
+    "search-submit-button-title": "Submit"
   }
 }</script>
 
@@ -193,7 +192,14 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#data-from-the-beforeafter-study" id="toc-data-from-the-beforeafter-study" class="nav-link active" data-scroll-target="#data-from-the-beforeafter-study">Data from the Before/After Study</a></li>
+  <li><a href="#data-from-the-beforeafter-study" id="toc-data-from-the-beforeafter-study" class="nav-link active" data-scroll-target="#data-from-the-beforeafter-study">Data from the Before/After Study</a>
+  <ul class="collapse">
+  <li><a href="#pretest-posttest-and-questionnaires" id="toc-pretest-posttest-and-questionnaires" class="nav-link" data-scroll-target="#pretest-posttest-and-questionnaires">Pretest, Posttest and Questionnaires</a></li>
+  <li><a href="#bayesian-network-scores" id="toc-bayesian-network-scores" class="nav-link" data-scroll-target="#bayesian-network-scores">Bayesian Network Scores</a></li>
+  <li><a href="#observables-first-and-last" id="toc-observables-first-and-last" class="nav-link" data-scroll-target="#observables-first-and-last">Observables (First and Last)</a></li>
+  <li><a href="#learning-supports" id="toc-learning-supports" class="nav-link" data-scroll-target="#learning-supports">Learning Supports</a></li>
+  <li><a href="#full-join" id="toc-full-join" class="nav-link" data-scroll-target="#full-join">Full Join</a></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
@@ -219,8 +225,46 @@ ul.task-list li input[type="checkbox"] {
 
 <section id="data-from-the-beforeafter-study" class="level1">
 <h1>Data from the Before/After Study</h1>
+<p>The amount of data is rather large, so it is split into several files. The variable <code>StudyID</code> is a primary key which can be used to join the data sets together.</p>
+<section id="pretest-posttest-and-questionnaires" class="level2">
+<h2 class="anchored" data-anchor-id="pretest-posttest-and-questionnaires">Pretest, Posttest and Questionnaires</h2>
+<p>This data file contains demographic data about the participants, pretest data, posttest data, and the IMI and PA questionnares.</p>
+<p><a href="Data/PPIESFall2022PrePost.csv">Pre/Post Data</a></p>
+</section>
+<section id="bayesian-network-scores" class="level2">
+<h2 class="anchored" data-anchor-id="bayesian-network-scores">Bayesian Network Scores</h2>
+<p>Bayesian network sheet contains the scores from running the Bayesian network engine.</p>
+<p>The <code>context</code> column is the last level played by that player.</p>
+<p>The <code>EAP</code> (expected <em>a posteriori</em>) scores run from -1 (low) to 1 (high). These are based on an average of the corresponding <code>Margin.High</code>, <code>Margin.Medium</code>, and <code>Margin.Low</code> scores.</p>
+<p><a href="Data/PPIESFall2022BN.csv">Bayesian Network Scores</a></p>
+</section>
+<section id="observables-first-and-last" class="level2">
+<h2 class="anchored" data-anchor-id="observables-first-and-last">Observables (First and Last)</h2>
+<p>The observables tables record per-level information. This is presented in “wide” format, so the column names consist of <em>game level_variable</em>.</p>
+<p>The player may have played the game multiple times; in this case, the “First” sheet gives the values associated with the first attempt, and the “Last” gives the value associated with the last attempt.</p>
+<p><a href="Data/PPIESFall2022obsFirst.csv">Observables from First Attempt</a> <a href="Data/PPIESFall2022obsLast.csv">Observables from Last Attempt</a></p>
+</section>
+<section id="learning-supports" class="level2">
+<h2 class="anchored" data-anchor-id="learning-supports">Learning Supports</h2>
+<p>This data set records the usage of learning supports. The available learning supports are:</p>
+<ul>
+<li>game tools</li>
+<li>hint</li>
+<li>physics animation: ramp</li>
+<li>physics animation: lever</li>
+<li>physics animation: pendulum</li>
+<li>physics animation: springboard</li>
+</ul>
+<p>Not all learning supports are available on all levels. In particular, the animations are associated with levels which use that particular agent of motion.</p>
+<p><a href="Data/PPIESFall2022ls.csv">Learning Support</a></p>
+</section>
+<section id="full-join" class="level2">
+<h2 class="anchored" data-anchor-id="full-join">Full Join</h2>
+<p>Joining all of the above data sets produces a rather large file. Here it is in both <code>csv</code> (comma separated value) and <code>sav</code> (SPSS) formats.</p>
+<p><a href="Data/PPIESFall2022Full.csv">CSV format</a> <a href="Data/PPIESFall2022BigDaddy.sav">SPSS format</a></p>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->

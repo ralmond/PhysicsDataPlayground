@@ -48,8 +48,16 @@ between the two uses.
 
 ## Near Transfer:  Energy Can Transfer (ECT-Near)
 
+Questions `A-NQ1` through `A-NQ8` are all based on the energy can transfer competency.
+
 ## Near Transfer: Properties of Torque (POT-Near)
+
+Questions `A-NQ9` through `A-NQ14` are all based on the properties of torque competency.
 
 ## Far Transfer:  Energy Can Transfer (ECT-Far)
 
+Questions `A-FQ1` through `A-FQ8` are all based on the energy can transfer competency.
+
 ## Far Transfer:  Properties of Torque (POT-Far)
+
+Questions `A-FQ9` through `A-FQ14` are all based on the properties of torque competency.

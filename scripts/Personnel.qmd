@@ -230,6 +230,7 @@ editor:
 * **Role:**  Co-PI for NSF and Gates projects 
 * **Homepage:** <https://myweb.fsu.edu/fke/>
 * **Google Scholar:** <https://scholar.google.com/citations?user=75jPVJIAAAAJ&hl=en>
+*  **ERebuild**:  <https://erebuild.coe.fsu.edu> 
 :::
 
 ::: {#first-column}

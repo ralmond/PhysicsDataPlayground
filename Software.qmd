@@ -4,6 +4,32 @@ title: "Software"
 
 ## Physics Playground Game Engine
 
+### Game Engine
+
+The _Physics Playground_ game engine is written in [Unity](https://unity.com).  The
+current version was written by Weinan Zhang and Ahmad Rahimi based on an older (2014) C++
+version written by Matthew Small and Matthew Ventura.  Contact us if you would like access
+to the source code.
+
+_Physics Playground_ uses a client-server architecture.  The client logs into the machine
+with a web browser (most modern browsers which support ECMAScript should work).  After
+validating the user's credentials, it sends down a package which contains the game engine 
+and levels.
+
+On the server, game levels are grouped into _playgrounds_.  Each user ID is given a
+sequence of playgrounds that they should play through.  In the current incarnation, user 
+IDs need to be created on the server and associated with the relevant playgrounds.
+
+The client (in the player's web browser) periodically send information back to the server
+about the players progress.  This is logged using [Learning
+Locker](https://learninglocker.atlassian.net/wiki/spaces/DOCS/overview). 
+
+
+
+### Level Editor
+
+### Current Game Levels
+
 ## Peanut Bayesian network engine
 
 ### RNetica

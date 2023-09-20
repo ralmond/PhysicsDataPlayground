@@ -4,3 +4,65 @@ title: "Before After Data"
 
 # Data from the Before/After Study
 
+The amount of data is rather large, so it is split into several files.
+The variable `StudyID` is a primary key which can be used to join the data sets together.
+
+## Pretest, Posttest and Questionnaires
+
+This data file contains demographic data about the participants, pretest data,
+posttest data, and the IMI and PA questionnares.
+
+[Pre/Post Data](Data/PPIESFall2022PrePost.csv)
+
+## Bayesian Network Scores
+
+Bayesian network sheet contains the scores from running the Bayesian network engine.  
+
+The `context` column is the last level played by that player.  
+
+The `EAP` (expected _a posteriori_) scores run from
+-1 (low) to 1 (high).  These are based on an average of the corresponding `Margin.High`, `Margin.Medium`, and `Margin.Low` scores.   
+
+[Bayesian Network Scores](Data/PPIESFall2022BN.csv)
+
+## Observables (First and Last)
+
+The observables tables record per-level information.  This is presented in "wide" format,
+so the column names consist of _game level\_variable_.  
+
+The player may have played the game multiple times; in this case, the "First" sheet gives
+the values associated with the first attempt, and the "Last" gives the value associated
+with the last attempt.
+
+[Observables from First Attempt](Data/PPIESFall2022obsFirst.csv)
+[Observables from Last Attempt](Data/PPIESFall2022obsLast.csv)
+
+## Learning Supports
+
+This data set records the usage of learning supports.  The available learning supports are:
+
+* game tools
+* hint
+* physics animation: ramp
+* physics animation: lever
+* physics animation: pendulum
+* physics animation: springboard
+
+Not all learning supports are available on all levels.  In particular, the animations are
+associated with levels which use that particular agent of motion.
+
+[Learning Support](Data/PPIESFall2022ls.csv)
+
+## Full Join
+
+Joining all of the above data sets produces a rather large file.  Here it is in both `csv`
+(comma separated value) and `sav` (SPSS) formats.
+
+[CSV format](Data/PPIESFall2022Full.csv)
+[SPSS format](Data/PPIESFall2022BigDaddy.sav)
+
+
+
+
+
+
