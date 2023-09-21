@@ -1,0 +1,19 @@
+Number,ID,Scale,Reverse,Stem
+1,IMI_1,Enj,FALSE,I enjoyed playing the game very much
+2,IMI_2,Enj,FALSE,The game was fun to play.
+3,IMI_3,Eng,TRUE,I thought the game was boring
+4,IMI_4,Eng,TRUE,The game did not hold my attention at all.
+5,IMI_5,Eng,FALSE,I would describe the game as very interesting.
+6,IMI_6,PC,FALSE,I think I am pretty good at the game.
+7,IMI_7,PC,FALSE,I think I did pretty well in the game compared to other students.
+8,IMI_8,PC,FALSE,I am satisfied with my performance in the game.
+9,IMI_9,PC,TRUE,I couldn't play the game very well.
+10,IMI_10,Effort,FALSE,I put a lot of effort into the game.
+11,IMI_11,Effort,TRUE,I didn't try very hard to do well in the game.
+12,IMI_12,Effort,FALSE,I tried very hard in the game.
+13,IMI_13,Effort,TRUE,I didn't put much energy into the game.
+14,IMI_14,Frust,FALSE,I did not feel frustrated at all while playing the game.
+15,IMI_15,Frust,TRUE,I felt very frustrated while playing the game.
+16,IMI_16,Frust,FALSE,I was very relaxed while playing the game.
+17,IMI_17,Value,FALSE,I would be willing to play the game again because it has some value to me.
+18,IMI_18,Value,FALSE,I believe playing the game could be beneficial to me.

@@ -2,5 +2,24 @@
 title: "Learning Support Reactions"
 ---
 
-# Learning Support (Physics Animation; PA) Reactions
+The PA (physics animation) gives the players response to the
+learning supports, particularly the physics animations.  All items
+were given on a 5-point Likeart scale:
 
+"Strongly Agree" (1), "Somewhat agree" (2), "Neither agree nor disagree" (3), "Somewhat disagree" (4), "Strongly disagree" (5)
+
+```{r PAscale}
+#| warning: false
+#| message: false
+PA <- readr::read_csv("Instruments/KeysAndCodes_PA.csv")
+knitr::kable(PA[,3:1])
+```
+The PA scale was given twice, once with the ECT posttest, and
+once with the PA posttest.  In the data files, `PAX` is the
+version given with the ECT test and `PAX.pot` is the version
+given with the POT test.  
+
+Note that students in some study conditions received the ECT test
+midweek and the POT test at the end of the week, with the others
+having the opposite order.  The `Midtest` and `Posttest` columns
+in the data file indicate the sequencing of the two tests.

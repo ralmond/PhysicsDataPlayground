@@ -2,7 +2,41 @@
 title: "Intrinsic Motivation Inventory"
 ---
 
-# Intrinsic Motivation Inventory
+The intristic motivation inventory (IMI) is a rating scale on a
+number of questions related to the
+participants' enjoyment of the game and motivation to do well.
+All questions were asked on a seven point Likeart scale with
+answers ranging from "Not at all true" (1) to "Very True" (7).
+The mid-anchor at scale point 4 was "Somewhat true"; no text 
+descriptions were given for the other scale points.
+
+The table below gives the text of the prompts, with an indication
+of which ones were reverse coded.
+
+```{r IMIscale}
+#| warning: false
+#| message: false
+IMI <- readr::read_csv("Instruments/KeysAndCodes_IMI.csv")
+knitr::kable(IMI[,2:5])
+```
+The IMI scale was given twice, once with the ECT posttest, and
+once with the POT posttest.  In the data files, `IMI_XXX` is the
+version given with the ECT test and `IMI_XXX.pot` is the version
+given with the POT test.  
+
+Note that students in some study conditions received the ECT test
+midweek and the POT test at the end of the week, with the others
+having the opposite order.  The `Midtest` and `Posttest` columns
+in the data file indicate the sequencing of the two tests.
+
 
 ## Subscales
 
+The following subscales are available in the IMI data:
+
+* `Enj` -- Enjoyment (Items 1 and 2)
+* `Eng` -- Engagement (Items 3 through 5)
+* `PC` -- Player Confidence [?] (Items 6 through 9)
+* `Effort` -- Player effort (Items 10 through 13)
+* `Frust` -- Frustration (Items 14 through 16)
+* `Value` -- Value of experience beyond the game (Items 17 and 18)
