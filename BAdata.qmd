@@ -12,7 +12,7 @@ The variable `StudyID` is a primary key which can be used to join the data sets 
 This data file contains demographic data about the participants, pretest data,
 posttest data, and the IMI and PA questionnares.
 
-[Pre/Post Data](Data/PPIESFall2022PrePost.csv)
+[Pre/Post Data]()
 
 ## Bayesian Network Scores
 
@@ -23,7 +23,7 @@ The `context` column is the last level played by that player.
 The `EAP` (expected _a posteriori_) scores run from
 -1 (low) to 1 (high).  These are based on an average of the corresponding `Margin.High`, `Margin.Medium`, and `Margin.Low` scores.   
 
-[Bayesian Network Scores](Data/PPIESFall2022BN.csv)
+[Bayesian Network Scores]()
 
 ## Observables (First and Last)
 
@@ -34,8 +34,8 @@ The player may have played the game multiple times; in this case, the "First" sh
 the values associated with the first attempt, and the "Last" gives the value associated
 with the last attempt.
 
-[Observables from First Attempt](Data/PPIESFall2022obsFirst.csv)
-[Observables from Last Attempt](Data/PPIESFall2022obsLast.csv)
+[Observables from First Attempt]()
+[Observables from Last Attempt]()
 
 ## Learning Supports
 

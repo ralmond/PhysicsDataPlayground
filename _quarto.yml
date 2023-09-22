@@ -29,9 +29,9 @@ website:
           text: "Affective Support"
       - text: "Data"
         menu:
-        - href: BAdata.qmd <<Includes summary statistics>
+        - href: BAdata.qmd
           text: "Before/After Study"
-        - href: AffectiveData.qmd <<Includes summary statistics>
+        - href: AffectiveData.qmd
           text: "Affective Support"
         - href: Events.qmd
           text: "Log files"

@@ -20,6 +20,40 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
 </style>
 
 
@@ -137,11 +171,11 @@ ul.task-list li input[type="checkbox"] {
     </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-data">    
         <li>
-    <a class="dropdown-item" href="./BAdata.qmd <" rel="" target="">
+    <a class="dropdown-item" href="./BAdata.html" rel="" target="">
  <span class="dropdown-text">Before/After Study</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./AffectiveData.qmd <" rel="" target="">
+    <a class="dropdown-item" href="./AffectiveData.html" rel="" target="">
  <span class="dropdown-text">Affective Support</span></a>
   </li>  
         <li>
@@ -189,13 +223,7 @@ ul.task-list li input[type="checkbox"] {
 </figure>
 </div>
 </div></div>
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
-   
-  <ul>
-  <li><a href="#learning-support-physics-animation-pa-reactions" id="toc-learning-support-physics-animation-pa-reactions" class="nav-link active" data-scroll-target="#learning-support-physics-animation-pa-reactions">Learning Support (Physics Animation; PA) Reactions</a></li>
-  </ul>
-</nav>
+        
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
@@ -217,11 +245,69 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<section id="learning-support-physics-animation-pa-reactions" class="level1">
-<h1>Learning Support (Physics Animation; PA) Reactions</h1>
+<p>The PA (physics animation) gives the players response to the learning supports, particularly the physics animations. All items were given on a 5-point Likeart scale:</p>
+<p>“Strongly Agree” (1), “Somewhat agree” (2), “Neither agree nor disagree” (3), “Somewhat disagree” (4), “Strongly disagree” (5)</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>PA <span class="ot">&lt;-</span> readr<span class="sc">::</span><span class="fu">read_csv</span>(<span class="st">"Instruments/KeysAndCodes_PA.csv"</span>)</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>knitr<span class="sc">::</span><span class="fu">kable</span>(PA[,<span class="dv">3</span><span class="sc">:</span><span class="dv">1</span>])</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output-display">
+<table class="table table-sm table-striped small">
+<colgroup>
+<col style="width: 4%">
+<col style="width: 9%">
+<col style="width: 85%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">ID</th>
+<th style="text-align: left;">Reversed</th>
+<th style="text-align: left;">stem</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">PA1</td>
+<td style="text-align: left;">FALSE</td>
+<td style="text-align: left;">The physics videos helped me solve levels.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">PA2</td>
+<td style="text-align: left;">FALSE</td>
+<td style="text-align: left;">The physics videos helped me answer the physics test questions.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">PA3</td>
+<td style="text-align: left;">FALSE</td>
+<td style="text-align: left;">The physics videos helped me learn some physics</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">PA4</td>
+<td style="text-align: left;">TRUE</td>
+<td style="text-align: left;">I’d prefer to play the game without the physics videos.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">PA5</td>
+<td style="text-align: left;">TRUE</td>
+<td style="text-align: left;">The physics videos were annoying</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">PA6</td>
+<td style="text-align: left;">TRUE</td>
+<td style="text-align: left;">It was unclear how the physics videos were supposed to help me solve the level</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">PA7</td>
+<td style="text-align: left;">FALSE</td>
+<td style="text-align: left;">The physics videos made me like the game more</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<p>The PA scale was given twice, once with the ECT posttest, and once with the PA posttest. In the data files, <code>PAX</code> is the version given with the ECT test and <code>PAX.pot</code> is the version given with the POT test.</p>
+<p>Note that students in some study conditions received the ECT test midweek and the POT test at the end of the week, with the others having the opposite order. The <code>Midtest</code> and <code>Posttest</code> columns in the data file indicate the sequencing of the two tests.</p>
 
 
-</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

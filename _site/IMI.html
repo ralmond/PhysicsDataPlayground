@@ -171,11 +171,11 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-data">    
         <li>
-    <a class="dropdown-item" href="./BAdata.qmd <" rel="" target="">
+    <a class="dropdown-item" href="./BAdata.html" rel="" target="">
  <span class="dropdown-text">Before/After Study</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./AffectiveData.qmd <" rel="" target="">
+    <a class="dropdown-item" href="./AffectiveData.html" rel="" target="">
  <span class="dropdown-text">Affective Support</span></a>
   </li>  
         <li>
@@ -227,10 +227,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#intrinsic-motivation-inventory" id="toc-intrinsic-motivation-inventory" class="nav-link active" data-scroll-target="#intrinsic-motivation-inventory">Intrinsic Motivation Inventory</a>
-  <ul class="collapse">
-  <li><a href="#subscales" id="toc-subscales" class="nav-link" data-scroll-target="#subscales">Subscales</a></li>
-  </ul></li>
+  <li><a href="#subscales" id="toc-subscales" class="nav-link active" data-scroll-target="#subscales">Subscales</a></li>
   </ul>
 </nav>
     </div>
@@ -254,12 +251,10 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 </header>
 
-<section id="intrinsic-motivation-inventory" class="level1">
-<h1>Intrinsic Motivation Inventory</h1>
-<p>This is a rating scale on a number of questions related to the participants enjoyment of the game and motivation to do well. All questions were asked on a seven point Likeart scale with answers ranging from “Not at all true” (1) to “Very True” (7). The mid-anchor at scale point 4 was “Somewhat true”; no text descriptions were given for the other scale points.</p>
+<p>The intristic motivation inventory (IMI) is a rating scale on a number of questions related to the participants’ enjoyment of the game and motivation to do well. All questions were asked on a seven point Likeart scale with answers ranging from “Not at all true” (1) to “Very True” (7). The mid-anchor at scale point 4 was “Somewhat true”; no text descriptions were given for the other scale points.</p>
 <p>The table below gives the text of the prompts, with an indication of which ones were reverse coded.</p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>IMI <span class="ot">&lt;-</span> readr<span class="sc">::</span><span class="fu">read_csv</span>(<span class="st">"Instruments/IMI.csv"</span>)</span>
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>IMI <span class="ot">&lt;-</span> readr<span class="sc">::</span><span class="fu">read_csv</span>(<span class="st">"Instruments/KeysAndCodes_IMI.csv"</span>)</span>
 <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>knitr<span class="sc">::</span><span class="fu">kable</span>(IMI[,<span class="dv">2</span><span class="sc">:</span><span class="dv">5</span>])</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output-display">
 <table class="table table-sm table-striped small">
@@ -274,7 +269,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <th style="text-align: left;">ID</th>
 <th style="text-align: left;">Scale</th>
 <th style="text-align: left;">Reverse</th>
-<th style="text-align: left;">Question</th>
+<th style="text-align: left;">Stem</th>
 </tr>
 </thead>
 <tbody>
@@ -298,13 +293,13 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </tr>
 <tr class="even">
 <td style="text-align: left;">IMI_4</td>
-<td style="text-align: left;">Enj</td>
+<td style="text-align: left;">Eng</td>
 <td style="text-align: left;">TRUE</td>
 <td style="text-align: left;">The game did not hold my attention at all.</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">IMI_5</td>
-<td style="text-align: left;">Enj</td>
+<td style="text-align: left;">Eng</td>
 <td style="text-align: left;">FALSE</td>
 <td style="text-align: left;">I would describe the game as very interesting.</td>
 </tr>
@@ -405,7 +400,6 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </ul>
 
 
-</section>
 </section>
 
 </main> <!-- /main -->
