@@ -2,8 +2,25 @@
 title: "Analyses"
 ---
 
-[R environment](scripts/dot.Renviron.txt)
+## Initial Data Cleaning
 
-[Initial Data Cleaning](scripts/PPIES-Downloads.pdf)
+This step mainly is related to removing records from subjects which were lacking 
+consent, assent or both.  After matching the consent records, the records were deidentified.
 
-[Building Full Data](scripts/PPIES-Data-Join.pdf)
+This script relies on private credentials for accessing the de-identified data.
+The attached PDF shows what was done.  Certain output which contained subject
+names is not included.
+
+[Initial Data Cleaning Script](scripts/PPIES-Downloads.pdf)
+
+## Building Full Data Set
+
+The next step builds up several different sets of data and meta-data.  
+In particular, it applies reverse coding, key matching and calculates subscores.
+
+This script initially draws from sources which contain subject identifiers, so it
+cannot be reproduces.  However, raw response data is included so that for
+example, the scoring can be redone.
+
+[Building Full Data](scripts/PPIES-Join.pdf)
+

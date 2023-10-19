@@ -389,7 +389,7 @@
     "href": "BAdata.html",
     "title": "Before After Data",
     "section": "",
-    "text": "The amount of data is rather large, so it is split into several files. The variable StudyID is a primary key which can be used to join the data sets together.\n\n\nThis data file contains demographic data about the participants, pretest data, posttest data, and the IMI and PA questionnares.\nPre/Post Data\n\n\n\nBayesian network sheet contains the scores from running the Bayesian network engine.\nThe context column is the last level played by that player.\nThe EAP (expected a posteriori) scores run from -1 (low) to 1 (high). These are based on an average of the corresponding Margin.High, Margin.Medium, and Margin.Low scores.\nBayesian Network Scores\n\n\n\nThe observables tables record per-level information. This is presented in “wide” format, so the column names consist of game level_variable.\nThe player may have played the game multiple times; in this case, the “First” sheet gives the values associated with the first attempt, and the “Last” gives the value associated with the last attempt.\nObservables from First Attempt Observables from Last Attempt\n\n\n\nThis data set records the usage of learning supports. The available learning supports are:\n\ngame tools\nhint\nphysics animation: ramp\nphysics animation: lever\nphysics animation: pendulum\nphysics animation: springboard\n\nNot all learning supports are available on all levels. In particular, the animations are associated with levels which use that particular agent of motion.\nLearning Support\n\n\n\nJoining all of the above data sets produces a rather large file. Here it is in both csv (comma separated value) and sav (SPSS) formats.\nCSV format SPSS format"
+    "text": "The amount of data is rather large, so it is split into several files. The variable StudyID is a primary key which can be used to join the data sets together.\n\n\nThis data file contains demographic data about the participants, pretest data, posttest data, and the IMI and PA questionnares.\nPre/Post Data\n\n\n\nBayesian network sheet contains the scores from running the Bayesian network engine.\nThe context column is the last level played by that player.\nThe EAP (expected a posteriori) scores run from -1 (low) to 1 (high). These are based on an average of the corresponding Margin.High, Margin.Medium, and Margin.Low scores.\nBayesian Network Scores\n\n\n\nThe observables tables record per-level information. This is presented in “wide” format, so the column names consist of game level_variable.\nThe player may have played the game multiple times; in this case, the “First” sheet gives the values associated with the first attempt, and the “Last” gives the value associated with the last attempt. For the trophies only, there is another data set which gives the best trophy obtained.\nObservables from First Attempt\nObservables from Last Attempt\nMaximum Observable Values\n\n\n\nThis data set records the usage of learning supports. The available learning supports are:\n\ngame tools\nhint\nphysics animation: ramp\nphysics animation: lever\nphysics animation: pendulum\nphysics animation: springboard\n\nThe total time spent on each learning support, and the number of times it was accessed are also provided.\nNot all learning supports are available on all levels. In particular, the animations are associated with levels which use that particular agent of motion.\nLearning Support\n\n\n\nJoining all of the above data sets produces a rather large file. Here it is in both csv (comma separated value) and sav (SPSS) formats.\nCSV format SPSS format"
   },
   {
     "objectID": "BAdata.html#pretest-posttest-and-questionnaires",
@@ -410,14 +410,14 @@
     "href": "BAdata.html#observables-first-and-last",
     "title": "Before After Data",
     "section": "",
-    "text": "The observables tables record per-level information. This is presented in “wide” format, so the column names consist of game level_variable.\nThe player may have played the game multiple times; in this case, the “First” sheet gives the values associated with the first attempt, and the “Last” gives the value associated with the last attempt.\nObservables from First Attempt Observables from Last Attempt"
+    "text": "The observables tables record per-level information. This is presented in “wide” format, so the column names consist of game level_variable.\nThe player may have played the game multiple times; in this case, the “First” sheet gives the values associated with the first attempt, and the “Last” gives the value associated with the last attempt. For the trophies only, there is another data set which gives the best trophy obtained.\nObservables from First Attempt\nObservables from Last Attempt\nMaximum Observable Values"
   },
   {
     "objectID": "BAdata.html#learning-supports",
     "href": "BAdata.html#learning-supports",
     "title": "Before After Data",
     "section": "",
-    "text": "This data set records the usage of learning supports. The available learning supports are:\n\ngame tools\nhint\nphysics animation: ramp\nphysics animation: lever\nphysics animation: pendulum\nphysics animation: springboard\n\nNot all learning supports are available on all levels. In particular, the animations are associated with levels which use that particular agent of motion.\nLearning Support"
+    "text": "This data set records the usage of learning supports. The available learning supports are:\n\ngame tools\nhint\nphysics animation: ramp\nphysics animation: lever\nphysics animation: pendulum\nphysics animation: springboard\n\nThe total time spent on each learning support, and the number of times it was accessed are also provided.\nNot all learning supports are available on all levels. In particular, the animations are associated with levels which use that particular agent of motion.\nLearning Support"
   },
   {
     "objectID": "BAdata.html#full-join",
@@ -501,6 +501,20 @@
     "href": "Analyses.html",
     "title": "Analyses",
     "section": "",
-    "text": "R environment\nInitial Data Cleaning\nBuilding Full Data"
+    "text": "This step mainly is related to removing records from subjects which were lacking consent, assent or both. After matching the consent records, the records were deidentified.\nThis script relies on private credentials for accessing the de-identified data. The attached PDF shows what was done. Certain output which contained subject names is not included.\nInitial Data Cleaning Script"
+  },
+  {
+    "objectID": "Analyses.html#initial-data-cleaning",
+    "href": "Analyses.html#initial-data-cleaning",
+    "title": "Analyses",
+    "section": "",
+    "text": "This step mainly is related to removing records from subjects which were lacking consent, assent or both. After matching the consent records, the records were deidentified.\nThis script relies on private credentials for accessing the de-identified data. The attached PDF shows what was done. Certain output which contained subject names is not included.\nInitial Data Cleaning Script"
+  },
+  {
+    "objectID": "Analyses.html#building-full-data-set",
+    "href": "Analyses.html#building-full-data-set",
+    "title": "Analyses",
+    "section": "Building Full Data Set",
+    "text": "Building Full Data Set\nThe next step builds up several different sets of data and meta-data.\nIn particular, it applies reverse coding, key matching and calculates subscores.\nThis script initially draws from sources which contain subject identifiers, so it cannot be reproduces. However, raw response data is included so that for example, the scoring can be redone.\nBuilding Full Data"
   }
 ]

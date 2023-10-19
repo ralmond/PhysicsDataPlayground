@@ -237,13 +237,15 @@ ul.task-list li input[type="checkbox"] {
 <p>Bayesian network sheet contains the scores from running the Bayesian network engine.</p>
 <p>The <code>context</code> column is the last level played by that player.</p>
 <p>The <code>EAP</code> (expected <em>a posteriori</em>) scores run from -1 (low) to 1 (high). These are based on an average of the corresponding <code>Margin.High</code>, <code>Margin.Medium</code>, and <code>Margin.Low</code> scores.</p>
-<p><a href="Data/PPIESFall2022BN.csv">Bayesian Network Scores</a></p>
+<p><a href="PPIESFall2022BN.csv">Bayesian Network Scores</a></p>
 </section>
 <section id="observables-first-and-last" class="level2">
 <h2 class="anchored" data-anchor-id="observables-first-and-last">Observables (First and Last)</h2>
 <p>The observables tables record per-level information. This is presented in “wide” format, so the column names consist of <em>game level_variable</em>.</p>
-<p>The player may have played the game multiple times; in this case, the “First” sheet gives the values associated with the first attempt, and the “Last” gives the value associated with the last attempt.</p>
-<p><a href="Data/PPIESFall2022obsFirst.csv">Observables from First Attempt</a> <a href="Data/PPIESFall2022obsLast.csv">Observables from Last Attempt</a></p>
+<p>The player may have played the game multiple times; in this case, the “First” sheet gives the values associated with the first attempt, and the “Last” gives the value associated with the last attempt. For the trophies only, there is another data set which gives the best trophy obtained.</p>
+<p><a href="PPIESFall2022obsFirst.csv">Observables from First Attempt</a></p>
+<p><a href="PPIESFall2022obsLast.csv">Observables from Last Attempt</a></p>
+<p><a href="PPIESFall2022obsMax.csv">Maximum Observable Values</a></p>
 </section>
 <section id="learning-supports" class="level2">
 <h2 class="anchored" data-anchor-id="learning-supports">Learning Supports</h2>
@@ -256,6 +258,7 @@ ul.task-list li input[type="checkbox"] {
 <li>physics animation: pendulum</li>
 <li>physics animation: springboard</li>
 </ul>
+<p>The total time spent on each learning support, and the number of times it was accessed are also provided.</p>
 <p>Not all learning supports are available on all levels. In particular, the animations are associated with levels which use that particular agent of motion.</p>
 <p><a href="Data/PPIESFall2022ls.csv">Learning Support</a></p>
 </section>
