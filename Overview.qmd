@@ -1,28 +1,126 @@
 ---
 title: "Physics Playground Overview"
+author:  "Florida State University, Tallahassee, FL"
 ---
 
+# Physics Playround:  An educational game to promote physics understanding
+
+## Intervention:
+
+[*Physics Playground*](https://www.youtube.com/watch?v=HqIY9x5dUf0)
+(_PP_) is a 2D computer game designed to assess and support students'
+understanding of qualitative physics in real-time. The game covers 9
+key physics competencies (e.g., Newton's 3 Laws of Force &
+Motion). The goal in every game level is to guide a green ball to hit
+a red balloon. Players are free to choose any of the 110 game levels
+to play with two types of levels to choose from. In [sketching
+levels](https://youtu.be/qiYtPngpUpA), players draw simple machines to
+solve levels. In [manipulation levels](https://youtu.be/K7trh3Gkuug),
+players adjust physics parameters to solve levels. Students use of the
+game level's physics in their solutions is rewarded with gold
+coins. The most recent focus was on designing and embedding various
+cognitive supports (e.g., short physics videos, like this one on
+[potential
+energy](https://www.youtube.com/watch?v=TIyqwOfhxgE&feature=youtu.be))
+and affective supports (e.g., like this [breathing
+exercise](https://youtu.be/w29k30uCbQE)). The game can be used for
+in-class, remote, or hybrid teaching and learning for 8^th^ to 11^th^
+grade students. 
+
+## Research Base:
+
+Our first large scale study showed using the embedded
+physics videos as a support had a significant, positive impact on
+students' physics learning, game performance, and enjoyment. Since, we
+have examined the impact of affective supports on learning and interest
+in science. We expect the affective supports to fuel motivation when
+students succeed and encourage persistence when they fail. Moreover, we
+finalized a [quit-prediction
+model](http://myweb.fsu.edu/vshute/pdf/ICQE_PP_Quit.pdf) to help
+determine if a student is going to quit in the next 20 seconds. If so,
+the game could intervene with a suitable affective support to help the
+student continue playing. We also investigated the effects of several
+types of in-game affective supports including motivational messages and
+automated affect detectors (i.e., interaction-based vs. webcam-based
+detectors). Over the past 6 years we conducted multiple [usability
+studies](http://myweb.fsu.edu/vshute/pdf/IJAIED2020.pdf) with over 300
+8th to 11th graders from K-12 schools located at various sites (Florida,
+Pennsylvania, and New York), and three larger scale experiments. In
+Experiment 1 we evaluated the effects of cognitive supports. In
+Experiment 2, we investigated the delivery method of the cognitive
+supports (i.e., before or after playing a level). In Experiment 3, we
+examined the benefits of various affective supports and the effects of
+cognitive and affective supports delivery.
+
+To read more about our
+findings see this page:
+<https://pluto.coe.fsu.edu/ppteam/pp-resources-for-teachers/>
+
+## Industry Honors & Awards for Innovation:
+
+A few honors include an NPR
+interview with Shute (2020, "Should this exist" podcast), best [student
+paper award](http://myweb.fsu.edu/vshute/pdf/Eloy.pdf) at ICMI (2019),
+feature article in the [APA Monitor](https://tinyurl.com/y2djn6gm)
+(2019), and various other best paper and best student paper awards.
+
+## How to Access Physics Playground:
+
+Physics Playground is a web-based game accessible on the internet
+across platforms that support Unity WebGL (currently excluding mobile
+devices).  Use the following links for the game:
+
+* _Version 1:_ With Store: <https://pluto.coe.fsu.edu/PP/demostore.html>
+* _Version 2:_ Without Store: <https://pluto.coe.fsu.edu/PP/demo.html>
+* _Level Editor_: <https://pluto.coe.fsu.edu/PP/editor.html>
+
+* Username: _demo2_
+* Password: _demo2pass_
+
+
+
+## Government Awards Supporting R&D:
+
+This report is based on research supported by Institute of Education
+Sciences, U.S. Department of Education to Florida State University.
+
+* "Exploring adaptive cognitive and affective learning support 
+   for next-generation STEM learning games." (Institute of Education
+   Sciences award no. R305A170376, Val Shute and Russell Almond, PIs)
+   
+Additional support (for previous version of _Physics Playground_ and
+the _Peanut_ and _Proc4_ scoring engines) was provided by: 
+
+*   'Bill & Melinda Gates Foundation grant
+   "Games as Learning/Assessment:  Stealth Assessment" (no. 0PP1035331,
+   Val Shute, PI)',
+
+*   'National Science Foundation grant "DIP:
+   Game-based Assessment and Support of STEM-related Competencies"
+   (no. 1628937, Val Shute, PI)',
+
+*   'National Science Foundation grant "Mathematical Learning via
+   Architectual Design and Modeling Using E-Rebuild." (no. 1720533,
+   Fengfeng Ke, PI)',
+
+
+
+
 # Overview of Physics Playground
+
+
+
+## The Game
+
+
+
+### Game Videos
 
 _Video Overview_
 <iframe width="560" height="315" src="https://www.youtube.com/embed/RRR2vBzCIQQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 _Physics Playground Short Film_: <https://www.youtube.com/watch?v=HqIY9x5dUf0>
 
-
-## The Game
-
-Use the following links for the game:
-
-* _Version 1:_ With Store: <http://35.196.157.53/pp/wstore/demo.html>
-* _Version 2:_ Without Store: <http://35.196.157.53/pp/game/demo.html>
-* _Level Editor_: <http://35.196.157.53/pp/editor/demo.html>
-
-* Username: _demo2_
-* Password: _demo2pass_
-
-
-### Game Videos
 
 <iframe src="//www.youtube.com/embed/HqIY9x5dUf0" width="460" height="258" allowfullscreen="allowfullscreen" data-mce-fragment="1"></iframe>
 
@@ -31,7 +129,6 @@ Use the following links for the game:
 <iframe src="//www.youtube.com/embed/jZ2bVhcWv1g" width="460" height="258" allowfullscreen="allowfullscreen"></iframe>
 
 <iframe src="//www.youtube.com/embed/YCLTSPmkp2o" width="460" height="258" allowfullscreen="allowfullscreen"></iframe>
-
 
 
 

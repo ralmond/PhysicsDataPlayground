@@ -193,14 +193,14 @@
     "href": "Overview.html",
     "title": "Physics Playground Overview",
     "section": "",
-    "text": "Video Overview \nPhysics Playground Short Film: https://www.youtube.com/watch?v=HqIY9x5dUf0\n\n\nUse the following links for the game:\n\nVersion 1: With Store: http://35.196.157.53/pp/wstore/demo.html\nVersion 2: Without Store: http://35.196.157.53/pp/game/demo.html\nLevel Editor: http://35.196.157.53/pp/editor/demo.html\nUsername: demo2\nPassword: demo2pass\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nVideo 1. The sketching level “Caveman.” The path of the green ball is blocked by a wooden club. To solve the level, players need to draw a lever to lift the wooden club that blocks the path.\n Figure 1. The sketching level “Caveman.” The path of the green ball is blocked by a wooden club.\n Figure 2. Worked example of the sketching level “Caveman.” To solve the level, players need to draw a lever to lift the wooden club that blocks the path.\nhttps://youtu.be/qiYtPngpUpA\n\n\n\n\n\nVideo 2. The manipulation level “Cookie Monster.” In the level, mass and gravity are set to default levels, air resistance is medium, the static blower is in full force, and bounciness is available. To make the ball hit the balloon, players need to reduce air resistance and gravity and enable bounciness.\n\n\n\nCookie Monster Start\n\n\nFigure 3. The manipulation level “Cookie Monster.” In the level, mass and gravity are set to default levels, air resistance is medium, the static blower is in full force, and bounciness is available.\n\n\n\nCookie Monster Solution\n\n\nFigure 4. Worked example of the manipulation level “Cookie Monster.” To make the ball hit the balloon, players need to reduce air resistance and gravity and enable bounciness.\nhttps://youtu.be/K7trh3Gkuug"
+    "text": "Physics Playground (PP) is a 2D computer game designed to assess and support students’ understanding of qualitative physics in real-time. The game covers 9 key physics competencies (e.g., Newton’s 3 Laws of Force & Motion). The goal in every game level is to guide a green ball to hit a red balloon. Players are free to choose any of the 110 game levels to play with two types of levels to choose from. In sketching levels, players draw simple machines to solve levels. In manipulation levels, players adjust physics parameters to solve levels. Students use of the game level’s physics in their solutions is rewarded with gold coins. The most recent focus was on designing and embedding various cognitive supports (e.g., short physics videos, like this one on potential energy) and affective supports (e.g., like this breathing exercise). The game can be used for in-class, remote, or hybrid teaching and learning for 8th to 11th grade students.\n\n\n\nOur first large scale study showed using the embedded physics videos as a support had a significant, positive impact on students’ physics learning, game performance, and enjoyment. Since, we have examined the impact of affective supports on learning and interest in science. We expect the affective supports to fuel motivation when students succeed and encourage persistence when they fail. Moreover, we finalized a quit-prediction model to help determine if a student is going to quit in the next 20 seconds. If so, the game could intervene with a suitable affective support to help the student continue playing. We also investigated the effects of several types of in-game affective supports including motivational messages and automated affect detectors (i.e., interaction-based vs. webcam-based detectors). Over the past 6 years we conducted multiple usability studies with over 300 8th to 11th graders from K-12 schools located at various sites (Florida, Pennsylvania, and New York), and three larger scale experiments. In Experiment 1 we evaluated the effects of cognitive supports. In Experiment 2, we investigated the delivery method of the cognitive supports (i.e., before or after playing a level). In Experiment 3, we examined the benefits of various affective supports and the effects of cognitive and affective supports delivery.\nTo read more about our findings see this page: https://pluto.coe.fsu.edu/ppteam/pp-resources-for-teachers/\n\n\n\nA few honors include an NPR interview with Shute (2020, “Should this exist” podcast), best student paper award at ICMI (2019), feature article in the APA Monitor (2019), and various other best paper and best student paper awards.\n\n\n\nPhysics Playground is a web-based game accessible on the internet across platforms that support Unity WebGL (currently excluding mobile devices). Use the following links for the game:\n\nVersion 1: With Store: https://pluto.coe.fsu.edu/PP/demostore.html\nVersion 2: Without Store: https://pluto.coe.fsu.edu/PP/demo.html\nLevel Editor: https://pluto.coe.fsu.edu/PP/editor.html\nUsername: demo2\nPassword: demo2pass\n\n\n\n\nThis report is based on research supported by Institute of Education Sciences, U.S. Department of Education to Florida State University.\n\n“Exploring adaptive cognitive and affective learning support for next-generation STEM learning games.” (Institute of Education Sciences award no. R305A170376, Val Shute and Russell Almond, PIs)\n\nAdditional support (for previous version of Physics Playground and the Peanut and Proc4 scoring engines) was provided by:\n\n‘Bill & Melinda Gates Foundation grant “Games as Learning/Assessment: Stealth Assessment” (no. 0PP1035331, Val Shute, PI)’,\n‘National Science Foundation grant “DIP: Game-based Assessment and Support of STEM-related Competencies” (no. 1628937, Val Shute, PI)’,\n‘National Science Foundation grant “Mathematical Learning via Architectual Design and Modeling Using E-Rebuild.” (no. 1720533, Fengfeng Ke, PI)’,"
   },
   {
     "objectID": "Overview.html#the-game",
     "href": "Overview.html#the-game",
     "title": "Physics Playground Overview",
-    "section": "",
-    "text": "Use the following links for the game:\n\nVersion 1: With Store: http://35.196.157.53/pp/wstore/demo.html\nVersion 2: Without Store: http://35.196.157.53/pp/game/demo.html\nLevel Editor: http://35.196.157.53/pp/editor/demo.html\nUsername: demo2\nPassword: demo2pass\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nVideo 1. The sketching level “Caveman.” The path of the green ball is blocked by a wooden club. To solve the level, players need to draw a lever to lift the wooden club that blocks the path.\n Figure 1. The sketching level “Caveman.” The path of the green ball is blocked by a wooden club.\n Figure 2. Worked example of the sketching level “Caveman.” To solve the level, players need to draw a lever to lift the wooden club that blocks the path.\nhttps://youtu.be/qiYtPngpUpA\n\n\n\n\n\nVideo 2. The manipulation level “Cookie Monster.” In the level, mass and gravity are set to default levels, air resistance is medium, the static blower is in full force, and bounciness is available. To make the ball hit the balloon, players need to reduce air resistance and gravity and enable bounciness.\n\n\n\nCookie Monster Start\n\n\nFigure 3. The manipulation level “Cookie Monster.” In the level, mass and gravity are set to default levels, air resistance is medium, the static blower is in full force, and bounciness is available.\n\n\n\nCookie Monster Solution\n\n\nFigure 4. Worked example of the manipulation level “Cookie Monster.” To make the ball hit the balloon, players need to reduce air resistance and gravity and enable bounciness.\nhttps://youtu.be/K7trh3Gkuug"
+    "section": "The Game",
+    "text": "The Game\n\nGame Videos\nVideo Overview \nPhysics Playground Short Film: https://www.youtube.com/watch?v=HqIY9x5dUf0\n\n\n\n\n\n\n\n\n\n\nDrawing Levels\n\n\nVideo 1. The sketching level “Caveman.” The path of the green ball is blocked by a wooden club. To solve the level, players need to draw a lever to lift the wooden club that blocks the path.\n Figure 1. The sketching level “Caveman.” The path of the green ball is blocked by a wooden club.\n Figure 2. Worked example of the sketching level “Caveman.” To solve the level, players need to draw a lever to lift the wooden club that blocks the path.\nhttps://youtu.be/qiYtPngpUpA\n\n\nManipulation Levels\n\n\nVideo 2. The manipulation level “Cookie Monster.” In the level, mass and gravity are set to default levels, air resistance is medium, the static blower is in full force, and bounciness is available. To make the ball hit the balloon, players need to reduce air resistance and gravity and enable bounciness.\n\n\n\nCookie Monster Start\n\n\nFigure 3. The manipulation level “Cookie Monster.” In the level, mass and gravity are set to default levels, air resistance is medium, the static blower is in full force, and bounciness is available.\n\n\n\nCookie Monster Solution\n\n\nFigure 4. Worked example of the manipulation level “Cookie Monster.” To make the ball hit the balloon, players need to reduce air resistance and gravity and enable bounciness.\nhttps://youtu.be/K7trh3Gkuug"
   },
   {
     "objectID": "scripts/Personnel.html",
@@ -516,5 +516,68 @@
     "title": "Analyses",
     "section": "Building Full Data Set",
     "text": "Building Full Data Set\nThe next step builds up several different sets of data and meta-data.\nIn particular, it applies reverse coding, key matching and calculates subscores.\nThis script initially draws from sources which contain subject identifiers, so it cannot be reproduces. However, raw response data is included so that for example, the scoring can be redone.\nBuilding Full Data"
+  },
+  {
+    "objectID": "Overview.html#intervention",
+    "href": "Overview.html#intervention",
+    "title": "Physics Playground Overview",
+    "section": "",
+    "text": "Physics Playground (PP) is a 2D computer game designed to assess and support students’ understanding of qualitative physics in real-time. The game covers 9 key physics competencies (e.g., Newton’s 3 Laws of Force & Motion). The goal in every game level is to guide a green ball to hit a red balloon. Players are free to choose any of the 110 game levels to play with two types of levels to choose from. In sketching levels, players draw simple machines to solve levels. In manipulation levels, players adjust physics parameters to solve levels. Students use of the game level’s physics in their solutions is rewarded with gold coins. The most recent focus was on designing and embedding various cognitive supports (e.g., short physics videos, like this one on potential energy) and affective supports (e.g., like this breathing exercise). The game can be used for in-class, remote, or hybrid teaching and learning for 8th to 11th grade students."
+  },
+  {
+    "objectID": "Overview.html#research-base",
+    "href": "Overview.html#research-base",
+    "title": "Physics Playground Overview",
+    "section": "",
+    "text": "Our first large scale study showed using the embedded physics videos as a support had a significant, positive impact on students’ physics learning, game performance, and enjoyment. Since, we have examined the impact of affective supports on learning and interest in science. We expect the affective supports to fuel motivation when students succeed and encourage persistence when they fail. Moreover, we finalized a quit-prediction model to help determine if a student is going to quit in the next 20 seconds. If so, the game could intervene with a suitable affective support to help the student continue playing. We also investigated the effects of several types of in-game affective supports including motivational messages and automated affect detectors (i.e., interaction-based vs. webcam-based detectors). Over the past 6 years we conducted multiple usability studies with over 300 8th to 11th graders from K-12 schools located at various sites (Florida, Pennsylvania, and New York), and three larger scale experiments. In Experiment 1 we evaluated the effects of cognitive supports. In Experiment 2, we investigated the delivery method of the cognitive supports (i.e., before or after playing a level). In Experiment 3, we examined the benefits of various affective supports and the effects of cognitive and affective supports delivery.\nTo read more about our findings see this page: https://pluto.coe.fsu.edu/ppteam/pp-resources-for-teachers/"
+  },
+  {
+    "objectID": "Overview.html#industry-honors-awards-for-innovation",
+    "href": "Overview.html#industry-honors-awards-for-innovation",
+    "title": "Physics Playground Overview",
+    "section": "",
+    "text": "A few honors include an NPR interview with Shute (2020, “Should this exist” podcast), best student paper award at ICMI (2019), feature article in the APA Monitor (2019), and various other best paper and best student paper awards."
+  },
+  {
+    "objectID": "Overview.html#how-to-access-physics-playground",
+    "href": "Overview.html#how-to-access-physics-playground",
+    "title": "Physics Playground Overview",
+    "section": "",
+    "text": "Physics Playground is a web-based game accessible on the internet across platforms that support Unity WebGL (currently excluding mobile devices). Use the following links for the game:\n\nVersion 1: With Store: https://pluto.coe.fsu.edu/PP/demostore.html\nVersion 2: Without Store: https://pluto.coe.fsu.edu/PP/demo.html\nLevel Editor: https://pluto.coe.fsu.edu/PP/editor.html\nUsername: demo2\nPassword: demo2pass"
+  },
+  {
+    "objectID": "Overview.html#government-awards-supporting-rd",
+    "href": "Overview.html#government-awards-supporting-rd",
+    "title": "Physics Playground Overview",
+    "section": "",
+    "text": "This report is based on research supported by Institute of Education Sciences, U.S. Department of Education to Florida State University.\n\n“Exploring adaptive cognitive and affective learning support for next-generation STEM learning games.” (Institute of Education Sciences award no. R305A170376, Val Shute and Russell Almond, PIs)\n\nAdditional support (for previous version of Physics Playground and the Peanut and Proc4 scoring engines) was provided by:\n\n‘Bill & Melinda Gates Foundation grant “Games as Learning/Assessment: Stealth Assessment” (no. 0PP1035331, Val Shute, PI)’,\n‘National Science Foundation grant “DIP: Game-based Assessment and Support of STEM-related Competencies” (no. 1628937, Val Shute, PI)’,\n‘National Science Foundation grant “Mathematical Learning via Architectual Design and Modeling Using E-Rebuild.” (no. 1720533, Fengfeng Ke, PI)’,"
+  },
+  {
+    "objectID": "Overview.html#learning-supports",
+    "href": "Overview.html#learning-supports",
+    "title": "Physics Playground Overview",
+    "section": "Learning Supports",
+    "text": "Learning Supports\n\nCognitvie Supports\n\n\nAffective Supports"
+  },
+  {
+    "objectID": "Overview.html#the-stealth-assessment",
+    "href": "Overview.html#the-stealth-assessment",
+    "title": "Physics Playground Overview",
+    "section": "The Stealth Assessment",
+    "text": "The Stealth Assessment\n\nEvent collection\n\n\nEvidence Idnetification\n\n\nEvidence Accumulation"
+  },
+  {
+    "objectID": "Overview.html#the-studies",
+    "href": "Overview.html#the-studies",
+    "title": "Physics Playground Overview",
+    "section": "The Studies",
+    "text": "The Studies\n\nBefore/After Study\n\n\nAffective Support Study"
+  },
+  {
+    "objectID": "scripts/PrepostIA.html",
+    "href": "scripts/PrepostIA.html",
+    "title": "Pre-Post Item Analyses",
+    "section": "",
+    "text": "library(psych)\nlibrary(tidyverse)\n\n── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──\n✔ dplyr     1.1.3     ✔ readr     2.1.4\n✔ forcats   1.0.0     ✔ stringr   1.5.0\n✔ ggplot2   3.4.4     ✔ tibble    3.2.1\n✔ lubridate 1.9.3     ✔ tidyr     1.3.0\n✔ purrr     1.0.2     \n── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──\n✖ ggplot2::%+%()   masks psych::%+%()\n✖ ggplot2::alpha() masks psych::alpha()\n✖ dplyr::filter()  masks stats::filter()\n✖ dplyr::lag()     masks stats::lag()\nℹ Use the conflicted package (&lt;http://conflicted.r-lib.org/&gt;) to force all conflicts to become errors"
   }
 ]
