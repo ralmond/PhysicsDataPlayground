@@ -9,10 +9,36 @@ website:
         text: Home
       - href: Overview.qmd
         text: Overview
-      - href: Articles.qmd
-        text: "Articles"
-      - href: Codebook.qmd
-        text: Codebook
+      - text: Game
+        menu: 
+          - href: Delivery.qmd
+            text: "Using the Game"
+          - href: Gameplay.qmd
+            text: "Playing the game"
+          - href: LevelEditor.qmd
+            text: "Level Editor"
+          - href: IncentiveStore.qmd
+            text: "Incentives and Store"
+          - href: AllLevels.qmd
+            text: "All game levels"
+      - text: "Supports"
+        menu:
+          - href: CognitiveSupports.qmd
+            text: "Cognitive Supports"
+          - href: AffectiveSupports.qmd
+            text: "Affective Supports"
+      - text: "Internal Assessment"
+        menu: 
+          - href: CompetencyModel.qmd
+            text: "Competency Model"
+          - href: EvidenceModels.qmd
+            text: "Evidence Models"
+          - href: EvidenceIdentification.qmd
+            text: "Evidence Identification"
+          - href: Statistics.qmd
+            text: "Statistics Reported by the Bayes net"
+          - href: QMatrix.qmd
+            text: "Q Matrix"
       - text: Instruments
         menu:
         - href: preposttest.qmd
@@ -24,23 +50,33 @@ website:
       - text: "Protocols"
         menu:
         - href: Before-After.qmd
-          text: "Before/After Study"
-        - href: Affective.qmd
-          text: "Affective Support"
+          text: "Support Timing Study"
+        - href: SupportEfficacy.qmd
+          text: "Support Efficacy Study"
       - text: "Data"
         menu:
+        - href: Codebook.qmd
+          text: Codebook
         - href: BAdata.qmd
-          text: "Before/After Study"
-        - href: AffectiveData.qmd
-          text: "Affective Support"
+          text: "Support Timing Data"
+        - href: EfficacyData.qmd
+          text: "Support Efficacy Data"
         - href: Events.qmd
           text: "Log files"
       - href: Analyses.qmd
         text: "Analysis Scripts"
-      - href: Software.qmd
-        text: "Software"
+      - text: Software
+        menu: 
+          - href: GameEngine.qmd
+            text: "Game Engine"
+          - href: Peanut.qmd
+            text: "Peanut Bayes Net Engine"
+          - href: Proc4.qmd
+            text: "Proc4 scoring system"
       - href: Personnel.qmd
         text: "Personnel"
+      - href: Articles.qmd
+        text: "Articles"
       - href: bib.qmd
         text: "Bibliography"
       - about.qmd

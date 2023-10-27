@@ -1,0 +1,4 @@
+---
+title: "Statics Reported by the Bayes net"
+---
+

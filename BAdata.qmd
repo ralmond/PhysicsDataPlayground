@@ -10,9 +10,15 @@ The variable `StudyID` is a primary key which can be used to join the data sets 
 ## Pretest, Posttest and Questionnaires
 
 This data file contains demographic data about the participants, pretest data,
-posttest data, and the IMI and PA questionnares.
+posttest data, and the IMI and PA questionnaires.
 
 [Pre/Post Data](Data/PPIESFall2022PrePost.csv)
+
+Column types for pre-post data.
+
+```{r}
+ppkey <- "cccfffiiltff"
+```
 
 ## Bayesian Network Scores
 

@@ -7,3 +7,8 @@ library(psych)
 library(tidyverse)
 ```
 
+```{r}
+prepost <- read_csv("../Data/PPIESFall2022PrePost.csv") %>%
+  mutate(Midtest=factor(Midtest),Posttest=factor(Posttest),Condition=factor(Condition))
+prepost
+```

@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Physics Data Playground - About</title>
+<title>Physics Data Playground - Affective Support Data</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -19,40 +19,6 @@ ul.task-list li input[type="checkbox"] {
   width: 0.8em;
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
-}
-/* CSS for syntax highlighting */
-pre > code.sourceCode { white-space: pre; position: relative; }
-pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
-pre > code.sourceCode > span:empty { height: 1.2em; }
-.sourceCode { overflow: visible; }
-code.sourceCode > span { color: inherit; text-decoration: inherit; }
-div.sourceCode { margin: 1em 0; }
-pre.sourceCode { margin: 0; }
-@media screen {
-div.sourceCode { overflow: auto; }
-}
-@media print {
-pre > code.sourceCode { white-space: pre-wrap; }
-pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
-}
-pre.numberSource code
-  { counter-reset: source-line 0; }
-pre.numberSource code > span
-  { position: relative; left: -4em; counter-increment: source-line; }
-pre.numberSource code > span > a:first-child::before
-  { content: counter(source-line);
-    position: relative; left: -1em; text-align: right; vertical-align: baseline;
-    border: none; display: inline-block;
-    -webkit-touch-callout: none; -webkit-user-select: none;
-    -khtml-user-select: none; -moz-user-select: none;
-    -ms-user-select: none; user-select: none;
-    padding: 0 4px; width: 4em;
-  }
-pre.numberSource { margin-left: 3em;  padding-left: 4px; }
-div.sourceCode
-  {   }
-@media screen {
-pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 </style>
 
@@ -285,7 +251,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
  <span class="menu-text">Bibliography</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./about.html" rel="" target="" aria-current="page">
+    <a class="nav-link" href="./about.html" rel="" target="">
  <span class="menu-text">About</span></a>
   </li>  
 </ul>
@@ -307,14 +273,27 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </figure>
 </div>
 </div></div>
-        
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#data-from-the-affective-support-study" id="toc-data-from-the-affective-support-study" class="nav-link active" data-scroll-target="#data-from-the-affective-support-study">Data from the Affective Support Study</a>
+  <ul class="collapse">
+  <li><a href="#pretest-posttest-demographic-and-questionnaire-data" id="toc-pretest-posttest-demographic-and-questionnaire-data" class="nav-link" data-scroll-target="#pretest-posttest-demographic-and-questionnaire-data">Pretest, Posttest, demographic and Questionnaire data</a></li>
+  <li><a href="#game-level-outcome-data" id="toc-game-level-outcome-data" class="nav-link" data-scroll-target="#game-level-outcome-data">Game level outcome data</a></li>
+  <li><a href="#learning-support-usage-data" id="toc-learning-support-usage-data" class="nav-link" data-scroll-target="#learning-support-usage-data">Learning support usage data</a></li>
+  <li><a href="#bayesian-network-scores" id="toc-bayesian-network-scores" class="nav-link" data-scroll-target="#bayesian-network-scores">Bayesian network scores</a></li>
+  <li><a href="#log-files" id="toc-log-files" class="nav-link" data-scroll-target="#log-files">Log files</a></li>
+  </ul></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">About</h1>
+<h1 class="title">Affective Support Data</h1>
 </div>
 
 
@@ -329,15 +308,47 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 </header>
 
-<p>About this site</p>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="dv">1</span> <span class="sc">+</span> <span class="dv">1</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-stdout">
-<pre><code>[1] 2</code></pre>
-</div>
-</div>
+<section id="data-from-the-affective-support-study" class="level1">
+<h1>Data from the Affective Support Study</h1>
+<p>The complete data are available in the following formats:</p>
+<ul>
+<li><a href="Data/PPIESFall2022Full.csv">Comma Separated Value</a></li>
+<li><a href="Data/PPIESFall2022BigDaddy.sav">SPSS Save file</a></li>
+</ul>
+<section id="pretest-posttest-demographic-and-questionnaire-data" class="level2">
+<h2 class="anchored" data-anchor-id="pretest-posttest-demographic-and-questionnaire-data">Pretest, Posttest, demographic and Questionnaire data</h2>
+<p>This data subset contains just the data from the pretest and posttest questionnaires.</p>
+<p>Posttest columns are marked with either <code>.ect</code> or <code>.pot</code> depending on which posttest the items appear on. Note that students received the ECT and POT tests on Wednesday or Friday of the study week depending on their treatment group.</p>
+<p><a href="Data/PPIESFall2022PrePost.csv">Pre, Post Data</a></p>
+</section>
+<section id="game-level-outcome-data" class="level2">
+<h2 class="anchored" data-anchor-id="game-level-outcome-data">Game level outcome data</h2>
+<p>These data contain information on how the learning supports were played. * <code>Timestamp_XXX</code> – These give the time at which the level was played. * <code>TrophyLevel_XXX</code> – what trophy the player earned. This can be <code>gold</code>, <code>silver</code>, <code>quit</code> or missing. The <code>quit</code> indicates that the player attempted the level but did not earn a trophy. * <code>NumberAttempts_XXX</code> – The number of attempts the player made for this game level.</p>
+<p>Note that the player may have attempted each level several times. There are two versions of this data file, one showing the values related to the first level and one to the last levels. In the full data set the suffixes <code>.first</code> and <code>.last</code> are added to the column names to indicate which version is used.</p>
+<ul>
+<li><a href="Data/PPIESFall2022obsFirst.csv">Observables, First Attempt</a></li>
+<li><a href="Data/PPIESFall2022obsLast.csv">Observables, Last Attempt</a></li>
+</ul>
+</section>
+<section id="learning-support-usage-data" class="level2">
+<h2 class="anchored" data-anchor-id="learning-support-usage-data">Learning support usage data</h2>
+<p>This is data about the usage of the learning supports.</p>
+<p><a href="Data/PPIESFall2022ls.csv">Learning Support</a></p>
+</section>
+<section id="bayesian-network-scores" class="level2">
+<h2 class="anchored" data-anchor-id="bayesian-network-scores">Bayesian network scores</h2>
+<p>This provides scores from the Bayesian Network model, which probabilities for the nine nodes in the competency model. For each none, there are three columns giving the marginal probability of the <code>High</code>, <code>Medium</code> and <code>Low</code> proficiency respectively. The <code>EAP</code> (expected a posteriori) scores are produced by assigning <code>Low=-1</code>, <code>Medium=0</code> and <code>High=1</code> and calculating the expected value.</p>
+<p><a href="Data/PPIESFall2022BN.csv">Bayesian Network Scores</a></p>
+</section>
+<section id="log-files" class="level2">
+<h2 class="anchored" data-anchor-id="log-files">Log files</h2>
+<p>The raw JSON data is available at <a href="https://pluto.coe.fsu.edu/PhysicsPlayground/data/IES2022-AllP4Events.json.gz" class="uri">https://pluto.coe.fsu.edu/PhysicsPlayground/data/IES2022-AllP4Events.json.gz</a></p>
+<p>The filtered data containing only “interesting” events is at: <a href="https://pluto.coe.fsu.edu/PhysicsPlayground/data/PPIES2022-P4Filtered.json.gz" class="uri">https://pluto.coe.fsu.edu/PhysicsPlayground/data/PPIES2022-P4Filtered.json.gz</a></p>
+<p>Both files are compressed using gnu zip (gzip)</p>
 
 
+</section>
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

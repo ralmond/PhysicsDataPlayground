@@ -1,7 +1,0 @@
-QUALTRICS_API_KEY = 'XXXXXXXXXXXXXXXXXXXX'
-QUALTRICS_BASE_URL = 'ca1.qualtrics.com'
-
-NETICA_LICENSE_KEY="+AlmondR/FloridaStateU/120,310-6-A/XXXXX"
-
-PEANUT_LOADER="/Users/ralmond/Library/APIkeys/peanut-loader-369419-d3c35f7bc89b.json"
-SHINY_PROTOCOL="/Users/ralmond/Library/APIkeys/shiny-protocol-369419-250fe24b2096.json"

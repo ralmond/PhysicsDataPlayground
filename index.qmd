@@ -12,8 +12,21 @@ This is a draft version of the website and does not represent the final content.
 This file contains data from the IES project _Physics Playground_
 
 * [Overview](Overview.qmd) **Ginny**
-* [Articles](Articles.qmd) 
-* [Codebook](Codebook.qmd) **Ginny**
+* Game
+  - [Using the Game](Delivery.qmd)
+  - [Playing the game](Gameplay.qmd)
+  - [Level Editor](LevelEditor.qmd)
+  - [Incentives and Store](IncentiveStore.qmd)
+  - [All game levels](AllLevels.qmd)
+* Supports **Ginny**
+  - [Cognitive Supports](CognitiveSupports.qmd)
+  - [Affective Supports](AffectiveSupports.qmd)
+* Internal Assessment **Russell**
+  - [Competency Model](CompetencyModel.qmd)
+  - [Evidence Models](EvidenceModels.qmd)
+  - [Evidence Identification](EvidenceIdentification.qmd)
+  - [Statistics Reported by the Bayes net](Statistics.qmd)
+  - [Q Matrix](QMatrix.qmd)
 * Instruments
   - [Pre/Post test](preposttest.qmd)
     - Form A
@@ -21,15 +34,20 @@ This file contains data from the IES project _Physics Playground_
   - [Intrinsic Motivation Inventory](IMI.qmd)
   - [Physics Animations](PA.qmd)
 * Protocols
-  - [Before/After Study](Before-After.qmd)
-  - [Affective Support](Affective.qmd)
+  - [Support Timing Study](Before-After.qmd)
+  - [Support Efficacy Study](SupportEfficacy.qmd)
 * Data **Russell**
-  - [Before/After Study](BAdata.qmd) <<Includes summary statistics>>
-  - [Affective Support](AffectiveData.qmd) <<Includes summary statistics>>
+  - [Codebook](Codebook.qmd) **Ginny/Russell**
+  - [Support Timing Data](BAdata.qmd) <<Includes summary statistics>>
+  - [Support Efficacy Study](AffectiveData.qmd) <<Includes summary statistics>>
   - [Log files](Events.qmd)
 * [Analysis Scripts](Analyses.qmd) **Russell**
-* [Software](Software.qmd) **Russell**
+* Software **Russell**
+  - [Game Engine](GameEngine.qmd) **Ahmad**
+  - [Peanut Bayes Net Engine](Peanut.qmd)
+  - [Proc4 scoring system](Proc4.qmd)
 * [Personnel](Personnel.qmd) **Ginny**
+* [Articles](Articles.qmd) 
 * [Bibliography](bib.qmd) **Russell**
 
 ## Licences 

@@ -1,0 +1,10 @@
+---
+title: "Peanut Bayes net engine"
+---
+
+
+## Peanut Bayesian network engine
+
+### RNetica
+
+### Model Spreadsheets
