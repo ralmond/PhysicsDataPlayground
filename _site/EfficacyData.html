@@ -20,6 +20,40 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
 </style>
 
 
@@ -315,30 +349,88 @@ ul.task-list li input[type="checkbox"] {
 <li><a href="Data/PPIESFall2022Full.csv">Comma Separated Value</a></li>
 <li><a href="Data/PPIESFall2022BigDaddy.sav">SPSS Save file</a></li>
 </ul>
+<p>Metadata are available using the <a href="https://readr.tidyverse.org/">readr</a> <code>cols</code> format in this <a href="Data/AllMetadata.R">R metadata all script</a>.</p>
+<p>The following steps will load the file using the metadata in R.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(readr)</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="fu">source</span>(<span class="st">"https://pluto.coe.fsu.edu/PhysicsDataPlayground/Data/AllMetadata.R"</span>)</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>PPIESFall2022Full <span class="ot">&lt;-</span> </span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">read_csv</span>(<span class="st">"https://pluto.coe.fsu.edu/PhysicsDataPlayground/Data/PPIESFall2022Full.csv"</span>,</span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>           <span class="at">col_types=</span>colAll)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
 <section id="pretest-posttest-demographic-and-questionnaire-data" class="level2">
 <h2 class="anchored" data-anchor-id="pretest-posttest-demographic-and-questionnaire-data">Pretest, Posttest, demographic and Questionnaire data</h2>
 <p>This data subset contains just the data from the pretest and posttest questionnaires.</p>
 <p>Posttest columns are marked with either <code>.ect</code> or <code>.pot</code> depending on which posttest the items appear on. Note that students received the ECT and POT tests on Wednesday or Friday of the study week depending on their treatment group.</p>
 <p><a href="Data/PPIESFall2022PrePost.csv">Pre, Post Data</a></p>
+<p>The <code>readr::cols</code> metadata is in <a href="&quot;https://pluto.coe.fsu.edu/PhysicsDataPlayground/Data/PrePostMetadata.R&quot;">Pre-post R metadata script</a>.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(readr)</span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="fu">source</span>(<span class="st">"https://pluto.coe.fsu.edu/PhysicsDataPlayground/Data/PrePostMetadata.R"</span>)</span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a>PPIESFall2022PrePost <span class="ot">&lt;-</span> </span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">read_csv</span>(<span class="st">"https://pluto.coe.fsu.edu/PhysicsDataPlayground/Data/PPIESFall2022PrePost.csv"</span>,</span>
+<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a>           <span class="at">col_types=</span>colPrePost)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<p>An alternative version of the PrePost data which replaces the text of the options for the raw responses, with the codes A, B, C, and D. <a href="Data/PPIESFall2022PrePostABC.csv">Pre, Post Data ABC coding</a></p>
+<p>Here is the <a href="scripts/RecodeRawData.R">Recoding Script</a>.</p>
+<p>The <code>readr::cols</code> metadata is in <a href="&quot;https://pluto.coe.fsu.edu/PhysicsDataPlayground/Data/PrePostMetadataABC.R&quot;">Pre-post ABC coding R metadata script</a>.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(readr)</span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a><span class="fu">source</span>(<span class="st">"https://pluto.coe.fsu.edu/PhysicsDataPlayground/Data/PrePostMetadataABC.R"</span>)</span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a>PPIESFall2022PrePostABC <span class="ot">&lt;-</span> </span>
+<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">read_csv</span>(<span class="st">"https://pluto.coe.fsu.edu/PhysicsDataPlayground/Data/PPIESFall2022PrePostABC.csv"</span>,</span>
+<span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a>           <span class="at">col_types=</span>colPrePost)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
 </section>
 <section id="game-level-outcome-data" class="level2">
 <h2 class="anchored" data-anchor-id="game-level-outcome-data">Game level outcome data</h2>
 <p>These data contain information on how the learning supports were played. * <code>Timestamp_XXX</code> – These give the time at which the level was played. * <code>TrophyLevel_XXX</code> – what trophy the player earned. This can be <code>gold</code>, <code>silver</code>, <code>quit</code> or missing. The <code>quit</code> indicates that the player attempted the level but did not earn a trophy. * <code>NumberAttempts_XXX</code> – The number of attempts the player made for this game level.</p>
-<p>Note that the player may have attempted each level several times. There are two versions of this data file, one showing the values related to the first level and one to the last levels. In the full data set the suffixes <code>.first</code> and <code>.last</code> are added to the column names to indicate which version is used.</p>
+<p>Note that the player may have attempted each level several times. There are three versions of this data file, one showing the values related to the first level (<code>.first</code>), one to the last levels (<code>.last) and one showing the best  trophy recieved (</code>.max). In the full data set the suffixes <code>.first</code>, <code>.last</code>, and <code>.max</code> are added to the column names to indicate which version is used.</p>
 <ul>
 <li><a href="Data/PPIESFall2022obsFirst.csv">Observables, First Attempt</a></li>
 <li><a href="Data/PPIESFall2022obsLast.csv">Observables, Last Attempt</a></li>
+<li><a href="Data/PPIESFall2022obsMax.csv">Trophies Only, Last Attempt</a></li>
 </ul>
+<p>The <code>readr::cols</code> metadata is in <a href="&quot;https://pluto.coe.fsu.edu/PhysicsDataPlayground/Data/ObsMetadata.R&quot;">Observables R metadata script</a>.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb4"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(readr)</span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a><span class="fu">source</span>(<span class="st">"https://pluto.coe.fsu.edu/PhysicsDataPlayground/Data/ObsMetadata.R"</span>)</span>
+<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a>PPIESFall2022obsFirst <span class="ot">&lt;-</span></span>
+<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">read_csv</span>(<span class="st">"https://pluto.coe.fsu.edu/PhysicsDataPlayground/Data/FSUSFall2022obsFirst.csv"</span>,</span>
+<span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a>            <span class="at">col_types=</span>colObsFirst)</span>
+<span id="cb4-6"><a href="#cb4-6" aria-hidden="true" tabindex="-1"></a>PPIESFall2022obsLast <span class="ot">&lt;-</span></span>
+<span id="cb4-7"><a href="#cb4-7" aria-hidden="true" tabindex="-1"></a>  <span class="fu">read_csv</span>(<span class="st">"https://pluto.coe.fsu.edu/PhysicsDataPlayground/Data/FSUSFall2022obsFirst.csv"</span>,</span>
+<span id="cb4-8"><a href="#cb4-8" aria-hidden="true" tabindex="-1"></a>            <span class="at">col_types=</span>colObsLast)</span>
+<span id="cb4-9"><a href="#cb4-9" aria-hidden="true" tabindex="-1"></a>PPIESFall2022obsMax <span class="ot">&lt;-</span></span>
+<span id="cb4-10"><a href="#cb4-10" aria-hidden="true" tabindex="-1"></a>  <span class="fu">read_csv</span>(<span class="st">"https://pluto.coe.fsu.edu/PhysicsDataPlayground/Data/FSUSFall2022obsFirst.csv"</span>,</span>
+<span id="cb4-11"><a href="#cb4-11" aria-hidden="true" tabindex="-1"></a>            <span class="at">col_types=</span>colObsMax)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
 </section>
 <section id="learning-support-usage-data" class="level2">
 <h2 class="anchored" data-anchor-id="learning-support-usage-data">Learning support usage data</h2>
 <p>This is data about the usage of the learning supports.</p>
 <p><a href="Data/PPIESFall2022ls.csv">Learning Support</a></p>
+<p>The <code>readr::cols</code> metadata is in <a href="&quot;https://pluto.coe.fsu.edu/PhysicsDataPlayground/Data/LSMetadata.R&quot;">Learning Support R metadata script</a>.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb5"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(readr)</span>
+<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a><span class="fu">source</span>(<span class="st">"https://pluto.coe.fsu.edu/PhysicsDataPlayground/Data/LSMetadata.R"</span>)</span>
+<span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a>PPIESFall2022ls <span class="ot">&lt;-</span> </span>
+<span id="cb5-4"><a href="#cb5-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">read_csv</span>(<span class="st">"https://pluto.coe.fsu.edu/PhysicsDataPlayground/Data/PPIESFall2022ls.csv"</span>,</span>
+<span id="cb5-5"><a href="#cb5-5" aria-hidden="true" tabindex="-1"></a>           <span class="at">col_types=</span>colLS)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
 </section>
 <section id="bayesian-network-scores" class="level2">
 <h2 class="anchored" data-anchor-id="bayesian-network-scores">Bayesian network scores</h2>
 <p>This provides scores from the Bayesian Network model, which probabilities for the nine nodes in the competency model. For each none, there are three columns giving the marginal probability of the <code>High</code>, <code>Medium</code> and <code>Low</code> proficiency respectively. The <code>EAP</code> (expected a posteriori) scores are produced by assigning <code>Low=-1</code>, <code>Medium=0</code> and <code>High=1</code> and calculating the expected value.</p>
 <p><a href="Data/PPIESFall2022BN.csv">Bayesian Network Scores</a></p>
+<p>The <code>readr::cols</code> metadata is in <a href="&quot;https://pluto.coe.fsu.edu/PhysicsDataPlayground/Data/PrePostMetadata.R&quot;">Pre-post R metadata script</a>.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb6"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(readr)</span>
+<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a><span class="fu">source</span>(<span class="st">"https://pluto.coe.fsu.edu/PhysicsDataPlayground/Data/PrePostMetadata.R"</span>)</span>
+<span id="cb6-3"><a href="#cb6-3" aria-hidden="true" tabindex="-1"></a>PPIESFall2022BN <span class="ot">&lt;-</span> </span>
+<span id="cb6-4"><a href="#cb6-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">read_csv</span>(<span class="st">"https://pluto.coe.fsu.edu/PhysicsDataPlayground/Data/PPIESFall2022BN.csv"</span>,</span>
+<span id="cb6-5"><a href="#cb6-5" aria-hidden="true" tabindex="-1"></a>           <span class="at">col_types=</span>colBN)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
 </section>
 <section id="log-files" class="level2">
 <h2 class="anchored" data-anchor-id="log-files">Log files</h2>

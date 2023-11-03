@@ -351,12 +351,12 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <div class="sourceCode cell-code" id="cb3"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a>prepost <span class="ot">&lt;-</span> <span class="fu">read_csv</span>(<span class="st">"../Data/PPIESFall2022PrePost.csv"</span>) <span class="sc">%&gt;%</span></span>
 <span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="at">Midtest=</span><span class="fu">factor</span>(Midtest),<span class="at">Posttest=</span><span class="fu">factor</span>(Posttest),<span class="at">Condition=</span><span class="fu">factor</span>(Condition))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stderr">
-<pre><code>Rows: 244 Columns: 239
+<pre><code>Rows: 244 Columns: 242
 ── Column specification ────────────────────────────────────────────────────────
 Delimiter: ","
 chr   (73): StudyID, ID1, ID2, Midtest, Posttest, Condition, Sex, Other_TEXT...
 dbl  (155): Progress, Duration (in seconds), Finished, Age, SC0, A-NQ1_score...
-lgl    (8): American Indian or Alaska Native, Asian, Black or African Americ...
+lgl   (11): CognitiveSupports, AffectiveECD, AffectivePOT, American Indian o...
 dttm   (3): RecordedDate, RecordedDate.ect, RecordedDate.pot
 
 ℹ Use `spec()` to retrieve the full column specification for this data.
@@ -364,24 +364,24 @@ dttm   (3): RecordedDate, RecordedDate.ect, RecordedDate.pot
 </div>
 <div class="sourceCode cell-code" id="cb5"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a>prepost</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
-<pre><code># A tibble: 244 × 239
-   StudyID ID1    ID2    Midtest Posttest Condition Progress
-   &lt;chr&gt;   &lt;chr&gt;  &lt;chr&gt;  &lt;fct&gt;   &lt;fct&gt;    &lt;fct&gt;        &lt;dbl&gt;
- 1 A0011   027ad1 027ad2 ECT     POT      A              100
- 2 C0022   163cd1 163cd2 ECT     POT      C              100
- 3 F0044   341fd1 341fd2 ECT     POT      F              100
- 4 B0055   119bd1 119bd2 POT     ECT      B              100
- 5 C0066   203cd1 203cd2 ECT     POT      C              100
- 6 D0077   224dd1 224dd2 POT     ECT      D              100
- 7 B0088   105bd1 105bd2 POT     ECT      B              100
- 8 F0101   334fd1 334fd2 ECT     POT      F              100
- 9 A0112   035ad1 035ad2 ECT     POT      A              100
-10 F0123   354fd1 354fd2 ECT     POT      F              100
+<pre><code># A tibble: 244 × 242
+   StudyID ID1   ID2   Midtest Posttest Condition CognitiveSupports AffectiveECD
+   &lt;chr&gt;   &lt;chr&gt; &lt;chr&gt; &lt;fct&gt;   &lt;fct&gt;    &lt;fct&gt;     &lt;lgl&gt;             &lt;lgl&gt;       
+ 1 A0011   027a… 027a… ECT     POT      A         TRUE              FALSE       
+ 2 C0022   163c… 163c… ECT     POT      C         TRUE              TRUE        
+ 3 F0044   341f… 341f… ECT     POT      F         FALSE             FALSE       
+ 4 B0055   119b… 119b… POT     ECT      B         TRUE              TRUE        
+ 5 C0066   203c… 203c… ECT     POT      C         TRUE              TRUE        
+ 6 D0077   224d… 224d… POT     ECT      D         TRUE              FALSE       
+ 7 B0088   105b… 105b… POT     ECT      B         TRUE              TRUE        
+ 8 F0101   334f… 334f… ECT     POT      F         FALSE             FALSE       
+ 9 A0112   035a… 035a… ECT     POT      A         TRUE              FALSE       
+10 F0123   354f… 354f… ECT     POT      F         FALSE             FALSE       
 # ℹ 234 more rows
-# ℹ 232 more variables: `Duration (in seconds)` &lt;dbl&gt;, Finished &lt;dbl&gt;,
-#   RecordedDate &lt;dttm&gt;, Age &lt;dbl&gt;, Sex &lt;chr&gt;,
-#   `American Indian or Alaska Native` &lt;lgl&gt;, Asian &lt;lgl&gt;,
-#   `Black or African American` &lt;lgl&gt;, Hispanic &lt;lgl&gt;,
+# ℹ 234 more variables: AffectivePOT &lt;lgl&gt;, Progress &lt;dbl&gt;,
+#   `Duration (in seconds)` &lt;dbl&gt;, Finished &lt;dbl&gt;, RecordedDate &lt;dttm&gt;,
+#   Age &lt;dbl&gt;, Sex &lt;chr&gt;, `American Indian or Alaska Native` &lt;lgl&gt;,
+#   Asian &lt;lgl&gt;, `Black or African American` &lt;lgl&gt;, Hispanic &lt;lgl&gt;,
 #   `Native Hawaiian or Pacific Islander` &lt;lgl&gt;, White &lt;lgl&gt;,
 #   `Other (enter)` &lt;lgl&gt;, `Prefer not to say` &lt;lgl&gt;, Other_TEXT &lt;chr&gt;, …</code></pre>
 </div>

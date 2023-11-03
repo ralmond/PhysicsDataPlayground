@@ -808,6 +808,6 @@ colAll <-  cols(
   breathing_total = col_number(),
   breathing_count = col_number()
 )
-#FSUSFall2022Full <-
-#  read_csv("https://pluto.coe.fsu.edu/PhysicsDataPlayground/Data/FSUSFall2022Full.csv",
-#           col_types=colAll)       
+FSUSFall2022Full <-
+  read_csv("https://pluto.coe.fsu.edu/PhysicsDataPlayground/Data/FSUSFall2022Full.csv",
+           col_types=colAll)       

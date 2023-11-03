@@ -9,6 +9,20 @@ The complete data are available in the following formats:
 * [Comma Separated Value](Data/PPIESFall2022Full.csv)
 * [SPSS Save file](Data/PPIESFall2022BigDaddy.sav)
 
+Metadata are available using the [readr](https://readr.tidyverse.org/) `cols` format in
+this [R metadata all script](Data/AllMetadata.R).
+
+The following steps will load the file using the metadata in R.
+```{r ReadAll}
+#| eval: false
+library(readr)
+source("https://pluto.coe.fsu.edu/PhysicsDataPlayground/Data/AllMetadata.R")
+PPIESFall2022Full <- 
+  read_csv("https://pluto.coe.fsu.edu/PhysicsDataPlayground/Data/PPIESFall2022Full.csv",
+           col_types=colAll)
+```
+
+
 ## Pretest, Posttest, demographic and Questionnaire data
 
 This data subset contains just the data from the pretest and posttest questionnaires.
@@ -18,6 +32,35 @@ posttest the items appear on.  Note that students received the ECT and POT
 tests on Wednesday or Friday of the study week depending on their treatment group.
 
 [Pre, Post Data](Data/PPIESFall2022PrePost.csv)
+
+
+The `readr::cols` metadata is in [Pre-post R metadata script]("https://pluto.coe.fsu.edu/PhysicsDataPlayground/Data/PrePostMetadata.R").
+
+```{r ReadPP}
+#| eval: false
+library(readr)
+source("https://pluto.coe.fsu.edu/PhysicsDataPlayground/Data/PrePostMetadata.R")
+PPIESFall2022PrePost <- 
+  read_csv("https://pluto.coe.fsu.edu/PhysicsDataPlayground/Data/PPIESFall2022PrePost.csv",
+           col_types=colPrePost)
+```
+
+An alternative version of the PrePost data which replaces the text of the options for the
+raw responses, with the codes A, B, C, and D.
+[Pre, Post Data ABC coding](Data/PPIESFall2022PrePostABC.csv)
+
+Here is the [Recoding Script](scripts/RecodeRawData.R).
+
+The `readr::cols` metadata is in [Pre-post ABC coding R metadata script]("https://pluto.coe.fsu.edu/PhysicsDataPlayground/Data/PrePostMetadataABC.R").
+
+```{r ReadPPABC}
+#| eval: false
+library(readr)
+source("https://pluto.coe.fsu.edu/PhysicsDataPlayground/Data/PrePostMetadataABC.R")
+PPIESFall2022PrePostABC <- 
+  read_csv("https://pluto.coe.fsu.edu/PhysicsDataPlayground/Data/PPIESFall2022PrePostABC.csv",
+           col_types=colPrePost)
+```
 
 ## Game level outcome data
 
@@ -29,19 +72,51 @@ the level but did not earn a trophy.
 * `NumberAttempts_XXX` -- The number of attempts the player made for this game level.
 
 Note that the player may have attempted each level several times.  There 
-are two versions of this data file, one showing the values related to the
-first level and one to the last levels.  In the full data set the suffixes
-`.first` and `.last` are added to the column names to indicate which
+are three versions of this data file, one showing the values related to the
+first level (`.first`), one to the last levels (`.last) and one showing the best 
+trophy recieved (`.max).  In the full data set the suffixes
+`.first`, `.last`, and `.max` are added to the column names to indicate which
 version is used.
 
 * [Observables, First Attempt](Data/PPIESFall2022obsFirst.csv)
 * [Observables, Last Attempt](Data/PPIESFall2022obsLast.csv)
+* [Trophies Only, Last Attempt](Data/PPIESFall2022obsMax.csv)
+
+The `readr::cols` metadata is in [Observables R metadata script]("https://pluto.coe.fsu.edu/PhysicsDataPlayground/Data/ObsMetadata.R").
+
+```{r ReadObs}
+#| eval: false
+library(readr)
+source("https://pluto.coe.fsu.edu/PhysicsDataPlayground/Data/ObsMetadata.R")
+PPIESFall2022obsFirst <-
+  read_csv("https://pluto.coe.fsu.edu/PhysicsDataPlayground/Data/FSUSFall2022obsFirst.csv",
+            col_types=colObsFirst)
+PPIESFall2022obsLast <-
+  read_csv("https://pluto.coe.fsu.edu/PhysicsDataPlayground/Data/FSUSFall2022obsFirst.csv",
+            col_types=colObsLast)
+PPIESFall2022obsMax <-
+  read_csv("https://pluto.coe.fsu.edu/PhysicsDataPlayground/Data/FSUSFall2022obsFirst.csv",
+            col_types=colObsMax)
+```
+
 
 ## Learning support usage data
 
 This is data about the usage of the learning supports.
 
 [Learning Support](Data/PPIESFall2022ls.csv)
+
+The `readr::cols` metadata is in [Learning Support R metadata script]("https://pluto.coe.fsu.edu/PhysicsDataPlayground/Data/LSMetadata.R").
+
+```{r ReadLS}
+#| eval: false
+library(readr)
+source("https://pluto.coe.fsu.edu/PhysicsDataPlayground/Data/LSMetadata.R")
+PPIESFall2022ls <- 
+  read_csv("https://pluto.coe.fsu.edu/PhysicsDataPlayground/Data/PPIESFall2022ls.csv",
+           col_types=colLS)
+```
+
 
 ## Bayesian network scores
 
@@ -53,6 +128,18 @@ produced by assigning `Low=-1`, `Medium=0` and `High=1` and calculating the
 expected value.
 
 [Bayesian Network Scores](Data/PPIESFall2022BN.csv)
+
+The `readr::cols` metadata is in [Pre-post R metadata script]("https://pluto.coe.fsu.edu/PhysicsDataPlayground/Data/PrePostMetadata.R").
+
+```{r ReadBN}
+#| eval: false
+library(readr)
+source("https://pluto.coe.fsu.edu/PhysicsDataPlayground/Data/PrePostMetadata.R")
+PPIESFall2022BN <- 
+  read_csv("https://pluto.coe.fsu.edu/PhysicsDataPlayground/Data/PPIESFall2022BN.csv",
+           col_types=colBN)
+```
+
 
 ## Log files
 
