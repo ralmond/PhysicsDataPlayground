@@ -1,0 +1,7 @@
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    
+bibliography:  PhysicsPlayground.bib
+csl:  apa.csl
