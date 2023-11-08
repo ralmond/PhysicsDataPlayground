@@ -104,8 +104,6 @@ the _Peanut_ and _Proc4_ scoring engines) was provided by:
    Fengfeng Ke, PI)',
 
 
-
-
 # Overview of Physics Playground
 
 
@@ -168,6 +166,26 @@ Figure 4. Worked example of the manipulation level “Cookie Monster.” To make
 
 ### Cognitvie Supports
 
+
+
+As part of the project, the team designed and developed a set of
+in-game cognitive supports. The iterative design and development
+process used is described in @Shute2021a
+
+Final set of in-game cognitive supports
+
+1. physics videos,
+2. interactive definitions, 
+3. formulas, 
+4. Hewitt videos, 
+5. glossary, 
+6. worked examples, 
+7. hints, and 
+8. game tips.
+
+-   **Final Cognitive Support Design**
+
+
 ### Affective Supports
 
 ## The Stealth Assessment
@@ -180,7 +198,13 @@ Figure 4. Worked example of the manipulation level “Cookie Monster.” To make
 
 ## The Studies
 
-### Before/After Study
+### Physics Understanding Test
 
-### Affective Support Study
+
+
+### Game Design and Usibility
+
+### Support Timing Study
+
+### Support Efficacy Study
 

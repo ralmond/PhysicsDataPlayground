@@ -1,0 +1,895 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.3.450">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Physics Data Playground - Project Papers</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="../styles.css">
+</head>
+
+<body class="nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container">
+    <a class="navbar-brand" href="../index.html">
+    <span class="navbar-title">Physics Data Playground</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../index.html" rel="" target="">
+ <span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../Overview.html" rel="" target="">
+ <span class="menu-text">Overview</span></a>
+  </li>  
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-game" role="button" data-bs-toggle="dropdown" aria-expanded="false" rel="" target="">
+ <span class="menu-text">Game</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-game">    
+        <li>
+    <a class="dropdown-item" href="../Delivery.html" rel="" target="">
+ <span class="dropdown-text">Using the Game</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../Gameplay.html" rel="" target="">
+ <span class="dropdown-text">Playing the game</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../LevelEditor.html" rel="" target="">
+ <span class="dropdown-text">Level Editor</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../IncentiveStore.html" rel="" target="">
+ <span class="dropdown-text">Incentives and Store</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../AllLevels.html" rel="" target="">
+ <span class="dropdown-text">All game levels</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-supports" role="button" data-bs-toggle="dropdown" aria-expanded="false" rel="" target="">
+ <span class="menu-text">Supports</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-supports">    
+        <li>
+    <a class="dropdown-item" href="../CognitiveSupports.html" rel="" target="">
+ <span class="dropdown-text">Cognitive Supports</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../AffectiveSupports.html" rel="" target="">
+ <span class="dropdown-text">Affective Supports</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-internal-assessment" role="button" data-bs-toggle="dropdown" aria-expanded="false" rel="" target="">
+ <span class="menu-text">Internal Assessment</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-internal-assessment">    
+        <li>
+    <a class="dropdown-item" href="../CompetencyModel.html" rel="" target="">
+ <span class="dropdown-text">Competency Model</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../EvidenceModels.html" rel="" target="">
+ <span class="dropdown-text">Evidence Models</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../EvidenceIdentification.html" rel="" target="">
+ <span class="dropdown-text">Evidence Identification</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../Statistics.html" rel="" target="">
+ <span class="dropdown-text">Statistics Reported by the Bayes net</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../QMatrix.html" rel="" target="">
+ <span class="dropdown-text">Q Matrix</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-instruments" role="button" data-bs-toggle="dropdown" aria-expanded="false" rel="" target="">
+ <span class="menu-text">Instruments</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-instruments">    
+        <li>
+    <a class="dropdown-item" href="../preposttest.html" rel="" target="">
+ <span class="dropdown-text">Pre/Post test</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../IMI.html" rel="" target="">
+ <span class="dropdown-text">Intrinsic Motivation Inventory</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../PA.html" rel="" target="">
+ <span class="dropdown-text">Physics Animations</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-protocols" role="button" data-bs-toggle="dropdown" aria-expanded="false" rel="" target="">
+ <span class="menu-text">Protocols</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-protocols">    
+        <li>
+    <a class="dropdown-item" href="../Before-After.html" rel="" target="">
+ <span class="dropdown-text">Support Timing Study</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../SupportEfficacy.html" rel="" target="">
+ <span class="dropdown-text">Support Efficacy Study</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-data" role="button" data-bs-toggle="dropdown" aria-expanded="false" rel="" target="">
+ <span class="menu-text">Data</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-data">    
+        <li>
+    <a class="dropdown-item" href="../Codebook.html" rel="" target="">
+ <span class="dropdown-text">Codebook</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../BAdata.html" rel="" target="">
+ <span class="dropdown-text">Support Timing Data</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../EfficacyData.html" rel="" target="">
+ <span class="dropdown-text">Support Efficacy Data</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../Events.html" rel="" target="">
+ <span class="dropdown-text">Log files</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="../Analyses.html" rel="" target="">
+ <span class="menu-text">Analysis Scripts</span></a>
+  </li>  
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-software" role="button" data-bs-toggle="dropdown" aria-expanded="false" rel="" target="">
+ <span class="menu-text">Software</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-software">    
+        <li>
+    <a class="dropdown-item" href="../GameEngine.html" rel="" target="">
+ <span class="dropdown-text">Game Engine</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../Peanut.html" rel="" target="">
+ <span class="dropdown-text">Peanut Bayes Net Engine</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../Proc4.html" rel="" target="">
+ <span class="dropdown-text">Proc4 scoring system</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="../Personnel.html" rel="" target="">
+ <span class="menu-text">Personnel</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../Articles.html" rel="" target="">
+ <span class="menu-text">Articles</span></a>
+  </li>  
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-bibliography" role="button" data-bs-toggle="dropdown" aria-expanded="false" rel="" target="">
+ <span class="menu-text">Bibliography</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-bibliography">    
+        <li>
+    <a class="dropdown-item" href="../papers.qmd" rel="" target="">
+ <span class="dropdown-text">Project Papers</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../bib.html" rel="" target="">
+ <span class="dropdown-text">References</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="../about.html" rel="" target="">
+ <span class="menu-text">About</span></a>
+  </li>  
+</ul>
+            <div class="quarto-navbar-tools ms-auto">
+</div>
+          </div> <!-- /navcollapse -->
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar"><div class="quarto-margin-header"><div class="margin-header-item">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../img/PP-Website-BG.jpg" class="img-fluid figure-img"></p>
+<figcaption class="figure-caption">Physics Playground Logo</figcaption>
+</figure>
+</div>
+</div></div>
+        
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Project Papers</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+</header>
+
+<div id="refs" class="references csl-bib-body hanging-indent" data-line-spacing="2" role="list">
+<div id="ref-matrix2" class="csl-entry" role="listitem">
+Almond, R. G. (2010a). <span>“<span>I</span> can name that <span>Bayesian Network</span> in <span>Two Matrixes</span>.”</span> <em>International Journal of Approximate Reasoning</em>, <em>51</em>, 167–178. <a href="https://doi.org/10.1016/j.ijar.2009.04.005">https://doi.org/10.1016/j.ijar.2009.04.005</a>
+</div>
+<div id="ref-almond2010" class="csl-entry" role="listitem">
+Almond, R. G. (2010b). Using <span>Evidence Centered Design</span> to <span>Think</span> about <span>Assessments</span>. In V. J. Shute &amp; B. J. Becker (Eds.), <em>Innovative <span>Assessment</span> for the 21st <span>Century</span>: <span>Supporting Educational Needs</span></em> (pp. 75–100). <span>Springer</span>. <a href="https://doi.org/10.1007/978-1-4419-6530-1_6">https://doi.org/10.1007/978-1-4419-6530-1_6</a>
+</div>
+<div id="ref-almond2016" class="csl-entry" role="listitem">
+Almond, R. G. (2016). Tips and <span>Tricks</span> for <span>Building Bayesian Networks</span> for <span>Scoring Game-Based Assessments</span>. In J. Suzuki &amp; M. Ueno (Eds.), <em>Lecture <span>Notes</span> in <span>Computer Science</span> 9505, <span>AMBN</span> 2015</em> (Vol. 9505, pp. 250–263). <span>Springer</span>.
+</div>
+<div id="ref-almond2017" class="csl-entry" role="listitem">
+Almond, R. G. (2017). Tabular <span>Views</span> of <span>Bayesian Networks</span>. In J.-M. Agosta &amp; T. Sinclair (Eds.), <em>Bayesian <span>Modeling Application Workshop</span> 2017</em>.
+</div>
+<div id="ref-almond2018" class="csl-entry" role="listitem">
+Almond, R. G. (2018a). Inner and <span class="nocase">Outer Q-matrixes</span> for <span class="nocase">Multi-step Problems</span>. <em>Annual <span>Meeting</span> of the <span>American Educational Research Association</span></em>.
+</div>
+<div id="ref-almond2018a" class="csl-entry" role="listitem">
+Almond, R. G. (2018b). <em><span>EIEvent</span>: <span>Evidence Identifcation Event Processing Engine</span></em>.
+</div>
+<div id="ref-almond2020" class="csl-entry" role="listitem">
+Almond, R. G. (2020). Streaming <span>Scoring</span> for <span class="nocase">Game-based Assessments</span>. In D. Yan, A. A. Rupp, &amp; P. Foltz (Eds.), <em>Handbook of <span>Automated Scoring</span>: <span>Theory</span> into <span>Practice</span></em> (pp. 423–444). <span>CRC Press</span>.
+</div>
+<div id="ref-CPTtools" class="csl-entry" role="listitem">
+Almond, R. G. (2023a). <em><span>CPTtools</span>: <span>Tools</span> for <span>Creating Conditional Probability Tables</span></em>.
+</div>
+<div id="ref-Peanut" class="csl-entry" role="listitem">
+Almond, R. G. (2023b). <em>Peanut: <span>Parameterized Bayesian Networks</span>, <span>Abstract Classes</span></em>.
+</div>
+<div id="ref-PNetica" class="csl-entry" role="listitem">
+Almond, R. G. (2023c). <em><span>PNetica</span>: <span>Parameterized Bayesian Networks</span>, <span>Netica Interface</span></em>.
+</div>
+<div id="ref-almond2023" class="csl-entry" role="listitem">
+Almond, R. G. (2023d). <em><span>RNetica</span>: <span>R</span> interface to <span>Netica</span>(<span>R</span>) <span>Bayesian Network Engine</span></em>.
+</div>
+<div id="ref-EIEvent" class="csl-entry" role="listitem">
+Almond, R. G. (2023e). <em><span>EIEvent</span>: <span>Evidence Identification Event Processing Engine</span></em>.
+</div>
+<div id="ref-mongo" class="csl-entry" role="listitem">
+Almond, R. G. (2023f). <em>Mongo: <span>Higher</span> level inferface to <span>Mongo</span> database</em>.
+</div>
+<div id="ref-Proc4R" class="csl-entry" role="listitem">
+Almond, R. G. (2023g). <em>Proc4: <span>Four Process Assessment Database</span> and <span>Dispatcher</span></em>.
+</div>
+<div id="ref-EABN" class="csl-entry" role="listitem">
+Almond, R. G. (2023h). <em><span>EABN</span>: <span>Evidence Accumulation Bayes Net Engine</span></em>.
+</div>
+<div id="ref-almond2013" class="csl-entry" role="listitem">
+Almond, R. G., Kim, Y. J., Shute, V. J., &amp; Ventura, M. (2013). Debugging the <span>Evidence Chain</span>. In R. G. Almond &amp; O. Mengshoel (Eds.), <em>Proceedings of the 2013 <span>UAI Application Workshops</span>: <span>Big Data</span> meet <span>Complex Models</span> and <span>Models</span> for <span>Spatial</span>, <span>Temporal</span> and <span>Network Data</span> (<span>UAI2013AW</span>)</em> (pp. 1–10).
+</div>
+<div id="ref-almond2014" class="csl-entry" role="listitem">
+Almond, R. G., Kim, Y. J., Velasquez, G., &amp; Shute, V. J. (2014). How <span>Task Features Impact Evidence</span> from <span>Assessments Embedded</span> in <span>Simulations</span> and <span>Games</span>. <em>Measurement: Interdisciplinary Research and Perspectives</em>, <em>12</em>(1), 1–33. <a href="https://doi.org/10.1080/15366367.2014.910060">https://doi.org/10.1080/15366367.2014.910060</a>
+</div>
+<div id="ref-bninea" class="csl-entry" role="listitem">
+Almond, R. G., Mislevy, R. J., Steinberg, L. S., Williamson, D. M., Yan, D., Levy, R., Robinson, D. H., Rutstein, D. W., Shute, V. J., Stanley, K., Winters, F. I., Mislevy, R. J., Behrens, J. T., DiCerbo, K. E., Levy, R., Mislevy, R. J., Corrigan, S., Oranje, A., DiCerbo, K., … Mislevy, R. (2015). Bayesian networks in educational assessment [({{CSE}} Report No. 837).]. <em>ETS 2021-0026.R1</em>, <em>1</em>(5), 257–292. <a href="https://doi.org/10.3389/fpsyg.2017.02029">https://doi.org/10.3389/fpsyg.2017.02029</a>
+</div>
+<div id="ref-almond2018c" class="csl-entry" role="listitem">
+Almond, R. G., Shute, V. J., Smith, G., Rahimi, S., Ke, F., Liu, Z. (Lukas)., Lu, X., Sun, C., Tingir, S., &amp; Wiliams, D. (2018, November). Physics <span>Playground</span>: <span>A Learning Game Dmeo</span> with <span>Posters</span>. <em>Florida <span>Educational Research Association</span> (<span>FERA</span>) 63rd <span>Annual Meeting</span></em>.
+</div>
+<div id="ref-almond2019a" class="csl-entry" role="listitem">
+Almond, R. G., Shute, V. J., Tingir, S., &amp; Rahimi, S. (2019). Identifying observable outcomes in game-based assessments. In R. Lisstz &amp; H. Jiao (Eds.), <em>Innovative <span>Psychometric Modeling</span> and <span>Methods</span></em> (pp. 163–192). <span>Information Age Publishing</span>.
+</div>
+<div id="ref-teacherView" class="csl-entry" role="listitem">
+Almond, R. G., Shute, V. J., Underwood, J. S., &amp; Zapata-Rivera, J.-D. (2009). Bayesian <span>Networks</span>: <span>A Teacher</span>’s <span>View</span>. <em>International Journal of Approximate Reasoning</em>, <em>50</em>, 450–460. <a href="https://doi.org/10.1016/j.ijar.2008.04.011">https://doi.org/10.1016/j.ijar.2008.04.011</a>
+</div>
+<div id="ref-almond2001" class="csl-entry" role="listitem">
+Almond, R. G., Steinberg, L. S., &amp; Mislevy, R. J. (2001, August). The <span>Four Process Assessment Delivery Architecture</span>. <em>Cognition and <span>Assessment</span>: <span>Theory</span> to <span>Practice</span></em>.
+</div>
+<div id="ref-almond2002a" class="csl-entry" role="listitem">
+Almond, R. G., Steinberg, L. S., &amp; Mislevy, R. J. (2002). Enhancing the design and delivery of assessment systems: <span>A</span> four-process architecture. <em>Journal of Technology, Learning, and Assessment</em>, <em>1</em>, (online).
+</div>
+<div id="ref-almond2017a" class="csl-entry" role="listitem">
+Almond, R. G., Tingir, S., Lu, X., Sun, C., &amp; Rahimi, S. (2017). Tabular <span>Views</span> of <span>Bayesian NetworksA Validation Tool</span> for <span>Conditional Proability Tables</span> (<span>CPT</span>) for <span>Physics Playground</span>. In J.-M. Agosta &amp; T. Sinclair (Eds.), <em>Bayesian <span>Modeling Application Workshop</span> 2017</em>.
+</div>
+<div id="ref-almond2019" class="csl-entry" role="listitem">
+Almond, R. G., &amp; Zapata-Rivera, D. (2019). Bayesian <span>Networks</span>. In M. von Davier &amp; Y. S. Lee (Eds.), <em>Handbook of <span>Diagnostic</span> classification models.</em> (pp. 81–106). <span>Springer</span>. <a href="https://doi.org/10.1007/978-3-030-05584-4_4">https://doi.org/10.1007/978-3-030-05584-4_4</a>
+</div>
+<div id="ref-bainbridge2022" class="csl-entry" role="listitem">
+Bainbridge, K., Shute, V., Rahimi, S., Liu, Z., Slater, S., Baker, R. S., &amp; D’Mello, S. K. (2022). Does embedding learning supports enhance transfer during game-based learning? <em>Learning and Instruction</em>, <em>77</em>, 101547. <a href="https://doi.org/10.1016/j.learninstruc.2021.101547">https://doi.org/10.1016/j.learninstruc.2021.101547</a>
+</div>
+<div id="ref-xAPI" class="csl-entry" role="listitem">
+Betts, B., &amp; Smith, R. (2018). <em>The leraning technology manager’s guid to <span class="nocase">xAPI</span></em> (2nd ed.) [Manual].
+</div>
+<div id="ref-bosch2016" class="csl-entry" role="listitem">
+Bosch, N., D’mello, S. K., Ocumpaugh, J., Baker, R. S., &amp; Shute, V. (2016). Using <span>Video</span> to <span>Automatically Detect Learner Affect</span> in <span>Computer-Enabled Classrooms</span>. <em>ACM Transactions on Interactive Intelligent Systems</em>, <em>6</em>(2), 1–26. <a href="https://doi.org/10.1145/2946837">https://doi.org/10.1145/2946837</a>
+</div>
+<div id="ref-enright1999" class="csl-entry" role="listitem">
+Enright, M. K., Moreley, M., &amp; Sheehan, K. M. (1999). <em>Items by <span>Design</span>: <span>The Impact</span> of <span>Systematic Feature Variation</span> on <span>Item Statistical Characteristics</span></em> (Research {{Report}} RR-99-20, GREB-95-15R). <span>Educational Testing Service</span>.
+</div>
+<div id="ref-falmagne2007" class="csl-entry" role="listitem">
+Falmagne, J.-C., Cosyn, E., Doble, C., Thiéry, N., &amp; Uzun, H. (2007). <em>Assessing <span>Mathematical Knowledge</span> in a <span>Learning Space</span>: <span>Validity</span> and/or <span>Reliability</span></em>.
+</div>
+<div id="ref-good1950" class="csl-entry" role="listitem">
+Good, I. J. (1950). <em>Probability and the <span>Weighing</span> of <span>Evidence</span></em>. <span>Charles Griffin</span>.
+</div>
+<div id="ref-goodCard1971" class="csl-entry" role="listitem">
+Good, I. J., &amp; Card, W. (1971). The diagnostic process with special reference to errors. <em>Methods of Information in Medicine</em>, <em>10</em>, 176–188.
+</div>
+<div id="ref-kane2006" class="csl-entry" role="listitem">
+Kane, M. T. (2006). Validation. In R. L. Brennan (Ed.), <em>Educational measurement (4th ed.)</em> (4th ed., pp. 17–64). <span>American Council on Education/Praeger.</span>
+</div>
+<div id="ref-ke2019" class="csl-entry" role="listitem">
+Ke, F., Shute, V., Clark, K. M., &amp; Erlebacher, G. (2019). <em>Interdisciplinary <span>Design</span> of <span class="nocase">Game-based Learning Platforms</span>: <span>A Phenomenological Examination</span> of the <span>Integrative Design</span> of <span>Game</span>, <span>Learning</span>, and <span>Assessment</span></em>. <span>Springer International Publishing</span>. <a href="https://doi.org/10.1007/978-3-030-04339-1">https://doi.org/10.1007/978-3-030-04339-1</a>
+</div>
+<div id="ref-kennedy2006" class="csl-entry" role="listitem">
+Kennedy, C. A., Wilson, M. R., Draney, K., Tutunciyan, S., &amp; Vorp, R. (2006). <em><span>ConceptMap</span></em>.
+</div>
+<div id="ref-kim2016" class="csl-entry" role="listitem">
+Kim, Y. J., Almond, R. G., &amp; Shute, V. J. (2016). Applying evidence-centered design for development of game-based assessments in <span>Physics Playground</span>. <em>International Journal of Testing</em>, <em>16</em>(2), 142–163. <a href="https://doi.org/15305058.2015.1108322">https://doi.org/15305058.2015.1108322</a>
+</div>
+<div id="ref-kim2014" class="csl-entry" role="listitem">
+Kim, Y. J., Almond, R. G., Shute, V. J., &amp; Ventura, M. (2014). <em>Constructing <span>Bayesian Networks</span> for a <span>Stealth Assessment</span> of <span>Qualitative Physics</span></em>.
+</div>
+<div id="ref-kima" class="csl-entry" role="listitem">
+Kim, Y. J., &amp; Shute, V. J. (n.d.-a). Opportunities and challenges in assessing and supporting creativity in video games. In G. Green &amp; J. Kaufmann (Eds.), <em>Video games and creativity</em> (pp. (to appear)). <span>Elsevier</span>.
+</div>
+<div id="ref-kim" class="csl-entry" role="listitem">
+Kim, Y. J., &amp; Shute, V. J. (n.d.-b). The interplay of game elements with psychometric qualities, learning, and enjoyment in game-based assessment. <em>Computers &amp; Education</em>, (to appear).
+</div>
+<div id="ref-kim2012" class="csl-entry" role="listitem">
+Kim, Y. J., Ventura, M., Shute, V., &amp; Almond, R. G. (2012). <em>Newton’s <span>Playground</span>: <span>How</span> to use evidence centered design (<span>ECD</span>) to develop game-based assessment</em>.
+</div>
+<div id="ref-kuba2021" class="csl-entry" role="listitem">
+Kuba, R., Rahimi, S., Smith, G., Shute, V., &amp; Dai, C.-P. (2021). Using the first principles of instruction and multimedia learning principles to design and develop in-game learning support videos. <em>Educational Technology Research and Development</em>, <em>69</em>(2), 1201–1220. <a href="https://doi.org/10.1007/s11423-021-09994-3">https://doi.org/10.1007/s11423-021-09994-3</a>
+</div>
+<div id="ref-LearningLocker" class="csl-entry" role="listitem">
+<em>Learning <span>Locker Documentation</span></em> (2nd ed.). (2018). (2nd ed.) [Computer software]. <span>HT2Labs</span>.
+</div>
+<div id="ref-Levy2013" class="csl-entry" role="listitem">
+Levy, R. (2013). Psychometric and evidentiary advances, opportunities, and challenges for simulation-based assessment. <em>Educational Assessment</em>, <em>18</em>, 182–207. <a href="https://doi.org/10.1080/10627197.2013.814517">https://doi.org/10.1080/10627197.2013.814517</a>
+</div>
+<div id="ref-levy2004" class="csl-entry" role="listitem">
+Levy, R., &amp; Mislevy, R. J. (2004). Specifying and refining a measurement model for a simulation-based assessment. <em>International Journal of Measurement</em>, <em>4</em>, 333–369.
+</div>
+<div id="ref-testSelection" class="csl-entry" role="listitem">
+Madigan, D., &amp; Almond, R. G. (1995). Test selection strategies for belief networks. In D. Fisher &amp; H. J. Lenz (Eds.), <em>Learning from <span>Data</span>: <span>AI</span> and <span>Statistics V</span></em> (pp. 89–98). <span>Springer-Verlag</span>.
+</div>
+<div id="ref-madigan1995" class="csl-entry" role="listitem">
+Madigan, D., Hunt, E., &amp; Levidow, B. (1995). <em>Bayesian graphical modeling for intelligent tutoring systems</em>. <span>University of Washington, Department of Statstics</span>.
+</div>
+<div id="ref-madigan1997" class="csl-entry" role="listitem">
+Madigan, D., Mosurski, K., &amp; Almond, R. G. (1997). Graphical explanation in belief networks. <em>Journal of Computational and Graphical Statistics</em>, <em>6</em>(2), 160–181. <a href="https://doi.org/10.1080/10618600.1997.10474735">https://doi.org/10.1080/10618600.1997.10474735</a>
+</div>
+<div id="ref-mislevy" class="csl-entry" role="listitem">
+Mislevy, R. J. (n.d.). <em>Argument <span>Substance</span> and <span>Argument Structure</span> in <span>Educational Assessment</span></em>.
+</div>
+<div id="ref-mislevy1994" class="csl-entry" role="listitem">
+Mislevy, R. J. (1994). Evidence and <span>Inference</span> in <span>Educational Assessment</span>. <em>Psychometrika</em>, <em>59</em>, 439–483. <a href="https://doi.org/10.1007/BF02294388">https://doi.org/10.1007/BF02294388</a>
+</div>
+<div id="ref-mislevy2004" class="csl-entry" role="listitem">
+Mislevy, R. J., Almond, R. G., &amp; Lukas, J. (2004). <em>A brief introduction to evidence-centered design</em> ({{CSE Technical Report}} No. 632). <span>The National Center for Research on Evaluation, Standards, Student Testing (CRESST)</span>.
+</div>
+<div id="ref-mislevy1997" class="csl-entry" role="listitem">
+Mislevy, R. J., Almond, R. G., &amp; Steinberg, L. S. (1997). Task design, student modeling, and evidentiary reasoning in complex educational assessments. <em>Section on <span>Bayesian Statistical Science</span> at the <span>Annual Meeting</span> of the <span>American Statistical Association</span></em>.
+</div>
+<div id="ref-mislevy2000" class="csl-entry" role="listitem">
+Mislevy, R. J., Almond, R. G., Yan, D., &amp; Steinberg, L. S. (2000). <em>Bayes <span>Nets</span> in <span>Educational Assessment</span>: <span>Where Do</span> the <span>Numbers Come From</span>?: (649912011-001)</em>. <span>American Psychological Association</span>. <a href="https://doi.org/10.1037/e649912011-001">https://doi.org/10.1037/e649912011-001</a>
+</div>
+<div id="ref-mislevy2010" class="csl-entry" role="listitem">
+Mislevy, R. J., Behrens, J. T., Bennett, R. E., Demark, S. F., Frezzo, D. C., Levy, R., Robinson, D. H., Wise Rutstein, D., Shute, V. J., Stanley, K., &amp; Winters, F. I. (2010). On the roles of external knowledge representations in assessment design. <em>The Journal of Technology, Learning and Assessment</em>, <em>8</em>(2).
+</div>
+<div id="ref-mislevy2012" class="csl-entry" role="listitem">
+Mislevy, R. J., Behrens, J. T., DiCerbo, K. E., Frezzo, D. C., &amp; West, P. (2012). Three things game designers need to know about assessment. In D. Ifenthaler, D. Eseryel, &amp; X. Ge (Eds.), <em>Assessment in game-based learning: <span>Foundations</span>, innovations, and perspectives</em> (pp. 59–81). <span>Springer</span>.
+</div>
+<div id="ref-mislevy1996" class="csl-entry" role="listitem">
+Mislevy, R. J., &amp; Gitomer, D. H. (1996). The role of probability based inference in an intelligent tutoring system. <em>User-Modeling and User-Adapted Interaction</em>, <em>5</em>, 253–282. <a href="https://doi.org/10.1007/BF01126112">https://doi.org/10.1007/BF01126112</a>
+</div>
+<div id="ref-mislevy2003" class="csl-entry" role="listitem">
+Mislevy, R. J., Hamel, L., Fried, R. G., Gaffney, T., Haertel, G., Hafter, A., Murphy, R., Quellmalz, E., Rosenquist, A., Schank, P., Draney, K., Kennedy, C., Long, K., Wilson, M., Chudowsky, N., Morrison, A., Pena, P., Songer, N., &amp; Wenk, A. (2003). <em>Design patterns for assessing science inquiry</em> ({{PADI Technical Report}} No. 1). <span>SRI International</span>.
+</div>
+<div id="ref-mislevya" class="csl-entry" role="listitem">
+Mislevy, R. J., Steinberg, L. S., &amp; Almond, R. G. (n.d.). <em>On the <span>Roles</span> of <span>Task Model Variables</span> in <span>Assessment Design</span></em>. <a href="https://doi.org/10.1037/e650082011-001">https://doi.org/10.1037/e650082011-001</a>
+</div>
+<div id="ref-mislevy2002" class="csl-entry" role="listitem">
+Mislevy, R. J., Steinberg, L. S., &amp; Almond, R. G. (2002). On the roles of task model variables in assessment design. In S. H. Irvine &amp; P. Kyllonen (Eds.), <em>Generating items for cognitive tests: <span>Theory</span> and practice</em> (pp. 97–128). <span>Erlbaum</span>.
+</div>
+<div id="ref-mislevy2003a" class="csl-entry" role="listitem">
+Mislevy, R. J., Steinberg, L. S., &amp; Almond, R. G. (2003). <em>On the structure of educational assessments</em> ({{CSE Technical Report}} No. 597). <span>The National Center for Research on Evaluation, Standards, Student Testing (CRESST)</span>.
+</div>
+<div id="ref-mislevy2007" class="csl-entry" role="listitem">
+Mislevy, R., &amp; Huang, C.-W. (2007). Measurement <span>Models</span> as <span>Narrative Structures</span>. In <em>Multivariate and <span>Mixture Distribution Rasch Models</span></em> (pp. 15–35). <span>Springer New York</span>. <a href="https://doi.org/10.1007/978-0-387-49839-3_2">https://doi.org/10.1007/978-0-387-49839-3_2</a>
+</div>
+<div id="ref-muraki1992" class="csl-entry" role="listitem">
+Muraki, E. (1992). A <span>Generalized Partial Credit Model</span>: <span>Application</span> of an <span>EM Algorithm</span>. <em>Applied Psychological Measurement</em>, <em>16</em>(2), 159–176. <a href="https://doi.org/10.1177/014662169201600206">https://doi.org/10.1177/014662169201600206</a>
+</div>
+<div id="ref-pellegrino-a" class="csl-entry" role="listitem">
+Pellegrino, J., Glaser, R., &amp; Chudowsky, N. (Eds.). (n.d.). <em>Committee on the foundations of assessment</em>. <span>National Academy Press</span>.
+</div>
+<div id="ref-pelligrino2001" class="csl-entry" role="listitem">
+Pelligrino, J., Glaser, R., &amp; Chudowsky, N. (Eds.). (2001). <em>Knowing what students know: <span>The</span> science and design of educational assessment</em>. <span>National Research Council</span>.
+</div>
+<div id="ref-ploetzner1997" class="csl-entry" role="listitem">
+Ploetzner, R., &amp; VanLehn, K. (1997). The acquisition of informal physics knowledge during formal physics trianing. <em>Cognition and Instruction</em>, <em>15</em>, 169–206. <a href="https://doi.org/10.1207/s1532690xci1502_2">https://doi.org/10.1207/s1532690xci1502_2</a>
+</div>
+<div id="ref-Quellmalz2009" class="csl-entry" role="listitem">
+Quellmalz, E. S., Davenport, J., Timms, M. J., &amp; Buckley, B. C. (2009). <em>Quality <span>Science Simulations</span> for <span>Formative</span> and <span>Summative Assessments</span></em>. <span>WestEd</span>.
+</div>
+<div id="ref-rcoreteam2021" class="csl-entry" role="listitem">
+R Core Team. (2021). <em>R: <span>A Language</span> and <span>Environment</span> for <span>Statistical Computing</span></em>. <span>R Foundation for Statistical Computing</span>.
+</div>
+<div id="ref-rahimi2019" class="csl-entry" role="listitem">
+Rahimi, S., Almond, R. G., &amp; Shute, V. J. (2019). Technical underpinnings of <span>Physics Playground</span>. <em>Annual Meetiong of the <span>American Educational Research Association</span></em>.
+</div>
+<div id="ref-rahimiInPressa" class="csl-entry" role="listitem">
+Rahimi, S., Almond, R. G., &amp; Shute, V. J. (In Press). Stealth <span>Assessments</span>’ <span>Technical Architecture</span>. In M. P. McCreery &amp; S. K. Krach (Eds.), <em>Games as <span>Stealth Assessments</span></em>. <span>IGI Global</span>.
+</div>
+<div id="ref-rahimiInPress" class="csl-entry" role="listitem">
+Rahimi, S., Almond, R. G., Shute, V. J., &amp; Sun, C. (In Press). Getting the <span>First</span> and <span>Second Decimals Right</span>: <span>Psychometrics</span> of <span>Stealth Assessment</span>. In M. P. McCreery &amp; S. K. Krach (Eds.), <em>Games as <span>Stealth Assessment</span></em>. <span>IGI Global</span>.
+</div>
+<div id="ref-rahimi2021" class="csl-entry" role="listitem">
+Rahimi, S., &amp; Shute, V. (2021a). Learning <span>Analytics Dashboards</span> in <span>Educational Games</span>. In M. Sahin &amp; D. Ifenthaler (Eds.), <em>Visualizations and <span>Dashboards</span> for <span>Learning Analytics</span></em> (pp. 527–546). <span>Springer International Publishing</span>. <a href="https://doi.org/10.1007/978-3-030-81222-5_24">https://doi.org/10.1007/978-3-030-81222-5_24</a>
+</div>
+<div id="ref-rahimi2021a" class="csl-entry" role="listitem">
+Rahimi, S., &amp; Shute, V. J. (2021b). First inspire, then instruct to improve students’ creativity. <em>Computers &amp; Education</em>, <em>174</em>, 104312. <a href="https://doi.org/10.1016/j.compedu.2021.104312">https://doi.org/10.1016/j.compedu.2021.104312</a>
+</div>
+<div id="ref-rahimi2023" class="csl-entry" role="listitem">
+Rahimi, S., &amp; Shute, V. J. (2023). Stealth assessment: A theoretically grounded and psychometrically sound method to assess, support, and investigate learning in technology-rich environments. <em>Educational Technology Research and Development</em>. <a href="https://doi.org/10.1007/s11423-023-10232-1">https://doi.org/10.1007/s11423-023-10232-1</a>
+</div>
+<div id="ref-rahimi2022" class="csl-entry" role="listitem">
+Rahimi, S., Shute, V. J., Fulwider, C., Bainbridge, K., Kuba, R., Yang, X., Smith, G., Baker, R. S., &amp; D’Mello, S. K. (2022). Timing of learning supports in educational games can impact students’ outcomes. <em>Computers &amp; Education</em>, <em>190</em>, 104600. <a href="https://doi.org/10.1016/j.compedu.2022.104600">https://doi.org/10.1016/j.compedu.2022.104600</a>
+</div>
+<div id="ref-rahimi2021b" class="csl-entry" role="listitem">
+Rahimi, S., Shute, V., Kuba, R., Dai, C.-P., Yang, X., Smith, G., &amp; Alonso Fernández, C. (2021). The use and effects of incentive systems on learning and performance in educational games. <em>Computers &amp; Education</em>, <em>165</em>, 104135. <a href="https://doi.org/10.1016/j.compedu.2021.104135">https://doi.org/10.1016/j.compedu.2021.104135</a>
+</div>
+<div id="ref-rahimi2021c" class="csl-entry" role="listitem">
+Rahimi, S., Shute, V., &amp; Zhang, Q. (2021). The <span>Effects</span> of <span>Game</span> and <span>Student Characteristics</span> on <span>Persistence</span> in <span>Educational Games</span>: <span>A Hierarchical Linear Modeling Approach</span>. <em>International Journal of Technology in Education and Science</em>, <em>5</em>(2), 141–165. <a href="https://doi.org/10.46328/ijtes.118">https://doi.org/10.46328/ijtes.118</a>
+</div>
+<div id="ref-rupp2010" class="csl-entry" role="listitem">
+Rupp, A. A., Templin, J., &amp; Hensen, R. J. (2010). <em>Diagnostic measurement: <span>Theory</span>, methods, and applications.</em> <span>Guilford Press</span>.
+</div>
+<div id="ref-shute" class="csl-entry" role="listitem">
+Shute, V. J. (n.d.). Stealth assessment. In J. M. Spector, T. Johnson, D. Ifenthaler, W. Savenye, &amp; M. Wang (Eds.), <em>Encyclopedia of educational technology</em> (pp. to appear). <span>Sage publications</span>.
+</div>
+<div id="ref-shute2003" class="csl-entry" role="listitem">
+Shute, V. J. (2003). <em>Under the hood of adaptive e-learning: <span>Diagnostic</span> assessment, student modeling, and selection rules</em>.
+</div>
+<div id="ref-shute2015" class="csl-entry" role="listitem">
+Shute, V. J., D’Mello, S. K., Baker, R. S., Cho, K., Bosch, N., Ocumpaugh, J., Ventura, M., &amp; Almeda, V. (2015). Modeling how incoming knowledge, persistance, affective states and in-game progress influence student learning from and educational game. <em>Computers and Education</em>, <em>86</em>, 244–235. <a href="https://doi.org/10.1016/j.compedu.2015.08.001">https://doi.org/10.1016/j.compedu.2015.08.001</a>
+</div>
+<div id="ref-Shute2010" class="csl-entry" role="listitem">
+Shute, V. J., Donmez, O., &amp; Kim, Y. J. (2010). Assessing 21st <span>Century Skills</span>. In J. Gee &amp; D. Davison (Eds.), <em>Working <span>Examples</span></em> (p. online). <span>(online colletion)</span>.
+</div>
+<div id="ref-shute2007" class="csl-entry" role="listitem">
+Shute, V. J., Hansen, E. G., &amp; Almond, R. G. (2007). Evaluating <span>ACED</span>: <span>The Impact</span> of <span>Feedback</span> and <span>Adaptivity</span> on <span>Learning</span>. In R. Luckin, K. R. Koedinger, &amp; J. Greer (Eds.), <em>Intelligence in <span>Education</span>: <span>Building Technology Rich Learning Contexts</span> that <span>Work</span></em> (pp. 230–237). <span>IOS Press</span>.
+</div>
+<div id="ref-fatHog" class="csl-entry" role="listitem">
+Shute, V. J., Hansen, E. G., &amp; Almond, R. G. (2008). You <span>Can</span>’t <span>Fatten A Hog</span> by <span>Weighing It</span> - <span>Or Can You</span>? <span>Evaluating</span> an <span>Assessment</span> for <span>Learning System Called ACED</span>. <em>International Journal of Artificial Intelligence in Education</em>, <em>18</em>(4), 289–316.
+</div>
+<div id="ref-shute2019" class="csl-entry" role="listitem">
+Shute, V. J., Ke, F., Almond, R. G., Rahimi, S., Smith, G., &amp; Lu, X. (2019). How to <span>Increase Learning</span> while not decreasing the fun in educational games. In R. Feldman (Ed.), <em>Learning <span>Science</span>: <span>Theory</span>, <span>Research</span> and <span>Practice</span></em> (pp. 327–357). <span>McGraw-Hill</span>.
+</div>
+<div id="ref-shute2010" class="csl-entry" role="listitem">
+Shute, V. J., Masduki, I., &amp; Donmez, O. (2010). Concpetual framework for modeling, assessing, and supporting competencies within game environments. <em>Technology, Instruction, Cognition and Learning (TICL)</em>, <em>8</em>(2), 137–161.
+</div>
+<div id="ref-shute1996" class="csl-entry" role="listitem">
+Shute, V. J., &amp; Psotka, J. (1996). Intelligent tutoring systems: <span>Past</span>, present, and future. In D. Jonassen (Ed.), <em>Handbook of <span>Research</span> for <span>Educational Communications</span> and <span>Technology</span></em> (pp. 570–600). <span>Macmillan</span>.
+</div>
+<div id="ref-shute2021" class="csl-entry" role="listitem">
+Shute, V. J., &amp; Rahimi, S. (2021). Stealth assessment of creativity in a physics video game. <em>Computers in Human Behavior</em>, <em>116</em>, 106647. <a href="https://doi.org/10.1016/j.chb.2020.106647">https://doi.org/10.1016/j.chb.2020.106647</a>
+</div>
+<div id="ref-shute2021a" class="csl-entry" role="listitem">
+Shute, V. J., Smith, G., Kuba, R., Dai, C.-P., Rahimi, S., Liu, Z., &amp; Almond, R. (2021). The <span>Design</span>, <span>Development</span>, and <span>Testing</span> of <span>Learning Supports</span> for the <span>Physics Playground Game</span>. <em>International Journal of Artificial Intelligence in Education</em>, <em>31</em>(3), 357–379. <a href="https://doi.org/10.1007/s40593-020-00196-1">https://doi.org/10.1007/s40593-020-00196-1</a>
+</div>
+<div id="ref-shute2013" class="csl-entry" role="listitem">
+Shute, V. J., &amp; Ventura, M. (2013). <em>Measuring and supporting learning in games: <span>Stealth Assessment</span></em>. <span>The MIT Press</span>.
+</div>
+<div id="ref-shute2009" class="csl-entry" role="listitem">
+Shute, V. J., Ventura, M., Bauer, M. I., &amp; Zapata-Rivera, D. (2009). Melding the power of serious games and embedded assessment to monitor and foster learning: <span>Flow</span> and grow. In U. Ritterfeld, M. J. Cody, &amp; P. Vorderer (Eds.), <em>Serious games: <span>Mechanisms</span> and effects</em> (pp. 295–321). <span>Routledge, Taylor and Francis.</span>
+</div>
+<div id="ref-NPPhysics" class="csl-entry" role="listitem">
+Shute, V. J., Ventura, M., &amp; Kim, Y. J. (2013). Assessment and learning of informal physics in <span>Newton</span>’s <span>Playground</span>. <em>Journal of Educational Research</em>, <em>106</em>, 423–430. <a href="https://doi.org/10.1080/00220671.2013.832970">https://doi.org/10.1080/00220671.2013.832970</a>
+</div>
+<div id="ref-shute2014" class="csl-entry" role="listitem">
+Shute, V. J., Ventura, M., Kim, Y. J., &amp; Wang, L. (2014). Video games and learning. In W. G. Tierney, Z. Corwin, T. Fullerton, &amp; G. Ragusa (Eds.), <em>Postsecondary play: The role of games and social media in hgher education.</em> (pp. 217–235). <span>John Hopkins University Press</span>.
+</div>
+<div id="ref-shute2019a" class="csl-entry" role="listitem">
+Shute, V., Rahimi, S., &amp; Lu, X. (2019). Supporting <span>Learning</span> in <span>Educational Games</span>: <span>Promises</span> and <span>Challenges</span>. In P. Díaz, A. Ioannou, K. K. Bhagat, &amp; J. M. Spector (Eds.), <em>Learning in a <span>Digital World</span></em> (pp. 59–81). <span>Springer Singapore</span>. <a href="https://doi.org/10.1007/978-981-13-8265-9_4">https://doi.org/10.1007/978-981-13-8265-9_4</a>
+</div>
+<div id="ref-shute2021b" class="csl-entry" role="listitem">
+Shute, V., Rahimi, S., Smith, G., Ke, F., Almond, R., Dai, C.-P., Kuba, R., Liu, Z., Yang, X., &amp; Sun, C. (2021). Maximizing learning without sacrificing the fun: <span>Stealth</span> assessment, adaptivity and learning supports in educational games. <em>Journal of Computer Assisted Learning</em>, <em>37</em>(1), 127–141. <a href="https://doi.org/10.1111/jcal.12473">https://doi.org/10.1111/jcal.12473</a>
+</div>
+<div id="ref-smith2019" class="csl-entry" role="listitem">
+Smith, G., Almond, R. G., Shute, V. J., Rahimi, S., &amp; Ke, F. (2019). Physics <span>Playground</span> demonstration. <em>Annual <span>Meeting</span> of the <span>American Educational Research Association</span> (<span>AERA</span>)</em>.
+</div>
+<div id="ref-smith2022" class="csl-entry" role="listitem">
+Smith, G., Fulwider, C., Liu, Z., Lu, X., Shute, V. J., &amp; Li, J. (2022). <span>Examining Students’ Perceived Competence, Gender, and Ethnicity in a Digital STEM Learning Game:</span> <em>International Journal of Game-Based Learning</em>, <em>12</em>(1), 1–17. <a href="https://doi.org/10.4018/IJGBL.294013">https://doi.org/10.4018/IJGBL.294013</a>
+</div>
+<div id="ref-spann2019" class="csl-entry" role="listitem">
+Spann, C. A., Shute, V. J., Rahimi, S., &amp; D’Mello, S. K. (2019). The productive role of cognitive reappraisal in regulating affect during game-based learning. <em>Computers in Human Behavior</em>, <em>100</em>, 358–369. <a href="https://doi.org/10.1016/j.chb.2019.03.002">https://doi.org/10.1016/j.chb.2019.03.002</a>
+</div>
+<div id="ref-steinberg1996" class="csl-entry" role="listitem">
+Steinberg, L. S., &amp; Gitomer, D. H. (1996). Intelligent tutoring and assessment built on an understanding of a technical problem-solving task. <em>Instructional Science</em>, <em>24</em>, 223–258. <a href="https://doi.org/10.1007/BF00119978">https://doi.org/10.1007/BF00119978</a>
+</div>
+<div id="ref-stevens2007" class="csl-entry" role="listitem">
+Stevens, R. H., &amp; Thadani, V. (2007). Quantifying <span>Student</span>’s <span>Scientific Problem Solving Efficiency</span> and <span>Effectiveness</span>. <em>Technology, Instruction, Cognition, and Learning</em>, <em>5</em>(4), 325–338.
+</div>
+<div id="ref-sun2020" class="csl-entry" role="listitem">
+Sun, C., Shute, V. J., Stewart, A., Yonehiro, J., Duran, N., &amp; D’Mello, S. (2020). Towards a generalized competency model of collaborative problem solving. <em>Computers &amp; Education</em>, <em>143</em>, 103672. <a href="https://doi.org/10.1016/j.compedu.2019.103672">https://doi.org/10.1016/j.compedu.2019.103672</a>
+</div>
+<div id="ref-templin2013" class="csl-entry" role="listitem">
+Templin, J., &amp; Bradshaw, L. (2013). Measuring the <span>Reliability</span> of <span>Diagnostic Classification Model Examinee Estimates</span>. <em>Journal of Classification</em>, <em>30</em>(2), 251–275. <a href="https://doi.org/10.1007/s00357-013-9129-4">https://doi.org/10.1007/s00357-013-9129-4</a>
+</div>
+<div id="ref-MongoDB" class="csl-entry" role="listitem">
+<em>The <span>MongoDB</span> 4.0 <span>Manual</span></em> (4.0 ed.). (2018). (4.0 ed.) [Computer software]. <span>MongoDB, Inc.</span>
+</div>
+<div id="ref-unitytechnologies2019" class="csl-entry" role="listitem">
+Unity Technologies. (2019). <em>Unity <span>User Manual</span></em> (2019.1–002V ed.).
+</div>
+<div id="ref-vanlehn" class="csl-entry" role="listitem">
+VanLehn, K. (n.d.). Intelligent tutoring systems for continuous, embedded assessment. In C. A. Dwyer (Ed.), <em>The future of assessment: <span>Shaping</span> teaching and learning</em> (pp. 113–138). <span>Erlbaum</span>.
+</div>
+<div id="ref-vygotsky1978" class="csl-entry" role="listitem">
+Vygotsky, L. (1978). <em>Mind in society: <span>The</span> development of higher mental processes</em>. <span>Harvard University Press</span>.
+</div>
+<div id="ref-wang2015" class="csl-entry" role="listitem">
+Wang, L., Shute, V., &amp; Moore, G. R. (2015). <span>Lessons Learned and Best Practices of Stealth Assessment:</span> <em>International Journal of Gaming and Computer-Mediated Simulations</em>, <em>7</em>(4), 66–87. <a href="https://doi.org/10.4018/IJGCMS.2015100104">https://doi.org/10.4018/IJGCMS.2015100104</a>
+</div>
+<div id="ref-yang2022" class="csl-entry" role="listitem">
+Yang, X., Rahimi, S., Fulwider, C., Smith, G., &amp; Shute, V. (2022). Exploring students’ behavioral patterns when playing educational games with learning supports at different timings. <em>Educational Technology Research and Development</em>, <em>70</em>(4), 1441–1471. <a href="https://doi.org/10.1007/s11423-022-10125-9">https://doi.org/10.1007/s11423-022-10125-9</a>
+</div>
+<div id="ref-yang2021" class="csl-entry" role="listitem">
+Yang, X., Rahimi, S., Shute, V., Kuba, R., Smith, G., &amp; Alonso-Fernández, C. (2021). The relationship among prior knowledge, accessing learning supports, learning outcomes, and game performance in educational games. <em>Educational Technology Research and Development</em>, <em>69</em>(2), 1055–1075. <a href="https://doi.org/10.1007/s11423-021-09974-7">https://doi.org/10.1007/s11423-021-09974-7</a>
+</div>
+<div id="ref-zapata-rivera2012" class="csl-entry" role="listitem">
+Zapata-Rivera, D., &amp; Bauer, M. (2012). Exploring the <span>Role</span> of <span>Games</span> in <span>Educational Assessment</span>. In M. C. Mayrath, J. Clarke-Midura, D. H. Robinson, &amp; G. Schraw (Eds.), <em>Technology-<span>Based Assessments</span> for 21st <span>Century Skills</span>: <span>Theoretical</span> and <span>Practical Implications</span> from <span>Modern Research</span></em> (pp. 149–171). <span>Information Age</span>.
+</div>
+</div>
+
+
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+</body></html>

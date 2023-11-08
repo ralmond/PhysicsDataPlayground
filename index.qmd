@@ -39,7 +39,7 @@ This file contains data from the IES project _Physics Playground_
 * Data **Russell**
   - [Codebook](Codebook.qmd) **Ginny/Russell**
   - [Support Timing Data](BAdata.qmd) <<Includes summary statistics>>
-  - [Support Efficacy Study](AffectiveData.qmd) <<Includes summary statistics>>
+  - [Support Efficacy Study](EfficacyData.qmd) <<Includes summary statistics>>
   - [Log files](Events.qmd)
 * [Analysis Scripts](Analyses.qmd) **Russell**
 * Software **Russell**
@@ -48,7 +48,9 @@ This file contains data from the IES project _Physics Playground_
   - [Proc4 scoring system](Proc4.qmd)
 * [Personnel](Personnel.qmd) **Ginny**
 * [Articles](Articles.qmd) 
-* [Bibliography](bib.qmd) **Russell**
+* Bibliography
+  - [Project Papers](papers.qmd)
+  - [References](bib.qmd) 
 
 ## Licences 
 

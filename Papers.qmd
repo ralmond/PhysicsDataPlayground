@@ -1,0 +1,12 @@
+---
+title: "Project Papers"
+bibliography: PhysicsPlayground.bib
+---
+
+---
+nocite: |
+  @*
+---
+
+::: {#refs}
+:::
