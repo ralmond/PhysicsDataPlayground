@@ -77,8 +77,12 @@ website:
         text: "Personnel"
       - href: Articles.qmd
         text: "Articles"
-      - href: bib.qmd
-        text: "Bibliography"
+      - text: "Bibliography"
+        menu:
+          - href: papers.qmd
+            text: "Project Papers"
+          - href: bib.qmd
+            text: "References"
       - about.qmd
 
 format:
@@ -90,7 +94,7 @@ format:
 margin-header: |
   ![Physics Playground Logo](/img/PP-Website-BG.jpg)
 
-bibliography:  PeanutTutorial.bib
+bibliography:  PPReferences.bib
 csl:  apa.csl
 
 
