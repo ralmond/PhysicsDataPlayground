@@ -1,12 +1,13 @@
 ---
 title: "Project Papers"
 bibliography: PhysicsPlayground.bib
+include-after-body: "Papers/refs.html"
 ---
 
----
-nocite: |
-  @*
----
+```{r}
+#| echo: false
+#| message: false
+system("cd Papers; ./rebuildRefs.sh")
+```
 
-::: {#refs}
-:::
+

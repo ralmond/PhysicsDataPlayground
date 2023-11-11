@@ -1,7 +1,5 @@
 ---
-title: "Bibliography"
-nocite: |
-  @*
+title: "References"
 ---
 
 ::: {#refs}

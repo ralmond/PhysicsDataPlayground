@@ -49,7 +49,7 @@ This file contains data from the IES project _Physics Playground_
 * [Personnel](Personnel.qmd) **Ginny**
 * [Articles](Articles.qmd) 
 * Bibliography
-  - [Project Papers](papers.qmd)
+  - [Project Papers](Papers.qmd)
   - [References](bib.qmd) 
 
 ## Licences 

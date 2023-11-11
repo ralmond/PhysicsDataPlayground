@@ -79,7 +79,7 @@ website:
         text: "Articles"
       - text: "Bibliography"
         menu:
-          - href: papers.qmd
+          - href: Papers.qmd
             text: "Project Papers"
           - href: bib.qmd
             text: "References"
