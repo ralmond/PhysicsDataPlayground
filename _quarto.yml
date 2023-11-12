@@ -63,8 +63,8 @@ website:
           text: "Support Efficacy Data"
         - href: Events.qmd
           text: "Log files"
-      - href: Analyses.qmd
-        text: "Analysis Scripts"
+        - href: Analyses.qmd
+          text: "Analysis Scripts"
       - text: Software
         menu: 
           - href: GameEngine.qmd
@@ -75,8 +75,6 @@ website:
             text: "Proc4 scoring system"
       - href: Personnel.qmd
         text: "Personnel"
-      - href: Articles.qmd
-        text: "Articles"
       - text: "Bibliography"
         menu:
           - href: Papers.qmd

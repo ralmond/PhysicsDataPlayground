@@ -41,13 +41,12 @@ This file contains data from the IES project _Physics Playground_
   - [Support Timing Data](BAdata.qmd) <<Includes summary statistics>>
   - [Support Efficacy Study](EfficacyData.qmd) <<Includes summary statistics>>
   - [Log files](Events.qmd)
-* [Analysis Scripts](Analyses.qmd) **Russell**
+  - [Analysis Scripts](Analyses.qmd) **Russell**
 * Software **Russell**
   - [Game Engine](GameEngine.qmd) **Ahmad**
   - [Peanut Bayes Net Engine](Peanut.qmd)
   - [Proc4 scoring system](Proc4.qmd)
 * [Personnel](Personnel.qmd) **Ginny**
-* [Articles](Articles.qmd) 
 * Bibliography
   - [Project Papers](Papers.qmd)
   - [References](bib.qmd) 

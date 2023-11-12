@@ -54,7 +54,26 @@ div.sourceCode
 @media screen {
 pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
@@ -247,12 +266,12 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     <a class="dropdown-item" href="./Events.html" rel="" target="">
  <span class="dropdown-text">Log files</span></a>
   </li>  
+        <li>
+    <a class="dropdown-item" href="./Analyses.html" rel="" target="">
+ <span class="dropdown-text">Analysis Scripts</span></a>
+  </li>  
     </ul>
   </li>
-  <li class="nav-item">
-    <a class="nav-link" href="./Analyses.html" rel="" target="">
- <span class="menu-text">Analysis Scripts</span></a>
-  </li>  
   <li class="nav-item dropdown ">
     <a class="nav-link dropdown-toggle" href="#" id="nav-menu-software" role="button" data-bs-toggle="dropdown" aria-expanded="false" rel="" target="">
  <span class="menu-text">Software</span>
@@ -275,10 +294,6 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   <li class="nav-item">
     <a class="nav-link" href="./Personnel.html" rel="" target="">
  <span class="menu-text">Personnel</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./Articles.html" rel="" target="">
- <span class="menu-text">Articles</span></a>
   </li>  
   <li class="nav-item dropdown ">
     <a class="nav-link dropdown-toggle" href="#" id="nav-menu-bibliography" role="button" data-bs-toggle="dropdown" aria-expanded="false" rel="" target="">
@@ -354,7 +369,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 <section id="proc4-and-xapi-formats" class="level2">
 <h2 class="anchored" data-anchor-id="proc4-and-xapi-formats">Proc4 and xAPI formats</h2>
-<p>Events are stored in the Proc 4 format <span class="citation" data-cites="ralmond2019a">(<a href="#ref-ralmond2019a" role="doc-biblioref"><strong>ralmond2019a?</strong></a>)</span>. It is converted from the xAPI <span class="citation" data-cites="xAPI">(<a href="#ref-xAPI" role="doc-biblioref"><strong>xAPI?</strong></a>)</span> format using in Learning Locker <span class="citation" data-cites="LearningLocker">(<a href="#ref-LearningLocker" role="doc-biblioref"><strong>LearningLocker?</strong></a>)</span> by the dongle code in the Proc4 <span class="citation" data-cites="Proc4">(<a href="#ref-Proc4" role="doc-biblioref"><strong>Proc4?</strong></a>)</span> package. In particular, it means that messages are identified by <code>(verb, object)</code> pairs (xAPI-style) not single <code>mess</code> strings (Proc4-style)</p>
+<p>Events are stored in the Proc 4 format <span class="citation" data-cites="ralmond2019a">(<a href="#ref-ralmond2019a" role="doc-biblioref"><strong>ralmond2019a?</strong></a>)</span>. It is converted from the xAPI <span class="citation" data-cites="xAPI">(<a href="#ref-xAPI" role="doc-biblioref">Betts &amp; Smith, 2018</a>)</span> format using in Learning Locker <span class="citation" data-cites="LearningLocker">(<a href="#ref-LearningLocker" role="doc-biblioref"><em>Learning <span>Locker Documentation</span></em>, 2018</a>)</span> by the dongle code in the Proc4 <span class="citation" data-cites="Proc4">(<a href="#ref-Proc4" role="doc-biblioref"><strong>Proc4?</strong></a>)</span> package. In particular, it means that messages are identified by <code>(verb, object)</code> pairs (xAPI-style) not single <code>mess</code> strings (Proc4-style)</p>
 <p>The JSON format is as follows:</p>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb1"><pre class="sourceCode json code-with-copy"><code class="sourceCode json"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">{</span></span>
@@ -420,9 +435,17 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <p>Both files are compressed using gnu zip (<code>gzip</code>)</p>
 
 
+
 </section>
 
-</main> <!-- /main -->
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" data-line-spacing="2" role="list">
+<div id="ref-xAPI" class="csl-entry" role="listitem">
+Betts, B., &amp; Smith, R. (2018). <em>The leraning technology manager’s guid to <span class="nocase">xAPI</span></em> (2nd ed.) [Manual]. <a href="https://www.ht2labs.com/resources/the-learning-technology-managers-guide-to-the-xapi/#gf_26">https://www.ht2labs.com/resources/the-learning-technology-managers-guide-to-the-xapi/#gf_26</a>
+</div>
+<div id="ref-LearningLocker" class="csl-entry" role="listitem">
+<em>Learning <span>Locker Documentation</span></em> (2nd ed.). (2018). (2nd ed.) [Computer software]. <span>HT2Labs</span>. <a href="https://docs.learninglocker.net/welcome/">https://docs.learninglocker.net/welcome/</a>
+</div>
+</div></section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
