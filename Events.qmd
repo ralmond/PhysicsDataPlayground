@@ -11,7 +11,7 @@ in the Proc4 [@Proc4] package.  In particular, it means that messages are identi
 
 The JSON format is as follows:
 
-```{json}
+```json
 {
   app: "ecd://epls.coe.fsu.edu/PhysicsPlayground/IES/Fall22/BigStudy",  /* Fixed String */
   uid: "[A-F]0000",

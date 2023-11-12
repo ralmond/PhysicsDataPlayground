@@ -417,7 +417,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <h2 class="anchored" data-anchor-id="learning-support-usage-data">Learning support usage data</h2>
 <p>This is data about the usage of the learning supports.</p>
 <p><a href="Data/PPIESFall2022ls.csv">Learning Support</a></p>
-<p>The <code>readr::cols</code> metadata is in <a href="LSMetadata.R">Learning Support R metadata script</a>.</p>
+<p>The <code>readr::cols</code> metadata is in <a href="Data/LSmetadata.R">Learning Support R metadata script</a>.</p>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb5"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(readr)</span>
 <span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a><span class="fu">source</span>(<span class="st">"https://pluto.coe.fsu.edu/PhysicsDataPlayground/Data/LSMetadata.R"</span>)</span>
@@ -430,7 +430,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <h2 class="anchored" data-anchor-id="bayesian-network-scores">Bayesian network scores</h2>
 <p>This provides scores from the Bayesian Network model, which probabilities for the nine nodes in the competency model. For each none, there are three columns giving the marginal probability of the <code>High</code>, <code>Medium</code> and <code>Low</code> proficiency respectively. The <code>EAP</code> (expected a posteriori) scores are produced by assigning <code>Low=-1</code>, <code>Medium=0</code> and <code>High=1</code> and calculating the expected value.</p>
 <p><a href="Data/PPIESFall2022BN.csv">Bayesian Network Scores</a></p>
-<p>The <code>readr::cols</code> metadata is in <a href="Data/PrePostMetadata.R">Pre-post R metadata script</a>.</p>
+<p>The <code>readr::cols</code> metadata is in <a href="Data/BNMetadata.R">Pre-post R metadata script</a>.</p>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb6"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(readr)</span>
 <span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a><span class="fu">source</span>(<span class="st">"https://pluto.coe.fsu.edu/PhysicsDataPlayground/Data/PrePostMetadata.R"</span>)</span>

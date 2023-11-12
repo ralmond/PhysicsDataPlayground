@@ -2,7 +2,7 @@
 title: "Intrinsic Motivation Inventory"
 ---
 
-The intristic motivation inventory (IMI) is a rating scale on a
+The intrinsic motivation inventory (IMI) is a rating scale on a
 number of questions related to the
 participants' enjoyment of the game and motivation to do well.
 All questions were asked on a seven point Likeart scale with
@@ -10,7 +10,8 @@ answers ranging from "Not at all true" (1) to "Very True" (7).
 The mid-anchor at scale point 4 was "Somewhat true"; no text 
 descriptions were given for the other scale points.
 
-The table below gives the text of the prompts, with an indication
+The [table below](Instruments/KeysAndCodes_IMI.csv) gives the 
+text of the prompts, with an indication
 of which ones were reverse coded.
 
 ```{r IMIscale}

@@ -371,8 +371,7 @@ div.csl-indent {
 <h2 class="anchored" data-anchor-id="proc4-and-xapi-formats">Proc4 and xAPI formats</h2>
 <p>Events are stored in the Proc 4 format <span class="citation" data-cites="ralmond2019a">(<a href="#ref-ralmond2019a" role="doc-biblioref"><strong>ralmond2019a?</strong></a>)</span>. It is converted from the xAPI <span class="citation" data-cites="xAPI">(<a href="#ref-xAPI" role="doc-biblioref">Betts &amp; Smith, 2018</a>)</span> format using in Learning Locker <span class="citation" data-cites="LearningLocker">(<a href="#ref-LearningLocker" role="doc-biblioref"><em>Learning <span>Locker Documentation</span></em>, 2018</a>)</span> by the dongle code in the Proc4 <span class="citation" data-cites="Proc4">(<a href="#ref-Proc4" role="doc-biblioref"><strong>Proc4?</strong></a>)</span> package. In particular, it means that messages are identified by <code>(verb, object)</code> pairs (xAPI-style) not single <code>mess</code> strings (Proc4-style)</p>
 <p>The JSON format is as follows:</p>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode json code-with-copy"><code class="sourceCode json"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">{</span></span>
+<div class="sourceCode" id="cb1"><pre class="sourceCode json code-with-copy"><code class="sourceCode json"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">{</span></span>
 <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>  <span class="er">app</span><span class="fu">:</span> <span class="st">"ecd://epls.coe.fsu.edu/PhysicsPlayground/IES/Fall22/BigStudy"</span><span class="fu">,</span>  <span class="er">/*</span> <span class="er">Fixed</span> <span class="er">String</span> <span class="er">*/</span></span>
 <span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>  <span class="er">uid</span><span class="fu">:</span> <span class="st">"[A-F]0000"</span><span class="fu">,</span></span>
 <span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>  <span class="er">context</span><span class="fu">:</span> <span class="st">"Game Level"</span><span class="fu">,</span></span>
@@ -384,7 +383,6 @@ div.csl-indent {
 <span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a>  <span class="er">pErr</span><span class="fu">:</span> <span class="er">string</span><span class="fu">,</span> <span class="er">/*</span> <span class="er">Error</span> <span class="er">code</span> <span class="er">from</span> <span class="er">processing</span> <span class="er">(if</span> <span class="er">any)</span> <span class="er">*/</span></span>
 <span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a>  <span class="er">data</span><span class="fu">:</span> <span class="fu">{</span> <span class="er">&lt;&lt;Arbitrary</span> <span class="er">JSON</span> <span class="er">document&gt;&gt;</span><span class="fu">}</span></span>
 <span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a><span class="fu">}</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
 <p>The <code>app</code> and <code>sender</code> strings are constant, so are probably not interesting.</p>
 <p>The first character of the <code>uid</code> gives the study condition.</p>
 </section>

@@ -106,7 +106,7 @@ This is data about the usage of the learning supports.
 
 [Learning Support](Data/PPIESFall2022ls.csv)
 
-The `readr::cols` metadata is in [Learning Support R metadata script](LSMetadata.R).
+The `readr::cols` metadata is in [Learning Support R metadata script](Data/LSmetadata.R).
 
 ```{r ReadLS}
 #| eval: false
@@ -129,7 +129,7 @@ expected value.
 
 [Bayesian Network Scores](Data/PPIESFall2022BN.csv)
 
-The `readr::cols` metadata is in [Pre-post R metadata script](Data/PrePostMetadata.R).
+The `readr::cols` metadata is in [Pre-post R metadata script](Data/BNMetadata.R).
 
 ```{r ReadBN}
 #| eval: false

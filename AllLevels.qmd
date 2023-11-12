@@ -7,3 +7,5 @@ Can automatically generate this from a table.
 ## Sketching Levels
 
 ## Manipulation Levels
+
+[Game Levels Table](Data/LevelsData.csv)
