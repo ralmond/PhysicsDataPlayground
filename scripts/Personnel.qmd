@@ -10,29 +10,421 @@ editor:
 
 :::: {layout="[ 30, 70 ]"}
 
+::: {#first-column}
+![Valerie Shute,FSU](img/Val_project1.jpg)
+:::
+::: {#second-column}
+
+*  Valerie Shute 
+* Florida State University 
+* **Studies:**  Game Design and Usability, Cognitive Supports, Affective Supports, Learning and Stealth Assessment,  Support Timing, Support Efficacy 
+* **Role:**  PI Emeritus (Retired), PI through most versions 
+* **Homepage:** <https://myweb.fsu.edu/vshute/index.html>
+* **Google Scholar:** <https://scholar.google.com/citations?user=VfKOZ5IAAAAJ&hl=en>
+:::
+
+::: {#first-column}
+![Russell Almond,FSU](img/Russell.jpg)
+:::
+::: {#second-column}
+
+*  Russell Almond 
+* Florida State University 
+* **Studies:**  Game Design and Usability, Learning and Stealth Assessment,  Support Timing, Support Efficacy 
+* **Role:**  PI for final year of project, scoring engine construction 
+* **Homepage:** <https://ralmond.net/>
+* **Google Scholar:** <https://scholar.google.com/citations?user=1ZTrIBcAAAAJ&hl=en>
+*  **Github**:  <https://github.com/ralmond>; **R-Universe**:  <https://ralmond.r-universe.dev/> 
+:::
+
+::: {#first-column}
+![Ryan S. Baker,UPenn](img/RyanBaker.png)
+:::
+::: {#second-column}
+
+*  Ryan S. Baker 
+* University of Pennsylvania 
+* **Studies:**  Affective Supports, Support Timing, Support Efficacy 
+* **Role:**  Co-PI, developing logic for supports 
+* **Homepage:** <https://learninganalytics.upenn.edu/ryanbaker/>
+* **Google Scholar:** <https://scholar.google.com/citations?user=hvs8PEoAAAAJ&hl=en>
+:::
+
+::: {#first-column}
+![Sidney D'Mello,CUBoulder](img/SydneyDMello.png)
+:::
+::: {#second-column}
+
+*  Sidney D'Mello 
+* University of Colorado Boulder 
+* **Studies:**  Affective Supports, Support Timing, Support Efficacy 
+* **Role:**  Co-PI, design of affective supports 
+* **Google Scholar:** <https://scholar.google.com/citations?user=c-LG6-MAAAAJ&hl=en>
+:::
+
 ::::
 
 
 
-## Affective Support 
+## Researcher (current project) 
 
 :::: {layout="[ 30, 70 ]"}
+
+::: {#first-column}
+![Seyed Ahmad Rahimi,UF](img/Ahmad4.jpg)
+:::
+::: {#second-column}
+
+*  Seyed Ahmad Rahimi 
+* University of Florida 
+* **Studies:**  Game Design and Usability, Cognitive Supports, Affective Supports, Learning and Stealth Assessment, Support Timing, Support Efficacy 
+* **Role:**  Lead developer of the current game version, designer, researcher, scoring engine construction 
+* **Homepage:** <https://education.ufl.edu/faculty/rahimi-seyedahmad-ahmad/>
+* **Google Scholar:** <https://scholar.google.com/citations?user=yDnHbAMAAAAJ&hl=en>
+:::
+
+::: {#first-column}
+![Adam Lamee,UCF](img/Adam.jpeg)
+:::
+::: {#second-column}
+
+*  Adam Lamee 
+* University of Central Florida 
+* **Studies:**  Game Design and Usability, Cognitive Supports, Affective Supports, Learning and Stealth Assessment 
+* **Role:**  Expert in physics teaching 
+* **Homepage:** <https://adamlamee.github.io/>
+* **Google Scholar:** <https://scholar.google.com/citations?user=1j-ueo4AAAAJ&hl=en>
+:::
+
+::: {#first-column}
+![Ginny Smith,FSU](img/Ginny.jpg)
+:::
+::: {#second-column}
+
+*  Ginny Smith 
+* Florida State University 
+* **Studies:**  Game Design and Usability, Cognitive Supports, Affective Supports, Learning and Stealth Assessment, Support Timing, Support Efficacy 
+* **Role:**  Project manager, designer, researcher 
+* **Google Scholar:** <https://scholar.google.com/citations?user=Przy7_gAAAAJ&hl=en>
+:::
+
+::: {#first-column}
+![Jaclyn Ocumpaugh,UPenn](NA)
+:::
+::: {#second-column}
+
+*  Jaclyn Ocumpaugh 
+* University of Pennsylvania 
+* **Studies:**  Support Timing, Support Efficacy 
+* **Role:**  Project coordinator and user testing 
+* **Homepage:** <https://learninganalytics.upenn.edu/index.html>
+* **Google Scholar:** <https://scholar.google.com/citations?user=uCl6NE4AAAAJ&hl=en>
+:::
+
+::: {#first-column}
+![Brandon Booth,CUBoulder](NA)
+:::
+::: {#second-column}
+
+*  Brandon Booth 
+* University of Colorado Boulder 
+* **Studies:**  Support Timing, Support Efficacy 
+* **Role:**  Project coordinator and user testing 
+* **Homepage:** <http://www.brandonmbooth.net/>
+* **Google Scholar:** <https://scholar.google.com/citations?user=Qr-gySYAAAAJ&hl=en>
+:::
+
+::: {#first-column}
+![Valdemar Švábenský,UPenn](https://avatars.githubusercontent.com/u/9512875?v=4)
+:::
+::: {#second-column}
+
+*  Valdemar Švábenský 
+* University of Pennsylvania 
+* **Studies:**  Support Efficacy 
+* **Role:**  Researcher 
+* **Homepage:** <https://elea.sk/valdemar/>
+* **Google Scholar:** <https://scholar.google.com/citations?user=CSMVlf0AAAAJ&hl=en>
+:::
+
+::: {#first-column}
+![Curt Fulwider,FSU](https://avatars.githubusercontent.com/u/23534327?v=4)
+:::
+::: {#second-column}
+
+*  Curt Fulwider 
+* Florida State University 
+* **Studies:**  Game Design and Usability, Support Timing, Support Efficacy 
+* **Role:**  Researcher, scoring engine construction 
+* **Google Scholar:** <https://scholar.google.com/citations?user=pKYZazcAAAAJ&hl=en>
+:::
+
+::: {#first-column}
+![Gaurav Basnet,FSU](NA)
+:::
+::: {#second-column}
+
+*  Gaurav Basnet 
+* Florida State University 
+* **Studies:**  Support Efficacy 
+* **Role:**  Researcher 
+* **Google Scholar:** <?>
+:::
+
+::: {#first-column}
+![Chaewon Kim,FSU](NA)
+:::
+::: {#second-column}
+
+*  Chaewon Kim 
+* Florida State University 
+* **Studies:**  Support Efficacy 
+* **Role:**  Researcher 
+* **Google Scholar:** <?>
+:::
+
+::: {#first-column}
+![Chen Sun,FSU](img/Chen.jpg)
+:::
+::: {#second-column}
+
+*  Chen Sun 
+* Florida State University 
+* **Studies:**  Game Design and Usability, Cognitive Supports, Learning and Stealth Assessment 
+* **Role:**  Designer, researcher, scoring engine construction 
+* **Google Scholar:** <https://scholar.google.com/citations?user=Y66npM8AAAAJ&hl=en>
+:::
+
+::: {#first-column}
+![Xiaotong Yang,FSU](img/Xiaotong.jpg)
+:::
+::: {#second-column}
+
+*  Xiaotong Yang 
+* Florida State University 
+* **Studies:**  Game Design and Usability, Cognitive Supports, Learning and Stealth Assessment, Support Timing, Support Efficacy 
+* **Role:**  Designer, researcher 
+* **Google Scholar:** <https://scholar.google.com/citations?user=f1E8l3QAAAAJ&hl=en>
+:::
+
+::: {#first-column}
+![Zhichun “Lukas” Liu,NA](img/Lukas.jpg)
+:::
+::: {#second-column}
+
+*  Zhichun “Lukas” Liu 
+* Florida State University 
+* **Studies:**  Game Design and Usability, Cognitive Supports, Affective Supports, Learning and Stealth Assessment,  Support Timing 
+* **Role:**  Designer, researcher, scoring engine construction 
+* **Homepage:** <https://web.edu.hku.hk/faculty-academics/lukasliu>
+* **Google Scholar:** <https://scholar.google.com/citations?user=HcASJEIAAAAJ&hl=en>
+:::
+
+::: {#first-column}
+![Stefan Slater,UPenn](img/StephanSlater.jpg)
+:::
+::: {#second-column}
+
+*  Stefan Slater 
+* University of Pennsylvania 
+* **Studies:**  Affective Supports, Support Timing 
+* **Role:**  Designer, researcher 
+* **Homepage:** <http://stefanslater.com/>
+* **Google Scholar:** <https://scholar.google.com/citations?user=0yzbPoQAAAAJ&hl=en>
+:::
+
+::: {#first-column}
+![Katie Bainbridge,NA](img/KatieBainbridge.jpg)
+:::
+::: {#second-column}
+
+*  Katie Bainbridge 
+* University of Colorado Boulder 
+* **Studies:**  Affective Supports, Support Timing 
+* **Role:**  Designer, researcher 
+* **Google Scholar:** <https://scholar.google.com/citations?user=n-anFIgAAAAJ&hl=en>
+:::
+
+::: {#first-column}
+![Chih-Pu Dai,FSU](img/C-P.Dai.jpg)
+:::
+::: {#second-column}
+
+*  Chih-Pu Dai 
+* Florida State University 
+* **Studies:**  Game Design and Usability, Cognitive Supports, Learning and Stealth Assessment 
+* **Role:**  Designer, researcher 
+* **Homepage:** <http://www2.hawaii.edu/~cdai/>
+* **Google Scholar:** <https://scholar.google.com/citations?user=Vp5Y6fYAAAAJ&hl=en>
+:::
+
+::: {#first-column}
+![Renata Kuba,FSU](img/renata.jpg)
+:::
+::: {#second-column}
+
+*  Renata Kuba 
+* Florida State University 
+* **Studies:**  Game Design and Usability, Cognitive Supports, Learning and Stealth Assessment 
+* **Role:**  Designer, researcher 
+* **Google Scholar:** <https://scholar.google.com/citations?user=5Ek98gwAAAAJ&hl=en>
+:::
+
+::: {#first-column}
+![Xi Lu,FSU](img/Xi.jpg)
+:::
+::: {#second-column}
+
+*  Xi Lu 
+* Florida State University 
+* **Studies:**  Game Design and Usability, Cognitive Supports 
+* **Role:**  Designer, researcher 
+* **Google Scholar:** <?>
+:::
+
+::: {#first-column}
+![Seyfullah Tingir,FSU](img/Seyfullah.jpg)
+:::
+::: {#second-column}
+
+*  Seyfullah Tingir 
+* Florida State University 
+* **Studies:**  Learning and Stealth Assessment 
+* **Role:**  Researcher, scoring engine construction 
+* **Google Scholar:** <https://scholar.google.com/citations?user=iSFVVycAAAAJ&hl=en>
+:::
+
+::: {#first-column}
+![Catherine A. Spann,CUBoulder](img/CatherineSpann.png)
+:::
+::: {#second-column}
+
+*  Catherine A. Spann 
+* University of Colorado Boulder 
+* **Studies:**  Affective Supports 
+* **Role:**  Researcher 
+* **Google Scholar:** <https://scholar.google.com/citations?user=TCSu1jIAAAAJ&hl=en>
+:::
+
+::: {#first-column}
+![Weinan Zhao,NA](img/Weinan.jpg)
+:::
+::: {#second-column}
+
+*  Weinan Zhao 
+* Florida State University 
+* **Studies:**  Game Design and Usability 
+* **Role:**  Lead developer of original Unity game version 
+* **Google Scholar:** <https://scholar.google.com/citations?user=Lf0a9e0AAAAJ&hl=en>
+:::
 
 ::::
 
 
 
-## Before/After Study 
+## Researcher (NSF or Gates project) 
 
 :::: {layout="[ 30, 70 ]"}
 
-::::
+::: {#first-column}
+![Fengfeng Ke,FSU](img/Fengfeng1.jpg)
+:::
+::: {#second-column}
 
+*  Fengfeng Ke 
+* Florida State University 
+* **Studies:**  Game Design and Usability, Cognitive Supports, Learning and Stealth Assessment 
+* **Role:**  Co-PI 
+* **Homepage:** <https://myweb.fsu.edu/fke/>
+* **Google Scholar:** <https://scholar.google.com/citations?user=75jPVJIAAAAJ&hl=en>
+*  **ERebuild**:  <https://erebuild.coe.fsu.edu> 
+:::
 
+::: {#first-column}
+![Xinhao Xu,NA](img/XH.jpg)
+:::
+::: {#second-column}
 
-## Alumni 
+*  Xinhao Xu 
+* Florida State University 
+* **Studies:**  Alumni 
+* **Role:**  Developer on Unity game version 
+* **Google Scholar:** <https://scholar.google.com/citations?user=XD17HxEAAAAJ&hl=en>
+:::
 
-:::: {layout="[ 30, 70 ]"}
+::: {#first-column}
+![Shamya Karumbaiah,NA](img/Shamya.png)
+:::
+::: {#second-column}
+
+*  Shamya Karumbaiah 
+* Florida State University 
+* **Studies:**  Alumni 
+* **Role:**  Designer, researcher 
+* **Homepage:** <https://shamya.github.io/>
+* **Google Scholar:** <https://scholar.google.com/citations?user=5w4I9VMAAAAJ&hl=en>
+:::
+
+::: {#first-column}
+![Don Franceschetti,NA](img/franceschetti_w.jpg)
+:::
+::: {#second-column}
+
+*  Don Franceschetti 
+* University of Memphis 
+* **Studies:**  Gates, Game Design and Usibility 
+* **Role:**  Until his death in 2019, Don served as the primary Physics advisor 
+* **Homepage:** <https://paw.princeton.edu/memorial/donald-r-franceschetti-74>
+* **Google Scholar:** <N/A>
+:::
+
+::: {#first-column}
+![Lubin Wang,NA](img/Lubin.jpeg)
+:::
+::: {#second-column}
+
+*  Lubin Wang 
+* Florida State University 
+* **Studies:**  Gates 
+* **Role:**  Designer, researcher 
+* **Google Scholar:** <NA>
+:::
+
+::: {#first-column}
+![Matthew Small,NA](img/MatthewS.jpeg)
+:::
+::: {#second-column}
+
+*  Matthew Small 
+* NA 
+* **Studies:**  Gates 
+* **Role:**  Programmer for First (Gates) version 
+* **Google Scholar:** <NA>
+:::
+
+::: {#first-column}
+![Matthew Ventura,NA](img/MatthewV.jpg)
+:::
+::: {#second-column}
+
+*  Matthew Ventura 
+* Florida State University 
+* **Studies:**  Gates 
+* **Role:**  Leader on Gates Project, Research on Persistance 
+* **Google Scholar:** <NA>
+:::
+
+::: {#first-column}
+![Yoon-Jeon Kim,NA](img/YJKim.png)
+:::
+::: {#second-column}
+
+*  Yoon-Jeon Kim 
+* Florida State University 
+* **Studies:**  Gates 
+* **Role:**  Designer, researcher 
+* **Google Scholar:** <NA>
+:::
 
 ::::
 

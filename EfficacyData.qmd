@@ -34,7 +34,7 @@ tests on Wednesday or Friday of the study week depending on their treatment grou
 [Pre, Post Data](Data/PPIESFall2022PrePost.csv)
 
 
-The `readr::cols` metadata is in [Pre-post R metadata script]("https://pluto.coe.fsu.edu/PhysicsDataPlayground/Data/PrePostMetadata.R").
+The `readr::cols` metadata is in [Pre-post R metadata script](Data/PrePostMetadata.R).
 
 ```{r ReadPP}
 #| eval: false
@@ -51,7 +51,7 @@ raw responses, with the codes A, B, C, and D.
 
 Here is the [Recoding Script](scripts/RecodeRawData.R).
 
-The `readr::cols` metadata is in [Pre-post ABC coding R metadata script]("https://pluto.coe.fsu.edu/PhysicsDataPlayground/Data/PrePostMetadataABC.R").
+The `readr::cols` metadata is in [Pre-post ABC coding R metadata script](Data/PrePostMetadataABC.R).
 
 ```{r ReadPPABC}
 #| eval: false
@@ -82,7 +82,7 @@ version is used.
 * [Observables, Last Attempt](Data/PPIESFall2022obsLast.csv)
 * [Trophies Only, Last Attempt](Data/PPIESFall2022obsMax.csv)
 
-The `readr::cols` metadata is in [Observables R metadata script]("https://pluto.coe.fsu.edu/PhysicsDataPlayground/Data/ObsMetadata.R").
+The `readr::cols` metadata is in [Observables R metadata script](Data/ObsMetadata.R).
 
 ```{r ReadObs}
 #| eval: false
@@ -106,7 +106,7 @@ This is data about the usage of the learning supports.
 
 [Learning Support](Data/PPIESFall2022ls.csv)
 
-The `readr::cols` metadata is in [Learning Support R metadata script]("https://pluto.coe.fsu.edu/PhysicsDataPlayground/Data/LSMetadata.R").
+The `readr::cols` metadata is in [Learning Support R metadata script](LSMetadata.R).
 
 ```{r ReadLS}
 #| eval: false
@@ -129,7 +129,7 @@ expected value.
 
 [Bayesian Network Scores](Data/PPIESFall2022BN.csv)
 
-The `readr::cols` metadata is in [Pre-post R metadata script]("https://pluto.coe.fsu.edu/PhysicsDataPlayground/Data/PrePostMetadata.R").
+The `readr::cols` metadata is in [Pre-post R metadata script](Data/PrePostMetadata.R).
 
 ```{r ReadBN}
 #| eval: false

@@ -44,8 +44,10 @@ foot <-
 ```
 
 ```{r sectionOrder}
-ord <- c("Lead Investigators","Affective Support",
-"Before/After Study", "Alumni")
+ord <- c("Lead","IES","Alumni")
+secnames <- c(Lead="Lead Investigators",
+              IES="Researcher (current project)",
+              Alumni="Researcher (NSF or Gates project)")
 ```
 
 ## Build-it
@@ -60,12 +62,12 @@ cat(head,file=pfile)
 
 ```{r mainLoop}
 for (sec in ord) {
-  cat("\n\n##",sec,"\n\n",file=pfile)
+  cat("\n\n##",secnames[sec],"\n\n",file=pfile)
   ## Quarto is really sensitive to whitespace
   cat(":::: {layout=",dQuote(columns,FALSE),"}\n\n",
       sep="",file=pfile)
   
-  for (pp in grep(sec,persons$`Project group`)) {
+  for (pp in grep(sec,persons$`Project Group`)) {
     cat("::: {#first-column}\n",file=pfile)
     
     cat("![",persons$Name[pp],",",
@@ -78,7 +80,9 @@ for (sec in ord) {
     
     cat("\n* ",persons$Name[pp],"\n",file=pfile)
     cat("*", persons$University[pp],"\n",file=pfile)
-    cat("* **Role:** ",persons$`Role in the project`[pp],
+    cat("* **Studies:** ",persons$`Research Studies`[pp],
+        "\n",file=pfile)
+    cat("* **Role:** ",persons$`Project Roles`[pp],
         "\n",file=pfile)
     if (!is.na(persons$Homepage[pp]))
       cat("* **Homepage:** <",persons$Homepage[pp],
