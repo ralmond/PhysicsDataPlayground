@@ -4,12 +4,163 @@ title: "Support Efficacy Protocol"
 
 ## Research Questions
 
+1.  Are there any benefits of gameplay + supports vs. gameplay without
+    supports?
+
+2.  Is there any value-added of affective support beyond cognitive
+    support?
+
+
+
 ## Subjects
+
+
 
 ## Treatment Groups
 
+There were three possible treatment conditions:
+
+1. Cognitive and affective supports (COG+AFF)
+
+2. Cognitive supports only (COG)
+
+3. No supports (Control)
+
+The game levels (as well as the post-test) were divided into two topics:
+
+1. _Energy can transfer_ (ECT)
+
+2. _Properties of Torque_ (POT)
+
+The physics teaching experts expected that POT would be more difficulty than
+ECT.
+
+The two topics were counterbalanced so that half of the students got the ECT
+levels first, and half the POT levels first.
+
+The schedule was thus:
+
+Order  | Monday    | Tuesday  | Wednesday  | Thursday | Friday
+------ | --------- | -------- | ---------- | -------- | ----------
+ECT    | Pretest + | ECT Game | ECT Game + | POT Game | POT Game +
+first  | Tutorial  | Levels   | Posttest   | Levels   | Posttest
+------ | --------- | -------- | ---------- | -------- | ----------
+POT    | Pretest + | POT Game | POT Game + | ECT Game | ECT Game +
+first  | Tutorial  | Levels   | Posttest   | Levels   | Posttest
+------ | --------- | -------- | ---------- | -------- | ----------
+
+In Conditions A and B, the first topic had only cognitive supports and
+the second topic had both kinds of supports.
+
+In Conditions C and D, the first topic had both kinds of supports and
+the second topic had cognitive supports only.
+
+In Conditions E and F (control), neither kinds of supports were active.
+
+In all cases, the supports were delivered after the game level completed,
+regardless of what happened during the game play.
+
+Conditions A, C and F did the ECT game levels and posttest first,
+followed by POT.
+
+Conditions B, D and E did the POT game levels and posttest first,
+followed by ECT.
+
+The following table summarizes the treatment conditions.  Here Period 1 refers
+to Tuesday and Wednessday and Period 2 to Thursday and Friday
+
+Group | Concept 1 | Supports 1 | Concept 2 | Supports 2
+----- | --------- | ---------- | --------- | --------------
+ A    | ECT       | COG        | POT       | COG + AFF
+ B    | POT       | COG        | ECT       | COG + AFF
+ C    | ECT       | COG + AFF  | POT       | COG
+ D    | POT       | COG + AFF  | ECT       | COG
+ E    | POT       | None       | ECT       | None
+ F    | ECT       | None       | POT       | None
+
+Note that the `StudyID` variable starts with the group assignment.
+The `ID1` and `ID2` (IDs used by the game engine) have the pattern `nnnGd?`,
+where `nnn` is an integer, `G` is the study condition (lower case) and `d1`
+is the first study period and `d2` the second.
+
+The column `Midtest` indicates the concept used in the first period (and the
+first posttest).  The column `Posttest` indicates the concept used in the
+second period.
+
+The column `Condition` gives the study condition.
+
+The column `CognitiveSupports` is true if cognitive supports were available
+(Experimental Conditions A, B, C, and D), and false if not
+(Control Conditions E and F).
+
+For the experimental conditions, affective supports were available only for
+one of the measures. `AffectiveECD`[sic] is true if affective supports
+were present during the ECT period (Conditions B and C) and false otherwise.
+`AffectivePOT` is true if affective supports were present during the POT period
+(Conditions A and D) and false otherwise.
+
 ## Measures
 
+The pretest consisted of 14 near transfer (`A-NQ??`) and 14
+far transfer (`A-FQ??`) items.  ([Test questions and keys](preposttest.qmd))
+
+The following subscores were produced:
+
+`NearECT` (`NearECTpost`)
+: Near transfer ECT items:  sum of `A-NQ1` through `A-NQ8`
+
+`NearPOT` (`NearPOTpost`)
+: Near transfer POT items:  sum of `A-NQ9` through `A-NQ14`
+
+`FarECT` (`FarECTpost`)
+: Far transfer ECT items:  sum of `A-FQ1` through `A-FQ8`
+
+`FarPOT` (`FarPOTpost`)
+: Far transfer POT items:  sum of `A-FQ9` through `A-FQ14`
+
+`Near`
+: `NearECT + NearPOT` (all near transfer items)
+
+`Far`
+: `FarECT + FarPOT`  (all far transfer items)
+
+`ECT` (`ECTpost`)
+: `NearECT + FarECT` (all ECT items)
+
+`POT` (`POTpost`)
+: `NearPOT + FarPOT` (all POT items)
+
+`PhysicsScore`
+: `ECT + POT` (all items)
+
+The same questions were used for pre- and post-tests, with only the ECT
+questions (`A-NQ1` through `A-NQ8` and `A-FQ1` through `A-FQ8`) given after
+playing the ECT level, and the POT questions (the remaining
+questions) given after playing the POT levels.  The corresponding summaries
+have `post` after the name.
+
+In addition the midtest (first posttest) and posttest, the students were
+given the Intrinsic Motivation Inventory ([IMI](IMI.qmd)) and the Physics
+Animation ([PA](PA.qmd)) surveys.  The results from the study period where
+student played the POT items are marked with `.pot`.
+
+
 ## Procedures
+
+
+
+
+Day 1: Pretest (14 near + 14 far - PRE), definitions, tutorial levels
+
+Day 2: Gameplay concept 1
+
+Day 3: Gameplay concept 1, posttest concept 1 (7 near + 7 far - POST_C1)
+
+Day 4: Gameplay concept 2
+
+Day 5: Gameplay concept 2, posttest concept 2 (7 near + 7 far - POST_C2)
+
+
+
 
 ## Results
