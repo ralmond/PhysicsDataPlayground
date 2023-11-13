@@ -2,27 +2,248 @@
 title: "Codebook"
 ---
 
-## IDs  _Russell_
+## IDs
+
+`StudyID`
+: Main study ID and primary key.  First letter is study condition.
+
+`ID1`, `ID2`
+: Internal game IDs, first letter (following the 3 digits) is study condition.
+
 
 ## Study Conditions _Ginny_
 
-## Demographic Varibles _Ginny_?
+The study was divided into two intervention/data collection periods, and the content into
+two topics:  `ECT` -- Evidence Can Transfer, and `POT` -- Properties of Torque.
 
-## Pretest/Post-test _Ginny_
+`Midtest`
+: Which topic was addressed in the first study period (and the first (mid) posttest).  One of `ECT`, `POT`.
+
+`Posttest`
+: Which topic was addressed in the second study period (and the final posttest).
+
+`Condition`
+: One of `A`, `B`, `C`, `D`, `E`, or `F` giving the study condition (see [protocl](SupportEfficacy.qmd)
+
+`CognitiveSupport`
+: Did the student have access to cognitive supports?  (Logical)
+
+`AffectiveECD` [sic]
+: Did the student have access to affective supports during the period in which `ECT`
+was the topic
+
+`AffectivePOT`
+: Did the student have access to affective supports during the period in which `POT`
+was the topic
+
+The following table summarizes the relationship between these treatment values.
+
+Condition | Midtest | Posttest | CognitiveSupports | AffectiveECD | AffectivePOT
+--------- | ------- | -------- | ----------------- | ------------ | ------------
+ A        | ECT     | POT      | TRUE              | FALSE        | TRUE
+ B        | POT     | ECT      | TRUE              | TRUE         | FALSE
+ C        | ECT     | POT      | TRUE              | TRUE         | FALSE
+ D        | POT     | ECT      | TRUE              | FALSE        | TRUE
+ E        | POT     | ECT      | FALSE             | FALSE        | FALSE
+ F        | ECT     | POT      | FALSE             | FALSE        | FALSE
+
+
+## Demographic Varibles
+
+
+
+`Age`
+: Self-reported age in years.
+
+`Sex`, `Gender`
+: Self-reported gender
+
+The race/ethnicity question was a check all that applied.  Respondents may have 
+chosen more than one category.
+
+`American Indian or Alaskan Native`, `Asian`, `Black or African American`, `Hispanic`, `Hawaiian or Pacific Islander`, `White`, `Other (enter)`, `Prefer not to say`
+: Logical value giving selected race/ethnicity
+
+`Other_TEXT`
+: Text string entered for "Other".
+
+`Ethnicity`
+: If single option was selected, that option.  If multiple options selected, then `Mixed`.
+
+`Gaming`
+: "How often do you play video games?"  Ordinal, possible values:   
+`Never`,	`Once a month or less`,	`Once a week`,	`3-4 times a week`,	`Every day`
+
+`Physics`
+: "Have you studied Physics?" Possible answers `Yes`, `No`.
+
+## Pretest/Post-test 
+
+Question texts and key are available [here](preposttest.qmd)
+
+### Pretest Raw Scores
+
+`Progress`
+: Completion percentage for prettest questionnaire
+
+`Duration (in seconds)`
+: Length of time needed to complete pretest questionnaire
+
+`Finished`
+: Did Qualtrics consider the pretest questionnaire finished.
+
+`RecordedDate`
+: Date pretest questionnaire was collected
+
+`A-NQ1` through `A-NQ8`
+: Pretest responses to near transfer ECT questions, raw responses
+
+`A-NQ8` through `A-NQ14`
+: Pretest responses to near transfer POT questions, raw responses
+
+`A-FQ1` through `A-FQ8`
+: Pretest responses to far transfer ECT questions, raw responses
+
+`A-FQ8` through `A-FQ14`
+: Pretest responses to far transfer POT questions, raw responses
+
+`SC0`
+: Prestest score as computed by Qualtrics
+
+`A-NQ1_scored` through `A-NQ8_scored`
+: Pretest scored (0,1) responses to near transfer ECT questions, raw responses
+
+`A-NQ8_scored` through `A-NQ14_scored`
+: Pretest scored (0,1) responses to near transfer POT questions, raw responses
+
+`A-FQ1_scored` through `A-FQ8_scored`
+: Pretest scored (0,1) responses to far transfer ECT questions, raw responses
+
+`A-FQ8_scored` through `A-FQ14_scored`
+: Pretest scored (0,1) responses to far transfer POT questions, raw responses
+
 
 ### Energy Can Transfer (ECT) Near and Far
 
+`Progress.ect`
+: Completion percentage for ECT posttest questionnaire
+
+`Duration (in seconds).ect`
+: Length of time needed to complete ECT posttest questionnaire (including IMI and PA)
+
+`Finished.ect`
+: Did Qualtrics consider the ECT posttest questionnaire finished.
+
+`RecordedDate.ect`
+: Date ECT posttest questionnaire was collected
+
+`A-NQ1.ect` through `A-NQ8.ect`
+: Posttest responses to near transfer ECT questions, raw responses
+
+`A-FQ1.ect` through `A-FQ8.ect`
+: Posttest responses to far transfer ECT questions, raw responses
+
+`SC0.ect`
+: Posttest score as computed by Qualtrics
+
+`A-NQ1_scored.ect` through `A-NQ8_scored.ect`
+: Posttest scored (0,1) responses to near transfer ECT questions, raw responses
+
+`A-FQ1_scored.ect` through `A-FQ8_scored.ect`
+: Posttest scored (0,1) responses to far transfer ECT questions, raw responses
+
 ### Properties of Torque (POT) Near and Far
 
-## Intrinsic Motivation Inventory _Ginny_
+`Progress.pot`
+: Completion percentage for POT posttest questionnaire
 
-Reverse Coded Items
+`Duration (in seconds).pot`
+: Length of time needed to complete POT posttest questionnaire
 
-Subscores
+`Finished.pot`
+: Did Qualtrics consider the POT posttest questionnaire finished.
 
-## Physics Animation (Learning Support) Questionnaire _Ginny_
+`RecordedData.pot`
+: Date POT posttest questionnaire was collected
 
-## Bayesian Network Scores _Russell (from here on down)._
+`A-NQ8.pot` through `A-NQ14.pot`
+: POT posttest responses to near transfer POT questions, raw responses
+
+`A-FQ8.pot` through `A-FQ14.pot`
+: POT posttest responses to far transfer POT questions, raw responses
+
+`SC0.pot`
+: POT posttest score as computed by Qualtrics
+
+
+`A-NQ8_scored.pot` through `A-NQ14_scored.pot`
+: POT posttest scored (0,1) responses to near transfer POT questions, raw responses
+
+`A-FQ8_scored.pot` through `A-FQ14_scored.pot`
+: POT posttest scored (0,1) responses to far transfer POT questions, raw responses
+
+
+### Sum Scores
+
+Pretest sum scores:
+
+`NearECT`, `FarECT`, `NearPOT`, `FarPOT`, `Near`, `Far`, `ECT`, `POT`, `PhysicsScore`
+
+ECT posttest score:
+
+`NearECTpost`, `FarECTpost`, `ECTpost`
+
+POT posttest score:
+
+`NearPOTpost`, `FarPOTpost`, `POTpost`
+
+
+## Intrinsic Motivation Inventory 
+
+Here are [the questions](IMI.qmd)
+
+The test was given once with the `ECT` posttest and the `POT` posttest.  Ones given
+with the POT posttest have the suffix `.pot`.
+
+`IMI_1` through `IMI_18` and `IMI_1.pot` through `IMI_18.pot`
+: Item responses (reverse coded items reverse coded) with ECT (no prefix) or POT (`.pot`) posttest
+
+`IMI`, `IMI.pot`
+: Total score for IMI questionnaire
+
+`IMI_Enj`, `IMI_Enj.pot`
+: Enjoyment subscale
+
+`IMI_Eng`, `IMI_Eng.pot`
+: Engagement subscale
+
+`IMI_PC`, `IMI_PC.pot`
+: Player confidence subscale
+
+`IMI_Effort`, `IMI_Effort.pot`
+: Effort subscale
+
+`IMI_Frust`, `IMI_Frust.pot`
+: Frustration subscale
+
+`IMI_Value`, `IMI_Value.pot`
+: Value of experience subscale
+
+
+## Physics Animation (Learning Support) Questionnaire
+
+The questions are [here]
+
+The test was given once with the `ECT` posttest and the `POT` posttest.  Ones given
+with the POT posttest have the suffix `.pot`.
+
+`PA_1` through `PA_7` and `PA_1.pot` through `PA_18.pot`
+: Item responses (reverse coded items reverse coded) with ECT (no prefix) or POT (`.pot`) posttest
+
+`PA`, `PA.pot`
+: Total score for PA questionnaire
+
+## Bayesian Network Scores
 
 * _context_
 

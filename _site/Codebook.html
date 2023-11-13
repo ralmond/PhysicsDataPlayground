@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.3.450">
+<meta name="generator" content="quarto-1.3.433">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -284,17 +284,19 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#ids-russell" id="toc-ids-russell" class="nav-link active" data-scroll-target="#ids-russell">IDs <em>Russell</em></a></li>
+  <li><a href="#ids" id="toc-ids" class="nav-link active" data-scroll-target="#ids">IDs</a></li>
   <li><a href="#study-conditions-ginny" id="toc-study-conditions-ginny" class="nav-link" data-scroll-target="#study-conditions-ginny">Study Conditions <em>Ginny</em></a></li>
-  <li><a href="#demographic-varibles-ginny" id="toc-demographic-varibles-ginny" class="nav-link" data-scroll-target="#demographic-varibles-ginny">Demographic Varibles <em>Ginny</em>?</a></li>
-  <li><a href="#pretestpost-test-ginny" id="toc-pretestpost-test-ginny" class="nav-link" data-scroll-target="#pretestpost-test-ginny">Pretest/Post-test <em>Ginny</em></a>
+  <li><a href="#demographic-varibles" id="toc-demographic-varibles" class="nav-link" data-scroll-target="#demographic-varibles">Demographic Varibles</a></li>
+  <li><a href="#pretestpost-test" id="toc-pretestpost-test" class="nav-link" data-scroll-target="#pretestpost-test">Pretest/Post-test</a>
   <ul class="collapse">
+  <li><a href="#pretest-raw-scores" id="toc-pretest-raw-scores" class="nav-link" data-scroll-target="#pretest-raw-scores">Pretest Raw Scores</a></li>
   <li><a href="#energy-can-transfer-ect-near-and-far" id="toc-energy-can-transfer-ect-near-and-far" class="nav-link" data-scroll-target="#energy-can-transfer-ect-near-and-far">Energy Can Transfer (ECT) Near and Far</a></li>
   <li><a href="#properties-of-torque-pot-near-and-far" id="toc-properties-of-torque-pot-near-and-far" class="nav-link" data-scroll-target="#properties-of-torque-pot-near-and-far">Properties of Torque (POT) Near and Far</a></li>
+  <li><a href="#sum-scores" id="toc-sum-scores" class="nav-link" data-scroll-target="#sum-scores">Sum Scores</a></li>
   </ul></li>
-  <li><a href="#intrinsic-motivation-inventory-ginny" id="toc-intrinsic-motivation-inventory-ginny" class="nav-link" data-scroll-target="#intrinsic-motivation-inventory-ginny">Intrinsic Motivation Inventory <em>Ginny</em></a></li>
-  <li><a href="#physics-animation-learning-support-questionnaire-ginny" id="toc-physics-animation-learning-support-questionnaire-ginny" class="nav-link" data-scroll-target="#physics-animation-learning-support-questionnaire-ginny">Physics Animation (Learning Support) Questionnaire <em>Ginny</em></a></li>
-  <li><a href="#bayesian-network-scores-russell-from-here-on-down." id="toc-bayesian-network-scores-russell-from-here-on-down." class="nav-link" data-scroll-target="#bayesian-network-scores-russell-from-here-on-down.">Bayesian Network Scores <em>Russell (from here on down).</em></a>
+  <li><a href="#intrinsic-motivation-inventory" id="toc-intrinsic-motivation-inventory" class="nav-link" data-scroll-target="#intrinsic-motivation-inventory">Intrinsic Motivation Inventory</a></li>
+  <li><a href="#physics-animation-learning-support-questionnaire" id="toc-physics-animation-learning-support-questionnaire" class="nav-link" data-scroll-target="#physics-animation-learning-support-questionnaire">Physics Animation (Learning Support) Questionnaire</a></li>
+  <li><a href="#bayesian-network-scores" id="toc-bayesian-network-scores" class="nav-link" data-scroll-target="#bayesian-network-scores">Bayesian Network Scores</a>
   <ul class="collapse">
   <li><a href="#marginal-distributions" id="toc-marginal-distributions" class="nav-link" data-scroll-target="#marginal-distributions">Marginal Distributions</a></li>
   <li><a href="#eap-and-map-scores" id="toc-eap-and-map-scores" class="nav-link" data-scroll-target="#eap-and-map-scores">EAP and MAP Scores</a></li>
@@ -324,34 +326,365 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<section id="ids-russell" class="level2">
-<h2 class="anchored" data-anchor-id="ids-russell">IDs <em>Russell</em></h2>
+<section id="ids" class="level2">
+<h2 class="anchored" data-anchor-id="ids">IDs</h2>
+<dl>
+<dt><code>StudyID</code></dt>
+<dd>
+Main study ID and primary key. First letter is study condition.
+</dd>
+<dt><code>ID1</code>, <code>ID2</code></dt>
+<dd>
+Internal game IDs, first letter (following the 3 digits) is study condition.
+</dd>
+</dl>
 </section>
 <section id="study-conditions-ginny" class="level2">
 <h2 class="anchored" data-anchor-id="study-conditions-ginny">Study Conditions <em>Ginny</em></h2>
+<p>The study was divided into two intervention/data collection periods, and the content into two topics: <code>ECT</code> – Evidence Can Transfer, and <code>POT</code> – Properties of Torque.</p>
+<dl>
+<dt><code>Midtest</code></dt>
+<dd>
+Which topic was addressed in the first study period (and the first (mid) posttest). One of <code>ECT</code>, <code>POT</code>.
+</dd>
+<dt><code>Posttest</code></dt>
+<dd>
+Which topic was addressed in the second study period (and the final posttest).
+</dd>
+<dt><code>Condition</code></dt>
+<dd>
+One of <code>A</code>, <code>B</code>, <code>C</code>, <code>D</code>, <code>E</code>, or <code>F</code> giving the study condition (see <a href="./SupportEfficacy.html">protocl</a>
+</dd>
+<dt><code>CognitiveSupport</code></dt>
+<dd>
+Did the student have access to cognitive supports? (Logical)
+</dd>
+<dt><code>AffectiveECD</code> [sic]</dt>
+<dd>
+Did the student have access to affective supports during the period in which <code>ECT</code> was the topic
+</dd>
+<dt><code>AffectivePOT</code></dt>
+<dd>
+Did the student have access to affective supports during the period in which <code>POT</code> was the topic
+</dd>
+</dl>
+<p>The following table summarizes the relationship between these treatment values.</p>
+<table class="table">
+<colgroup>
+<col style="width: 13%">
+<col style="width: 10%">
+<col style="width: 12%">
+<col style="width: 26%">
+<col style="width: 18%">
+<col style="width: 18%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Condition</th>
+<th>Midtest</th>
+<th>Posttest</th>
+<th>CognitiveSupports</th>
+<th>AffectiveECD</th>
+<th>AffectivePOT</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>A</td>
+<td>ECT</td>
+<td>POT</td>
+<td>TRUE</td>
+<td>FALSE</td>
+<td>TRUE</td>
+</tr>
+<tr class="even">
+<td>B</td>
+<td>POT</td>
+<td>ECT</td>
+<td>TRUE</td>
+<td>TRUE</td>
+<td>FALSE</td>
+</tr>
+<tr class="odd">
+<td>C</td>
+<td>ECT</td>
+<td>POT</td>
+<td>TRUE</td>
+<td>TRUE</td>
+<td>FALSE</td>
+</tr>
+<tr class="even">
+<td>D</td>
+<td>POT</td>
+<td>ECT</td>
+<td>TRUE</td>
+<td>FALSE</td>
+<td>TRUE</td>
+</tr>
+<tr class="odd">
+<td>E</td>
+<td>POT</td>
+<td>ECT</td>
+<td>FALSE</td>
+<td>FALSE</td>
+<td>FALSE</td>
+</tr>
+<tr class="even">
+<td>F</td>
+<td>ECT</td>
+<td>POT</td>
+<td>FALSE</td>
+<td>FALSE</td>
+<td>FALSE</td>
+</tr>
+</tbody>
+</table>
 </section>
-<section id="demographic-varibles-ginny" class="level2">
-<h2 class="anchored" data-anchor-id="demographic-varibles-ginny">Demographic Varibles <em>Ginny</em>?</h2>
+<section id="demographic-varibles" class="level2">
+<h2 class="anchored" data-anchor-id="demographic-varibles">Demographic Varibles</h2>
+<dl>
+<dt><code>Age</code></dt>
+<dd>
+Self-reported age in years.
+</dd>
+<dt><code>Sex</code>, <code>Gender</code></dt>
+<dd>
+Self-reported gender
+</dd>
+</dl>
+<p>The race/ethnicity question was a check all that applied. Respondents may have chosen more than one category.</p>
+<dl>
+<dt><code>American Indian or Alaskan Native</code>, <code>Asian</code>, <code>Black or African American</code>, <code>Hispanic</code>, <code>Hawaiian or Pacific Islander</code>, <code>White</code>, <code>Other (enter)</code>, <code>Prefer not to say</code></dt>
+<dd>
+Logical value giving selected race/ethnicity
+</dd>
+<dt><code>Other_TEXT</code></dt>
+<dd>
+Text string entered for “Other”.
+</dd>
+<dt><code>Ethnicity</code></dt>
+<dd>
+If single option was selected, that option. If multiple options selected, then <code>Mixed</code>.
+</dd>
+<dt><code>Gaming</code></dt>
+<dd>
+“How often do you play video games?” Ordinal, possible values:<br>
+<code>Never</code>, <code>Once a month or less</code>, <code>Once a week</code>, <code>3-4 times a week</code>, <code>Every day</code>
+</dd>
+<dt><code>Physics</code></dt>
+<dd>
+“Have you studied Physics?” Possible answers <code>Yes</code>, <code>No</code>.
+</dd>
+</dl>
 </section>
-<section id="pretestpost-test-ginny" class="level2">
-<h2 class="anchored" data-anchor-id="pretestpost-test-ginny">Pretest/Post-test <em>Ginny</em></h2>
+<section id="pretestpost-test" class="level2">
+<h2 class="anchored" data-anchor-id="pretestpost-test">Pretest/Post-test</h2>
+<p>Question texts and key are available <a href="./preposttest.html">here</a></p>
+<section id="pretest-raw-scores" class="level3">
+<h3 class="anchored" data-anchor-id="pretest-raw-scores">Pretest Raw Scores</h3>
+<dl>
+<dt><code>Progress</code></dt>
+<dd>
+Completion percentage for prettest questionnaire
+</dd>
+<dt><code>Duration (in seconds)</code></dt>
+<dd>
+Length of time needed to complete pretest questionnaire
+</dd>
+<dt><code>Finished</code></dt>
+<dd>
+Did Qualtrics consider the pretest questionnaire finished.
+</dd>
+<dt><code>RecordedDate</code></dt>
+<dd>
+Date pretest questionnaire was collected
+</dd>
+<dt><code>A-NQ1</code> through <code>A-NQ8</code></dt>
+<dd>
+Pretest responses to near transfer ECT questions, raw responses
+</dd>
+<dt><code>A-NQ8</code> through <code>A-NQ14</code></dt>
+<dd>
+Pretest responses to near transfer POT questions, raw responses
+</dd>
+<dt><code>A-FQ1</code> through <code>A-FQ8</code></dt>
+<dd>
+Pretest responses to far transfer ECT questions, raw responses
+</dd>
+<dt><code>A-FQ8</code> through <code>A-FQ14</code></dt>
+<dd>
+Pretest responses to far transfer POT questions, raw responses
+</dd>
+<dt><code>SC0</code></dt>
+<dd>
+Prestest score as computed by Qualtrics
+</dd>
+<dt><code>A-NQ1_scored</code> through <code>A-NQ8_scored</code></dt>
+<dd>
+Pretest scored (0,1) responses to near transfer ECT questions, raw responses
+</dd>
+<dt><code>A-NQ8_scored</code> through <code>A-NQ14_scored</code></dt>
+<dd>
+Pretest scored (0,1) responses to near transfer POT questions, raw responses
+</dd>
+<dt><code>A-FQ1_scored</code> through <code>A-FQ8_scored</code></dt>
+<dd>
+Pretest scored (0,1) responses to far transfer ECT questions, raw responses
+</dd>
+<dt><code>A-FQ8_scored</code> through <code>A-FQ14_scored</code></dt>
+<dd>
+Pretest scored (0,1) responses to far transfer POT questions, raw responses
+</dd>
+</dl>
+</section>
 <section id="energy-can-transfer-ect-near-and-far" class="level3">
 <h3 class="anchored" data-anchor-id="energy-can-transfer-ect-near-and-far">Energy Can Transfer (ECT) Near and Far</h3>
+<dl>
+<dt><code>Progress.ect</code></dt>
+<dd>
+Completion percentage for ECT posttest questionnaire
+</dd>
+<dt><code>Duration (in seconds).ect</code></dt>
+<dd>
+Length of time needed to complete ECT posttest questionnaire (including IMI and PA)
+</dd>
+<dt><code>Finished.ect</code></dt>
+<dd>
+Did Qualtrics consider the ECT posttest questionnaire finished.
+</dd>
+<dt><code>RecordedDate.ect</code></dt>
+<dd>
+Date ECT posttest questionnaire was collected
+</dd>
+<dt><code>A-NQ1.ect</code> through <code>A-NQ8.ect</code></dt>
+<dd>
+Posttest responses to near transfer ECT questions, raw responses
+</dd>
+<dt><code>A-FQ1.ect</code> through <code>A-FQ8.ect</code></dt>
+<dd>
+Posttest responses to far transfer ECT questions, raw responses
+</dd>
+<dt><code>SC0.ect</code></dt>
+<dd>
+Posttest score as computed by Qualtrics
+</dd>
+<dt><code>A-NQ1_scored.ect</code> through <code>A-NQ8_scored.ect</code></dt>
+<dd>
+Posttest scored (0,1) responses to near transfer ECT questions, raw responses
+</dd>
+<dt><code>A-FQ1_scored.ect</code> through <code>A-FQ8_scored.ect</code></dt>
+<dd>
+Posttest scored (0,1) responses to far transfer ECT questions, raw responses
+</dd>
+</dl>
 </section>
 <section id="properties-of-torque-pot-near-and-far" class="level3">
 <h3 class="anchored" data-anchor-id="properties-of-torque-pot-near-and-far">Properties of Torque (POT) Near and Far</h3>
+<dl>
+<dt><code>Progress.pot</code></dt>
+<dd>
+Completion percentage for POT posttest questionnaire
+</dd>
+<dt><code>Duration (in seconds).pot</code></dt>
+<dd>
+Length of time needed to complete POT posttest questionnaire
+</dd>
+<dt><code>Finished.pot</code></dt>
+<dd>
+Did Qualtrics consider the POT posttest questionnaire finished.
+</dd>
+<dt><code>RecordedData.pot</code></dt>
+<dd>
+Date POT posttest questionnaire was collected
+</dd>
+<dt><code>A-NQ8.pot</code> through <code>A-NQ14.pot</code></dt>
+<dd>
+POT posttest responses to near transfer POT questions, raw responses
+</dd>
+<dt><code>A-FQ8.pot</code> through <code>A-FQ14.pot</code></dt>
+<dd>
+POT posttest responses to far transfer POT questions, raw responses
+</dd>
+<dt><code>SC0.pot</code></dt>
+<dd>
+POT posttest score as computed by Qualtrics
+</dd>
+<dt><code>A-NQ8_scored.pot</code> through <code>A-NQ14_scored.pot</code></dt>
+<dd>
+POT posttest scored (0,1) responses to near transfer POT questions, raw responses
+</dd>
+<dt><code>A-FQ8_scored.pot</code> through <code>A-FQ14_scored.pot</code></dt>
+<dd>
+POT posttest scored (0,1) responses to far transfer POT questions, raw responses
+</dd>
+</dl>
+</section>
+<section id="sum-scores" class="level3">
+<h3 class="anchored" data-anchor-id="sum-scores">Sum Scores</h3>
+<p>Pretest sum scores:</p>
+<p><code>NearECT</code>, <code>FarECT</code>, <code>NearPOT</code>, <code>FarPOT</code>, <code>Near</code>, <code>Far</code>, <code>ECT</code>, <code>POT</code>, <code>PhysicsScore</code></p>
+<p>ECT posttest score:</p>
+<p><code>NearECTpost</code>, <code>FarECTpost</code>, <code>ECTpost</code></p>
+<p>POT posttest score:</p>
+<p><code>NearPOTpost</code>, <code>FarPOTpost</code>, <code>POTpost</code></p>
 </section>
 </section>
-<section id="intrinsic-motivation-inventory-ginny" class="level2">
-<h2 class="anchored" data-anchor-id="intrinsic-motivation-inventory-ginny">Intrinsic Motivation Inventory <em>Ginny</em></h2>
-<p>Reverse Coded Items</p>
-<p>Subscores</p>
+<section id="intrinsic-motivation-inventory" class="level2">
+<h2 class="anchored" data-anchor-id="intrinsic-motivation-inventory">Intrinsic Motivation Inventory</h2>
+<p>Here are <a href="./IMI.html">the questions</a></p>
+<p>The test was given once with the <code>ECT</code> posttest and the <code>POT</code> posttest. Ones given with the POT posttest have the suffix <code>.pot</code>.</p>
+<dl>
+<dt><code>IMI_1</code> through <code>IMI_18</code> and <code>IMI_1.pot</code> through <code>IMI_18.pot</code></dt>
+<dd>
+Item responses (reverse coded items reverse coded) with ECT (no prefix) or POT (<code>.pot</code>) posttest
+</dd>
+<dt><code>IMI</code>, <code>IMI.pot</code></dt>
+<dd>
+Total score for IMI questionnaire
+</dd>
+<dt><code>IMI_Enj</code>, <code>IMI_Enj.pot</code></dt>
+<dd>
+Enjoyment subscale
+</dd>
+<dt><code>IMI_Eng</code>, <code>IMI_Eng.pot</code></dt>
+<dd>
+Engagement subscale
+</dd>
+<dt><code>IMI_PC</code>, <code>IMI_PC.pot</code></dt>
+<dd>
+Player confidence subscale
+</dd>
+<dt><code>IMI_Effort</code>, <code>IMI_Effort.pot</code></dt>
+<dd>
+Effort subscale
+</dd>
+<dt><code>IMI_Frust</code>, <code>IMI_Frust.pot</code></dt>
+<dd>
+Frustration subscale
+</dd>
+<dt><code>IMI_Value</code>, <code>IMI_Value.pot</code></dt>
+<dd>
+Value of experience subscale
+</dd>
+</dl>
 </section>
-<section id="physics-animation-learning-support-questionnaire-ginny" class="level2">
-<h2 class="anchored" data-anchor-id="physics-animation-learning-support-questionnaire-ginny">Physics Animation (Learning Support) Questionnaire <em>Ginny</em></h2>
+<section id="physics-animation-learning-support-questionnaire" class="level2">
+<h2 class="anchored" data-anchor-id="physics-animation-learning-support-questionnaire">Physics Animation (Learning Support) Questionnaire</h2>
+<p>The questions are [here]</p>
+<p>The test was given once with the <code>ECT</code> posttest and the <code>POT</code> posttest. Ones given with the POT posttest have the suffix <code>.pot</code>.</p>
+<dl>
+<dt><code>PA_1</code> through <code>PA_7</code> and <code>PA_1.pot</code> through <code>PA_18.pot</code></dt>
+<dd>
+Item responses (reverse coded items reverse coded) with ECT (no prefix) or POT (<code>.pot</code>) posttest
+</dd>
+<dt><code>PA</code>, <code>PA.pot</code></dt>
+<dd>
+Total score for PA questionnaire
+</dd>
+</dl>
 </section>
-<section id="bayesian-network-scores-russell-from-here-on-down." class="level2">
-<h2 class="anchored" data-anchor-id="bayesian-network-scores-russell-from-here-on-down.">Bayesian Network Scores <em>Russell (from here on down).</em></h2>
+<section id="bayesian-network-scores" class="level2">
+<h2 class="anchored" data-anchor-id="bayesian-network-scores">Bayesian Network Scores</h2>
 <ul>
 <li><em>context</em></li>
 </ul>
