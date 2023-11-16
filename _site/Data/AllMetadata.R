@@ -1,13 +1,12 @@
-library(readr)
 colAll <-  cols(
   StudyID = col_character(),
   ID1 = col_character(),
   ID2 = col_character(),
-  Midtest = col_factor(levels = c("ECT", "POT"), ordered = FALSE, include_na = FALSE),
-  Posttest = col_factor(levels = c("ECT", "POT"), ordered = FALSE, include_na = FALSE),
+  Topic1 = col_factor(levels = c("ECT", "POT"), ordered = FALSE, include_na = FALSE),
+  Topic2 = col_factor(levels = c("ECT", "POT"), ordered = FALSE, include_na = FALSE),
   Condition = col_factor(levels = c("A", "B", "C", "D", "E", "F"), ordered = FALSE, include_na = FALSE),
   CognitiveSupports = col_logical(),
-  AffectiveECD = col_logical(),
+  AffectiveECT = col_logical(),
   AffectivePOT = col_logical(),
   Progress = col_number(),
   `Duration (in seconds)` = col_number(),
@@ -808,6 +807,3 @@ colAll <-  cols(
   breathing_total = col_number(),
   breathing_count = col_number()
 )
-#FSUSFall2022Full <-
-#  read_csv("https://pluto.coe.fsu.edu/PhysicsDataPlayground/Data/FSUSFall2022Full.csv",
-#           col_types=colAll)       

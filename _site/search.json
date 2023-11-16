@@ -56,81 +56,11 @@
     "text": "Table of items (not including text and graphics)\n\nppKeys &lt;- readr::read_csv(\"Instruments/KeysAndCodes_Physics.csv\")\nknitr::kable(ppKeys[,c(8:4,2)])\n\n\n\n\nID\nHL Concept\nForm\nNear/Far\nKey\nConcept\n\n\n\n\nA-NQ1\nEcT\nA\nNear\na\nEcT-Lever\n\n\nA-NQ2\nEcT\nA\nNear\nb\nEcT-Lever\n\n\nA-NQ3\nEcT\nA\nNear\nb\nEcT-Pendulum\n\n\nA-NQ4\nEcT\nA\nNear\na\nEcT-Pendulum\n\n\nA-NQ5\nEcT\nA\nNear\nc\nEcT-Ramp\n\n\nA-NQ6\nEcT\nA\nNear\nc\nEcT-Ramp\n\n\nA-NQ7\nEcT\nA\nNear\nb\nEcT-Springboard\n\n\nA-NQ8\nEcT\nA\nNear\na\nEcT-Springboard\n\n\nA-NQ9\nPoT\nA\nNear\nb\nPoT-Lever-Distance\n\n\nA-NQ10\nPoT\nA\nNear\nc\nPoT-Lever-Distance\n\n\nA-NQ11\nPoT\nA\nNear\nb\nPoT-Lever-Mass\n\n\nA-NQ12\nPoT\nA\nNear\nb\nPoT-Lever-Mass\n\n\nA-NQ13\nPoT\nA\nNear\nb\nPoT-Springboard\n\n\nA-NQ14\nPoT\nA\nNear\nb\nPoT-Springboard\n\n\nB-NQ1\nEcT\nB\nNear\na\nEcT-Lever\n\n\nB-NQ2\nEcT\nB\nNear\nb\nEcT-Lever\n\n\nB-NQ3\nEcT\nB\nNear\na\nEcT-Pendulum\n\n\nB-NQ4\nEcT\nB\nNear\nb\nEcT-Pendulum\n\n\nB-NQ5\nEcT\nB\nNear\na\nEcT-Ramp\n\n\nB-NQ6\nEcT\nB\nNear\nc\nEcT-Ramp\n\n\nB-NQ7\nEcT\nB\nNear\na\nEcT-Springboard\n\n\nB-NQ8\nEcT\nB\nNear\nc\nEcT-Springboard\n\n\nB-NQ9\nPoT\nB\nNear\nb\nPoT-Lever-Distance\n\n\nB-NQ10\nPoT\nB\nNear\nc\nPoT-Lever-Distance\n\n\nB-NQ11\nPoT\nB\nNear\nb\nPoT-Lever-Mass\n\n\nB-NQ12\nPoT\nB\nNear\nb\nPoT-Lever-Mass\n\n\nB-NQ13\nPoT\nB\nNear\nc\nPoT-Springboard\n\n\nB-NQ14\nPoT\nB\nNear\nc\nPoT-Springboard\n\n\nA-FQ1\nEcT\nA\nFar\na\nEcT-Lever\n\n\nA-FQ2\nEcT\nA\nFar\nc\nEcT-Lever\n\n\nA-FQ3\nEcT\nA\nFar\nc\nEcT-Pendulum\n\n\nA-FQ4\nEcT\nA\nFar\nb\nEcT-Pendulum\n\n\nA-FQ5\nEcT\nA\nFar\nb\nEcT-Ramp\n\n\nA-FQ6\nEcT\nA\nFar\nb\nEcT-Ramp\n\n\nA-FQ7\nEcT\nA\nFar\na\nEcT-Springboard\n\n\nA-FQ8\nEcT\nA\nFar\nb\nEcT-Springboard\n\n\nA-FQ9\nPoT\nA\nFar\nb\nPoT-Lever-Distance\n\n\nA-FQ10\nPoT\nA\nFar\nb\nPoT-Lever-Distance\n\n\nA-FQ11\nPoT\nA\nFar\na\nPoT-Lever-Mass\n\n\nA-FQ12\nPoT\nA\nFar\nc\nPoT-Lever-Mass\n\n\nA-FQ13\nPoT\nA\nFar\nc\nPoT-Springboard\n\n\nA-FQ14\nPoT\nA\nFar\nb\nPoT-Springboard\n\n\nB-FQ1\nEcT\nB\nFar\na\nEcT-Lever\n\n\nB-FQ2\nEcT\nB\nFar\nb\nEcT-Lever\n\n\nB-FQ3\nEcT\nB\nFar\nc\nEcT-Pendulum\n\n\nB-FQ4\nEcT\nB\nFar\nb\nEcT-Pendulum\n\n\nB-FQ5\nEcT\nB\nFar\na\nEcT-Ramp\n\n\nB-FQ6\nEcT\nB\nFar\nc\nEcT-Ramp\n\n\nB-FQ7\nEcT\nB\nFar\nd\nEcT-Springboard\n\n\nB-FQ8\nEcT\nB\nFar\nc\nEcT-Springboard\n\n\nB-FQ9\nPoT\nB\nFar\nd\nPoT-Lever-Distance\n\n\nB-FQ10\nPoT\nB\nFar\na\nPoT-Lever-Distance\n\n\nB-FQ11\nPoT\nB\nFar\na\nPoT-Lever-Mass\n\n\nB-FQ12\nPoT\nB\nFar\na\nPoT-Lever-Mass\n\n\nB-FQ13\nPoT\nB\nFar\nb\nPoT-Springboard\n\n\nB-FQ14\nPoT\nB\nFar\na\nPoT-Springboard"
   },
   {
-    "objectID": "StudyDesign.html",
-    "href": "StudyDesign.html",
-    "title": "Physics Data Playground",
+    "objectID": "bib.html",
+    "href": "bib.html",
+    "title": "References",
     "section": "",
-    "text": "Design for the Final PP IES Study\nGame link\nhttp://35.196.157.53/pp/game/demo.html\nTask List\nhttps://trello.com/b/C7AnI1LP/ies-nsf-project\nResearch Questions\n\nAre there any benefits of gameplay + supports vs. gameplay without &gt; supports?\nIs there any value-added of affective support beyond cognitive &gt; support?\n\nBetween subjects\n\nControl\nFixed-delivery (prespecified levels and timings)\n\nWithin subjects\n\nCognitive only (COG)\nCognitive + affective (COG-AFF)\n\n\n\nCounterbalance of COG/COG-AFF to Within subjects condition\ncounterbalanced across days (EcT-PoT/PoT-Ect)\n5 Groups:\nCog only + EcT 1st Day, Cog + Aff + PoT 2nd Day\nCog only + PoT 1st Day, Cog + Aff + EcT 2nd Day\nCog + Aff + EcT 1st Day, Cog Only, PoT 2nd Day\nCog + Aff + PoT 1st Day, Cog Only + EcT 2nd Day\n(split the above 4 evenly - 60% of sample; 40% for control)\nUID convention:\n001[group]d[day #]\n001ad1\n001ad2\n002bd1\n002bd2\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDays 1-3\n\nTest UID\nDays 4-5\n\nTest UID\n\n\n\n\n\n\nIntervention\nConcept\n\nIntervention\nConcept\n\nN = 340\n\n\nA\nCognitive Only\nECT\n999ad1*\nCognitive + Affective\nPOT\n999ad2\n60\n\n\nB\nCognitive Only\nPOT\n999bd1\nCognitive + Affective\nECT\n999bd2\n60\n\n\nC\nCognitive + Affective\nECT\n999cd1\nCognitive Only\nPOT\n999cd2\n60\n\n\nD\nCognitive + Affective\nPOT\n999dd1\nCognitive Only\nECT\n999dd2\n60\n\n\nE & F (control)\nNone\nPOT\n999ed1\nNone\nECT\n999ed2\n100\n\n\n\nNone\nECT\n999fd1\nNone\nPOT\n999fd2\n\n\n\n\n* Add “pass” after each test ID for password (e.g., “999ad1pass”)\nDo cog supports work\nA/C Cog vs. A/C Control (within)\nDo cog+aff work\nB/D CogAff vs. B/D Control (within)\nIs there an added advantage of affect (cog + aff) over cog only\nA/C vs. B/D (between)\nSchedule\nDay 1: Pretest (14 near + 14 far - PRE), definitions, tutorial levels\nDay 2: Gameplay concept 1\nDay 3: Gameplay concept 1, posttest concept 1 (7 near + 7 far - POST_C1)\nDay 4: Gameplay concept 2\nDay 5: Gameplay concept 2, posttest concept 2 (7 near + 7 far - POST_C2)\nThree tests: PRE_BOTH, POST_ECT, POST_POT\nWithin-Level Support Decision Tree\n***Cognitive supports are always present as a hint in the experimental condition (replace existing hint which points to specific levels)\nFor control condition, hint merely points to the agent to draw\nIF NOT Tutorial levels OR Warmup levels\nIF time_in_lev &gt;= 2-3 (random) minutes:\nIF time_in_game &lt;= 15 minutes:\nCognitive Support (voluntary)\nELIF time_in_game &gt; 15 minutes:\nIF cond = cogn:\nCognitive Support (voluntary)\nELIF cond = cogn + aff:\nAffective Message + Cognitive Support (voluntary)\nDesign of supports\nFirst start with a motivational message (from the qualitative affective support paper) and then offer the cognitive support as a hint. For cognitive only, use the cognitive component. For affective, use affective + cognitive (do not mix/match)\nMESSAGES\n\n\n\n\n\n\n\nAffective Component\nCognitive Component\n\n\n\n\nSolving levels like this one can be hard, but keep going and you will succeed!\nHere is one way to solve similar game levels.\n\n\nThis level can be tricky. Hang in there and keep trying.\nThis video shows a strategy to solve similar levels.\n\n\nNo one gets this level right away. It’s going to take a few more tries to find the solution. Keep going!\nThis video can help you see the physics used in solving the level.\n\n\nThis is a really hard level - you are doing great! Stay at it.\nBefore more gameplay, check out this video to learn a strategy for solving levels.\n\n\nDid you know that studies show we learn more from failure than from success? Try to build upon what you’ve learned!\nHere, watch this video to learn about the physics behind this level.\n\n\nEveryone hits a level that seems impossible to beat. Don’t give up. There is a solution!\nHere, watch this video to see the physics of moving the ball to hit the balloon in levels like this one.\n\n\nFailure always comes before success. Keep trying!\nThe following video uses a gameplay example to explain the physics used in solving this level.\n\n\nKeep working at it! This level can be difficult to solve, but you can do it.\nHere is a video with an example that shows one strategy you can use to solve levels like this one.\n\n\nThe breakthrough you need is right around the corner. Don’t walk away. You’ve got this!\nBefore going back to the level, check out this video showing the physics used in solving levels like this one.\n\n\nTake a deep breath and focus. This is tough, but you can figure it out if you keep trying.\nThe following video shows one strategy used for solving this type of level.\n\n\n\n\n\n\n\n\n\n\n\nAffective Component\n\n\nCognitive Component\n\n\n\n\n\n\nSolving levels like this one can be hard. Keep going and you can succeed! (74)\n\n\nHere is a video that can help. (43)\n\n\n\n\nThis level can be tricky. Hang in there and keep trying. (57)\n\n\nThis video shows a way to solve similar levels. (62)\n\n\n\n\nNo one gets this level right away. Don’t give up! (50)\n\n\nWatch this video showing the physics used in the solution. (59)\n\n\n\n\nThis is a really hard level – you’re doing great! Stay at it. (49)\n\n\nWatch this video showing the physics used in the solution.* (59)\n\n\n\n\nWe learn more from failure than success. Try building on what you’ve learned (77)\n\n\nHere is a video showing a solution strategy. (45)\n\n\n\n\nEveryone hits a level that seems impossible. Remember, there is a solution! (77)\n\n\nHere is a video that can help.* (43)\n\n\n\n\nFailure always comes before success. Keep trying! (49)\n\n\nThis video that shows a way to solve similar levels.* (62)\n\n\n\n\nThe breakthrough you need is around the corner. You’ve got this! (65)\n\n\nWatch this video to see the physics behind this level. (54)\n\n\n\n\nDon’t worry. You can figure it out if you keep trying. (53)\n\n\nHere is a video showing a solution strategy. (45)\n\n\n\n\nECT_Ramp1x -&gt; xECT_xRamp2x -&gt; ECT_Lever1\nBetween-Level Support Decision Tree\n\nThese rules apply to the first 8 levels where levels are ordered by &gt; agent - e.g., ramp1 , ramp 2, springboard 1, springboard 2, etc.\nNote that ramp 1 and ramp 2 share the same support called L1/2.\nBasic intuition is to always provide students in the experimental &gt; conditions access to the support for each agent during the level. &gt; If they successfully solve a level let them view the support as a &gt; reflection (after condition). If they are unsuccessful, let them &gt; view it as a hint (before condition)\nBefore cognitive supports offered prior to even levels (2, 4, &gt; etc - within agents)\nAfter supports offered after odd levels (1, 3, etc - &gt; within-agent)\nBetween affective supports offered prior to odd levels (in-between &gt; agents)\n\nMESSAGES:\nBefore Support:\n\"Before we start, here’s a short video that can help you solve levels like this one.\"\nAfter Support:\n“Before we move on, here’s a short video that can help you solve levels like this one.\"\nThis design resets for each agent. Here level 1 refers to the first level with a given agent; level 2 refers to the second level with a given agent.\nFor massed levels (1-8 for EcT and 1-6 for PoT)\nIF Level1 == solved AND CogSupport for L1/L2 not viewed:\nReflect Mandatory : Before going out of Level1 = Cognitive Support for L1/L2 ;\n\nthe idea is that they watch the video as form of reflection - an after support\nECT_Ramp1 SUPPORT -&gt; ECT_Ramp2\nGo to the main menu; Student selects and goes into Level 2;\n\nELIF Level1 == quit\n\nGo to the main menu; Student selects and goes into Level 2;\n\nIf no_COG viewed for L1/L2\n\nHint Mandatory: Before starting Level2 = Cognitive Support for L1/L2\nGive them the support as a hint to enable them to solve L2 - as a before support\nECT_Ramp1 -&gt; SUPPORT ECT_Ramp2\nElse\nDo nothing. Let them go to level 2.\n\nFor interleaved levels (&gt; 8 for EcT and &gt;7 for PoT)\nNo between levels cognitive supports; these are only provided within-level\nIf condition is cognitive + affective and (20 mins of game play or 15 mins since last between affective support offered)\nOffer optional calming center or secret store when they hit the main menu and select the next level\nIdea is to give students a break/reset\nSome considerations:\n\nTech issues: One needs to talk to the IT people there. &gt; We need laptops that can allow YouTube videos. Or we need a wifi &gt; that our Surface pros can get connected to.\nInstructions: Students need to be instructed to go &gt; through the levels in a linear order. They can choose to replay a &gt; level if they want to\n\nEcT levels - 4 cognitive supports (PV)\n\n\n\n\n\n\n\n\n\nNo.\nPV\nLevel\nDifficulty\n\n\n\n\n\n5 tutorial levels\n\n\n\n\n\n2 warm up levels\n\n\n\n\n1\nEcT_Ramp 1\nChocolate Factory\n4\n\n\n2\nEcT_Ramp 2\nBig Watermill\n5\n\n\n3\nEct_Lever 1\nSunny Day\n6\n\n\n4\nEct_Lever 2\nWavy\n7\n\n\n5\nEcT_Pendulum 1\nOn the UpSwing\n4\n\n\n6\nEcT_Pendulum 2\nCloudy Day\n6\n\n\n7\nEcT_Springboard 1\nLittle Mermaid\n4\n\n\n8\nEcT_Springboard 2\nYippie!\n6\n\n\n9*\nEcT_Ramp 3\nUltimate Pinball\n5\n\n\n10*\nEcT_Lever 3\nSpider Web\n6\n\n\n11*\nEcT_Pendulum 3\nUphill Battle\n6\n\n\n12*\nEcT_Springboard 3\nDiving Board\n6\n\n\n\n*Assortment of EcT levels that mixes the various supports\nPoT levels - 3 cognitive supports (PV)\n\n\n\n\n\n\n\n\n\nNo.\nPV\nLevel\nDifficulty\n\n\n\n\n\n5 tutorial levels\n\n\n\n\n\n2 warm up levels\n\n\n\n\n1\nPoT_Lever_distance 1\nShark\n5\n\n\n2\nPoT_Lever_distance 2\nOne at a Time\n6\n\n\n3\nPoT_Lever_mass 1\nScale\n4\n\n\n4\nPoT_Lever_mass 2\nCrazy Seesaw\n7\n\n\n5\nPoT_Springboard 1\nStiff Curtains\n5\n\n\n6\nPoT_Springboard 2\nDiving Board World\n7\n\n\n7*\nPoT_Lever_distance 3\nNeed Fulcrum\n5\n\n\n8*\nPoT_Lever_mass 3\nTiming is everything\n5\n\n\n9*\nPoT_Springboard 3\nPerfect Toss\n6\n\n\n10*\nPoT_Lever_distance 4\nUp in the Air\n7\n\n\n11*\nPoT_Lever_mass 4\nCan Opener\n6\n\n\n12*\nPoT_Springboard 4\nRoller Coaster\n7\n\n\n\n*Assortment of PoT levels that mixes the various supports\nFor Russell to extract the data for the Big Study:\nThe app ID: \"ecd://epls.coe.fsu.edu/PhysicsPlayground/IES/Fall22/BigStudy\""
-  },
-  {
-    "objectID": "StuffFromGinny.html",
-    "href": "StuffFromGinny.html",
-    "title": "Physics Data Playground",
-    "section": "",
-    "text": "Overview\nProject\nGame Design\nCognitive Supports\n\nAs part of the project, the team designed and developed a set of in-game cognitive supports. The iterative design and development process used is described in Shute, Smith et al. (2020)\n\n\nFinal set of in-game cognitive supports (1) physics videos, (2) interactive definitions, (3) formulas, (4) Hewitt videos, (5) glossary, (6) worked examples, (7) hints, and (8) game tips.\nFinal Cognitive Support Design\n\n\n\n\nA diagram of a company Description automatically generated\n\n\nAffective Supports\nPhysics Assessments\nPhysics Understanding Test\n\nResearch Studies: Game Design and Usability, Cognitive Supports, Learning and Stealth Assessment Research Studies\nOverview: We created 36 illustrative multiple-choice items covering the nine physics competencies in the game, counterbalanced between two equivalent forms for a pretest and posttest (pretest = 18 items, α = .77; posttest = 18 items, α = .82). Each form includes two items per competency. The items were (a) designed in the context of the game (i.e., including a video or an image from the game environment), (b) developed with the help of two physics experts, and (c) subjected to several pilot tests before administration in the current study.\n\n\nPhysics Understanding Test\n\n\nResearch Studies: Affective Supports, Support Timing, Support Efficacy\nWe created two isomorphic forms each including 28 illustrative multiple-choice items (Form A = 28 items, Cronbach’s α = 0.80; Form B = 28 items, Cronbach’s α = 0.83) covering the two physics competencies in (i.e., ECT and POT). Each form included 14 near-transfer items (designed in the context of the game) and 14 far-transfer items, designed to resemble the Force Concept Inventory (Hestenes et al., 1992); These items were developed with the help of two physics experts and subjected to several pilot tests.\n\nGame\nHow to use\nGameplay\nIncentives\nSupports\nCognitive Supports\nAffective Supports\nStealth Assessment\nCompetency Model\nEvidence Model\nEvidence Identification\nStatistics\nQMatrix\nResearch Studies\nSupport Timing (see Rahimi, Shute, et. al., 2022)\nDue to the constraints of the COVID-19 pandemic, all research was conducted online. We collected data from five cohorts of middle and high school students between the Spring and Fall of 2020. Data were collected from 204 participants, of which 149 were analyzed here. The first cohort (n = 12) participated as a remote after-school program (students were from across the US), the second (n = 16), and fourth (n = 12) cohorts participated as a remote activity related to their class (i.e., students of this cohort were classmates), the third (n = 69) cohort’s students were also classmates and had an option to participate remotely from home or come to their class wearing masks (everyone had to login via Zoom; researchers collected the data remotely with the help of teachers), and the fifth cohort (n = 40) participated as a remote summer camp program. Students’ ages ranged from 12 to 17 years, and the sample was diverse with respect to ethnicity and gender. Students who completed the study received a certificate of participation in addition to other performance-based incentives.\nWe used a between-subjects pretest-posttest design. Students were randomly assigned into one of three conditions: (1) Before (n = 50): in which supports (i.e., Physics Videos) were delivered before students started a level; (2) After (n = 46): in which supports were delivered after students solved or quit a level; and (3) Control (n = 53): in which students did not receive supports during gameplay.\nStudents assigned to the Before condition received a message encouraging them to watch a physics video (i.e., support) to help them prepare for and solve the level they were about to enter. Students in the After condition received a message when they solved or quit a level that encouraged them to watch a physics video (i.e., support) that could help them solve similar levels in the game.\nThe game version for this study included five tutorial levels, two warmup levels, and 28 game levels with various difficulties targeting the two physics concepts of energy can transfer (ECT) and properties of torque (POT). We ordered all the levels from easy to difficult (r = .62 between level number and difficulty) to ease students’ entry into the game and ordered them in a way that students alternated between the two concepts (ECT or POT). We also counterbalanced the ordering of levels with associated supports in that half the students in each treatment condition saw the supports in one set of 14 levels, and the other half saw the supports in the other set of 14 levels. In total, 35 levels were grouped within one large playground. Students played through these levels during individual gameplay sessions. Students could freely navigate through the game levels, although the game levels were presented to them in a predetermined order.\nWe included each support (i.e., physics video) in two of the relevant game levels to potentially increase exposure to the support and facilitate generalization since the same support can be useful for multiple levels. Also, students were required to watch the entire physics video the first time it was presented to them during gameplay. Specifically, the game was programmed to: (a) check if the student was viewing the physics video for the first time, and (b) if a was true then the game would wait until the physics video was completed before providing a button to allow the students close the video window. In all subsequent views of the physics video, students could close the video at will. Students always had access to Hints during gameplay. Students could also access Game Tips.\nMeasurement instruments included content (i.e., physics understanding), affect (i.e., intrinsic motivation inventory), and game data. The game records player actions and gameplay events into log files, such as: the number of levels solved, number of gold coins, number of silver coins, engagement with the physics videos (i.e., duration of views), and duration of gameplay. We parsed and extracted these data from log files for analysis."
-  },
-  {
-    "objectID": "scripts/PrepostIA.html",
-    "href": "scripts/PrepostIA.html",
-    "title": "Pre-Post Item Analyses",
-    "section": "",
-    "text": "library(psych)\nlibrary(tidyverse)\n\n── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──\n✔ dplyr     1.1.3     ✔ readr     2.1.4\n✔ forcats   1.0.0     ✔ stringr   1.5.0\n✔ ggplot2   3.4.4     ✔ tibble    3.2.1\n✔ lubridate 1.9.3     ✔ tidyr     1.3.0\n✔ purrr     1.0.2     \n── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──\n✖ ggplot2::%+%()   masks psych::%+%()\n✖ ggplot2::alpha() masks psych::alpha()\n✖ dplyr::filter()  masks stats::filter()\n✖ dplyr::lag()     masks stats::lag()\nℹ Use the conflicted package (&lt;http://conflicted.r-lib.org/&gt;) to force all conflicts to become errors\n\n\n\nprepost &lt;- read_csv(\"../Data/PPIESFall2022PrePost.csv\") %&gt;%\n  mutate(Midtest=factor(Midtest),Posttest=factor(Posttest),Condition=factor(Condition))\n\nRows: 244 Columns: 242\n── Column specification ────────────────────────────────────────────────────────\nDelimiter: \",\"\nchr   (73): StudyID, ID1, ID2, Midtest, Posttest, Condition, Sex, Other_TEXT...\ndbl  (155): Progress, Duration (in seconds), Finished, Age, SC0, A-NQ1_score...\nlgl   (11): CognitiveSupports, AffectiveECD, AffectivePOT, American Indian o...\ndttm   (3): RecordedDate, RecordedDate.ect, RecordedDate.pot\n\nℹ Use `spec()` to retrieve the full column specification for this data.\nℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.\n\nprepost\n\n# A tibble: 244 × 242\n   StudyID ID1   ID2   Midtest Posttest Condition CognitiveSupports AffectiveECD\n   &lt;chr&gt;   &lt;chr&gt; &lt;chr&gt; &lt;fct&gt;   &lt;fct&gt;    &lt;fct&gt;     &lt;lgl&gt;             &lt;lgl&gt;       \n 1 A0011   027a… 027a… ECT     POT      A         TRUE              FALSE       \n 2 C0022   163c… 163c… ECT     POT      C         TRUE              TRUE        \n 3 F0044   341f… 341f… ECT     POT      F         FALSE             FALSE       \n 4 B0055   119b… 119b… POT     ECT      B         TRUE              TRUE        \n 5 C0066   203c… 203c… ECT     POT      C         TRUE              TRUE        \n 6 D0077   224d… 224d… POT     ECT      D         TRUE              FALSE       \n 7 B0088   105b… 105b… POT     ECT      B         TRUE              TRUE        \n 8 F0101   334f… 334f… ECT     POT      F         FALSE             FALSE       \n 9 A0112   035a… 035a… ECT     POT      A         TRUE              FALSE       \n10 F0123   354f… 354f… ECT     POT      F         FALSE             FALSE       \n# ℹ 234 more rows\n# ℹ 234 more variables: AffectivePOT &lt;lgl&gt;, Progress &lt;dbl&gt;,\n#   `Duration (in seconds)` &lt;dbl&gt;, Finished &lt;dbl&gt;, RecordedDate &lt;dttm&gt;,\n#   Age &lt;dbl&gt;, Sex &lt;chr&gt;, `American Indian or Alaska Native` &lt;lgl&gt;,\n#   Asian &lt;lgl&gt;, `Black or African American` &lt;lgl&gt;, Hispanic &lt;lgl&gt;,\n#   `Native Hawaiian or Pacific Islander` &lt;lgl&gt;, White &lt;lgl&gt;,\n#   `Other (enter)` &lt;lgl&gt;, `Prefer not to say` &lt;lgl&gt;, Other_TEXT &lt;chr&gt;, …"
-  },
-  {
-    "objectID": "scripts/reloadPeople.html",
-    "href": "scripts/reloadPeople.html",
-    "title": "Untitled",
-    "section": "",
-    "text": "library(googlesheets4)\ngs4_auth(path=Sys.getenv(\"SHINY_PROTOCOL\"))\npersonsheet &lt;- gs4_get(\"1mKxvy3VQx6qOj_c2PBXsiSk9GsTiohvU-Y9uMAEqcuA\")\npersons &lt;- read_sheet(personsheet)\n\n✔ Reading from \"Personnel\".\n\n\n✔ Range 'For https://pluto.coe.fsu.edu/PhysicsDataPlayground/Personnel.html'.\n\npersons\n\n# A tibble: 33 × 13\n   Name         University `University abbrv` `Research Studies` `Project Roles`\n   &lt;chr&gt;        &lt;chr&gt;      &lt;chr&gt;              &lt;chr&gt;              &lt;chr&gt;          \n 1 Valerie Shu… Florida S… FSU                Game Design and U… PI Emeritus (R…\n 2 Russell Alm… Florida S… FSU                Game Design and U… PI for final y…\n 3 Ryan S. Bak… Universit… UPenn              Affective Support… Co-PI, develop…\n 4 Sidney D'Me… Universit… CUBoulder          Affective Support… Co-PI, design …\n 5 Seyed Ahmad… Universit… UF                 Game Design and U… Lead developer…\n 6 Adam Lamee   Universit… UCF                Game Design and U… Expert in phys…\n 7 Ginny Smith  Florida S… FSU                Game Design and U… Project manage…\n 8 Jaclyn Ocum… Universit… UPenn              Support Timing, S… Project coordi…\n 9 Brandon Boo… Universit… CUBoulder          Support Timing, S… Project coordi…\n10 Valdemar Šv… Universit… UPenn              Support Efficacy   Researcher     \n# ℹ 23 more rows\n# ℹ 8 more variables: `Google Scholar` &lt;chr&gt;, Homepage &lt;chr&gt;,\n#   `Other links` &lt;chr&gt;, `Photo link` &lt;chr&gt;, `Project Group` &lt;chr&gt;, IES &lt;dbl&gt;,\n#   NSF &lt;dbl&gt;, Gates &lt;dbl&gt;"
-  },
-  {
-    "objectID": "scripts/reloadPeople.html#parameters",
-    "href": "scripts/reloadPeople.html#parameters",
-    "title": "Untitled",
-    "section": "Parameters",
-    "text": "Parameters\n\ncolumns &lt;- \"[ 30, 70 ]\"\nfigwidth &lt;- \"300\"\n\n\nhead &lt;- \n  \"---\ntitle: \\\"Personnel\\\"\neditor: \n  markdown: \n    wrap: 72\n---\n\"\nfoot &lt;- \n  \"\n  \"\n\n\nord &lt;- c(\"Lead\",\"IES\",\"Alumni\")\nsecnames &lt;- c(Lead=\"Lead Investigators\",\n              IES=\"Researcher (current project)\",\n              Alumni=\"Researcher (NSF or Gates project)\")"
-  },
-  {
-    "objectID": "scripts/reloadPeople.html#build-it",
-    "href": "scripts/reloadPeople.html#build-it",
-    "title": "Untitled",
-    "section": "Build-it",
-    "text": "Build-it\n\nif (file.exists(\"Personnel.qmd\")) \n  file.remove(\"Personnel.qmd\")\n\n[1] TRUE\n\npfile &lt;- file(\"Personnel.qmd\")\nopen(pfile,open=\"wt\")\ncat(head,file=pfile)\n\n\nfor (sec in ord) {\n  cat(\"\\n\\n##\",secnames[sec],\"\\n\\n\",file=pfile)\n  ## Quarto is really sensitive to whitespace\n  cat(\":::: {layout=\",dQuote(columns,FALSE),\"}\\n\\n\",\n      sep=\"\",file=pfile)\n  \n  for (pp in grep(sec,persons$`Project Group`)) {\n    cat(\"::: {#first-column}\\n\",file=pfile)\n    \n    cat(\"![\",persons$Name[pp],\",\",\n        persons$`University abbrv`[pp],\"]\",\n        \"(\",persons$`Photo link`[pp],\")\\n\",\n        sep=\"\", file=pfile)\n    \n    cat(\":::\\n\",file=pfile)\n    cat(\"::: {#second-column}\\n\",file=pfile)\n    \n    cat(\"\\n* \",persons$Name[pp],\"\\n\",file=pfile)\n    cat(\"*\", persons$University[pp],\"\\n\",file=pfile)\n    cat(\"* **Studies:** \",persons$`Research Studies`[pp],\n        \"\\n\",file=pfile)\n    cat(\"* **Role:** \",persons$`Project Roles`[pp],\n        \"\\n\",file=pfile)\n    if (!is.na(persons$Homepage[pp]))\n      cat(\"* **Homepage:** &lt;\",persons$Homepage[pp],\n          \"&gt;\\n\",sep=\"\",file=pfile)\n    cat(\"* **Google Scholar:** &lt;\",\n        persons$`Google Scholar`[pp],\"&gt;\\n\",\n        sep=\"\",file=pfile)\n    if (!is.na(persons$`Other links`[pp]))\n      cat(\"* \",persons$`Other links`[pp],\"\\n\",file=pfile)\n    cat(\":::\\n\\n\",file=pfile)  \n  }\n  cat(\"::::\\n\\n\",file=pfile)\n}\n\n\ncat(foot,file=pfile)\nclose(pfile)"
-  },
-  {
-    "objectID": "Before-After.html#subjects",
-    "href": "Before-After.html#subjects",
-    "title": "Before/After Study Protocol",
-    "section": "Subjects",
-    "text": "Subjects"
-  },
-  {
-    "objectID": "Before-After.html#treatment-groups",
-    "href": "Before-After.html#treatment-groups",
-    "title": "Before/After Study Protocol",
-    "section": "Treatment Groups",
-    "text": "Treatment Groups"
-  },
-  {
-    "objectID": "Before-After.html#measures",
-    "href": "Before-After.html#measures",
-    "title": "Before/After Study Protocol",
-    "section": "Measures",
-    "text": "Measures"
-  },
-  {
-    "objectID": "Before-After.html#procedures",
-    "href": "Before-After.html#procedures",
-    "title": "Before/After Study Protocol",
-    "section": "Procedures",
-    "text": "Procedures"
-  },
-  {
-    "objectID": "Before-After.html#results",
-    "href": "Before-After.html#results",
-    "title": "Before/After Study Protocol",
-    "section": "Results",
-    "text": "Results"
+    "text": "Shute, V. J., & Rahimi, S. (2021). Stealth assessment of creativity in a physics video game. Computers in Human Behavior, 116 1-13. https://doi.org/10.1016/j.chb.2020.106647\nRahimi, S., Shute, V. J., Kuba, R., Dai, C-P., Yang, X., Smith, G., & Alonso Fenandez, C. (2021). The effects of incentive systems on learning and performance in educational games. Computers & Education, 165, 1-17. https://doi.org/10.1016/j.compedu.2021.104135\nShute, V. J., Rahimi S., Smith, G., Ke, F., Almond, R., Dai, C-P, Kamikabeya, R., Liu, Z., Yang, X., & Sun, C. (2020). Maximizing learning without sacrificing the fun: Stealth assessment, adaptivity, and learning supports in Physics Playground. Journal of Computer-Assisted Learning (38 pages).\nSpann, C. A., Shute, V. J., Rahimi, S., & D’Mello, S. K. (2019). The productive role of cognitive reappraisal in regulating frustration during game-based learning. Computers in Human Behavior. https://doi-org.proxy.lib.fsu.edu/10.1016/j.chb.2019.03.002\nShute, V. J., Rahimi, S., & Smith, G. (2019). Game-based learning analytics in Physics Playground. In M. Chang & A. Tlili (Eds.), Data analytics approaches in educational games and gamification systems. (pp. 69-93). New York, NY: Springer.\nShute, V. J., Ke, F., Almond, R. G., Rahimi, S., Smith, G., & Lu, X. (2019). How to increase learning while not decreasing the fun in educational games. In R. Feldman (Ed.), Learning Science: Theory, Research, and Practice (pp. 327-357). New York, NY: McGraw Hill.\nKarumbaiah, S., Rahimi, S., Baker, R. S., Shute, V. J., & D’Mello, S. (2018). Is student frustration in learning games more associated with game mechanics or conceptual understanding?. In J. Kay, R. Luckin, M. Mavrikis, & K. Porayska-Pomsta (Eds.), International Conference of Learning Sciences (pp. 1-2). London, UK.\nKim, Y. J., Almond, R. G., & Shute, V. J. (2016). Applying Evidence-Centered Design for the development of game-based assessments in Physics Playground. International Journal of Testing, 16(2), 142-163.\nShute, V. J. & Wang, L. (2016). Assessing and supporting hard-to-measure constructs. In A. A. Rupp, & J. P. Leighton (Eds.), The handbook of cognition and assessment: Frameworks, methodologies, and application, (pp. 535-562). Hoboken, NJ: John Wiley & Sons, Inc.\nBosch, N., Chen, H., Baker, R., Shute, V. J., & D’Mello, S. (2015). Accuracy vs. availability heuristic in multimodal affect detection in the wild. Proceedings of the 17th International Conference on Multimodal Interaction (ICMI), Seattle, WA.\nKim, Y. J., & Shute, V. J. (2015). The interplay of game elements with psychometric qualities, learning, and enjoyment in gamebased assessment. Computers & Education, 87, 340-356.\nShute, V. J., D’Mello, S. K., Baker, R., Cho, K., Bosch, N., Ocumpaugh, J., Ventura, M., & Almeda, V. (2015). Modeling how incoming knowledge, persistence, affective states, and in-game progress influence student learning from an educational game. Computers & Education, 86, 224-235.\nShute, V. J., Ventura, M., & Kim, Y. J. (2013). Assessment and learning of qualitative physics in Newton’s Playground. The Journal of Educational Research, 106, 423-430."
   },
   {
     "objectID": "about.html",
@@ -161,130 +91,200 @@
     "text": "Support:\nThis report is based on research supported by Institute of Education Sciences, U.S. Department of Education to Florida State University.\n\n“Exploring adaptive cognitive and affective learning support for next-generation STEM learning games.” (Institute of Education Sciences award no. R305A170376, Val Shute and Russell Almond, PIs)\n\nAdditional support (for previous version of Physics Playground and the Peanut and Proc4 scoring engines) was provided by:\n\n‘Bill & Melinda Gates Foundation grant “Games as Learning/Assessment: Stealth Assessment” (no. 0PP1035331, Val Shute, PI)’,\n‘National Science Foundation grant “DIP: Game-based Assessment and Support of STEM-related Competencies” (no. 1628937, Val Shute, PI)’,\n‘National Science Foundation grant “Mathematical Learning via Architectual Design and Modeling Using E-Rebuild.” (no. 1720533, Fengfeng Ke, PI)’,\n\nThe opinions express are those of the authors and do not represent views of any of the sponsoring agencies."
   },
   {
-    "objectID": "GameEngine.html",
-    "href": "GameEngine.html",
-    "title": "Game Engine",
-    "section": "",
-    "text": "Game Engine\nThe Physics Playground game engine is written in Unity. The current version was written by Weinan Zhang and Ahmad Rahimi based on an older (2014) C++ version written by Matthew Small and Matthew Ventura. Contact us if you would like access to the source code.\nPhysics Playground uses a client-server architecture. The client logs into the machine with a web browser (most modern browsers which support ECMAScript should work). After validating the user’s credentials, it sends down a package which contains the game engine and levels.\nOn the server, game levels are grouped into playgrounds. Each user ID is given a sequence of playgrounds that they should play through. In the current incarnation, user IDs need to be created on the server and associated with the relevant playgrounds.\nThe client (in the player’s web browser) periodically send information back to the server about the players progress. This is logged using Learning Locker.\n\n\nLevel Editor\n\n\nCurrent Game Levels"
+    "objectID": "Gameplay.html#sketching-levels",
+    "href": "Gameplay.html#sketching-levels",
+    "title": "Playing the Game",
+    "section": "Sketching Levels",
+    "text": "Sketching Levels"
   },
   {
-    "objectID": "IncentiveStore.html",
-    "href": "IncentiveStore.html",
-    "title": "Incentives and Store",
-    "section": "",
-    "text": "Not used in the IES project, but still part of the game from the NSF study."
+    "objectID": "Gameplay.html#manipulation-levels",
+    "href": "Gameplay.html#manipulation-levels",
+    "title": "Playing the Game",
+    "section": "Manipulation Levels",
+    "text": "Manipulation Levels"
   },
   {
-    "objectID": "Codebook.html",
-    "href": "Codebook.html",
-    "title": "Codebook",
-    "section": "",
-    "text": "StudyID\n\nMain study ID and primary key. First letter is study condition.\n\nID1, ID2\n\nInternal game IDs, first letter (following the 3 digits) is study condition."
+    "objectID": "Gameplay.html#warmup-levels",
+    "href": "Gameplay.html#warmup-levels",
+    "title": "Playing the Game",
+    "section": "Warmup levels",
+    "text": "Warmup levels"
   },
   {
-    "objectID": "Codebook.html#ids",
-    "href": "Codebook.html#ids",
-    "title": "Codebook",
-    "section": "",
-    "text": "StudyID\n\nMain study ID and primary key. First letter is study condition.\n\nID1, ID2\n\nInternal game IDs, first letter (following the 3 digits) is study condition."
-  },
-  {
-    "objectID": "Codebook.html#study-conditions-ginny",
-    "href": "Codebook.html#study-conditions-ginny",
-    "title": "Codebook",
-    "section": "Study Conditions Ginny",
-    "text": "Study Conditions Ginny\nThe study was divided into two intervention/data collection periods, and the content into two topics: ECT – Evidence Can Transfer, and POT – Properties of Torque.\n\nMidtest\n\nWhich topic was addressed in the first study period (and the first (mid) posttest). One of ECT, POT.\n\nPosttest\n\nWhich topic was addressed in the second study period (and the final posttest).\n\nCondition\n\nOne of A, B, C, D, E, or F giving the study condition (see protocl\n\nCognitiveSupport\n\nDid the student have access to cognitive supports? (Logical)\n\nAffectiveECD [sic]\n\nDid the student have access to affective supports during the period in which ECT was the topic\n\nAffectivePOT\n\nDid the student have access to affective supports during the period in which POT was the topic\n\n\nThe following table summarizes the relationship between these treatment values.\n\n\n\n\n\n\n\n\n\n\n\nCondition\nMidtest\nPosttest\nCognitiveSupports\nAffectiveECD\nAffectivePOT\n\n\n\n\nA\nECT\nPOT\nTRUE\nFALSE\nTRUE\n\n\nB\nPOT\nECT\nTRUE\nTRUE\nFALSE\n\n\nC\nECT\nPOT\nTRUE\nTRUE\nFALSE\n\n\nD\nPOT\nECT\nTRUE\nFALSE\nTRUE\n\n\nE\nPOT\nECT\nFALSE\nFALSE\nFALSE\n\n\nF\nECT\nPOT\nFALSE\nFALSE\nFALSE"
-  },
-  {
-    "objectID": "Codebook.html#demographic-varibles",
-    "href": "Codebook.html#demographic-varibles",
-    "title": "Codebook",
-    "section": "Demographic Varibles",
-    "text": "Demographic Varibles\n\nAge\n\nSelf-reported age in years.\n\nSex, Gender\n\nSelf-reported gender\n\n\nThe race/ethnicity question was a check all that applied. Respondents may have chosen more than one category.\n\nAmerican Indian or Alaskan Native, Asian, Black or African American, Hispanic, Hawaiian or Pacific Islander, White, Other (enter), Prefer not to say\n\nLogical value giving selected race/ethnicity\n\nOther_TEXT\n\nText string entered for “Other”.\n\nEthnicity\n\nIf single option was selected, that option. If multiple options selected, then Mixed.\n\nGaming\n\n“How often do you play video games?” Ordinal, possible values:\nNever, Once a month or less, Once a week, 3-4 times a week, Every day\n\nPhysics\n\n“Have you studied Physics?” Possible answers Yes, No."
-  },
-  {
-    "objectID": "Codebook.html#pretestpost-test",
-    "href": "Codebook.html#pretestpost-test",
-    "title": "Codebook",
-    "section": "Pretest/Post-test",
-    "text": "Pretest/Post-test\nQuestion texts and key are available here\n\nPretest Raw Scores\n\nProgress\n\nCompletion percentage for prettest questionnaire\n\nDuration (in seconds)\n\nLength of time needed to complete pretest questionnaire\n\nFinished\n\nDid Qualtrics consider the pretest questionnaire finished.\n\nRecordedDate\n\nDate pretest questionnaire was collected\n\nA-NQ1 through A-NQ8\n\nPretest responses to near transfer ECT questions, raw responses\n\nA-NQ8 through A-NQ14\n\nPretest responses to near transfer POT questions, raw responses\n\nA-FQ1 through A-FQ8\n\nPretest responses to far transfer ECT questions, raw responses\n\nA-FQ8 through A-FQ14\n\nPretest responses to far transfer POT questions, raw responses\n\nSC0\n\nPrestest score as computed by Qualtrics\n\nA-NQ1_scored through A-NQ8_scored\n\nPretest scored (0,1) responses to near transfer ECT questions, raw responses\n\nA-NQ8_scored through A-NQ14_scored\n\nPretest scored (0,1) responses to near transfer POT questions, raw responses\n\nA-FQ1_scored through A-FQ8_scored\n\nPretest scored (0,1) responses to far transfer ECT questions, raw responses\n\nA-FQ8_scored through A-FQ14_scored\n\nPretest scored (0,1) responses to far transfer POT questions, raw responses\n\n\n\n\nEnergy Can Transfer (ECT) Near and Far\n\nProgress.ect\n\nCompletion percentage for ECT posttest questionnaire\n\nDuration (in seconds).ect\n\nLength of time needed to complete ECT posttest questionnaire (including IMI and PA)\n\nFinished.ect\n\nDid Qualtrics consider the ECT posttest questionnaire finished.\n\nRecordedDate.ect\n\nDate ECT posttest questionnaire was collected\n\nA-NQ1.ect through A-NQ8.ect\n\nPosttest responses to near transfer ECT questions, raw responses\n\nA-FQ1.ect through A-FQ8.ect\n\nPosttest responses to far transfer ECT questions, raw responses\n\nSC0.ect\n\nPosttest score as computed by Qualtrics\n\nA-NQ1_scored.ect through A-NQ8_scored.ect\n\nPosttest scored (0,1) responses to near transfer ECT questions, raw responses\n\nA-FQ1_scored.ect through A-FQ8_scored.ect\n\nPosttest scored (0,1) responses to far transfer ECT questions, raw responses\n\n\n\n\nProperties of Torque (POT) Near and Far\n\nProgress.pot\n\nCompletion percentage for POT posttest questionnaire\n\nDuration (in seconds).pot\n\nLength of time needed to complete POT posttest questionnaire\n\nFinished.pot\n\nDid Qualtrics consider the POT posttest questionnaire finished.\n\nRecordedData.pot\n\nDate POT posttest questionnaire was collected\n\nA-NQ8.pot through A-NQ14.pot\n\nPOT posttest responses to near transfer POT questions, raw responses\n\nA-FQ8.pot through A-FQ14.pot\n\nPOT posttest responses to far transfer POT questions, raw responses\n\nSC0.pot\n\nPOT posttest score as computed by Qualtrics\n\nA-NQ8_scored.pot through A-NQ14_scored.pot\n\nPOT posttest scored (0,1) responses to near transfer POT questions, raw responses\n\nA-FQ8_scored.pot through A-FQ14_scored.pot\n\nPOT posttest scored (0,1) responses to far transfer POT questions, raw responses\n\n\n\n\nSum Scores\nPretest sum scores:\nNearECT, FarECT, NearPOT, FarPOT, Near, Far, ECT, POT, PhysicsScore\nECT posttest score:\nNearECTpost, FarECTpost, ECTpost\nPOT posttest score:\nNearPOTpost, FarPOTpost, POTpost"
-  },
-  {
-    "objectID": "Codebook.html#intrinsic-motivation-inventory",
-    "href": "Codebook.html#intrinsic-motivation-inventory",
-    "title": "Codebook",
-    "section": "Intrinsic Motivation Inventory",
-    "text": "Intrinsic Motivation Inventory\nHere are the questions\nThe test was given once with the ECT posttest and the POT posttest. Ones given with the POT posttest have the suffix .pot.\n\nIMI_1 through IMI_18 and IMI_1.pot through IMI_18.pot\n\nItem responses (reverse coded items reverse coded) with ECT (no prefix) or POT (.pot) posttest\n\nIMI, IMI.pot\n\nTotal score for IMI questionnaire\n\nIMI_Enj, IMI_Enj.pot\n\nEnjoyment subscale\n\nIMI_Eng, IMI_Eng.pot\n\nEngagement subscale\n\nIMI_PC, IMI_PC.pot\n\nPlayer confidence subscale\n\nIMI_Effort, IMI_Effort.pot\n\nEffort subscale\n\nIMI_Frust, IMI_Frust.pot\n\nFrustration subscale\n\nIMI_Value, IMI_Value.pot\n\nValue of experience subscale"
-  },
-  {
-    "objectID": "Codebook.html#physics-animation-learning-support-questionnaire",
-    "href": "Codebook.html#physics-animation-learning-support-questionnaire",
-    "title": "Codebook",
-    "section": "Physics Animation (Learning Support) Questionnaire",
-    "text": "Physics Animation (Learning Support) Questionnaire\nThe questions are [here]\nThe test was given once with the ECT posttest and the POT posttest. Ones given with the POT posttest have the suffix .pot.\n\nPA_1 through PA_7 and PA_1.pot through PA_18.pot\n\nItem responses (reverse coded items reverse coded) with ECT (no prefix) or POT (.pot) posttest\n\nPA, PA.pot\n\nTotal score for PA questionnaire"
-  },
-  {
-    "objectID": "Codebook.html#bayesian-network-scores",
-    "href": "Codebook.html#bayesian-network-scores",
-    "title": "Codebook",
-    "section": "Bayesian Network Scores",
-    "text": "Bayesian Network Scores\n\ncontext\n\n\nMarginal Distributions\n\n\nEAP and MAP Scores"
-  },
-  {
-    "objectID": "Codebook.html#observables-attempts-and-results",
-    "href": "Codebook.html#observables-attempts-and-results",
-    "title": "Codebook",
-    "section": "Observables (Attempts and Results)",
-    "text": "Observables (Attempts and Results)\nFirst and Last\nTimestamps\nTrophys\nAttempts"
-  },
-  {
-    "objectID": "Codebook.html#learning-supports",
-    "href": "Codebook.html#learning-supports",
-    "title": "Codebook",
+    "objectID": "Gameplay.html#learning-supports",
+    "href": "Gameplay.html#learning-supports",
+    "title": "Playing the Game",
     "section": "Learning Supports",
-    "text": "Learning Supports\nTimestamps\nDurations\nVideo lengths"
+    "text": "Learning Supports"
   },
   {
-    "objectID": "BAdata.html",
-    "href": "BAdata.html",
-    "title": "Before After Data",
-    "section": "",
-    "text": "The amount of data is rather large, so it is split into several files. The variable StudyID is a primary key which can be used to join the data sets together.\n\n\nThis data file contains demographic data about the participants, pretest data, posttest data, and the IMI and PA questionnaires.\nPre/Post Data\nColumn types for pre-post data.\n\nppkey &lt;- \"cccfffiiltff\"\n\n\n\n\nBayesian network sheet contains the scores from running the Bayesian network engine.\nThe context column is the last level played by that player.\nThe EAP (expected a posteriori) scores run from -1 (low) to 1 (high). These are based on an average of the corresponding Margin.High, Margin.Medium, and Margin.Low scores.\nBayesian Network Scores\n\n\n\nThe observables tables record per-level information. This is presented in “wide” format, so the column names consist of game level_variable.\nThe player may have played the game multiple times; in this case, the “First” sheet gives the values associated with the first attempt, and the “Last” gives the value associated with the last attempt. For the trophies only, there is another data set which gives the best trophy obtained.\nObservables from First Attempt\nObservables from Last Attempt\nMaximum Observable Values\n\n\n\nThis data set records the usage of learning supports. The available learning supports are:\n\ngame tools\nhint\nphysics animation: ramp\nphysics animation: lever\nphysics animation: pendulum\nphysics animation: springboard\n\nThe total time spent on each learning support, and the number of times it was accessed are also provided.\nNot all learning supports are available on all levels. In particular, the animations are associated with levels which use that particular agent of motion.\nLearning Support\n\n\n\nJoining all of the above data sets produces a rather large file. Here it is in both csv (comma separated value) and sav (SPSS) formats.\nCSV format SPSS format"
+    "objectID": "Gameplay.html#incentive-system",
+    "href": "Gameplay.html#incentive-system",
+    "title": "Playing the Game",
+    "section": "Incentive System",
+    "text": "Incentive System"
   },
   {
-    "objectID": "BAdata.html#pretest-posttest-and-questionnaires",
-    "href": "BAdata.html#pretest-posttest-and-questionnaires",
-    "title": "Before After Data",
+    "objectID": "AllLevels.html",
+    "href": "AllLevels.html",
+    "title": "All Game Levels",
     "section": "",
-    "text": "This data file contains demographic data about the participants, pretest data, posttest data, and the IMI and PA questionnaires.\nPre/Post Data\nColumn types for pre-post data.\n\nppkey &lt;- \"cccfffiiltff\""
+    "text": "Can automatically generate this from a table."
   },
   {
-    "objectID": "BAdata.html#bayesian-network-scores",
-    "href": "BAdata.html#bayesian-network-scores",
-    "title": "Before After Data",
-    "section": "",
-    "text": "Bayesian network sheet contains the scores from running the Bayesian network engine.\nThe context column is the last level played by that player.\nThe EAP (expected a posteriori) scores run from -1 (low) to 1 (high). These are based on an average of the corresponding Margin.High, Margin.Medium, and Margin.Low scores.\nBayesian Network Scores"
+    "objectID": "AllLevels.html#sketching-levels",
+    "href": "AllLevels.html#sketching-levels",
+    "title": "All Game Levels",
+    "section": "Sketching Levels",
+    "text": "Sketching Levels"
   },
   {
-    "objectID": "BAdata.html#observables-first-and-last",
-    "href": "BAdata.html#observables-first-and-last",
-    "title": "Before After Data",
-    "section": "",
-    "text": "The observables tables record per-level information. This is presented in “wide” format, so the column names consist of game level_variable.\nThe player may have played the game multiple times; in this case, the “First” sheet gives the values associated with the first attempt, and the “Last” gives the value associated with the last attempt. For the trophies only, there is another data set which gives the best trophy obtained.\nObservables from First Attempt\nObservables from Last Attempt\nMaximum Observable Values"
+    "objectID": "AllLevels.html#manipulation-levels",
+    "href": "AllLevels.html#manipulation-levels",
+    "title": "All Game Levels",
+    "section": "Manipulation Levels",
+    "text": "Manipulation Levels\nGame Levels Table"
   },
   {
-    "objectID": "BAdata.html#learning-supports",
-    "href": "BAdata.html#learning-supports",
-    "title": "Before After Data",
+    "objectID": "PA.html",
+    "href": "PA.html",
+    "title": "Learning Support Reactions",
     "section": "",
-    "text": "This data set records the usage of learning supports. The available learning supports are:\n\ngame tools\nhint\nphysics animation: ramp\nphysics animation: lever\nphysics animation: pendulum\nphysics animation: springboard\n\nThe total time spent on each learning support, and the number of times it was accessed are also provided.\nNot all learning supports are available on all levels. In particular, the animations are associated with levels which use that particular agent of motion.\nLearning Support"
+    "text": "The PA (physics animation) gives the players response to the learning supports, particularly the physics animations. All items were given on a 5-point Likeart scale:\n“Strongly Agree” (1), “Somewhat agree” (2), “Neither agree nor disagree” (3), “Somewhat disagree” (4), “Strongly disagree” (5)\n\nPA &lt;- readr::read_csv(\"Instruments/KeysAndCodes_PA.csv\")\nknitr::kable(PA[,3:1])\n\n\n\n\n\n\n\n\n\nID\nReversed\nstem\n\n\n\n\nPA1\nFALSE\nThe physics videos helped me solve levels.\n\n\nPA2\nFALSE\nThe physics videos helped me answer the physics test questions.\n\n\nPA3\nFALSE\nThe physics videos helped me learn some physics\n\n\nPA4\nTRUE\nI’d prefer to play the game without the physics videos.\n\n\nPA5\nTRUE\nThe physics videos were annoying\n\n\nPA6\nTRUE\nIt was unclear how the physics videos were supposed to help me solve the level\n\n\nPA7\nFALSE\nThe physics videos made me like the game more\n\n\n\n\n\nThe PA scale was given twice, once with the ECT posttest, and once with the PA posttest. In the data files, PAX is the version given with the ECT test and PAX.pot is the version given with the POT test.\nNote that students in some study conditions received the ECT test midweek and the POT test at the end of the week, with the others having the opposite order. The Midtest and Posttest columns in the data file indicate the sequencing of the two tests."
   },
   {
-    "objectID": "BAdata.html#full-join",
-    "href": "BAdata.html#full-join",
-    "title": "Before After Data",
+    "objectID": "Events.html",
+    "href": "Events.html",
+    "title": "Event Logs",
     "section": "",
-    "text": "Joining all of the above data sets produces a rather large file. Here it is in both csv (comma separated value) and sav (SPSS) formats.\nCSV format SPSS format"
+    "text": "Events are stored in the Proc 4 format (ralmond2019a?). It is converted from the xAPI (Betts & Smith, 2018) format using in Learning Locker (Learning Locker Documentation, 2018) by the dongle code in the Proc4 (Proc4?) package. In particular, it means that messages are identified by (verb, object) pairs (xAPI-style) not single mess strings (Proc4-style)\nThe JSON format is as follows:\n{\n  app: \"ecd://epls.coe.fsu.edu/PhysicsPlayground/IES/Fall22/BigStudy\",  /* Fixed String */\n  uid: \"[A-F]0000\",\n  context: \"Game Level\",\n  sender: \"PP Learning Locker\",  /* Fixed String */\n  verb: &lt;&lt;see event vocabulary&gt;&gt;, \n  object &lt;&lt;see event vocabulary&gt;&gt;, \n  timestamp: POSIX time string, /* When event was logged. */\n  processed: logical,  /* For internal EI use */\n  pErr: string, /* Error code from processing (if any) */\n  data: { &lt;&lt;Arbitrary JSON document&gt;&gt;}\n}\nThe app and sender strings are constant, so are probably not interesting.\nThe first character of the uid gives the study condition."
+  },
+  {
+    "objectID": "Events.html#proc4-and-xapi-formats",
+    "href": "Events.html#proc4-and-xapi-formats",
+    "title": "Event Logs",
+    "section": "",
+    "text": "Events are stored in the Proc 4 format (ralmond2019a?). It is converted from the xAPI (Betts & Smith, 2018) format using in Learning Locker (Learning Locker Documentation, 2018) by the dongle code in the Proc4 (Proc4?) package. In particular, it means that messages are identified by (verb, object) pairs (xAPI-style) not single mess strings (Proc4-style)\nThe JSON format is as follows:\n{\n  app: \"ecd://epls.coe.fsu.edu/PhysicsPlayground/IES/Fall22/BigStudy\",  /* Fixed String */\n  uid: \"[A-F]0000\",\n  context: \"Game Level\",\n  sender: \"PP Learning Locker\",  /* Fixed String */\n  verb: &lt;&lt;see event vocabulary&gt;&gt;, \n  object &lt;&lt;see event vocabulary&gt;&gt;, \n  timestamp: POSIX time string, /* When event was logged. */\n  processed: logical,  /* For internal EI use */\n  pErr: string, /* Error code from processing (if any) */\n  data: { &lt;&lt;Arbitrary JSON document&gt;&gt;}\n}\nThe app and sender strings are constant, so are probably not interesting.\nThe first character of the uid gives the study condition."
+  },
+  {
+    "objectID": "Events.html#table-of-known-verbs-and-objects",
+    "href": "Events.html#table-of-known-verbs-and-objects",
+    "title": "Event Logs",
+    "section": "Table of known verbs and objects",
+    "text": "Table of known verbs and objects\nThe master list of levels: &lt;Data/LevelData.csv&gt;\nThe list of all verb–object pairs: &lt;Data/EventTable.csv&gt;\n\nObject List\n\nobjectList &lt;- c(\"game level\", \"silverWin\", \"game object\", \"learning support\",\n                \"goldWin\", \"newPurchase\", \"newMoneyEarned\", \"replayButton\",\n                \"game (Physics Playground)\", \"ball\", \"footBall\",\n                \"billiardStripeBall\", \"glossary\", \"definition\", \"golfBall\",\n                \"formula\", \"module\")\nobjectList\n\n [1] \"game level\"                \"silverWin\"                \n [3] \"game object\"               \"learning support\"         \n [5] \"goldWin\"                   \"newPurchase\"              \n [7] \"newMoneyEarned\"            \"replayButton\"             \n [9] \"game (Physics Playground)\" \"ball\"                     \n[11] \"footBall\"                  \"billiardStripeBall\"       \n[13] \"glossary\"                  \"definition\"               \n[15] \"golfBall\"                  \"formula\"                  \n[17] \"module\"                   \n\n\n\n\nObject Type\nThese are the values of the gemeObjectType [sic] field, indicating the type of object from the object classification system.\n\nobjectTypes &lt;- c(\"freeform\", \"Ramp\", \"Lever\", \"ball\", \"pin\", \"Pendulum\",\n                 \"Springboard\",\"Weight\")\nobjectTypes\n\n[1] \"freeform\"    \"Ramp\"        \"Lever\"       \"ball\"        \"pin\"        \n[6] \"Pendulum\"    \"Springboard\" \"Weight\""
+  },
+  {
+    "objectID": "Events.html#links-to-data",
+    "href": "Events.html#links-to-data",
+    "title": "Event Logs",
+    "section": "Links to data",
+    "text": "Links to data\nThe raw JSON data is available at https://pluto.coe.fsu.edu/PhysicsPlayground/data/IES2022-AllP4Events.json.gz\nThe filtered data containing only “interesting” events is at: https://pluto.coe.fsu.edu/PhysicsPlayground/data/PPIES2022-P4Filtered.json.gz\nBoth files are compressed using gnu zip (gzip)"
+  },
+  {
+    "objectID": "Delivery.html#game-server-and-scoring-server",
+    "href": "Delivery.html#game-server-and-scoring-server",
+    "title": "Using the Game",
+    "section": "Game Server and Scoring Server",
+    "text": "Game Server and Scoring Server"
+  },
+  {
+    "objectID": "Delivery.html#learning-supports",
+    "href": "Delivery.html#learning-supports",
+    "title": "Using the Game",
+    "section": "Learning Supports",
+    "text": "Learning Supports"
+  },
+  {
+    "objectID": "Delivery.html#configuring-the-game",
+    "href": "Delivery.html#configuring-the-game",
+    "title": "Using the Game",
+    "section": "Configuring the Game",
+    "text": "Configuring the Game"
+  },
+  {
+    "objectID": "Analyses.html",
+    "href": "Analyses.html",
+    "title": "Analyses",
+    "section": "",
+    "text": "This step mainly is related to removing records from subjects which were lacking consent, assent or both. After matching the consent records, the records were deidentified.\nThis script relies on private credentials for accessing the de-identified data. The attached PDF shows what was done. Certain output which contained subject names is not included.\nInitial Data Cleaning Script"
+  },
+  {
+    "objectID": "Analyses.html#initial-data-cleaning",
+    "href": "Analyses.html#initial-data-cleaning",
+    "title": "Analyses",
+    "section": "",
+    "text": "This step mainly is related to removing records from subjects which were lacking consent, assent or both. After matching the consent records, the records were deidentified.\nThis script relies on private credentials for accessing the de-identified data. The attached PDF shows what was done. Certain output which contained subject names is not included.\nInitial Data Cleaning Script"
+  },
+  {
+    "objectID": "Analyses.html#building-full-data-set",
+    "href": "Analyses.html#building-full-data-set",
+    "title": "Analyses",
+    "section": "Building Full Data Set",
+    "text": "Building Full Data Set\nThe next step builds up several different sets of data and meta-data.\nIn particular, it applies reverse coding, key matching and calculates subscores.\nThis script initially draws from sources which contain subject identifiers, so it cannot be reproduces. However, raw response data is included so that for example, the scoring can be redone.\nBuilding Full Data"
+  },
+  {
+    "objectID": "StuffFromGinny.html",
+    "href": "StuffFromGinny.html",
+    "title": "Physics Data Playground",
+    "section": "",
+    "text": "Overview\nProject\nGame Design\nCognitive Supports\n\nAs part of the project, the team designed and developed a set of in-game cognitive supports. The iterative design and development process used is described in Shute, Smith et al. (2020)\n\n\nFinal set of in-game cognitive supports (1) physics videos, (2) interactive definitions, (3) formulas, (4) Hewitt videos, (5) glossary, (6) worked examples, (7) hints, and (8) game tips.\nFinal Cognitive Support Design\n\n\n\n\nA diagram of a company Description automatically generated\n\n\nAffective Supports\nPhysics Assessments\nPhysics Understanding Test\n\nResearch Studies: Game Design and Usability, Cognitive Supports, Learning and Stealth Assessment Research Studies\nOverview: We created 36 illustrative multiple-choice items covering the nine physics competencies in the game, counterbalanced between two equivalent forms for a pretest and posttest (pretest = 18 items, α = .77; posttest = 18 items, α = .82). Each form includes two items per competency. The items were (a) designed in the context of the game (i.e., including a video or an image from the game environment), (b) developed with the help of two physics experts, and (c) subjected to several pilot tests before administration in the current study.\n\n\nPhysics Understanding Test\n\n\nResearch Studies: Affective Supports, Support Timing, Support Efficacy\nWe created two isomorphic forms each including 28 illustrative multiple-choice items (Form A = 28 items, Cronbach’s α = 0.80; Form B = 28 items, Cronbach’s α = 0.83) covering the two physics competencies in (i.e., ECT and POT). Each form included 14 near-transfer items (designed in the context of the game) and 14 far-transfer items, designed to resemble the Force Concept Inventory (Hestenes et al., 1992); These items were developed with the help of two physics experts and subjected to several pilot tests.\n\nGame\nHow to use\nGameplay\nIncentives\nSupports\nCognitive Supports\nAffective Supports\nStealth Assessment\nCompetency Model\nEvidence Model\nEvidence Identification\nStatistics\nQMatrix\nResearch Studies\nSupport Timing (see Rahimi, Shute, et. al., 2022)\nDue to the constraints of the COVID-19 pandemic, all research was conducted online. We collected data from five cohorts of middle and high school students between the Spring and Fall of 2020. Data were collected from 204 participants, of which 149 were analyzed here. The first cohort (n = 12) participated as a remote after-school program (students were from across the US), the second (n = 16), and fourth (n = 12) cohorts participated as a remote activity related to their class (i.e., students of this cohort were classmates), the third (n = 69) cohort’s students were also classmates and had an option to participate remotely from home or come to their class wearing masks (everyone had to login via Zoom; researchers collected the data remotely with the help of teachers), and the fifth cohort (n = 40) participated as a remote summer camp program. Students’ ages ranged from 12 to 17 years, and the sample was diverse with respect to ethnicity and gender. Students who completed the study received a certificate of participation in addition to other performance-based incentives.\nWe used a between-subjects pretest-posttest design. Students were randomly assigned into one of three conditions: (1) Before (n = 50): in which supports (i.e., Physics Videos) were delivered before students started a level; (2) After (n = 46): in which supports were delivered after students solved or quit a level; and (3) Control (n = 53): in which students did not receive supports during gameplay.\nStudents assigned to the Before condition received a message encouraging them to watch a physics video (i.e., support) to help them prepare for and solve the level they were about to enter. Students in the After condition received a message when they solved or quit a level that encouraged them to watch a physics video (i.e., support) that could help them solve similar levels in the game.\nThe game version for this study included five tutorial levels, two warmup levels, and 28 game levels with various difficulties targeting the two physics concepts of energy can transfer (ECT) and properties of torque (POT). We ordered all the levels from easy to difficult (r = .62 between level number and difficulty) to ease students’ entry into the game and ordered them in a way that students alternated between the two concepts (ECT or POT). We also counterbalanced the ordering of levels with associated supports in that half the students in each treatment condition saw the supports in one set of 14 levels, and the other half saw the supports in the other set of 14 levels. In total, 35 levels were grouped within one large playground. Students played through these levels during individual gameplay sessions. Students could freely navigate through the game levels, although the game levels were presented to them in a predetermined order.\nWe included each support (i.e., physics video) in two of the relevant game levels to potentially increase exposure to the support and facilitate generalization since the same support can be useful for multiple levels. Also, students were required to watch the entire physics video the first time it was presented to them during gameplay. Specifically, the game was programmed to: (a) check if the student was viewing the physics video for the first time, and (b) if a was true then the game would wait until the physics video was completed before providing a button to allow the students close the video window. In all subsequent views of the physics video, students could close the video at will. Students always had access to Hints during gameplay. Students could also access Game Tips.\nMeasurement instruments included content (i.e., physics understanding), affect (i.e., intrinsic motivation inventory), and game data. The game records player actions and gameplay events into log files, such as: the number of levels solved, number of gold coins, number of silver coins, engagement with the physics videos (i.e., duration of views), and duration of gameplay. We parsed and extracted these data from log files for analysis."
+  },
+  {
+    "objectID": "scripts/Personnel.html",
+    "href": "scripts/Personnel.html",
+    "title": "Personnel",
+    "section": "",
+    "text": "Valerie Shute,FSU\n\n\n\n\n\nValerie Shute\nFlorida State University\nStudies: Game Design and Usability, Cognitive Supports, Affective Supports, Learning and Stealth Assessment, Support Timing, Support Efficacy\nRole: PI Emeritus (Retired), PI through most versions\nHomepage: https://myweb.fsu.edu/vshute/index.html\nGoogle Scholar: https://scholar.google.com/citations?user=VfKOZ5IAAAAJ&hl=en\n\n\n\n\n\n\n\n\nRussell Almond,FSU\n\n\n\n\n\nRussell Almond\nFlorida State University\nStudies: Game Design and Usability, Learning and Stealth Assessment, Support Timing, Support Efficacy\nRole: PI for final year of project, scoring engine construction\nHomepage: https://ralmond.net/\nGoogle Scholar: https://scholar.google.com/citations?user=1ZTrIBcAAAAJ&hl=en\nGithub: https://github.com/ralmond; R-Universe: https://ralmond.r-universe.dev/\n\n\n\n\n\n\n\n\nRyan S. Baker,UPenn\n\n\n\n\n\nRyan S. Baker\nUniversity of Pennsylvania\nStudies: Affective Supports, Support Timing, Support Efficacy\nRole: Co-PI, developing logic for supports\nHomepage: https://learninganalytics.upenn.edu/ryanbaker/\nGoogle Scholar: https://scholar.google.com/citations?user=hvs8PEoAAAAJ&hl=en\n\n\n\n\n\n\n\n\nSidney D’Mello,CUBoulder\n\n\n\n\n\nSidney D’Mello\nUniversity of Colorado Boulder\nStudies: Affective Supports, Support Timing, Support Efficacy\nRole: Co-PI, design of affective supports\nGoogle Scholar: https://scholar.google.com/citations?user=c-LG6-MAAAAJ&hl=en"
+  },
+  {
+    "objectID": "scripts/Personnel.html#lead-investigators",
+    "href": "scripts/Personnel.html#lead-investigators",
+    "title": "Personnel",
+    "section": "",
+    "text": "Valerie Shute,FSU\n\n\n\n\n\nValerie Shute\nFlorida State University\nStudies: Game Design and Usability, Cognitive Supports, Affective Supports, Learning and Stealth Assessment, Support Timing, Support Efficacy\nRole: PI Emeritus (Retired), PI through most versions\nHomepage: https://myweb.fsu.edu/vshute/index.html\nGoogle Scholar: https://scholar.google.com/citations?user=VfKOZ5IAAAAJ&hl=en\n\n\n\n\n\n\n\n\nRussell Almond,FSU\n\n\n\n\n\nRussell Almond\nFlorida State University\nStudies: Game Design and Usability, Learning and Stealth Assessment, Support Timing, Support Efficacy\nRole: PI for final year of project, scoring engine construction\nHomepage: https://ralmond.net/\nGoogle Scholar: https://scholar.google.com/citations?user=1ZTrIBcAAAAJ&hl=en\nGithub: https://github.com/ralmond; R-Universe: https://ralmond.r-universe.dev/\n\n\n\n\n\n\n\n\nRyan S. Baker,UPenn\n\n\n\n\n\nRyan S. Baker\nUniversity of Pennsylvania\nStudies: Affective Supports, Support Timing, Support Efficacy\nRole: Co-PI, developing logic for supports\nHomepage: https://learninganalytics.upenn.edu/ryanbaker/\nGoogle Scholar: https://scholar.google.com/citations?user=hvs8PEoAAAAJ&hl=en\n\n\n\n\n\n\n\n\nSidney D’Mello,CUBoulder\n\n\n\n\n\nSidney D’Mello\nUniversity of Colorado Boulder\nStudies: Affective Supports, Support Timing, Support Efficacy\nRole: Co-PI, design of affective supports\nGoogle Scholar: https://scholar.google.com/citations?user=c-LG6-MAAAAJ&hl=en"
+  },
+  {
+    "objectID": "scripts/Personnel.html#researcher-current-project",
+    "href": "scripts/Personnel.html#researcher-current-project",
+    "title": "Personnel",
+    "section": "Researcher (current project)",
+    "text": "Researcher (current project)\n\n\n\n\n\n\nSeyed Ahmad Rahimi,UF\n\n\n\n\n\nSeyed Ahmad Rahimi\nUniversity of Florida\nStudies: Game Design and Usability, Cognitive Supports, Affective Supports, Learning and Stealth Assessment, Support Timing, Support Efficacy\nRole: Lead developer of the current game version, designer, researcher, scoring engine construction\nHomepage: https://education.ufl.edu/faculty/rahimi-seyedahmad-ahmad/\nGoogle Scholar: https://scholar.google.com/citations?user=yDnHbAMAAAAJ&hl=en\n\n\n\n\n\n\n\n\nAdam Lamee,UCF\n\n\n\n\n\nAdam Lamee\nUniversity of Central Florida\nStudies: Game Design and Usability, Cognitive Supports, Affective Supports, Learning and Stealth Assessment\nRole: Expert in physics teaching\nHomepage: https://adamlamee.github.io/\nGoogle Scholar: https://scholar.google.com/citations?user=1j-ueo4AAAAJ&hl=en\n\n\n\n\n\n\n\n\nGinny Smith,FSU\n\n\n\n\n\nGinny Smith\nFlorida State University\nStudies: Game Design and Usability, Cognitive Supports, Affective Supports, Learning and Stealth Assessment, Support Timing, Support Efficacy\nRole: Project manager, designer, researcher\nGoogle Scholar: https://scholar.google.com/citations?user=Przy7_gAAAAJ&hl=en\n\n\n\n\n\n\n\n\nJaclyn Ocumpaugh,UPenn\n\n\n\n\n\nJaclyn Ocumpaugh\nUniversity of Pennsylvania\nStudies: Support Timing, Support Efficacy\nRole: Project coordinator and user testing\nHomepage: https://learninganalytics.upenn.edu/index.html\nGoogle Scholar: https://scholar.google.com/citations?user=uCl6NE4AAAAJ&hl=en\n\n\n\n\n\n\n\n\nBrandon Booth,CUBoulder\n\n\n\n\n\nBrandon Booth\nUniversity of Colorado Boulder\nStudies: Support Timing, Support Efficacy\nRole: Project coordinator and user testing\nHomepage: http://www.brandonmbooth.net/\nGoogle Scholar: https://scholar.google.com/citations?user=Qr-gySYAAAAJ&hl=en\n\n\n\n\n\n\n\n\nValdemar Švábenský,UPenn\n\n\n\n\n\nValdemar Švábenský\nUniversity of Pennsylvania\nStudies: Support Efficacy\nRole: Researcher\nHomepage: https://elea.sk/valdemar/\nGoogle Scholar: https://scholar.google.com/citations?user=CSMVlf0AAAAJ&hl=en\n\n\n\n\n\n\n\n\nCurt Fulwider,FSU\n\n\n\n\n\nCurt Fulwider\nFlorida State University\nStudies: Game Design and Usability, Support Timing, Support Efficacy\nRole: Researcher, scoring engine construction\nGoogle Scholar: https://scholar.google.com/citations?user=pKYZazcAAAAJ&hl=en\n\n\n\n\n\n\n\n\nGaurav Basnet,FSU\n\n\n\n\n\nGaurav Basnet\nFlorida State University\nStudies: Support Efficacy\nRole: Researcher\nGoogle Scholar: &lt;?&gt;\n\n\n\n\n\n\n\n\nChaewon Kim,FSU\n\n\n\n\n\nChaewon Kim\nFlorida State University\nStudies: Support Efficacy\nRole: Researcher\nGoogle Scholar: &lt;?&gt;\n\n\n\n\n\n\n\n\nChen Sun,FSU\n\n\n\n\n\nChen Sun\nFlorida State University\nStudies: Game Design and Usability, Cognitive Supports, Learning and Stealth Assessment\nRole: Designer, researcher, scoring engine construction\nGoogle Scholar: https://scholar.google.com/citations?user=Y66npM8AAAAJ&hl=en\n\n\n\n\n\n\n\n\nXiaotong Yang,FSU\n\n\n\n\n\nXiaotong Yang\nFlorida State University\nStudies: Game Design and Usability, Cognitive Supports, Learning and Stealth Assessment, Support Timing, Support Efficacy\nRole: Designer, researcher\nGoogle Scholar: https://scholar.google.com/citations?user=f1E8l3QAAAAJ&hl=en\n\n\n\n\n\n\n\n\nZhichun “Lukas” Liu,NA\n\n\n\n\n\nZhichun “Lukas” Liu\nFlorida State University\nStudies: Game Design and Usability, Cognitive Supports, Affective Supports, Learning and Stealth Assessment, Support Timing\nRole: Designer, researcher, scoring engine construction\nHomepage: https://web.edu.hku.hk/faculty-academics/lukasliu\nGoogle Scholar: https://scholar.google.com/citations?user=HcASJEIAAAAJ&hl=en\n\n\n\n\n\n\n\n\nStefan Slater,UPenn\n\n\n\n\n\nStefan Slater\nUniversity of Pennsylvania\nStudies: Affective Supports, Support Timing\nRole: Designer, researcher\nHomepage: http://stefanslater.com/\nGoogle Scholar: https://scholar.google.com/citations?user=0yzbPoQAAAAJ&hl=en\n\n\n\n\n\n\n\n\nKatie Bainbridge,NA\n\n\n\n\n\nKatie Bainbridge\nUniversity of Colorado Boulder\nStudies: Affective Supports, Support Timing\nRole: Designer, researcher\nGoogle Scholar: https://scholar.google.com/citations?user=n-anFIgAAAAJ&hl=en\n\n\n\n\n\n\n\n\nChih-Pu Dai,FSU\n\n\n\n\n\nChih-Pu Dai\nFlorida State University\nStudies: Game Design and Usability, Cognitive Supports, Learning and Stealth Assessment\nRole: Designer, researcher\nHomepage: http://www2.hawaii.edu/~cdai/\nGoogle Scholar: https://scholar.google.com/citations?user=Vp5Y6fYAAAAJ&hl=en\n\n\n\n\n\n\n\n\nRenata Kuba,FSU\n\n\n\n\n\nRenata Kuba\nFlorida State University\nStudies: Game Design and Usability, Cognitive Supports, Learning and Stealth Assessment\nRole: Designer, researcher\nGoogle Scholar: https://scholar.google.com/citations?user=5Ek98gwAAAAJ&hl=en\n\n\n\n\n\n\n\n\nXi Lu,FSU\n\n\n\n\n\nXi Lu\nFlorida State University\nStudies: Game Design and Usability, Cognitive Supports\nRole: Designer, researcher\nGoogle Scholar: &lt;?&gt;\n\n\n\n\n\n\n\n\nSeyfullah Tingir,FSU\n\n\n\n\n\nSeyfullah Tingir\nFlorida State University\nStudies: Learning and Stealth Assessment\nRole: Researcher, scoring engine construction\nGoogle Scholar: https://scholar.google.com/citations?user=iSFVVycAAAAJ&hl=en\n\n\n\n\n\n\n\n\nCatherine A. Spann,CUBoulder\n\n\n\n\n\nCatherine A. Spann\nUniversity of Colorado Boulder\nStudies: Affective Supports\nRole: Researcher\nGoogle Scholar: https://scholar.google.com/citations?user=TCSu1jIAAAAJ&hl=en\n\n\n\n\n\n\n\n\nWeinan Zhao,NA\n\n\n\n\n\nWeinan Zhao\nFlorida State University\nStudies: Game Design and Usability\nRole: Lead developer of original Unity game version\nGoogle Scholar: https://scholar.google.com/citations?user=Lf0a9e0AAAAJ&hl=en"
+  },
+  {
+    "objectID": "scripts/Personnel.html#researcher-nsf-or-gates-project",
+    "href": "scripts/Personnel.html#researcher-nsf-or-gates-project",
+    "title": "Personnel",
+    "section": "Researcher (NSF or Gates project)",
+    "text": "Researcher (NSF or Gates project)\n\n\n\n\n\n\nFengfeng Ke,FSU\n\n\n\n\n\nFengfeng Ke\nFlorida State University\nStudies: Game Design and Usability, Cognitive Supports, Learning and Stealth Assessment\nRole: Co-PI\nHomepage: https://myweb.fsu.edu/fke/\nGoogle Scholar: https://scholar.google.com/citations?user=75jPVJIAAAAJ&hl=en\nERebuild: https://erebuild.coe.fsu.edu\n\n\n\n\n\n\n\n\nXinhao Xu,NA\n\n\n\n\n\nXinhao Xu\nFlorida State University\nStudies: Alumni\nRole: Developer on Unity game version\nGoogle Scholar: https://scholar.google.com/citations?user=XD17HxEAAAAJ&hl=en\n\n\n\n\n\n\n\n\nShamya Karumbaiah,NA\n\n\n\n\n\nShamya Karumbaiah\nFlorida State University\nStudies: Alumni\nRole: Designer, researcher\nHomepage: https://shamya.github.io/\nGoogle Scholar: https://scholar.google.com/citations?user=5w4I9VMAAAAJ&hl=en\n\n\n\n\n\n\n\n\nDon Franceschetti,NA\n\n\n\n\n\nDon Franceschetti\nUniversity of Memphis\nStudies: Gates, Game Design and Usibility\nRole: Until his death in 2019, Don served as the primary Physics advisor\nHomepage: https://paw.princeton.edu/memorial/donald-r-franceschetti-74\nGoogle Scholar: \n\n\n\n\n\n\n\n\nLubin Wang,NA\n\n\n\n\n\nLubin Wang\nFlorida State University\nStudies: Gates\nRole: Designer, researcher\nGoogle Scholar: \n\n\n\n\n\n\n\n\nMatthew Small,NA\n\n\n\n\n\nMatthew Small\nNA\nStudies: Gates\nRole: Programmer for First (Gates) version\nGoogle Scholar: \n\n\n\n\n\n\n\n\nMatthew Ventura,NA\n\n\n\n\n\nMatthew Ventura\nFlorida State University\nStudies: Gates\nRole: Leader on Gates Project, Research on Persistance\nGoogle Scholar: \n\n\n\n\n\n\n\n\nYoon-Jeon Kim,NA\n\n\n\n\n\nYoon-Jeon Kim\nFlorida State University\nStudies: Gates\nRole: Designer, researcher\nGoogle Scholar:"
+  },
+  {
+    "objectID": "scripts/PrepostIA.html",
+    "href": "scripts/PrepostIA.html",
+    "title": "Pre-Post Item Analyses",
+    "section": "",
+    "text": "Code\nlibrary(psych)\nlibrary(tidyverse)\n\n\n── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──\n✔ dplyr     1.1.3     ✔ readr     2.1.4\n✔ forcats   1.0.0     ✔ stringr   1.5.0\n✔ ggplot2   3.4.3     ✔ tibble    3.2.1\n✔ lubridate 1.9.2     ✔ tidyr     1.3.0\n✔ purrr     1.0.2     \n── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──\n✖ ggplot2::%+%()   masks psych::%+%()\n✖ ggplot2::alpha() masks psych::alpha()\n✖ dplyr::filter()  masks stats::filter()\n✖ dplyr::lag()     masks stats::lag()\nℹ Use the conflicted package (&lt;http://conflicted.r-lib.org/&gt;) to force all conflicts to become errors\n\n\n\n\nCode\nsource(\"../Data/PrePostMetadata.R\")\nPPIESFall2022PrePost &lt;- \n  read_csv(\"../Data/PPIESFall2022PrePost.csv\",\n           col_types=colPrePost)\n\n\nWarning: One or more parsing issues, call `problems()` on your data frame for details,\ne.g.:\n  dat &lt;- vroom(...)\n  problems(dat)"
+  },
+  {
+    "objectID": "scripts/reloadPeople.html",
+    "href": "scripts/reloadPeople.html",
+    "title": "Untitled",
+    "section": "",
+    "text": "library(googlesheets4)\ngs4_auth(path=Sys.getenv(\"SHINY_PROTOCOL\"))\npersonsheet &lt;- gs4_get(\"1mKxvy3VQx6qOj_c2PBXsiSk9GsTiohvU-Y9uMAEqcuA\")\npersons &lt;- read_sheet(personsheet)\n\n✔ Reading from \"Personnel\".\n\n\n✔ Range 'For https://pluto.coe.fsu.edu/PhysicsDataPlayground/Personnel.html'.\n\npersons\n\n# A tibble: 33 × 13\n   Name         University `University abbrv` `Research Studies` `Project Roles`\n   &lt;chr&gt;        &lt;chr&gt;      &lt;chr&gt;              &lt;chr&gt;              &lt;chr&gt;          \n 1 Valerie Shu… Florida S… FSU                Game Design and U… PI Emeritus (R…\n 2 Russell Alm… Florida S… FSU                Game Design and U… PI for final y…\n 3 Ryan S. Bak… Universit… UPenn              Affective Support… Co-PI, develop…\n 4 Sidney D'Me… Universit… CUBoulder          Affective Support… Co-PI, design …\n 5 Seyed Ahmad… Universit… UF                 Game Design and U… Lead developer…\n 6 Adam Lamee   Universit… UCF                Game Design and U… Expert in phys…\n 7 Ginny Smith  Florida S… FSU                Game Design and U… Project manage…\n 8 Jaclyn Ocum… Universit… UPenn              Support Timing, S… Project coordi…\n 9 Brandon Boo… Universit… CUBoulder          Support Timing, S… Project coordi…\n10 Valdemar Šv… Universit… UPenn              Support Efficacy   Researcher     \n# ℹ 23 more rows\n# ℹ 8 more variables: `Google Scholar` &lt;chr&gt;, Homepage &lt;chr&gt;,\n#   `Other links` &lt;chr&gt;, `Photo link` &lt;chr&gt;, `Project Group` &lt;chr&gt;, IES &lt;dbl&gt;,\n#   NSF &lt;dbl&gt;, Gates &lt;dbl&gt;"
+  },
+  {
+    "objectID": "scripts/reloadPeople.html#parameters",
+    "href": "scripts/reloadPeople.html#parameters",
+    "title": "Untitled",
+    "section": "Parameters",
+    "text": "Parameters\n\ncolumns &lt;- \"[ 30, 70 ]\"\nfigwidth &lt;- \"300\"\n\n\nhead &lt;- \n  \"---\ntitle: \\\"Personnel\\\"\neditor: \n  markdown: \n    wrap: 72\n---\n\"\nfoot &lt;- \n  \"\n  \"\n\n\nord &lt;- c(\"Lead\",\"IES\",\"Alumni\")\nsecnames &lt;- c(Lead=\"Lead Investigators\",\n              IES=\"Researcher (current project)\",\n              Alumni=\"Researcher (NSF or Gates project)\")"
+  },
+  {
+    "objectID": "scripts/reloadPeople.html#build-it",
+    "href": "scripts/reloadPeople.html#build-it",
+    "title": "Untitled",
+    "section": "Build-it",
+    "text": "Build-it\n\nif (file.exists(\"Personnel.qmd\")) \n  file.remove(\"Personnel.qmd\")\n\n[1] TRUE\n\npfile &lt;- file(\"Personnel.qmd\")\nopen(pfile,open=\"wt\")\ncat(head,file=pfile)\n\n\nfor (sec in ord) {\n  cat(\"\\n\\n##\",secnames[sec],\"\\n\\n\",file=pfile)\n  ## Quarto is really sensitive to whitespace\n  cat(\":::: {layout=\",dQuote(columns,FALSE),\"}\\n\\n\",\n      sep=\"\",file=pfile)\n  \n  for (pp in grep(sec,persons$`Project Group`)) {\n    cat(\"::: {#first-column}\\n\",file=pfile)\n    \n    cat(\"![\",persons$Name[pp],\",\",\n        persons$`University abbrv`[pp],\"]\",\n        \"(\",persons$`Photo link`[pp],\")\\n\",\n        sep=\"\", file=pfile)\n    \n    cat(\":::\\n\",file=pfile)\n    cat(\"::: {#second-column}\\n\",file=pfile)\n    \n    cat(\"\\n* \",persons$Name[pp],\"\\n\",file=pfile)\n    cat(\"*\", persons$University[pp],\"\\n\",file=pfile)\n    cat(\"* **Studies:** \",persons$`Research Studies`[pp],\n        \"\\n\",file=pfile)\n    cat(\"* **Role:** \",persons$`Project Roles`[pp],\n        \"\\n\",file=pfile)\n    if (!is.na(persons$Homepage[pp]))\n      cat(\"* **Homepage:** &lt;\",persons$Homepage[pp],\n          \"&gt;\\n\",sep=\"\",file=pfile)\n    cat(\"* **Google Scholar:** &lt;\",\n        persons$`Google Scholar`[pp],\"&gt;\\n\",\n        sep=\"\",file=pfile)\n    if (!is.na(persons$`Other links`[pp]))\n      cat(\"* \",persons$`Other links`[pp],\"\\n\",file=pfile)\n    cat(\":::\\n\\n\",file=pfile)  \n  }\n  cat(\"::::\\n\\n\",file=pfile)\n}\n\n\ncat(foot,file=pfile)\nclose(pfile)"
   },
   {
     "objectID": "SupportEfficacy.html",
@@ -334,6 +334,20 @@
     "title": "Support Efficacy Protocol",
     "section": "Results",
     "text": "Results"
+  },
+  {
+    "objectID": "EfficacyAnalysis.html",
+    "href": "EfficacyAnalysis.html",
+    "title": "Support Effectiveness Results",
+    "section": "",
+    "text": "Code\nlibrary(tidyverse)\n\n\n── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──\n✔ dplyr     1.1.3     ✔ readr     2.1.4\n✔ forcats   1.0.0     ✔ stringr   1.5.0\n✔ ggplot2   3.4.3     ✔ tibble    3.2.1\n✔ lubridate 1.9.2     ✔ tidyr     1.3.0\n✔ purrr     1.0.2     \n── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──\n✖ dplyr::filter() masks stats::filter()\n✖ dplyr::lag()    masks stats::lag()\nℹ Use the conflicted package (&lt;http://conflicted.r-lib.org/&gt;) to force all conflicts to become errors\n\n\nCode\nsource(\"Data/PrePostMetadata.R\")\nPPIESFall2022PrePost &lt;- \n  read_csv(\"Data/PPIESFall2022PrePost.csv\",\n           col_types=colPrePost)\n\n\nWarning: One or more parsing issues, call `problems()` on your data frame for details,\ne.g.:\n  dat &lt;- vroom(...)\n  problems(dat)\n\n\nNote that treatments differ for the ECT and POT subtests, so need to analyze them separately.\nTreatments are marked by the `"
+  },
+  {
+    "objectID": "EfficacyAnalysis.html#load-the-prepost-data",
+    "href": "EfficacyAnalysis.html#load-the-prepost-data",
+    "title": "Support Effectiveness Results",
+    "section": "",
+    "text": "Code\nlibrary(tidyverse)\n\n\n── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──\n✔ dplyr     1.1.3     ✔ readr     2.1.4\n✔ forcats   1.0.0     ✔ stringr   1.5.0\n✔ ggplot2   3.4.3     ✔ tibble    3.2.1\n✔ lubridate 1.9.2     ✔ tidyr     1.3.0\n✔ purrr     1.0.2     \n── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──\n✖ dplyr::filter() masks stats::filter()\n✖ dplyr::lag()    masks stats::lag()\nℹ Use the conflicted package (&lt;http://conflicted.r-lib.org/&gt;) to force all conflicts to become errors\n\n\nCode\nsource(\"Data/PrePostMetadata.R\")\nPPIESFall2022PrePost &lt;- \n  read_csv(\"Data/PPIESFall2022PrePost.csv\",\n           col_types=colPrePost)\n\n\nWarning: One or more parsing issues, call `problems()` on your data frame for details,\ne.g.:\n  dat &lt;- vroom(...)\n  problems(dat)\n\n\nNote that treatments differ for the ECT and POT subtests, so need to analyze them separately.\nTreatments are marked by the `"
   },
   {
     "objectID": "Overview.html",
@@ -420,95 +434,130 @@
     "text": "Learning Support Analyses\nAverage (N, mean, sd, kurtosis) durations per support per level.\n– Filter on conditions?\n– Breakdown by trophy\n– Look at trivial vs substantial time (watch vs skip)\nCorrelation of learning support with duration.\nNeed list of which conditions video was mandatory versus optional.\nPRE vs POSt\nnumber of wrong-&gt;right, right-&gt;wrong transitions.\nwrong -&gt; wrongdiff transition"
   },
   {
-    "objectID": "bib.html",
-    "href": "bib.html",
-    "title": "References",
+    "objectID": "GameEngine.html",
+    "href": "GameEngine.html",
+    "title": "Game Engine",
     "section": "",
-    "text": "Shute, V. J., & Rahimi, S. (2021). Stealth assessment of creativity in a physics video game. Computers in Human Behavior, 116 1-13. https://doi.org/10.1016/j.chb.2020.106647\nRahimi, S., Shute, V. J., Kuba, R., Dai, C-P., Yang, X., Smith, G., & Alonso Fenandez, C. (2021). The effects of incentive systems on learning and performance in educational games. Computers & Education, 165, 1-17. https://doi.org/10.1016/j.compedu.2021.104135\nShute, V. J., Rahimi S., Smith, G., Ke, F., Almond, R., Dai, C-P, Kamikabeya, R., Liu, Z., Yang, X., & Sun, C. (2020). Maximizing learning without sacrificing the fun: Stealth assessment, adaptivity, and learning supports in Physics Playground. Journal of Computer-Assisted Learning (38 pages).\nSpann, C. A., Shute, V. J., Rahimi, S., & D’Mello, S. K. (2019). The productive role of cognitive reappraisal in regulating frustration during game-based learning. Computers in Human Behavior. https://doi-org.proxy.lib.fsu.edu/10.1016/j.chb.2019.03.002\nShute, V. J., Rahimi, S., & Smith, G. (2019). Game-based learning analytics in Physics Playground. In M. Chang & A. Tlili (Eds.), Data analytics approaches in educational games and gamification systems. (pp. 69-93). New York, NY: Springer.\nShute, V. J., Ke, F., Almond, R. G., Rahimi, S., Smith, G., & Lu, X. (2019). How to increase learning while not decreasing the fun in educational games. In R. Feldman (Ed.), Learning Science: Theory, Research, and Practice (pp. 327-357). New York, NY: McGraw Hill.\nKarumbaiah, S., Rahimi, S., Baker, R. S., Shute, V. J., & D’Mello, S. (2018). Is student frustration in learning games more associated with game mechanics or conceptual understanding?. In J. Kay, R. Luckin, M. Mavrikis, & K. Porayska-Pomsta (Eds.), International Conference of Learning Sciences (pp. 1-2). London, UK.\nKim, Y. J., Almond, R. G., & Shute, V. J. (2016). Applying Evidence-Centered Design for the development of game-based assessments in Physics Playground. International Journal of Testing, 16(2), 142-163.\nShute, V. J. & Wang, L. (2016). Assessing and supporting hard-to-measure constructs. In A. A. Rupp, & J. P. Leighton (Eds.), The handbook of cognition and assessment: Frameworks, methodologies, and application, (pp. 535-562). Hoboken, NJ: John Wiley & Sons, Inc.\nBosch, N., Chen, H., Baker, R., Shute, V. J., & D’Mello, S. (2015). Accuracy vs. availability heuristic in multimodal affect detection in the wild. Proceedings of the 17th International Conference on Multimodal Interaction (ICMI), Seattle, WA.\nKim, Y. J., & Shute, V. J. (2015). The interplay of game elements with psychometric qualities, learning, and enjoyment in gamebased assessment. Computers & Education, 87, 340-356.\nShute, V. J., D’Mello, S. K., Baker, R., Cho, K., Bosch, N., Ocumpaugh, J., Ventura, M., & Almeda, V. (2015). Modeling how incoming knowledge, persistence, affective states, and in-game progress influence student learning from an educational game. Computers & Education, 86, 224-235.\nShute, V. J., Ventura, M., & Kim, Y. J. (2013). Assessment and learning of qualitative physics in Newton’s Playground. The Journal of Educational Research, 106, 423-430."
+    "text": "Game Engine\nThe Physics Playground game engine is written in Unity. The current version was written by Weinan Zhang and Ahmad Rahimi based on an older (2014) C++ version written by Matthew Small and Matthew Ventura. Contact us if you would like access to the source code.\nPhysics Playground uses a client-server architecture. The client logs into the machine with a web browser (most modern browsers which support ECMAScript should work). After validating the user’s credentials, it sends down a package which contains the game engine and levels.\nOn the server, game levels are grouped into playgrounds. Each user ID is given a sequence of playgrounds that they should play through. In the current incarnation, user IDs need to be created on the server and associated with the relevant playgrounds.\nThe client (in the player’s web browser) periodically send information back to the server about the players progress. This is logged using Learning Locker.\n\n\nLevel Editor\n\n\nCurrent Game Levels"
   },
   {
-    "objectID": "Delivery.html#game-server-and-scoring-server",
-    "href": "Delivery.html#game-server-and-scoring-server",
-    "title": "Using the Game",
-    "section": "Game Server and Scoring Server",
-    "text": "Game Server and Scoring Server"
+    "objectID": "Codebook.html",
+    "href": "Codebook.html",
+    "title": "Codebook",
+    "section": "",
+    "text": "StudyID\n\nMain study ID and primary key. First letter is study condition.\n\nID1, ID2\n\nInternal game IDs, first letter (following the 3 digits) is study condition."
   },
   {
-    "objectID": "Delivery.html#learning-supports",
-    "href": "Delivery.html#learning-supports",
-    "title": "Using the Game",
+    "objectID": "Codebook.html#ids",
+    "href": "Codebook.html#ids",
+    "title": "Codebook",
+    "section": "",
+    "text": "StudyID\n\nMain study ID and primary key. First letter is study condition.\n\nID1, ID2\n\nInternal game IDs, first letter (following the 3 digits) is study condition."
+  },
+  {
+    "objectID": "Codebook.html#study-conditions-ginny",
+    "href": "Codebook.html#study-conditions-ginny",
+    "title": "Codebook",
+    "section": "Study Conditions Ginny",
+    "text": "Study Conditions Ginny\nThe study was divided into two intervention/data collection periods, and the content into two topics: ECT – Evidence Can Transfer, and POT – Properties of Torque.\n\nTopic1\n\nWhich topic was addressed in the first study period (and the first (mid) posttest). One of ECT, POT.\n\nTopic2\n\nWhich topic was addressed in the second study period (and the final posttest).\n\nCondition\n\nOne of A, B, C, D, E, or F giving the study condition (see protocl\n\nCognitiveSupport\n\nDid the student have access to cognitive supports? (Logical)\n\nAffectiveECT\n\nDid the student have access to affective supports during the period in which ECT was the topic\n\nAffectivePOT\n\nDid the student have access to affective supports during the period in which POT was the topic\n\n\nThe following table summarizes the relationship between these treatment values.\n\n\n\n\n\n\n\n\n\n\n\nCondition\nMidtest\nPosttest\nCognitiveSupports\nAffectiveECD\nAffectivePOT\n\n\n\n\nA\nECT\nPOT\nTRUE\nFALSE\nTRUE\n\n\nB\nPOT\nECT\nTRUE\nTRUE\nFALSE\n\n\nC\nECT\nPOT\nTRUE\nTRUE\nFALSE\n\n\nD\nPOT\nECT\nTRUE\nFALSE\nTRUE\n\n\nE\nPOT\nECT\nFALSE\nFALSE\nFALSE\n\n\nF\nECT\nPOT\nFALSE\nFALSE\nFALSE"
+  },
+  {
+    "objectID": "Codebook.html#demographic-varibles",
+    "href": "Codebook.html#demographic-varibles",
+    "title": "Codebook",
+    "section": "Demographic Varibles",
+    "text": "Demographic Varibles\n\nAge\n\nSelf-reported age in years.\n\nSex, Gender\n\nSelf-reported gender\n\n\nThe race/ethnicity question was a check all that applied. Respondents may have chosen more than one category.\n\nAmerican Indian or Alaskan Native, Asian, Black or African American, Hispanic, Hawaiian or Pacific Islander, White, Other (enter), Prefer not to say\n\nLogical value giving selected race/ethnicity\n\nOther_TEXT\n\nText string entered for “Other”.\n\nEthnicity\n\nIf single option was selected, that option. If multiple options selected, then Mixed.\n\nGaming\n\n“How often do you play video games?” Ordinal, possible values:\nNever, Once a month or less, Once a week, 3-4 times a week, Every day\n\nPhysics\n\n“Have you studied Physics?” Possible answers Yes, No."
+  },
+  {
+    "objectID": "Codebook.html#pretestpost-test",
+    "href": "Codebook.html#pretestpost-test",
+    "title": "Codebook",
+    "section": "Pretest/Post-test",
+    "text": "Pretest/Post-test\nQuestion texts and key are available here\n\nPretest Raw Scores\n\nProgress\n\nCompletion percentage for prettest questionnaire\n\nDuration (in seconds)\n\nLength of time needed to complete pretest questionnaire\n\nFinished\n\nDid Qualtrics consider the pretest questionnaire finished.\n\nRecordedDate\n\nDate pretest questionnaire was collected\n\nA-NQ1 through A-NQ8\n\nPretest responses to near transfer ECT questions, raw responses\n\nA-NQ8 through A-NQ14\n\nPretest responses to near transfer POT questions, raw responses\n\nA-FQ1 through A-FQ8\n\nPretest responses to far transfer ECT questions, raw responses\n\nA-FQ8 through A-FQ14\n\nPretest responses to far transfer POT questions, raw responses\n\nSC0\n\nPrestest score as computed by Qualtrics\n\nA-NQ1_scored through A-NQ8_scored\n\nPretest scored (0,1) responses to near transfer ECT questions, raw responses\n\nA-NQ8_scored through A-NQ14_scored\n\nPretest scored (0,1) responses to near transfer POT questions, raw responses\n\nA-FQ1_scored through A-FQ8_scored\n\nPretest scored (0,1) responses to far transfer ECT questions, raw responses\n\nA-FQ8_scored through A-FQ14_scored\n\nPretest scored (0,1) responses to far transfer POT questions, raw responses\n\n\n\n\nEnergy Can Transfer (ECT) Near and Far\n\nProgress.ect\n\nCompletion percentage for ECT posttest questionnaire\n\nDuration (in seconds).ect\n\nLength of time needed to complete ECT posttest questionnaire (including IMI and PA)\n\nFinished.ect\n\nDid Qualtrics consider the ECT posttest questionnaire finished.\n\nRecordedDate.ect\n\nDate ECT posttest questionnaire was collected\n\nA-NQ1.ect through A-NQ8.ect\n\nPosttest responses to near transfer ECT questions, raw responses\n\nA-FQ1.ect through A-FQ8.ect\n\nPosttest responses to far transfer ECT questions, raw responses\n\nSC0.ect\n\nPosttest score as computed by Qualtrics\n\nA-NQ1_scored.ect through A-NQ8_scored.ect\n\nPosttest scored (0,1) responses to near transfer ECT questions, raw responses\n\nA-FQ1_scored.ect through A-FQ8_scored.ect\n\nPosttest scored (0,1) responses to far transfer ECT questions, raw responses\n\n\n\n\nProperties of Torque (POT) Near and Far\n\nProgress.pot\n\nCompletion percentage for POT posttest questionnaire\n\nDuration (in seconds).pot\n\nLength of time needed to complete POT posttest questionnaire\n\nFinished.pot\n\nDid Qualtrics consider the POT posttest questionnaire finished.\n\nRecordedData.pot\n\nDate POT posttest questionnaire was collected\n\nA-NQ8.pot through A-NQ14.pot\n\nPOT posttest responses to near transfer POT questions, raw responses\n\nA-FQ8.pot through A-FQ14.pot\n\nPOT posttest responses to far transfer POT questions, raw responses\n\nSC0.pot\n\nPOT posttest score as computed by Qualtrics\n\nA-NQ8_scored.pot through A-NQ14_scored.pot\n\nPOT posttest scored (0,1) responses to near transfer POT questions, raw responses\n\nA-FQ8_scored.pot through A-FQ14_scored.pot\n\nPOT posttest scored (0,1) responses to far transfer POT questions, raw responses\n\n\n\n\nSum Scores\nPretest sum scores:\nNearECT, FarECT, NearPOT, FarPOT, Near, Far, ECT, POT, PhysicsScore\nECT posttest score:\nNearECTpost, FarECTpost, ECTpost\nPOT posttest score:\nNearPOTpost, FarPOTpost, POTpost"
+  },
+  {
+    "objectID": "Codebook.html#intrinsic-motivation-inventory",
+    "href": "Codebook.html#intrinsic-motivation-inventory",
+    "title": "Codebook",
+    "section": "Intrinsic Motivation Inventory",
+    "text": "Intrinsic Motivation Inventory\nHere are the questions\nThe test was given once with the ECT posttest and the POT posttest. Ones given with the POT posttest have the suffix .pot.\n\nIMI_1 through IMI_18 and IMI_1.pot through IMI_18.pot\n\nItem responses (reverse coded items reverse coded) with ECT (no prefix) or POT (.pot) posttest\n\nIMI, IMI.pot\n\nTotal score for IMI questionnaire\n\nIMI_Enj, IMI_Enj.pot\n\nEnjoyment subscale\n\nIMI_Eng, IMI_Eng.pot\n\nEngagement subscale\n\nIMI_PC, IMI_PC.pot\n\nPlayer confidence subscale\n\nIMI_Effort, IMI_Effort.pot\n\nEffort subscale\n\nIMI_Frust, IMI_Frust.pot\n\nFrustration subscale\n\nIMI_Value, IMI_Value.pot\n\nValue of experience subscale"
+  },
+  {
+    "objectID": "Codebook.html#physics-animation-learning-support-questionnaire",
+    "href": "Codebook.html#physics-animation-learning-support-questionnaire",
+    "title": "Codebook",
+    "section": "Physics Animation (Learning Support) Questionnaire",
+    "text": "Physics Animation (Learning Support) Questionnaire\nThe questions are [here]\nThe test was given once with the ECT posttest and the POT posttest. Ones given with the POT posttest have the suffix .pot.\n\nPA_1 through PA_7 and PA_1.pot through PA_18.pot\n\nItem responses (reverse coded items reverse coded) with ECT (no prefix) or POT (.pot) posttest\n\nPA, PA.pot\n\nTotal score for PA questionnaire"
+  },
+  {
+    "objectID": "Codebook.html#bayesian-network-scores",
+    "href": "Codebook.html#bayesian-network-scores",
+    "title": "Codebook",
+    "section": "Bayesian Network Scores",
+    "text": "Bayesian Network Scores\n\ncontext\n\n\nMarginal Distributions\n\n\nEAP and MAP Scores"
+  },
+  {
+    "objectID": "Codebook.html#observables-attempts-and-results",
+    "href": "Codebook.html#observables-attempts-and-results",
+    "title": "Codebook",
+    "section": "Observables (Attempts and Results)",
+    "text": "Observables (Attempts and Results)\nFirst and Last\nTimestamps\nTrophys\nAttempts"
+  },
+  {
+    "objectID": "Codebook.html#learning-supports",
+    "href": "Codebook.html#learning-supports",
+    "title": "Codebook",
     "section": "Learning Supports",
-    "text": "Learning Supports"
+    "text": "Learning Supports\nTimestamps\nDurations\nVideo lengths"
   },
   {
-    "objectID": "Delivery.html#configuring-the-game",
-    "href": "Delivery.html#configuring-the-game",
-    "title": "Using the Game",
-    "section": "Configuring the Game",
-    "text": "Configuring the Game"
-  },
-  {
-    "objectID": "Gameplay.html#sketching-levels",
-    "href": "Gameplay.html#sketching-levels",
-    "title": "Playing the Game",
-    "section": "Sketching Levels",
-    "text": "Sketching Levels"
-  },
-  {
-    "objectID": "Gameplay.html#manipulation-levels",
-    "href": "Gameplay.html#manipulation-levels",
-    "title": "Playing the Game",
-    "section": "Manipulation Levels",
-    "text": "Manipulation Levels"
-  },
-  {
-    "objectID": "Gameplay.html#warmup-levels",
-    "href": "Gameplay.html#warmup-levels",
-    "title": "Playing the Game",
-    "section": "Warmup levels",
-    "text": "Warmup levels"
-  },
-  {
-    "objectID": "Gameplay.html#learning-supports",
-    "href": "Gameplay.html#learning-supports",
-    "title": "Playing the Game",
-    "section": "Learning Supports",
-    "text": "Learning Supports"
-  },
-  {
-    "objectID": "Gameplay.html#incentive-system",
-    "href": "Gameplay.html#incentive-system",
-    "title": "Playing the Game",
-    "section": "Incentive System",
-    "text": "Incentive System"
-  },
-  {
-    "objectID": "Events.html",
-    "href": "Events.html",
-    "title": "Event Logs",
+    "objectID": "Papers.html",
+    "href": "Papers.html",
+    "title": "Project Papers",
     "section": "",
-    "text": "Events are stored in the Proc 4 format (ralmond2019a?). It is converted from the xAPI (Betts & Smith, 2018) format using in Learning Locker (Learning Locker Documentation, 2018) by the dongle code in the Proc4 (Proc4?) package. In particular, it means that messages are identified by (verb, object) pairs (xAPI-style) not single mess strings (Proc4-style)\nThe JSON format is as follows:\n{\n  app: \"ecd://epls.coe.fsu.edu/PhysicsPlayground/IES/Fall22/BigStudy\",  /* Fixed String */\n  uid: \"[A-F]0000\",\n  context: \"Game Level\",\n  sender: \"PP Learning Locker\",  /* Fixed String */\n  verb: &lt;&lt;see event vocabulary&gt;&gt;, \n  object &lt;&lt;see event vocabulary&gt;&gt;, \n  timestamp: POSIX time string, /* When event was logged. */\n  processed: logical,  /* For internal EI use */\n  pErr: string, /* Error code from processing (if any) */\n  data: { &lt;&lt;Arbitrary JSON document&gt;&gt;}\n}\nThe app and sender strings are constant, so are probably not interesting.\nThe first character of the uid gives the study condition."
+    "text": "References"
   },
   {
-    "objectID": "Events.html#proc4-and-xapi-formats",
-    "href": "Events.html#proc4-and-xapi-formats",
-    "title": "Event Logs",
+    "objectID": "Before-After.html#subjects",
+    "href": "Before-After.html#subjects",
+    "title": "Before/After Study Protocol",
+    "section": "Subjects",
+    "text": "Subjects"
+  },
+  {
+    "objectID": "Before-After.html#treatment-groups",
+    "href": "Before-After.html#treatment-groups",
+    "title": "Before/After Study Protocol",
+    "section": "Treatment Groups",
+    "text": "Treatment Groups"
+  },
+  {
+    "objectID": "Before-After.html#measures",
+    "href": "Before-After.html#measures",
+    "title": "Before/After Study Protocol",
+    "section": "Measures",
+    "text": "Measures"
+  },
+  {
+    "objectID": "Before-After.html#procedures",
+    "href": "Before-After.html#procedures",
+    "title": "Before/After Study Protocol",
+    "section": "Procedures",
+    "text": "Procedures"
+  },
+  {
+    "objectID": "Before-After.html#results",
+    "href": "Before-After.html#results",
+    "title": "Before/After Study Protocol",
+    "section": "Results",
+    "text": "Results"
+  },
+  {
+    "objectID": "BAdata.html",
+    "href": "BAdata.html",
+    "title": "Support Timing Data",
     "section": "",
-    "text": "Events are stored in the Proc 4 format (ralmond2019a?). It is converted from the xAPI (Betts & Smith, 2018) format using in Learning Locker (Learning Locker Documentation, 2018) by the dongle code in the Proc4 (Proc4?) package. In particular, it means that messages are identified by (verb, object) pairs (xAPI-style) not single mess strings (Proc4-style)\nThe JSON format is as follows:\n{\n  app: \"ecd://epls.coe.fsu.edu/PhysicsPlayground/IES/Fall22/BigStudy\",  /* Fixed String */\n  uid: \"[A-F]0000\",\n  context: \"Game Level\",\n  sender: \"PP Learning Locker\",  /* Fixed String */\n  verb: &lt;&lt;see event vocabulary&gt;&gt;, \n  object &lt;&lt;see event vocabulary&gt;&gt;, \n  timestamp: POSIX time string, /* When event was logged. */\n  processed: logical,  /* For internal EI use */\n  pErr: string, /* Error code from processing (if any) */\n  data: { &lt;&lt;Arbitrary JSON document&gt;&gt;}\n}\nThe app and sender strings are constant, so are probably not interesting.\nThe first character of the uid gives the study condition."
-  },
-  {
-    "objectID": "Events.html#table-of-known-verbs-and-objects",
-    "href": "Events.html#table-of-known-verbs-and-objects",
-    "title": "Event Logs",
-    "section": "Table of known verbs and objects",
-    "text": "Table of known verbs and objects\nThe master list of levels: &lt;Data/LevelData.csv&gt;\nThe list of all verb–object pairs: &lt;Data/EventTable.csv&gt;\n\nObject List\n\nobjectList &lt;- c(\"game level\", \"silverWin\", \"game object\", \"learning support\",\n                \"goldWin\", \"newPurchase\", \"newMoneyEarned\", \"replayButton\",\n                \"game (Physics Playground)\", \"ball\", \"footBall\",\n                \"billiardStripeBall\", \"glossary\", \"definition\", \"golfBall\",\n                \"formula\", \"module\")\nobjectList\n\n [1] \"game level\"                \"silverWin\"                \n [3] \"game object\"               \"learning support\"         \n [5] \"goldWin\"                   \"newPurchase\"              \n [7] \"newMoneyEarned\"            \"replayButton\"             \n [9] \"game (Physics Playground)\" \"ball\"                     \n[11] \"footBall\"                  \"billiardStripeBall\"       \n[13] \"glossary\"                  \"definition\"               \n[15] \"golfBall\"                  \"formula\"                  \n[17] \"module\"                   \n\n\n\n\nObject Type\nThese are the values of the gemeObjectType [sic] field, indicating the type of object from the object classification system.\n\nobjectTypes &lt;- c(\"freeform\", \"Ramp\", \"Lever\", \"ball\", \"pin\", \"Pendulum\",\n                 \"Springboard\",\"Weight\")\nobjectTypes\n\n[1] \"freeform\"    \"Ramp\"        \"Lever\"       \"ball\"        \"pin\"        \n[6] \"Pendulum\"    \"Springboard\" \"Weight\""
-  },
-  {
-    "objectID": "Events.html#links-to-data",
-    "href": "Events.html#links-to-data",
-    "title": "Event Logs",
-    "section": "Links to data",
-    "text": "Links to data\nThe raw JSON data is available at https://pluto.coe.fsu.edu/PhysicsPlayground/data/IES2022-AllP4Events.json.gz\nThe filtered data containing only “interesting” events is at: https://pluto.coe.fsu.edu/PhysicsPlayground/data/PPIES2022-P4Filtered.json.gz\nBoth files are compressed using gnu zip (gzip)"
+    "text": "Data from the Support Timing Study"
   },
   {
     "objectID": "EfficacyData.html",
@@ -553,6 +602,34 @@
     "text": "The raw JSON data is available at https://pluto.coe.fsu.edu/PhysicsPlayground/data/IES2022-AllP4Events.json.gz\nThe filtered data containing only “interesting” events is at: https://pluto.coe.fsu.edu/PhysicsPlayground/data/PPIES2022-P4Filtered.json.gz\nBoth files are compressed using gnu zip (gzip)"
   },
   {
+    "objectID": "IncentiveStore.html",
+    "href": "IncentiveStore.html",
+    "title": "Incentives and Store",
+    "section": "",
+    "text": "Not used in the IES project, but still part of the game from the NSF study."
+  },
+  {
+    "objectID": "StudyDesign.html",
+    "href": "StudyDesign.html",
+    "title": "Physics Data Playground",
+    "section": "",
+    "text": "Design for the Final PP IES Study\nGame link\nhttp://35.196.157.53/pp/game/demo.html\nTask List\nhttps://trello.com/b/C7AnI1LP/ies-nsf-project\nResearch Questions\n\nAre there any benefits of gameplay + supports vs. gameplay without &gt; supports?\nIs there any value-added of affective support beyond cognitive &gt; support?\n\nBetween subjects\n\nControl\nFixed-delivery (prespecified levels and timings)\n\nWithin subjects\n\nCognitive only (COG)\nCognitive + affective (COG-AFF)\n\n\n\nCounterbalance of COG/COG-AFF to Within subjects condition\ncounterbalanced across days (EcT-PoT/PoT-Ect)\n5 Groups:\nCog only + EcT 1st Day, Cog + Aff + PoT 2nd Day\nCog only + PoT 1st Day, Cog + Aff + EcT 2nd Day\nCog + Aff + EcT 1st Day, Cog Only, PoT 2nd Day\nCog + Aff + PoT 1st Day, Cog Only + EcT 2nd Day\n(split the above 4 evenly - 60% of sample; 40% for control)\nUID convention:\n001[group]d[day #]\n001ad1\n001ad2\n002bd1\n002bd2\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDays 1-3\n\nTest UID\nDays 4-5\n\nTest UID\n\n\n\n\n\n\nIntervention\nConcept\n\nIntervention\nConcept\n\nN = 340\n\n\nA\nCognitive Only\nECT\n999ad1*\nCognitive + Affective\nPOT\n999ad2\n60\n\n\nB\nCognitive Only\nPOT\n999bd1\nCognitive + Affective\nECT\n999bd2\n60\n\n\nC\nCognitive + Affective\nECT\n999cd1\nCognitive Only\nPOT\n999cd2\n60\n\n\nD\nCognitive + Affective\nPOT\n999dd1\nCognitive Only\nECT\n999dd2\n60\n\n\nE & F (control)\nNone\nPOT\n999ed1\nNone\nECT\n999ed2\n100\n\n\n\nNone\nECT\n999fd1\nNone\nPOT\n999fd2\n\n\n\n\n* Add “pass” after each test ID for password (e.g., “999ad1pass”)\nDo cog supports work\nA/C Cog vs. A/C Control (within)\nDo cog+aff work\nB/D CogAff vs. B/D Control (within)\nIs there an added advantage of affect (cog + aff) over cog only\nA/C vs. B/D (between)\nSchedule\nDay 1: Pretest (14 near + 14 far - PRE), definitions, tutorial levels\nDay 2: Gameplay concept 1\nDay 3: Gameplay concept 1, posttest concept 1 (7 near + 7 far - POST_C1)\nDay 4: Gameplay concept 2\nDay 5: Gameplay concept 2, posttest concept 2 (7 near + 7 far - POST_C2)\nThree tests: PRE_BOTH, POST_ECT, POST_POT\nWithin-Level Support Decision Tree\n***Cognitive supports are always present as a hint in the experimental condition (replace existing hint which points to specific levels)\nFor control condition, hint merely points to the agent to draw\nIF NOT Tutorial levels OR Warmup levels\nIF time_in_lev &gt;= 2-3 (random) minutes:\nIF time_in_game &lt;= 15 minutes:\nCognitive Support (voluntary)\nELIF time_in_game &gt; 15 minutes:\nIF cond = cogn:\nCognitive Support (voluntary)\nELIF cond = cogn + aff:\nAffective Message + Cognitive Support (voluntary)\nDesign of supports\nFirst start with a motivational message (from the qualitative affective support paper) and then offer the cognitive support as a hint. For cognitive only, use the cognitive component. For affective, use affective + cognitive (do not mix/match)\nMESSAGES\n\n\n\n\n\n\n\nAffective Component\nCognitive Component\n\n\n\n\nSolving levels like this one can be hard, but keep going and you will succeed!\nHere is one way to solve similar game levels.\n\n\nThis level can be tricky. Hang in there and keep trying.\nThis video shows a strategy to solve similar levels.\n\n\nNo one gets this level right away. It’s going to take a few more tries to find the solution. Keep going!\nThis video can help you see the physics used in solving the level.\n\n\nThis is a really hard level - you are doing great! Stay at it.\nBefore more gameplay, check out this video to learn a strategy for solving levels.\n\n\nDid you know that studies show we learn more from failure than from success? Try to build upon what you’ve learned!\nHere, watch this video to learn about the physics behind this level.\n\n\nEveryone hits a level that seems impossible to beat. Don’t give up. There is a solution!\nHere, watch this video to see the physics of moving the ball to hit the balloon in levels like this one.\n\n\nFailure always comes before success. Keep trying!\nThe following video uses a gameplay example to explain the physics used in solving this level.\n\n\nKeep working at it! This level can be difficult to solve, but you can do it.\nHere is a video with an example that shows one strategy you can use to solve levels like this one.\n\n\nThe breakthrough you need is right around the corner. Don’t walk away. You’ve got this!\nBefore going back to the level, check out this video showing the physics used in solving levels like this one.\n\n\nTake a deep breath and focus. This is tough, but you can figure it out if you keep trying.\nThe following video shows one strategy used for solving this type of level.\n\n\n\n\n\n\n\n\n\n\n\nAffective Component\n\n\nCognitive Component\n\n\n\n\n\n\nSolving levels like this one can be hard. Keep going and you can succeed! (74)\n\n\nHere is a video that can help. (43)\n\n\n\n\nThis level can be tricky. Hang in there and keep trying. (57)\n\n\nThis video shows a way to solve similar levels. (62)\n\n\n\n\nNo one gets this level right away. Don’t give up! (50)\n\n\nWatch this video showing the physics used in the solution. (59)\n\n\n\n\nThis is a really hard level – you’re doing great! Stay at it. (49)\n\n\nWatch this video showing the physics used in the solution.* (59)\n\n\n\n\nWe learn more from failure than success. Try building on what you’ve learned (77)\n\n\nHere is a video showing a solution strategy. (45)\n\n\n\n\nEveryone hits a level that seems impossible. Remember, there is a solution! (77)\n\n\nHere is a video that can help.* (43)\n\n\n\n\nFailure always comes before success. Keep trying! (49)\n\n\nThis video that shows a way to solve similar levels.* (62)\n\n\n\n\nThe breakthrough you need is around the corner. You’ve got this! (65)\n\n\nWatch this video to see the physics behind this level. (54)\n\n\n\n\nDon’t worry. You can figure it out if you keep trying. (53)\n\n\nHere is a video showing a solution strategy. (45)\n\n\n\n\nECT_Ramp1x -&gt; xECT_xRamp2x -&gt; ECT_Lever1\nBetween-Level Support Decision Tree\n\nThese rules apply to the first 8 levels where levels are ordered by &gt; agent - e.g., ramp1 , ramp 2, springboard 1, springboard 2, etc.\nNote that ramp 1 and ramp 2 share the same support called L1/2.\nBasic intuition is to always provide students in the experimental &gt; conditions access to the support for each agent during the level. &gt; If they successfully solve a level let them view the support as a &gt; reflection (after condition). If they are unsuccessful, let them &gt; view it as a hint (before condition)\nBefore cognitive supports offered prior to even levels (2, 4, &gt; etc - within agents)\nAfter supports offered after odd levels (1, 3, etc - &gt; within-agent)\nBetween affective supports offered prior to odd levels (in-between &gt; agents)\n\nMESSAGES:\nBefore Support:\n\"Before we start, here’s a short video that can help you solve levels like this one.\"\nAfter Support:\n“Before we move on, here’s a short video that can help you solve levels like this one.\"\nThis design resets for each agent. Here level 1 refers to the first level with a given agent; level 2 refers to the second level with a given agent.\nFor massed levels (1-8 for EcT and 1-6 for PoT)\nIF Level1 == solved AND CogSupport for L1/L2 not viewed:\nReflect Mandatory : Before going out of Level1 = Cognitive Support for L1/L2 ;\n\nthe idea is that they watch the video as form of reflection - an after support\nECT_Ramp1 SUPPORT -&gt; ECT_Ramp2\nGo to the main menu; Student selects and goes into Level 2;\n\nELIF Level1 == quit\n\nGo to the main menu; Student selects and goes into Level 2;\n\nIf no_COG viewed for L1/L2\n\nHint Mandatory: Before starting Level2 = Cognitive Support for L1/L2\nGive them the support as a hint to enable them to solve L2 - as a before support\nECT_Ramp1 -&gt; SUPPORT ECT_Ramp2\nElse\nDo nothing. Let them go to level 2.\n\nFor interleaved levels (&gt; 8 for EcT and &gt;7 for PoT)\nNo between levels cognitive supports; these are only provided within-level\nIf condition is cognitive + affective and (20 mins of game play or 15 mins since last between affective support offered)\nOffer optional calming center or secret store when they hit the main menu and select the next level\nIdea is to give students a break/reset\nSome considerations:\n\nTech issues: One needs to talk to the IT people there. &gt; We need laptops that can allow YouTube videos. Or we need a wifi &gt; that our Surface pros can get connected to.\nInstructions: Students need to be instructed to go &gt; through the levels in a linear order. They can choose to replay a &gt; level if they want to\n\nEcT levels - 4 cognitive supports (PV)\n\n\n\n\n\n\n\n\n\nNo.\nPV\nLevel\nDifficulty\n\n\n\n\n\n5 tutorial levels\n\n\n\n\n\n2 warm up levels\n\n\n\n\n1\nEcT_Ramp 1\nChocolate Factory\n4\n\n\n2\nEcT_Ramp 2\nBig Watermill\n5\n\n\n3\nEct_Lever 1\nSunny Day\n6\n\n\n4\nEct_Lever 2\nWavy\n7\n\n\n5\nEcT_Pendulum 1\nOn the UpSwing\n4\n\n\n6\nEcT_Pendulum 2\nCloudy Day\n6\n\n\n7\nEcT_Springboard 1\nLittle Mermaid\n4\n\n\n8\nEcT_Springboard 2\nYippie!\n6\n\n\n9*\nEcT_Ramp 3\nUltimate Pinball\n5\n\n\n10*\nEcT_Lever 3\nSpider Web\n6\n\n\n11*\nEcT_Pendulum 3\nUphill Battle\n6\n\n\n12*\nEcT_Springboard 3\nDiving Board\n6\n\n\n\n*Assortment of EcT levels that mixes the various supports\nPoT levels - 3 cognitive supports (PV)\n\n\n\n\n\n\n\n\n\nNo.\nPV\nLevel\nDifficulty\n\n\n\n\n\n5 tutorial levels\n\n\n\n\n\n2 warm up levels\n\n\n\n\n1\nPoT_Lever_distance 1\nShark\n5\n\n\n2\nPoT_Lever_distance 2\nOne at a Time\n6\n\n\n3\nPoT_Lever_mass 1\nScale\n4\n\n\n4\nPoT_Lever_mass 2\nCrazy Seesaw\n7\n\n\n5\nPoT_Springboard 1\nStiff Curtains\n5\n\n\n6\nPoT_Springboard 2\nDiving Board World\n7\n\n\n7*\nPoT_Lever_distance 3\nNeed Fulcrum\n5\n\n\n8*\nPoT_Lever_mass 3\nTiming is everything\n5\n\n\n9*\nPoT_Springboard 3\nPerfect Toss\n6\n\n\n10*\nPoT_Lever_distance 4\nUp in the Air\n7\n\n\n11*\nPoT_Lever_mass 4\nCan Opener\n6\n\n\n12*\nPoT_Springboard 4\nRoller Coaster\n7\n\n\n\n*Assortment of PoT levels that mixes the various supports\nFor Russell to extract the data for the Big Study:\nThe app ID: \"ecd://epls.coe.fsu.edu/PhysicsPlayground/IES/Fall22/BigStudy\""
+  },
+  {
+    "objectID": "IMI.html",
+    "href": "IMI.html",
+    "title": "Intrinsic Motivation Inventory",
+    "section": "",
+    "text": "The intrinsic motivation inventory (IMI) is a rating scale on a number of questions related to the participants’ enjoyment of the game and motivation to do well. All questions were asked on a seven point Likeart scale with answers ranging from “Not at all true” (1) to “Very True” (7). The mid-anchor at scale point 4 was “Somewhat true”; no text descriptions were given for the other scale points.\nThe table below gives the text of the prompts, with an indication of which ones were reverse coded.\nIMI &lt;- readr::read_csv(\"Instruments/KeysAndCodes_IMI.csv\")\nknitr::kable(IMI[,2:5])\n\n\n\n\n\n\n\n\n\n\nID\nScale\nReverse\nStem\n\n\n\n\nIMI_1\nEnj\nFALSE\nI enjoyed playing the game very much\n\n\nIMI_2\nEnj\nFALSE\nThe game was fun to play.\n\n\nIMI_3\nEng\nTRUE\nI thought the game was boring\n\n\nIMI_4\nEng\nTRUE\nThe game did not hold my attention at all.\n\n\nIMI_5\nEng\nFALSE\nI would describe the game as very interesting.\n\n\nIMI_6\nPC\nFALSE\nI think I am pretty good at the game.\n\n\nIMI_7\nPC\nFALSE\nI think I did pretty well in the game compared to other students.\n\n\nIMI_8\nPC\nFALSE\nI am satisfied with my performance in the game.\n\n\nIMI_9\nPC\nTRUE\nI couldn’t play the game very well.\n\n\nIMI_10\nEffort\nFALSE\nI put a lot of effort into the game.\n\n\nIMI_11\nEffort\nTRUE\nI didn’t try very hard to do well in the game.\n\n\nIMI_12\nEffort\nFALSE\nI tried very hard in the game.\n\n\nIMI_13\nEffort\nTRUE\nI didn’t put much energy into the game.\n\n\nIMI_14\nFrust\nFALSE\nI did not feel frustrated at all while playing the game.\n\n\nIMI_15\nFrust\nTRUE\nI felt very frustrated while playing the game.\n\n\nIMI_16\nFrust\nFALSE\nI was very relaxed while playing the game.\n\n\nIMI_17\nValue\nFALSE\nI would be willing to play the game again because it has some value to me.\n\n\nIMI_18\nValue\nFALSE\nI believe playing the game could be beneficial to me.\nThe IMI scale was given twice, once with the ECT posttest, and once with the POT posttest. In the data files, IMI_XXX is the version given with the ECT test and IMI_XXX.pot is the version given with the POT test.\nNote that students in some study conditions received the ECT test midweek and the POT test at the end of the week, with the others having the opposite order. The Midtest and Posttest columns in the data file indicate the sequencing of the two tests."
+  },
+  {
+    "objectID": "IMI.html#subscales",
+    "href": "IMI.html#subscales",
+    "title": "Intrinsic Motivation Inventory",
+    "section": "Subscales",
+    "text": "Subscales\nThe following subscales are available in the IMI data:\n\nEnj – Enjoyment (Items 1 and 2)\nEng – Engagement (Items 3 through 5)\nPC – Player Confidence [?] (Items 6 through 9)\nEffort – Player effort (Items 10 through 13)\nFrust – Frustration (Items 14 through 16)\nValue – Value of experience beyond the game (Items 17 and 18)"
+  },
+  {
     "objectID": "Personnel.html",
     "href": "Personnel.html",
     "title": "Personnel",
@@ -579,96 +656,5 @@
     "title": "Personnel",
     "section": "Researcher (NSF or Gates project)",
     "text": "Researcher (NSF or Gates project)\n\n\n\n\n\n\nFengfeng Ke,FSU\n\n\n\n\n\nFengfeng Ke\nFlorida State University\nStudies: Game Design and Usability, Cognitive Supports, Learning and Stealth Assessment\nRole: Co-PI\nHomepage: https://myweb.fsu.edu/fke/\nGoogle Scholar: https://scholar.google.com/citations?user=75jPVJIAAAAJ&hl=en\nERebuild: https://erebuild.coe.fsu.edu\n\n\n\n\n\n\n\n\nXinhao Xu,NA\n\n\n\n\n\nXinhao Xu\nFlorida State University\nStudies: Alumni\nRole: Developer on Unity game version\nGoogle Scholar: https://scholar.google.com/citations?user=XD17HxEAAAAJ&hl=en\n\n\n\n\n\n\n\n\nShamya Karumbaiah,NA\n\n\n\n\n\nShamya Karumbaiah\nFlorida State University\nStudies: Alumni\nRole: Designer, researcher\nHomepage: https://shamya.github.io/\nGoogle Scholar: https://scholar.google.com/citations?user=5w4I9VMAAAAJ&hl=en\n\n\n\n\n\n\n\n\nDon Franceschetti,NA\n\n\n\n\n\nDon Franceschetti\nUniversity of Memphis\nStudies: Gates, Game Design and Usibility\nRole: Until his death in 2019, Don served as the primary Physics advisor\nHomepage: https://paw.princeton.edu/memorial/donald-r-franceschetti-74\nGoogle Scholar: \n\n\n\n\n\n\n\n\nLubin Wang,NA\n\n\n\n\n\nLubin Wang\nFlorida State University\nStudies: Gates\nRole: Designer, researcher\nGoogle Scholar: \n\n\n\n\n\n\n\n\nMatthew Small,NA\n\n\n\n\n\nMatthew Small\nNA\nStudies: Gates\nRole: Programmer for First (Gates) version\nGoogle Scholar: \n\n\n\n\n\n\n\n\nMatthew Ventura,NA\n\n\n\n\n\nMatthew Ventura\nFlorida State University\nStudies: Gates\nRole: Leader on Gates Project, Research on Persistance\nGoogle Scholar: \n\n\n\n\n\n\n\n\nYoon-Jeon Kim,NA\n\n\n\n\n\nYoon-Jeon Kim\nFlorida State University\nStudies: Gates\nRole: Designer, researcher\nGoogle Scholar:"
-  },
-  {
-    "objectID": "AllLevels.html",
-    "href": "AllLevels.html",
-    "title": "All Game Levels",
-    "section": "",
-    "text": "Can automatically generate this from a table."
-  },
-  {
-    "objectID": "AllLevels.html#sketching-levels",
-    "href": "AllLevels.html#sketching-levels",
-    "title": "All Game Levels",
-    "section": "Sketching Levels",
-    "text": "Sketching Levels"
-  },
-  {
-    "objectID": "AllLevels.html#manipulation-levels",
-    "href": "AllLevels.html#manipulation-levels",
-    "title": "All Game Levels",
-    "section": "Manipulation Levels",
-    "text": "Manipulation Levels\nGame Levels Table"
-  },
-  {
-    "objectID": "Analyses.html",
-    "href": "Analyses.html",
-    "title": "Analyses",
-    "section": "",
-    "text": "This step mainly is related to removing records from subjects which were lacking consent, assent or both. After matching the consent records, the records were deidentified.\nThis script relies on private credentials for accessing the de-identified data. The attached PDF shows what was done. Certain output which contained subject names is not included.\nInitial Data Cleaning Script"
-  },
-  {
-    "objectID": "Analyses.html#initial-data-cleaning",
-    "href": "Analyses.html#initial-data-cleaning",
-    "title": "Analyses",
-    "section": "",
-    "text": "This step mainly is related to removing records from subjects which were lacking consent, assent or both. After matching the consent records, the records were deidentified.\nThis script relies on private credentials for accessing the de-identified data. The attached PDF shows what was done. Certain output which contained subject names is not included.\nInitial Data Cleaning Script"
-  },
-  {
-    "objectID": "Analyses.html#building-full-data-set",
-    "href": "Analyses.html#building-full-data-set",
-    "title": "Analyses",
-    "section": "Building Full Data Set",
-    "text": "Building Full Data Set\nThe next step builds up several different sets of data and meta-data.\nIn particular, it applies reverse coding, key matching and calculates subscores.\nThis script initially draws from sources which contain subject identifiers, so it cannot be reproduces. However, raw response data is included so that for example, the scoring can be redone.\nBuilding Full Data"
-  },
-  {
-    "objectID": "scripts/Personnel.html",
-    "href": "scripts/Personnel.html",
-    "title": "Personnel",
-    "section": "",
-    "text": "Valerie Shute,FSU\n\n\n\n\n\nValerie Shute\nFlorida State University\nStudies: Game Design and Usability, Cognitive Supports, Affective Supports, Learning and Stealth Assessment, Support Timing, Support Efficacy\nRole: PI Emeritus (Retired), PI through most versions\nHomepage: https://myweb.fsu.edu/vshute/index.html\nGoogle Scholar: https://scholar.google.com/citations?user=VfKOZ5IAAAAJ&hl=en\n\n\n\n\n\n\n\n\nRussell Almond,FSU\n\n\n\n\n\nRussell Almond\nFlorida State University\nStudies: Game Design and Usability, Learning and Stealth Assessment, Support Timing, Support Efficacy\nRole: PI for final year of project, scoring engine construction\nHomepage: https://ralmond.net/\nGoogle Scholar: https://scholar.google.com/citations?user=1ZTrIBcAAAAJ&hl=en\nGithub: https://github.com/ralmond; R-Universe: https://ralmond.r-universe.dev/\n\n\n\n\n\n\n\n\nRyan S. Baker,UPenn\n\n\n\n\n\nRyan S. Baker\nUniversity of Pennsylvania\nStudies: Affective Supports, Support Timing, Support Efficacy\nRole: Co-PI, developing logic for supports\nHomepage: https://learninganalytics.upenn.edu/ryanbaker/\nGoogle Scholar: https://scholar.google.com/citations?user=hvs8PEoAAAAJ&hl=en\n\n\n\n\n\n\n\n\nSidney D’Mello,CUBoulder\n\n\n\n\n\nSidney D’Mello\nUniversity of Colorado Boulder\nStudies: Affective Supports, Support Timing, Support Efficacy\nRole: Co-PI, design of affective supports\nGoogle Scholar: https://scholar.google.com/citations?user=c-LG6-MAAAAJ&hl=en"
-  },
-  {
-    "objectID": "scripts/Personnel.html#lead-investigators",
-    "href": "scripts/Personnel.html#lead-investigators",
-    "title": "Personnel",
-    "section": "",
-    "text": "Valerie Shute,FSU\n\n\n\n\n\nValerie Shute\nFlorida State University\nStudies: Game Design and Usability, Cognitive Supports, Affective Supports, Learning and Stealth Assessment, Support Timing, Support Efficacy\nRole: PI Emeritus (Retired), PI through most versions\nHomepage: https://myweb.fsu.edu/vshute/index.html\nGoogle Scholar: https://scholar.google.com/citations?user=VfKOZ5IAAAAJ&hl=en\n\n\n\n\n\n\n\n\nRussell Almond,FSU\n\n\n\n\n\nRussell Almond\nFlorida State University\nStudies: Game Design and Usability, Learning and Stealth Assessment, Support Timing, Support Efficacy\nRole: PI for final year of project, scoring engine construction\nHomepage: https://ralmond.net/\nGoogle Scholar: https://scholar.google.com/citations?user=1ZTrIBcAAAAJ&hl=en\nGithub: https://github.com/ralmond; R-Universe: https://ralmond.r-universe.dev/\n\n\n\n\n\n\n\n\nRyan S. Baker,UPenn\n\n\n\n\n\nRyan S. Baker\nUniversity of Pennsylvania\nStudies: Affective Supports, Support Timing, Support Efficacy\nRole: Co-PI, developing logic for supports\nHomepage: https://learninganalytics.upenn.edu/ryanbaker/\nGoogle Scholar: https://scholar.google.com/citations?user=hvs8PEoAAAAJ&hl=en\n\n\n\n\n\n\n\n\nSidney D’Mello,CUBoulder\n\n\n\n\n\nSidney D’Mello\nUniversity of Colorado Boulder\nStudies: Affective Supports, Support Timing, Support Efficacy\nRole: Co-PI, design of affective supports\nGoogle Scholar: https://scholar.google.com/citations?user=c-LG6-MAAAAJ&hl=en"
-  },
-  {
-    "objectID": "scripts/Personnel.html#researcher-current-project",
-    "href": "scripts/Personnel.html#researcher-current-project",
-    "title": "Personnel",
-    "section": "Researcher (current project)",
-    "text": "Researcher (current project)\n\n\n\n\n\n\nSeyed Ahmad Rahimi,UF\n\n\n\n\n\nSeyed Ahmad Rahimi\nUniversity of Florida\nStudies: Game Design and Usability, Cognitive Supports, Affective Supports, Learning and Stealth Assessment, Support Timing, Support Efficacy\nRole: Lead developer of the current game version, designer, researcher, scoring engine construction\nHomepage: https://education.ufl.edu/faculty/rahimi-seyedahmad-ahmad/\nGoogle Scholar: https://scholar.google.com/citations?user=yDnHbAMAAAAJ&hl=en\n\n\n\n\n\n\n\n\nAdam Lamee,UCF\n\n\n\n\n\nAdam Lamee\nUniversity of Central Florida\nStudies: Game Design and Usability, Cognitive Supports, Affective Supports, Learning and Stealth Assessment\nRole: Expert in physics teaching\nHomepage: https://adamlamee.github.io/\nGoogle Scholar: https://scholar.google.com/citations?user=1j-ueo4AAAAJ&hl=en\n\n\n\n\n\n\n\n\nGinny Smith,FSU\n\n\n\n\n\nGinny Smith\nFlorida State University\nStudies: Game Design and Usability, Cognitive Supports, Affective Supports, Learning and Stealth Assessment, Support Timing, Support Efficacy\nRole: Project manager, designer, researcher\nGoogle Scholar: https://scholar.google.com/citations?user=Przy7_gAAAAJ&hl=en\n\n\n\n\n\n\n\n\nJaclyn Ocumpaugh,UPenn\n\n\n\n\n\nJaclyn Ocumpaugh\nUniversity of Pennsylvania\nStudies: Support Timing, Support Efficacy\nRole: Project coordinator and user testing\nHomepage: https://learninganalytics.upenn.edu/index.html\nGoogle Scholar: https://scholar.google.com/citations?user=uCl6NE4AAAAJ&hl=en\n\n\n\n\n\n\n\n\nBrandon Booth,CUBoulder\n\n\n\n\n\nBrandon Booth\nUniversity of Colorado Boulder\nStudies: Support Timing, Support Efficacy\nRole: Project coordinator and user testing\nHomepage: http://www.brandonmbooth.net/\nGoogle Scholar: https://scholar.google.com/citations?user=Qr-gySYAAAAJ&hl=en\n\n\n\n\n\n\n\n\nValdemar Švábenský,UPenn\n\n\n\n\n\nValdemar Švábenský\nUniversity of Pennsylvania\nStudies: Support Efficacy\nRole: Researcher\nHomepage: https://elea.sk/valdemar/\nGoogle Scholar: https://scholar.google.com/citations?user=CSMVlf0AAAAJ&hl=en\n\n\n\n\n\n\n\n\nCurt Fulwider,FSU\n\n\n\n\n\nCurt Fulwider\nFlorida State University\nStudies: Game Design and Usability, Support Timing, Support Efficacy\nRole: Researcher, scoring engine construction\nGoogle Scholar: https://scholar.google.com/citations?user=pKYZazcAAAAJ&hl=en\n\n\n\n\n\n\n\n\nGaurav Basnet,FSU\n\n\n\n\n\nGaurav Basnet\nFlorida State University\nStudies: Support Efficacy\nRole: Researcher\nGoogle Scholar: &lt;?&gt;\n\n\n\n\n\n\n\n\nChaewon Kim,FSU\n\n\n\n\n\nChaewon Kim\nFlorida State University\nStudies: Support Efficacy\nRole: Researcher\nGoogle Scholar: &lt;?&gt;\n\n\n\n\n\n\n\n\nChen Sun,FSU\n\n\n\n\n\nChen Sun\nFlorida State University\nStudies: Game Design and Usability, Cognitive Supports, Learning and Stealth Assessment\nRole: Designer, researcher, scoring engine construction\nGoogle Scholar: https://scholar.google.com/citations?user=Y66npM8AAAAJ&hl=en\n\n\n\n\n\n\n\n\nXiaotong Yang,FSU\n\n\n\n\n\nXiaotong Yang\nFlorida State University\nStudies: Game Design and Usability, Cognitive Supports, Learning and Stealth Assessment, Support Timing, Support Efficacy\nRole: Designer, researcher\nGoogle Scholar: https://scholar.google.com/citations?user=f1E8l3QAAAAJ&hl=en\n\n\n\n\n\n\n\n\nZhichun “Lukas” Liu,NA\n\n\n\n\n\nZhichun “Lukas” Liu\nFlorida State University\nStudies: Game Design and Usability, Cognitive Supports, Affective Supports, Learning and Stealth Assessment, Support Timing\nRole: Designer, researcher, scoring engine construction\nHomepage: https://web.edu.hku.hk/faculty-academics/lukasliu\nGoogle Scholar: https://scholar.google.com/citations?user=HcASJEIAAAAJ&hl=en\n\n\n\n\n\n\n\n\nStefan Slater,UPenn\n\n\n\n\n\nStefan Slater\nUniversity of Pennsylvania\nStudies: Affective Supports, Support Timing\nRole: Designer, researcher\nHomepage: http://stefanslater.com/\nGoogle Scholar: https://scholar.google.com/citations?user=0yzbPoQAAAAJ&hl=en\n\n\n\n\n\n\n\n\nKatie Bainbridge,NA\n\n\n\n\n\nKatie Bainbridge\nUniversity of Colorado Boulder\nStudies: Affective Supports, Support Timing\nRole: Designer, researcher\nGoogle Scholar: https://scholar.google.com/citations?user=n-anFIgAAAAJ&hl=en\n\n\n\n\n\n\n\n\nChih-Pu Dai,FSU\n\n\n\n\n\nChih-Pu Dai\nFlorida State University\nStudies: Game Design and Usability, Cognitive Supports, Learning and Stealth Assessment\nRole: Designer, researcher\nHomepage: http://www2.hawaii.edu/~cdai/\nGoogle Scholar: https://scholar.google.com/citations?user=Vp5Y6fYAAAAJ&hl=en\n\n\n\n\n\n\n\n\nRenata Kuba,FSU\n\n\n\n\n\nRenata Kuba\nFlorida State University\nStudies: Game Design and Usability, Cognitive Supports, Learning and Stealth Assessment\nRole: Designer, researcher\nGoogle Scholar: https://scholar.google.com/citations?user=5Ek98gwAAAAJ&hl=en\n\n\n\n\n\n\n\n\nXi Lu,FSU\n\n\n\n\n\nXi Lu\nFlorida State University\nStudies: Game Design and Usability, Cognitive Supports\nRole: Designer, researcher\nGoogle Scholar: &lt;?&gt;\n\n\n\n\n\n\n\n\nSeyfullah Tingir,FSU\n\n\n\n\n\nSeyfullah Tingir\nFlorida State University\nStudies: Learning and Stealth Assessment\nRole: Researcher, scoring engine construction\nGoogle Scholar: https://scholar.google.com/citations?user=iSFVVycAAAAJ&hl=en\n\n\n\n\n\n\n\n\nCatherine A. Spann,CUBoulder\n\n\n\n\n\nCatherine A. Spann\nUniversity of Colorado Boulder\nStudies: Affective Supports\nRole: Researcher\nGoogle Scholar: https://scholar.google.com/citations?user=TCSu1jIAAAAJ&hl=en\n\n\n\n\n\n\n\n\nWeinan Zhao,NA\n\n\n\n\n\nWeinan Zhao\nFlorida State University\nStudies: Game Design and Usability\nRole: Lead developer of original Unity game version\nGoogle Scholar: https://scholar.google.com/citations?user=Lf0a9e0AAAAJ&hl=en"
-  },
-  {
-    "objectID": "scripts/Personnel.html#researcher-nsf-or-gates-project",
-    "href": "scripts/Personnel.html#researcher-nsf-or-gates-project",
-    "title": "Personnel",
-    "section": "Researcher (NSF or Gates project)",
-    "text": "Researcher (NSF or Gates project)\n\n\n\n\n\n\nFengfeng Ke,FSU\n\n\n\n\n\nFengfeng Ke\nFlorida State University\nStudies: Game Design and Usability, Cognitive Supports, Learning and Stealth Assessment\nRole: Co-PI\nHomepage: https://myweb.fsu.edu/fke/\nGoogle Scholar: https://scholar.google.com/citations?user=75jPVJIAAAAJ&hl=en\nERebuild: https://erebuild.coe.fsu.edu\n\n\n\n\n\n\n\n\nXinhao Xu,NA\n\n\n\n\n\nXinhao Xu\nFlorida State University\nStudies: Alumni\nRole: Developer on Unity game version\nGoogle Scholar: https://scholar.google.com/citations?user=XD17HxEAAAAJ&hl=en\n\n\n\n\n\n\n\n\nShamya Karumbaiah,NA\n\n\n\n\n\nShamya Karumbaiah\nFlorida State University\nStudies: Alumni\nRole: Designer, researcher\nHomepage: https://shamya.github.io/\nGoogle Scholar: https://scholar.google.com/citations?user=5w4I9VMAAAAJ&hl=en\n\n\n\n\n\n\n\n\nDon Franceschetti,NA\n\n\n\n\n\nDon Franceschetti\nUniversity of Memphis\nStudies: Gates, Game Design and Usibility\nRole: Until his death in 2019, Don served as the primary Physics advisor\nHomepage: https://paw.princeton.edu/memorial/donald-r-franceschetti-74\nGoogle Scholar: \n\n\n\n\n\n\n\n\nLubin Wang,NA\n\n\n\n\n\nLubin Wang\nFlorida State University\nStudies: Gates\nRole: Designer, researcher\nGoogle Scholar: \n\n\n\n\n\n\n\n\nMatthew Small,NA\n\n\n\n\n\nMatthew Small\nNA\nStudies: Gates\nRole: Programmer for First (Gates) version\nGoogle Scholar: \n\n\n\n\n\n\n\n\nMatthew Ventura,NA\n\n\n\n\n\nMatthew Ventura\nFlorida State University\nStudies: Gates\nRole: Leader on Gates Project, Research on Persistance\nGoogle Scholar: \n\n\n\n\n\n\n\n\nYoon-Jeon Kim,NA\n\n\n\n\n\nYoon-Jeon Kim\nFlorida State University\nStudies: Gates\nRole: Designer, researcher\nGoogle Scholar:"
-  },
-  {
-    "objectID": "IMI.html",
-    "href": "IMI.html",
-    "title": "Intrinsic Motivation Inventory",
-    "section": "",
-    "text": "The intrinsic motivation inventory (IMI) is a rating scale on a number of questions related to the participants’ enjoyment of the game and motivation to do well. All questions were asked on a seven point Likeart scale with answers ranging from “Not at all true” (1) to “Very True” (7). The mid-anchor at scale point 4 was “Somewhat true”; no text descriptions were given for the other scale points.\nThe table below gives the text of the prompts, with an indication of which ones were reverse coded.\nIMI &lt;- readr::read_csv(\"Instruments/KeysAndCodes_IMI.csv\")\nknitr::kable(IMI[,2:5])\n\n\n\n\n\n\n\n\n\n\nID\nScale\nReverse\nStem\n\n\n\n\nIMI_1\nEnj\nFALSE\nI enjoyed playing the game very much\n\n\nIMI_2\nEnj\nFALSE\nThe game was fun to play.\n\n\nIMI_3\nEng\nTRUE\nI thought the game was boring\n\n\nIMI_4\nEng\nTRUE\nThe game did not hold my attention at all.\n\n\nIMI_5\nEng\nFALSE\nI would describe the game as very interesting.\n\n\nIMI_6\nPC\nFALSE\nI think I am pretty good at the game.\n\n\nIMI_7\nPC\nFALSE\nI think I did pretty well in the game compared to other students.\n\n\nIMI_8\nPC\nFALSE\nI am satisfied with my performance in the game.\n\n\nIMI_9\nPC\nTRUE\nI couldn’t play the game very well.\n\n\nIMI_10\nEffort\nFALSE\nI put a lot of effort into the game.\n\n\nIMI_11\nEffort\nTRUE\nI didn’t try very hard to do well in the game.\n\n\nIMI_12\nEffort\nFALSE\nI tried very hard in the game.\n\n\nIMI_13\nEffort\nTRUE\nI didn’t put much energy into the game.\n\n\nIMI_14\nFrust\nFALSE\nI did not feel frustrated at all while playing the game.\n\n\nIMI_15\nFrust\nTRUE\nI felt very frustrated while playing the game.\n\n\nIMI_16\nFrust\nFALSE\nI was very relaxed while playing the game.\n\n\nIMI_17\nValue\nFALSE\nI would be willing to play the game again because it has some value to me.\n\n\nIMI_18\nValue\nFALSE\nI believe playing the game could be beneficial to me.\nThe IMI scale was given twice, once with the ECT posttest, and once with the POT posttest. In the data files, IMI_XXX is the version given with the ECT test and IMI_XXX.pot is the version given with the POT test.\nNote that students in some study conditions received the ECT test midweek and the POT test at the end of the week, with the others having the opposite order. The Midtest and Posttest columns in the data file indicate the sequencing of the two tests."
-  },
-  {
-    "objectID": "IMI.html#subscales",
-    "href": "IMI.html#subscales",
-    "title": "Intrinsic Motivation Inventory",
-    "section": "Subscales",
-    "text": "Subscales\nThe following subscales are available in the IMI data:\n\nEnj – Enjoyment (Items 1 and 2)\nEng – Engagement (Items 3 through 5)\nPC – Player Confidence [?] (Items 6 through 9)\nEffort – Player effort (Items 10 through 13)\nFrust – Frustration (Items 14 through 16)\nValue – Value of experience beyond the game (Items 17 and 18)"
-  },
-  {
-    "objectID": "PA.html",
-    "href": "PA.html",
-    "title": "Learning Support Reactions",
-    "section": "",
-    "text": "The PA (physics animation) gives the players response to the learning supports, particularly the physics animations. All items were given on a 5-point Likeart scale:\n“Strongly Agree” (1), “Somewhat agree” (2), “Neither agree nor disagree” (3), “Somewhat disagree” (4), “Strongly disagree” (5)\n\nPA &lt;- readr::read_csv(\"Instruments/KeysAndCodes_PA.csv\")\nknitr::kable(PA[,3:1])\n\n\n\n\n\n\n\n\n\nID\nReversed\nstem\n\n\n\n\nPA1\nFALSE\nThe physics videos helped me solve levels.\n\n\nPA2\nFALSE\nThe physics videos helped me answer the physics test questions.\n\n\nPA3\nFALSE\nThe physics videos helped me learn some physics\n\n\nPA4\nTRUE\nI’d prefer to play the game without the physics videos.\n\n\nPA5\nTRUE\nThe physics videos were annoying\n\n\nPA6\nTRUE\nIt was unclear how the physics videos were supposed to help me solve the level\n\n\nPA7\nFALSE\nThe physics videos made me like the game more\n\n\n\n\n\nThe PA scale was given twice, once with the ECT posttest, and once with the PA posttest. In the data files, PAX is the version given with the ECT test and PAX.pot is the version given with the POT test.\nNote that students in some study conditions received the ECT test midweek and the POT test at the end of the week, with the others having the opposite order. The Midtest and Posttest columns in the data file indicate the sequencing of the two tests."
   }
 ]

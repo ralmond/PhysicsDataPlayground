@@ -16,10 +16,10 @@ title: "Codebook"
 The study was divided into two intervention/data collection periods, and the content into
 two topics:  `ECT` -- Evidence Can Transfer, and `POT` -- Properties of Torque.
 
-`Midtest`
+`Topic1`
 : Which topic was addressed in the first study period (and the first (mid) posttest).  One of `ECT`, `POT`.
 
-`Posttest`
+`Topic2`
 : Which topic was addressed in the second study period (and the final posttest).
 
 `Condition`
@@ -28,7 +28,7 @@ two topics:  `ECT` -- Evidence Can Transfer, and `POT` -- Properties of Torque.
 `CognitiveSupport`
 : Did the student have access to cognitive supports?  (Logical)
 
-`AffectiveECD` [sic]
+`AffectiveECT` 
 : Did the student have access to affective supports during the period in which `ECT`
 was the topic
 

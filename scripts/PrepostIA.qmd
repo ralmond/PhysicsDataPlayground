@@ -1,5 +1,8 @@
 ---
 title: "Pre-Post Item Analyses"
+format: 
+  html:
+    code-fold: true
 ---
 
 ```{r}
@@ -8,7 +11,8 @@ library(tidyverse)
 ```
 
 ```{r}
-prepost <- read_csv("../Data/PPIESFall2022PrePost.csv") %>%
-  mutate(Midtest=factor(Midtest),Posttest=factor(Posttest),Condition=factor(Condition))
-prepost
+source("../Data/PrePostMetadata.R")
+PPIESFall2022PrePost <- 
+  read_csv("../Data/PPIESFall2022PrePost.csv",
+           col_types=colPrePost)
 ```

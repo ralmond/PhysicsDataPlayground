@@ -2,12 +2,12 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.3.433">
+<meta name="generator" content="quarto-1.3.450">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Physics Data Playground - Before After Data</title>
+<title>Physics Data Playground - Support Timing Data</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -19,40 +19,6 @@ ul.task-list li input[type="checkbox"] {
   width: 0.8em;
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
-}
-/* CSS for syntax highlighting */
-pre > code.sourceCode { white-space: pre; position: relative; }
-pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
-pre > code.sourceCode > span:empty { height: 1.2em; }
-.sourceCode { overflow: visible; }
-code.sourceCode > span { color: inherit; text-decoration: inherit; }
-div.sourceCode { margin: 1em 0; }
-pre.sourceCode { margin: 0; }
-@media screen {
-div.sourceCode { overflow: auto; }
-}
-@media print {
-pre > code.sourceCode { white-space: pre-wrap; }
-pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
-}
-pre.numberSource code
-  { counter-reset: source-line 0; }
-pre.numberSource code > span
-  { position: relative; left: -4em; counter-increment: source-line; }
-pre.numberSource code > span > a:first-child::before
-  { content: counter(source-line);
-    position: relative; left: -1em; text-align: right; vertical-align: baseline;
-    border: none; display: inline-block;
-    -webkit-touch-callout: none; -webkit-user-select: none;
-    -khtml-user-select: none; -moz-user-select: none;
-    -ms-user-select: none; user-select: none;
-    padding: 0 4px; width: 4em;
-  }
-pre.numberSource { margin-left: 3em;  padding-left: 4px; }
-div.sourceCode
-  {   }
-@media screen {
-pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 </style>
 
@@ -318,14 +284,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#data-from-the-beforeafter-study" id="toc-data-from-the-beforeafter-study" class="nav-link active" data-scroll-target="#data-from-the-beforeafter-study">Data from the Before/After Study</a>
-  <ul class="collapse">
-  <li><a href="#pretest-posttest-and-questionnaires" id="toc-pretest-posttest-and-questionnaires" class="nav-link" data-scroll-target="#pretest-posttest-and-questionnaires">Pretest, Posttest and Questionnaires</a></li>
-  <li><a href="#bayesian-network-scores" id="toc-bayesian-network-scores" class="nav-link" data-scroll-target="#bayesian-network-scores">Bayesian Network Scores</a></li>
-  <li><a href="#observables-first-and-last" id="toc-observables-first-and-last" class="nav-link" data-scroll-target="#observables-first-and-last">Observables (First and Last)</a></li>
-  <li><a href="#learning-supports" id="toc-learning-supports" class="nav-link" data-scroll-target="#learning-supports">Learning Supports</a></li>
-  <li><a href="#full-join" id="toc-full-join" class="nav-link" data-scroll-target="#full-join">Full Join</a></li>
-  </ul></li>
+  <li><a href="#data-from-the-support-timing-study" id="toc-data-from-the-support-timing-study" class="nav-link active" data-scroll-target="#data-from-the-support-timing-study">Data from the Support Timing Study</a></li>
   </ul>
 </nav>
     </div>
@@ -334,7 +293,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Before After Data</h1>
+<h1 class="title">Support Timing Data</h1>
 </div>
 
 
@@ -349,55 +308,10 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 </header>
 
-<section id="data-from-the-beforeafter-study" class="level1">
-<h1>Data from the Before/After Study</h1>
-<p>The amount of data is rather large, so it is split into several files. The variable <code>StudyID</code> is a primary key which can be used to join the data sets together.</p>
-<section id="pretest-posttest-and-questionnaires" class="level2">
-<h2 class="anchored" data-anchor-id="pretest-posttest-and-questionnaires">Pretest, Posttest and Questionnaires</h2>
-<p>This data file contains demographic data about the participants, pretest data, posttest data, and the IMI and PA questionnaires.</p>
-<p><a href="Data/PPIESFall2022PrePost.csv">Pre/Post Data</a></p>
-<p>Column types for pre-post data.</p>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>ppkey <span class="ot">&lt;-</span> <span class="st">"cccfffiiltff"</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
-</section>
-<section id="bayesian-network-scores" class="level2">
-<h2 class="anchored" data-anchor-id="bayesian-network-scores">Bayesian Network Scores</h2>
-<p>Bayesian network sheet contains the scores from running the Bayesian network engine.</p>
-<p>The <code>context</code> column is the last level played by that player.</p>
-<p>The <code>EAP</code> (expected <em>a posteriori</em>) scores run from -1 (low) to 1 (high). These are based on an average of the corresponding <code>Margin.High</code>, <code>Margin.Medium</code>, and <code>Margin.Low</code> scores.</p>
-<p><a href="PPIESFall2022BN.csv">Bayesian Network Scores</a></p>
-</section>
-<section id="observables-first-and-last" class="level2">
-<h2 class="anchored" data-anchor-id="observables-first-and-last">Observables (First and Last)</h2>
-<p>The observables tables record per-level information. This is presented in “wide” format, so the column names consist of <em>game level_variable</em>.</p>
-<p>The player may have played the game multiple times; in this case, the “First” sheet gives the values associated with the first attempt, and the “Last” gives the value associated with the last attempt. For the trophies only, there is another data set which gives the best trophy obtained.</p>
-<p><a href="PPIESFall2022obsFirst.csv">Observables from First Attempt</a></p>
-<p><a href="PPIESFall2022obsLast.csv">Observables from Last Attempt</a></p>
-<p><a href="PPIESFall2022obsMax.csv">Maximum Observable Values</a></p>
-</section>
-<section id="learning-supports" class="level2">
-<h2 class="anchored" data-anchor-id="learning-supports">Learning Supports</h2>
-<p>This data set records the usage of learning supports. The available learning supports are:</p>
-<ul>
-<li>game tools</li>
-<li>hint</li>
-<li>physics animation: ramp</li>
-<li>physics animation: lever</li>
-<li>physics animation: pendulum</li>
-<li>physics animation: springboard</li>
-</ul>
-<p>The total time spent on each learning support, and the number of times it was accessed are also provided.</p>
-<p>Not all learning supports are available on all levels. In particular, the animations are associated with levels which use that particular agent of motion.</p>
-<p><a href="Data/PPIESFall2022ls.csv">Learning Support</a></p>
-</section>
-<section id="full-join" class="level2">
-<h2 class="anchored" data-anchor-id="full-join">Full Join</h2>
-<p>Joining all of the above data sets produces a rather large file. Here it is in both <code>csv</code> (comma separated value) and <code>sav</code> (SPSS) formats.</p>
-<p><a href="Data/PPIESFall2022Full.csv">CSV format</a> <a href="Data/PPIESFall2022BigDaddy.sav">SPSS format</a></p>
+<section id="data-from-the-support-timing-study" class="level1">
+<h1>Data from the Support Timing Study</h1>
 
 
-</section>
 </section>
 
 </main> <!-- /main -->

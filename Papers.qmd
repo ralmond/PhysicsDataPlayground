@@ -1,13 +1,18 @@
 ---
 title: "Project Papers"
 bibliography: PhysicsPlayground.bib
-include-after-body: "Papers/refs.html"
+include-after-body: "refs.html"
 ---
 
 ```{r}
 #| echo: false
 #| message: false
-system("cd Papers; ./rebuildRefs.sh")
+## Currently only works with pandoc 2.9; pandoc 3.x uses
+## --citeproc, not pandoc-citeproc filter
+if (grepl("2.9",system("pandoc -v",intern=TRUE)[1]))
+  system("cd Papers; ./rebuildRefs.sh")
+## Also, manually need to copy refs.html to parent directory
+## so we don't accidentally overwrite as Quarto agressively rebuilds.
 ```
 
 
