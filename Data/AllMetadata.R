@@ -36,13 +36,13 @@ colAll <-  cols(
   `A-NQ4` = col_factor(levels = c("A", "B", "Both", "Neither of them"), ordered = FALSE, include_na = FALSE),
   `A-NQ5` = col_factor(levels = c("Dropped from point A", "Dropped from point B", "Dropped from point C", 
     "No difference"), ordered = FALSE, include_na = FALSE),
-  `A-NQ6` = col_factor(levels = c("The red box ", "The blue box ", "No difference", "Not enough information"
+  `A-NQ6` = col_factor(levels = c("The red box", "The blue box", "No difference", "Not enough information"
     ), ordered = FALSE, include_na = FALSE),
-  `A-NQ7` = col_factor(levels = c("Attach a weight to the springboard ", "Attach a weight to the springboard and then release", 
+  `A-NQ7` = col_factor(levels = c("Attach a weight to the springboard", "Attach a weight to the springboard and then release", 
     "Increase the mass of the ball", "None of the above"), ordered = FALSE, include_na = FALSE),
   `A-NQ8` = col_factor(levels = c("A", "B", "C", "All points will have the same effect on the ball"
     ), ordered = FALSE, include_na = FALSE),
-  `A-NQ9` = col_factor(levels = c("A ", "B", "No difference", "Not enough information"), ordered = FALSE, include_na = FALSE),
+  `A-NQ9` = col_factor(levels = c("A", "B", "No difference", "Not enough information"), ordered = FALSE, include_na = FALSE),
   `A-NQ10` = col_factor(levels = c("A", "B", "C", "All would work"), ordered = FALSE, include_na = FALSE),
   `A-NQ11` = col_factor(levels = c("Increase green ball's mass", "Decrease green ball's mass", 
     "Make the blue stick shorter", "Make the blue stick longer"), ordered = FALSE, include_na = FALSE),
@@ -70,21 +70,20 @@ colAll <-  cols(
     "Increase the mass of weight B", "More information is needed to answer the question"
     ), ordered = FALSE, include_na = FALSE),
   `A-FQ8` = col_factor(levels = c("Both dives bent the board the same amount", "The first dive bent the board less than the second dive", 
-    "The second dive bent the board less than the first dive", "We don’t know because she already jumped"
+    "The second dive bent the board less than the first dive", "We don't know because she already jumped"
     ), ordered = FALSE, include_na = FALSE),
-  `A-FQ9` = col_factor(levels = c("Replace 4 kg with 8 kg and move it to point A", " Replace 4 kg with 8 kg and move it to point B", 
-    " Both", "Neither"), ordered = FALSE, include_na = FALSE),
-  `A-FQ10` = col_factor(levels = c("Tom", "Lynn", "They both have an equal effect on the door’s movement", 
+  `A-FQ9` = col_factor(levels = c("Replace 4 kg with 8 kg and move it to point A", "Replace 4 kg with 8 kg and move it to point B", 
+    "Both", "Neither"), ordered = FALSE, include_na = FALSE),
+  `A-FQ10` = col_factor(levels = c("Tom", "Lynn", "They both have an equal effect on the door's movement", 
     "Not enough information"), ordered = FALSE, include_na = FALSE),
-  `A-FQ11` = col_factor(levels = c("Less than 1 m", " Greater than 1 m", " Equal to 1 m", "More information is needed to answer the question"
+  `A-FQ11` = col_factor(levels = c("Less than 1 m", "Greater than 1 m", "Equal to 1 m", "More information is needed to answer the question"
     ), ordered = FALSE, include_na = FALSE),
   `A-FQ12` = col_factor(levels = c("A", "B", "Both will have the same effect on the acrobat", 
     "Not enough information"), ordered = FALSE, include_na = FALSE),
   `A-FQ13` = col_factor(levels = c("By making the object heavier", "By moving the object farther from the tree trunk", 
     "By moving the object closer to the tree trunk", "Moving the object won't make a difference"
     ), ordered = FALSE, include_na = FALSE),
-  `A-FQ14` = col_factor(levels = c(" more", " less", "  the same", "more information is needed"
-    ), ordered = FALSE, include_na = FALSE),
+  `A-FQ14` = col_factor(levels = c("more", "less", "the same", "more information is needed"), ordered = FALSE, include_na = FALSE),
   SC0 = col_number(),
   Gender = col_factor(levels = c("Male", "Female", "Other"), ordered = FALSE, include_na = FALSE),
   Ethnicity = col_factor(levels = c("Asian", "Black or African American", "Hispanic", "Mixed", 
@@ -157,9 +156,9 @@ colAll <-  cols(
   `A-NQ4.ect` = col_factor(levels = c("A", "B", "Both", "Neither of them"), ordered = FALSE, include_na = FALSE),
   `A-NQ5.ect` = col_factor(levels = c("Dropped from point A", "Dropped from point B", "Dropped from point C", 
     "No difference"), ordered = FALSE, include_na = FALSE),
-  `A-NQ6.ect` = col_factor(levels = c("The red box ", "The blue box ", "No difference", "Not enough information"
+  `A-NQ6.ect` = col_factor(levels = c("The red box", "The blue box", "No difference", "Not enough information"
     ), ordered = FALSE, include_na = FALSE),
-  `A-NQ7.ect` = col_factor(levels = c("Attach a weight to the springboard ", "Attach a weight to the springboard and then release", 
+  `A-NQ7.ect` = col_factor(levels = c("Attach a weight to the springboard", "Attach a weight to the springboard and then release", 
     "Increase the mass of the ball", "None of the above"), ordered = FALSE, include_na = FALSE),
   `A-NQ8.ect` = col_factor(levels = c("A", "B", "C", "All points will have the same effect on the ball"
     ), ordered = FALSE, include_na = FALSE),
@@ -187,7 +186,7 @@ colAll <-  cols(
     "Increase the mass of weight B", "More information is needed to answer the question"
     ), ordered = FALSE, include_na = FALSE),
   `A-FQ8.ect` = col_factor(levels = c("Both dives bent the board the same amount", "The first dive bent the board less than the second dive", 
-    "The second dive bent the board less than the first dive", "We don’t know because she already jumped"
+    "The second dive bent the board less than the first dive", "We don't know because she already jumped"
     ), ordered = FALSE, include_na = FALSE),
   Q90 = col_character(),
   Q74 = col_number(),
@@ -251,7 +250,7 @@ colAll <-  cols(
   IMI_16.pot = col_integer(),
   IMI_17.pot = col_integer(),
   IMI_18.pot = col_integer(),
-  `A-NQ9.pot` = col_factor(levels = c("A ", "B", "No difference", "Not enough information"), ordered = FALSE, include_na = FALSE),
+  `A-NQ9.pot` = col_factor(levels = c("A", "B", "No difference", "Not enough information"), ordered = FALSE, include_na = FALSE),
   `A-NQ10.pot` = col_factor(levels = c("A", "B", "C", "All would work"), ordered = FALSE, include_na = FALSE),
   `A-NQ11.pot` = col_factor(levels = c("Increase green ball's mass", "Decrease green ball's mass", 
     "Make the blue stick shorter", "Make the blue stick longer"), ordered = FALSE, include_na = FALSE),
@@ -261,19 +260,18 @@ colAll <-  cols(
   `A-NQ14.pot` = col_factor(levels = c("Attach a light weight on point B", "Attach a heavy weight on point B", 
     "Attach a light weight on point A", "Attach a heavy weight on point A"
     ), ordered = FALSE, include_na = FALSE),
-  `A-FQ9.pot` = col_factor(levels = c("Replace 4 kg with 8 kg and move it to point A", " Replace 4 kg with 8 kg and move it to point B", 
-    " Both", "Neither"), ordered = FALSE, include_na = FALSE),
-  `A-FQ10.pot` = col_factor(levels = c("Tom", "Lynn", "They both have an equal effect on the door’s movement", 
+  `A-FQ9.pot` = col_factor(levels = c("Replace 4 kg with 8 kg and move it to point A", "Replace 4 kg with 8 kg and move it to point B", 
+    "Both", "Neither"), ordered = FALSE, include_na = FALSE),
+  `A-FQ10.pot` = col_factor(levels = c("Tom", "Lynn", "They both have an equal effect on the door's movement", 
     "Not enough information"), ordered = FALSE, include_na = FALSE),
-  `A-FQ11.pot` = col_factor(levels = c("Less than 1 m", " Greater than 1 m", " Equal to 1 m", "More information is needed to answer the question"
+  `A-FQ11.pot` = col_factor(levels = c("Less than 1 m", "Greater than 1 m", "Equal to 1 m", "More information is needed to answer the question"
     ), ordered = FALSE, include_na = FALSE),
   `A-FQ12.pot` = col_factor(levels = c("A", "B", "Both will have the same effect on the acrobat", 
     "Not enough information"), ordered = FALSE, include_na = FALSE),
   `A-FQ13.pot` = col_factor(levels = c("By making the object heavier", "By moving the object farther from the tree trunk", 
     "By moving the object closer to the tree trunk", "Moving the object won't make a difference"
     ), ordered = FALSE, include_na = FALSE),
-  `A-FQ14.pot` = col_factor(levels = c(" more", " less", "  the same", "more information is needed"
-    ), ordered = FALSE, include_na = FALSE),
+  `A-FQ14.pot` = col_factor(levels = c("more", "less", "the same", "more information is needed"), ordered = FALSE, include_na = FALSE),
   Q90.pot = col_character(),
   Q74.pot = col_number(),
   PA1.pot = col_integer(),

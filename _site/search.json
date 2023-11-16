@@ -263,7 +263,7 @@
     "href": "scripts/PrepostIA.html",
     "title": "Pre-Post Item Analyses",
     "section": "",
-    "text": "Code\nlibrary(psych)\nlibrary(tidyverse)\n\n\n── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──\n✔ dplyr     1.1.3     ✔ readr     2.1.4\n✔ forcats   1.0.0     ✔ stringr   1.5.0\n✔ ggplot2   3.4.3     ✔ tibble    3.2.1\n✔ lubridate 1.9.2     ✔ tidyr     1.3.0\n✔ purrr     1.0.2     \n── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──\n✖ ggplot2::%+%()   masks psych::%+%()\n✖ ggplot2::alpha() masks psych::alpha()\n✖ dplyr::filter()  masks stats::filter()\n✖ dplyr::lag()     masks stats::lag()\nℹ Use the conflicted package (&lt;http://conflicted.r-lib.org/&gt;) to force all conflicts to become errors\n\n\n\n\nCode\nsource(\"../Data/PrePostMetadata.R\")\nPPIESFall2022PrePost &lt;- \n  read_csv(\"../Data/PPIESFall2022PrePost.csv\",\n           col_types=colPrePost)\n\n\nWarning: One or more parsing issues, call `problems()` on your data frame for details,\ne.g.:\n  dat &lt;- vroom(...)\n  problems(dat)"
+    "text": "Code\nlibrary(psych)\nlibrary(tidyverse)\n\n\n── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──\n✔ dplyr     1.1.3     ✔ readr     2.1.4\n✔ forcats   1.0.0     ✔ stringr   1.5.0\n✔ ggplot2   3.4.3     ✔ tibble    3.2.1\n✔ lubridate 1.9.2     ✔ tidyr     1.3.0\n✔ purrr     1.0.2     \n── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──\n✖ ggplot2::%+%()   masks psych::%+%()\n✖ ggplot2::alpha() masks psych::alpha()\n✖ dplyr::filter()  masks stats::filter()\n✖ dplyr::lag()     masks stats::lag()\nℹ Use the conflicted package (&lt;http://conflicted.r-lib.org/&gt;) to force all conflicts to become errors\n\n\n\n\nCode\nsource(\"../Data/PrePostMetadata.R\")\nPPIESFall2022PrePost &lt;- \n  read_csv(\"../Data/PPIESFall2022PrePost.csv\",\n           col_types=colPrePost)"
   },
   {
     "objectID": "scripts/reloadPeople.html",
@@ -340,14 +340,14 @@
     "href": "EfficacyAnalysis.html",
     "title": "Support Effectiveness Results",
     "section": "",
-    "text": "Code\nlibrary(tidyverse)\n\n\n── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──\n✔ dplyr     1.1.3     ✔ readr     2.1.4\n✔ forcats   1.0.0     ✔ stringr   1.5.0\n✔ ggplot2   3.4.3     ✔ tibble    3.2.1\n✔ lubridate 1.9.2     ✔ tidyr     1.3.0\n✔ purrr     1.0.2     \n── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──\n✖ dplyr::filter() masks stats::filter()\n✖ dplyr::lag()    masks stats::lag()\nℹ Use the conflicted package (&lt;http://conflicted.r-lib.org/&gt;) to force all conflicts to become errors\n\n\nCode\nsource(\"Data/PrePostMetadata.R\")\nPPIESFall2022PrePost &lt;- \n  read_csv(\"Data/PPIESFall2022PrePost.csv\",\n           col_types=colPrePost)\n\n\nWarning: One or more parsing issues, call `problems()` on your data frame for details,\ne.g.:\n  dat &lt;- vroom(...)\n  problems(dat)\n\n\nNote that treatments differ for the ECT and POT subtests, so need to analyze them separately.\nTreatments are marked by the `"
+    "text": "Code\nlibrary(tidyverse)\nsource(\"Data/PrePostMetadata.R\")\nPPIESFall2022PrePost &lt;- \n  read_csv(\"Data/PPIESFall2022PrePost.csv\",\n           col_types=colPrePost)\n\n\nNote that treatments differ for the ECT and POT subtests, so need to analyze them separately.\nTreatments are marked by the"
   },
   {
     "objectID": "EfficacyAnalysis.html#load-the-prepost-data",
     "href": "EfficacyAnalysis.html#load-the-prepost-data",
     "title": "Support Effectiveness Results",
     "section": "",
-    "text": "Code\nlibrary(tidyverse)\n\n\n── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──\n✔ dplyr     1.1.3     ✔ readr     2.1.4\n✔ forcats   1.0.0     ✔ stringr   1.5.0\n✔ ggplot2   3.4.3     ✔ tibble    3.2.1\n✔ lubridate 1.9.2     ✔ tidyr     1.3.0\n✔ purrr     1.0.2     \n── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──\n✖ dplyr::filter() masks stats::filter()\n✖ dplyr::lag()    masks stats::lag()\nℹ Use the conflicted package (&lt;http://conflicted.r-lib.org/&gt;) to force all conflicts to become errors\n\n\nCode\nsource(\"Data/PrePostMetadata.R\")\nPPIESFall2022PrePost &lt;- \n  read_csv(\"Data/PPIESFall2022PrePost.csv\",\n           col_types=colPrePost)\n\n\nWarning: One or more parsing issues, call `problems()` on your data frame for details,\ne.g.:\n  dat &lt;- vroom(...)\n  problems(dat)\n\n\nNote that treatments differ for the ECT and POT subtests, so need to analyze them separately.\nTreatments are marked by the `"
+    "text": "Code\nlibrary(tidyverse)\nsource(\"Data/PrePostMetadata.R\")\nPPIESFall2022PrePost &lt;- \n  read_csv(\"Data/PPIESFall2022PrePost.csv\",\n           col_types=colPrePost)\n\n\nNote that treatments differ for the ECT and POT subtests, so need to analyze them separately.\nTreatments are marked by the"
   },
   {
     "objectID": "Overview.html",
