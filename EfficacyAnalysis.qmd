@@ -1,0 +1,166 @@
+---
+title: "Support Effectiveness Results"
+format: 
+  html:
+    code-fold: true
+---
+
+## Load the Pre/post data
+
+```{r load}
+#| warning: false
+#| message: false
+library(tidyverse)
+source("Data/AllMetadata.R")
+PPIESFall2022 <- 
+  read_csv("Data/PPIESFall2022Full.csv",
+           col_types=colAll)
+```
+
+## Composite Treatment variables
+
+Note that treatments differ for the ECT and POT subtests, so need to
+analyze them separately.
+
+Treatments are marked by the `CognitiveSupports` and `AffectiveECT` or 
+`AffectivePOT` variables.
+
+This code shows counts in each condition/ECT Treatment
+
+```{r cond3}
+PPIESFall2022 %>%
+  mutate(ECTcond=factor(PPIESFall2022$CognitiveSupports+
+                        PPIESFall2022$AffectiveECT,0:2,
+                        c("Control","COG","COG+AFF"))) %>%
+  mutate(POTcond=factor(PPIESFall2022$CognitiveSupports+
+                        PPIESFall2022$AffectivePOT,0:2,
+                        c("Control","COG","COG+AFF"))) ->
+  PPIESFall2022
+table(PPIESFall2022$Condition,PPIESFall2022$ECTcond)
+```
+Condition/POTTreatment
+
+```{r}
+table(PPIESFall2022$Condition,PPIESFall2022$POTcond)
+```
+
+## Calculate Gain Scores
+
+```{r gains}
+PPIESFall2022 %>%
+  mutate(NearECTgain=NearECTpost-NearECT,
+         FarECTgain=FarECTpost-FarECT,
+         ECTgain=ECTpost-ECT,
+         NearPOTgain=NearPOTpost-NearPOT,
+         FarPOTgain=FarPOTpost-FarPOT,
+         POTgain=POTpost-POT) ->
+  PPIESFall2022
+```
+
+# Was there learning gains?
+
+```{r}
+n.POTgain <- sum(!is.na(PPIESFall2022$POTgain))
+m.POTgain <- mean(PPIESFall2022$POTgain,na.rm=TRUE)
+s.POTgain <- sd(PPIESFall2022$POTgain,na.rm=TRUE)
+t.POTgain <- m.POTgain/s.POTgain/sqrt(s.POTgain)
+cat("Average POT gain ",round(m.POTgain,2),"(",round(s.POTgain,3),"); t(",
+    n.POTgain,")=",t.POTgain,"\n")
+n.ECTgain <- sum(!is.na(PPIESFall2022$ECTgain))
+m.ECTgain <- mean(PPIESFall2022$ECTgain,na.rm=TRUE)
+s.ECTgain <- sd(PPIESFall2022$ECTgain,na.rm=TRUE)
+t.ECTgain <- m.ECTgain/s.ECTgain/sqrt(s.ECTgain)
+cat("Average ECT gain ",round(m.ECTgain,2),"(",round(s.ECTgain,3),"); t(",
+    n.ECTgain,")=",t.ECTgain,"\n")
+```
+
+
+# Graphical Analysis of Pre/Post
+
+## ECT by Condition
+```{r}
+#| warning: false
+ggplot(PPIESFall2022,aes(x=Condition,y=ECTgain,color=ECTcond)) +
+  geom_violin() +labs(title="ECT Gain scores")
+```
+```{r}
+#| warning: false
+ggplot(PPIESFall2022,aes(x=Condition,y=NearECTgain,color=ECTcond)) +
+  geom_violin() + labs(title="ECT Near Transfer")
+```
+```{r}
+#| warning: false
+ggplot(PPIESFall2022,aes(x=Condition,y=FarECTgain,color=ECTcond)) +
+  geom_violin()  + labs(title="ECT Far Transfer")
+```
+
+## POT Exploratory graphics
+
+```{r}
+#| warning: false
+ggplot(PPIESFall2022,aes(x=Condition,y=POTgain,color=POTcond)) +
+  geom_violin() + labs(title="POT Gain Scores")
+```
+
+```{r}
+#| warning: false
+ggplot(PPIESFall2022,aes(x=Condition,y=NearPOTgain,color=POTcond)) +
+  geom_violin() + labs(title="POT Near Transfer")
+```
+
+```{r}
+#| warning: false
+ggplot(PPIESFall2022,aes(x=Condition,y=FarPOTgain,color=POTcond)) +
+  geom_violin()  + labs(title="POT Far Transfer")
+```
+
+# ANCOVA
+
+## ECT
+
+```{r}
+ECTlm <- lm(ECTpost ~ ECT+CognitiveSupports+AffectiveECT,data=PPIESFall2022,
+            na.action=na.omit)
+round(coef(summary(ECTlm)),3)
+```
+
+ECT is pretest.
+Affective supports are significant, but in the wrong direction.
+
+## POT
+
+```{r}
+POTlm <- lm(POTpost ~ POT+CognitiveSupports+AffectivePOT,data=PPIESFall2022,
+            na.action=na.omit)
+round(coef(summary(POTlm)),3)
+```
+
+No significant effects of supports.
+
+## Notes from the data collection
+
+1. General energy and excitement was high, so probably no need for affective supports.
+
+2. Students worked in tables of up to 4 students.  Considerable talk with students.
+
+3. Students were supposed to wear earphones to hear audio on video clips, but compliance was low.
+
+4. Students were frequently observed looking around the room and talking to their peers while support videos were playing.
+
+## Levels Solved
+
+```{r}
+PPIESFall2022 %>% mutate(solved=silver.max+gold.max) -> PPIESFall2022
+
+```
+
+```{r}
+ggplot(PPIESFall2022,aes(x=Condition,y=solved,color=POTcond)) +
+  geom_violin()  + labs(title="Levels Solved")
+```
+
+```{r}
+table(PPIESFall2022$Condition,PPIESFall2022$solved)
+```
+
+Something screwy is happening with condition B.  I need to look more closely.

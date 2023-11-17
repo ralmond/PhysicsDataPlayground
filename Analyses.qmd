@@ -24,3 +24,6 @@ example, the scoring can be redone.
 
 [Building Full Data](scripts/PPIES-Join.pdf)
 
+# Efficacy Study Analysis
+
+[Efficacy Study Analysis](EfficacyAnalysis.qmd)
