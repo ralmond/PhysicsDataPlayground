@@ -16,7 +16,7 @@ source("https://pluto.coe.fsu.edu/PhysicsDataPlayground/Data/PrePostMetadataABC.
 PrePostABC <- 
   read_csv("https://pluto.coe.fsu.edu/PhysicsDataPlayground/Data/PPIESFall2022PrePostABC.csv",
            col_types=colPrePostABC)
-ppKeys <- readr::read_csv("Instruments/KeysAndCodes_Physics.csv")
+ppKeys <- readr::read_csv("https://pluto.coe.fsu.edu/PhysicsDataPlayground/Instruments/KeysAndCodes_Physics.csv")
 ```
 
 ```{r}
