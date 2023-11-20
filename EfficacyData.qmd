@@ -59,7 +59,7 @@ library(readr)
 source("https://pluto.coe.fsu.edu/PhysicsDataPlayground/Data/PrePostMetadataABC.R")
 PPIESFall2022PrePostABC <- 
   read_csv("https://pluto.coe.fsu.edu/PhysicsDataPlayground/Data/PPIESFall2022PrePostABC.csv",
-           col_types=colPrePost)
+           col_types=colPrePostABC)
 ```
 
 ## Game level outcome data

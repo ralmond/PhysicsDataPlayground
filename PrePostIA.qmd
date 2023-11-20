@@ -1,0 +1,201 @@
+---
+title: "Efficacy Study Pre/Post Item Analysis"
+---
+
+```{r}
+library(tidyverse)
+library(ShinyItemAnalysis)
+library(psych)
+library(mirt)
+```
+
+
+
+```{r ReadPPABC}
+source("https://pluto.coe.fsu.edu/PhysicsDataPlayground/Data/PrePostMetadataABC.R")
+PrePostABC <- 
+  read_csv("https://pluto.coe.fsu.edu/PhysicsDataPlayground/Data/PPIESFall2022PrePostABC.csv",
+           col_types=colPrePostABC)
+ppKeys <- readr::read_csv("Instruments/KeysAndCodes_Physics.csv")
+```
+
+```{r}
+preraw <- select(PrePostABC,`A-NQ1`:`A-FQ14`)
+prescored <- select(PrePostABC,`A-NQ1_scored`:`A-FQ14_scored`)
+```
+
+## Pretest Item Analysis
+
+```{r}
+knitr::kable(ItemAnalysis(prescored)[,c("Difficulty","SD","RIR","RIT","ULI","Alpha.drop")],digits=3)
+```
+
+```{r}
+DDplot(prescored)
+```
+
+```{r}
+da <- DistractorAnalysis(preraw,toupper(ppKeys$Key[ppKeys$Form=="A"]),num.groups = 6)
+```
+### Distractor Analysis ECT Near
+
+```{r}
+plotDistractorAnalysis(preraw,toupper(ppKeys$Key[ppKeys$Form=="A"]),
+                        item=1,num.groups = 6)
+da[1]
+```
+
+```{r}
+plotDistractorAnalysis(preraw,toupper(ppKeys$Key[ppKeys$Form=="A"]),
+                        item=2,num.groups = 6)
+da[2]
+```
+
+```{r}
+plotDistractorAnalysis(preraw,toupper(ppKeys$Key[ppKeys$Form=="A"]),
+                        item=3,num.groups = 6)
+da[3]
+```
+
+```{r}
+plotDistractorAnalysis(preraw,toupper(ppKeys$Key[ppKeys$Form=="A"]),
+                        item=4,num.groups = 6)
+da[4]
+```
+
+```{r}
+plotDistractorAnalysis(preraw,toupper(ppKeys$Key[ppKeys$Form=="A"]),
+                        item=5,num.groups = 6)
+da[5]
+```
+
+```{r}
+plotDistractorAnalysis(preraw,toupper(ppKeys$Key[ppKeys$Form=="A"]),
+                        item=6,num.groups = 6)
+da[6]
+```
+
+```{r}
+plotDistractorAnalysis(preraw,toupper(ppKeys$Key[ppKeys$Form=="A"]),
+                        item=7,num.groups = 6)
+da[7]
+```
+
+```{r}
+plotDistractorAnalysis(preraw,toupper(ppKeys$Key[ppKeys$Form=="A"]),
+                        item=8,num.groups = 6)
+da[8]
+```
+
+### Distractor analysis POT Near
+
+```{r}
+plotDistractorAnalysis(preraw,toupper(ppKeys$Key[ppKeys$Form=="A"]),
+                        item=9,num.groups = 6)
+da[9]
+```
+
+```{r}
+plotDistractorAnalysis(preraw,toupper(ppKeys$Key[ppKeys$Form=="A"]),
+                        item=10,num.groups = 6)
+da[10]
+```
+
+```{r}
+plotDistractorAnalysis(preraw,toupper(ppKeys$Key[ppKeys$Form=="A"]),
+                        item=11,num.groups = 6)
+da[11]
+```
+
+```{r}
+plotDistractorAnalysis(preraw,toupper(ppKeys$Key[ppKeys$Form=="A"]),
+                        item=12,num.groups = 6)
+da[12]
+```
+
+```{r}
+plotDistractorAnalysis(preraw,toupper(ppKeys$Key[ppKeys$Form=="A"]),
+                        item=13,num.groups = 6)
+da[13]
+```
+
+```{r}
+plotDistractorAnalysis(preraw,toupper(ppKeys$Key[ppKeys$Form=="A"]),
+                        item=14,num.groups = 6)
+da[14]
+```
+### Distractor Analysis ECT Far
+
+```{r}
+plotDistractorAnalysis(preraw,toupper(ppKeys$Key[ppKeys$Form=="A"]),
+                        item=1+14,num.groups = 6)
+da[15]
+```
+
+```{r}
+plotDistractorAnalysis(preraw,toupper(ppKeys$Key[ppKeys$Form=="A"]),
+                        item=2+14,num.groups = 6)
+da[16]
+```
+
+```{r}
+plotDistractorAnalysis(preraw,toupper(ppKeys$Key[ppKeys$Form=="A"]),
+                        item=3+14,num.groups = 6)
+```
+
+```{r}
+plotDistractorAnalysis(preraw,toupper(ppKeys$Key[ppKeys$Form=="A"]),
+                        item=4+14,num.groups = 6)
+```
+
+```{r}
+plotDistractorAnalysis(preraw,toupper(ppKeys$Key[ppKeys$Form=="A"]),
+                        item=5+14,num.groups = 6)
+```
+
+```{r}
+plotDistractorAnalysis(preraw,toupper(ppKeys$Key[ppKeys$Form=="A"]),
+                        item=6+14,num.groups = 6)
+```
+
+```{r}
+plotDistractorAnalysis(preraw,toupper(ppKeys$Key[ppKeys$Form=="A"]),
+                        item=7+14,num.groups = 6)
+```
+
+```{r}
+plotDistractorAnalysis(preraw,toupper(ppKeys$Key[ppKeys$Form=="A"]),
+                        item=8+14,num.groups = 6)
+```
+
+### Distractor analysis POT Far
+
+```{r}
+plotDistractorAnalysis(preraw,toupper(ppKeys$Key[ppKeys$Form=="A"]),
+                        item=9+14,num.groups = 6)
+```
+
+```{r}
+plotDistractorAnalysis(preraw,toupper(ppKeys$Key[ppKeys$Form=="A"]),
+                        item=10+14,num.groups = 6)
+```
+
+```{r}
+plotDistractorAnalysis(preraw,toupper(ppKeys$Key[ppKeys$Form=="A"]),
+                        item=11+14,num.groups = 6)
+```
+
+```{r}
+plotDistractorAnalysis(preraw,toupper(ppKeys$Key[ppKeys$Form=="A"]),
+                        item=12+14,num.groups = 6)
+```
+
+```{r}
+plotDistractorAnalysis(preraw,toupper(ppKeys$Key[ppKeys$Form=="A"]),
+                        item=13+14,num.groups = 6)
+```
+
+```{r}
+plotDistractorAnalysis(preraw,toupper(ppKeys$Key[ppKeys$Form=="A"]),
+                        item=14+14,num.groups = 6)
+```
