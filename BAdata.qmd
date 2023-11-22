@@ -4,7 +4,141 @@ title: "Support Timing Data"
 
 # Data from the Support Timing Study
 
+This study was referred to as the "Before/After" study by the project team, as 
+the principle conditions were supports before or supports after the levels.
+
+The data are available in the following file:
+
+[Timing Support Data (CSV format)](Data/BAdata.csv)
 
 
+Metadata are available using the [readr](https://readr.tidyverse.org/) `cols` format in
+this [R metadata Before/After script](Data/BAMetadata.R).
+
+The following steps will load the file using the metadata in R.
+```{r ReadBA}
+#| eval: false
+library(readr)
+source("https://pluto.coe.fsu.edu/PhysicsDataPlayground/Data/BAMetadata.R")
+PPIESBAdata <- 
+  read_csv("https://pluto.coe.fsu.edu/PhysicsDataPlayground/Data/BAdata.csv",
+           col_types=colBAdata)
+```
+
+## IDs and Study Conditions
+
+* `UID`, `uid.x`, `uid.y` -- Subject idenfiers identical except for
+  three missing values.
+* `Source`, `Cohort` -- The sample from which the subject was drawn:
+  Values are `After School`, `DCSD`, `FSUS`, `HCR`, `Summer Camp`
+* `Consent`, `Assent` -- 1 if assent from student and consent from
+  parents was received. (Note, all records with 0's in either column
+  were removed.)
+* `Condition`
+* `CounterBalance`
+* `Pre_Form`, `Post_Form`
+
+## Demographic Variables
+
+* `Age` 
+* `Sex` 
+* `Ethnicity`
+* `Gaming`
+* `Physics` 
+
+## Pretest/Posttest
+
+* `Pre_Dur`, `Post_Dur` 
+* `Pre_Near`, `Post_Near` 
+* `Pre_Far`, `Post_Far`
+* `Pre_Total`, `Post_Total`
+* `Gain`, `Gain_Near`, `Gain_Far`
+
+## IMI Questionnaire
+
+* `Enjoy` 
+* `Competence`
+* `Effort` 
+* `Frustation`, `LackOfFrustration` -- Frustration and reversed Frustration scale.
+* `Value`
+* `Survey_Missing` -- 1 for (3) student who did not respond to IMI questionnaire
+
+## Pretest/Postest Scored Responses
 
 
+* Pretest Near Transfer ECT:  `pre_NQ1_ect.lever`, `pre_NQ2_ect.lever`,
+  `pre_NQ3_ect.pendulum`, `pre_NQ4_ect.pendulum`, `pre_NQ5_ect.ramp`,
+  `pre_NQ6_ect.ramp`, `pre_NQ7_ect.springboard`, `pre_NQ8_ect.springboard`
+
+* Pretest Near Transfer POT:  `pre_NQ9_pot.lever.distance`, 
+  `pre_NQ10_pot.lever.distance`, `pre_NQ11_pot.lever.mass`,
+  `pre_NQ12_pot.lever.mass`, `pre_NQ13_pot.springboard`,
+  `pre_NQ14_pot.springboard`
+  
+* Pretest Far Transfer ECT: `pre_FQ1_ect.lever`, `pre_FQ2_ect.lever`,
+  `pre_FQ3_ect.pendulum`, `pre_FQ4_ect.pendulum`, `pre_FQ5_ect.ramp`,
+  `pre_FQ6_ect.ramp`, `pre_FQ7_ect.springboard`,
+  `pre_FQ8_ect.springboard`
+  
+* Pretest Far Transfer POT: `pre_FQ9_pot.lever.distance`, 
+  `pre_FQ10_pot.lever.distance`, `pre_FQ11_pot.lever.mass`,
+  `pre_FQ12_pot.lever.mass`, `pre_FQ13_pot.springboard`,
+  `pre_FQ14_pot.springboard`
+  
+* Posttest Near Transfer ECT:
+  `post_NQ1_ect.lever`, `post_NQ2_ect.lever`, `post_NQ3_ect.pendulum`,
+  `post_NQ4_ect.pendulum`, `post_NQ5_ect.ramp`, `post_NQ6_ect.ramp`, 
+  `post_NQ7_ect.springboard`, `post_NQ8_ect.springboard`
+  
+* Posttest Near Transfer POT: `post_NQ9_pot.lever.distance`,
+ `post_NQ10_pot.lever.distance`, `post_NQ11_pot.lever.mass`,
+ `post_NQ12_pot.lever.mass`, `post_NQ13_pot.springboard`,
+ `post_NQ14_pot.springboard`
+ 
+* Posttest Far Transfer ECT:
+  `post_FQ1_ect.lever`, `post_FQ2_ect.lever`, `post_FQ3_ect.pendulum`,
+  `post_FQ4_ect.pendulum`, `post_FQ5_ect.ramp`, `post_FQ6_ect.ramp`,
+  `post_FQ7_ect.springboard`, `post_FQ8_ect.springboard`
+  
+* Posttest Far Transfer POT: 
+  `post_FQ9_pot.lever.distance`, `post_FQ10_pot.lever.distance`,
+  `post_FQ11_pot.lever.mass`, `post_FQ12_pot.lever.mass`,
+  `post_FQ13_pot.springboard`, `post_FQ14_pot.springboard`
+  
+* `Pre_Missing`, `Post_Missing` Is pretest or posttest missing.
+  (Note, subject with zero in either value were removed from sample.)
+  
+## Game and learning support summaries
+  
+* `n_levels_visited`, `levels_visited`, 
+* `n_gold`, `n_silver`, `n_unsolved` 
+* `mean_level_duration` 
+* `n_gold`, `n_silver`, `n_unsolved` 
+* `mean_money_earned`, 
+* `n_ls_viewed`
+* `mean_PA_duration`, 
+* `n_PA_spgbrd`, `n_PA_lever`, `n_PA_ramp`, `n_PA_pendulum`, 
+* `n_hints`, `n_game_tools`, 
+* `n_ramps_drawn`, `n_levers_drawn`, `n_spgbrd_drawn`,
+  `n_pendulum_drawn`, `n_weights_drawn`, `n_freeform_drawn`,
+  `n_pins_drawn`, 
+
+* `PA_ECT_ramp_sum`, `PA_ECT_pen_sum`, `PA_ECT_sp_sum`,
+  `PA_ECT_lever_sum`, `PA_POT_sp_sum`, `PA_POT_lever_distance_sum`, 
+  `PA_POT_lever_mass_sum`
+  
+* `SevenPVs`, `PVs_total`
+
+* `n_coins`, `coin_score`
+* `n_pa`, `n_otherSupports`
+* `solutionRate`
+* `n_unique_level_attempts`, 
+* `level_duration_trim_sum_min`, `level_duration_trim_mn`, 
+* `level_badge_number`, 
+* `level_agents_count`,
+* `focal_agent_drawn_bin_mn`, 
+* `nextLevelSuccess`, 
+* `agentUsedNextLevel`,
+* `sucsess_rate`, `Pre_Missing`                 
+* `coinsByunsolved` 
+* `Game_Missing` -- 1 for three students who lack game data.

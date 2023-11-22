@@ -121,7 +121,10 @@ ggplot(PPIESFall2022,aes(x=Condition,y=FarPOTgain,color=POTcond)) +
 ```{r}
 ECTlm <- lm(ECTpost ~ ECT+CognitiveSupports+AffectiveECT,data=PPIESFall2022,
             na.action=na.omit)
-round(coef(summary(ECTlm)),3)
+ECTct <- cbind(coef(summary(ECTlm)),d=coef(ECTlm)/summary(ECTlm)$sigma)
+round(ECTct,3)
+cat("R-squared: ",round(summary(ECTlm)$r.squared, 3), 
+    "; d.f.=", summary(ECTlm)$df[2],"\n")
 ```
 
 ECT is pretest.
@@ -132,7 +135,11 @@ Affective supports are significant, but in the wrong direction.
 ```{r}
 POTlm <- lm(POTpost ~ POT+CognitiveSupports+AffectivePOT,data=PPIESFall2022,
             na.action=na.omit)
-round(coef(summary(POTlm)),3)
+POTct <- cbind(coef(summary(POTlm)),d=coef(POTlm)/summary(POTlm)$sigma)
+round(POTct,3)
+cat("R-squared: ",round(summary(POTlm)$r.squared, 3), 
+    "; d.f.=", summary(POTlm)$df[2],"\n")
+
 ```
 
 No significant effects of supports.

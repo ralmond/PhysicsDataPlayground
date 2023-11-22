@@ -64,7 +64,7 @@ Questions `A-FQ9` through `A-FQ14` are all based on the properties of torque com
 
 ## Table of items (not including text and graphics)
 
-[Physics Codes and Keys](Instruments/KeysAndCodes_Physics.csv")
+[Physics Codes and Keys](Instruments/KeysAndCodes_Physics.csv)
 
 ```{r PrePostscale}
 #| warning: false
@@ -72,3 +72,7 @@ Questions `A-FQ9` through `A-FQ14` are all based on the properties of torque com
 ppKeys <- readr::read_csv("Instruments/KeysAndCodes_Physics.csv")
 knitr::kable(ppKeys[,c(8:4,2)])
 ```
+
+## Item Analysis for Pretest and Posttest
+
+[Item Analysis](PrePostIA.qmd)

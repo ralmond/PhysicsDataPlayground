@@ -27,3 +27,7 @@ example, the scoring can be redone.
 # Efficacy Study Analysis
 
 [Efficacy Study Analysis](EfficacyAnalysis.qmd)
+
+# Item Analysis for the Pretest
+
+[Pretest Item Analysis](PrePostIA.qmd)

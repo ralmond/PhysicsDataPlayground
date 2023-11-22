@@ -1,5 +1,8 @@
 ---
 title: "Efficacy Study Pre/Post Item Analysis"
+format: 
+  html:
+    code-fold: true
 ---
 
 ```{r}
@@ -12,190 +15,571 @@ library(mirt)
 
 
 ```{r ReadPPABC}
-source("https://pluto.coe.fsu.edu/PhysicsDataPlayground/Data/PrePostMetadataABC.R")
+source("Data/PrePostMetadataABC.R")
 PrePostABC <- 
-  read_csv("https://pluto.coe.fsu.edu/PhysicsDataPlayground/Data/PPIESFall2022PrePostABC.csv",
-           col_types=colPrePostABC)
-ppKeys <- readr::read_csv("https://pluto.coe.fsu.edu/PhysicsDataPlayground/Instruments/KeysAndCodes_Physics.csv")
+  read_csv("Data/PPIESFall2022PrePostABC.csv", col_types=colPrePostABC)
+ppKeys <- readr::read_csv("Instruments/KeysAndCodes_Physics.csv")
+source("Data/BAMetadata.R")
+BAdata <- 
+  read_csv("Data/BAdata.csv",   col_types=colBAdata)
 ```
+Questions ANQ12, 13 and 14 were included erroneously on ect posttest.
+Remove them.
+
+```{r}
+PrePostABC <- select(PrePostABC,!matches("A-NQ1[2-4](_scored)?.ect"))
+grep("A-NQ[0-9]+.ect",names(PrePostABC),value=TRUE)
+```
+
+
 
 ```{r}
 preraw <- select(PrePostABC,`A-NQ1`:`A-FQ14`)
+itemnames <- names(preraw)
 prescored <- select(PrePostABC,`A-NQ1_scored`:`A-FQ14_scored`)
+names(prescored) <- sub("_scored","",names(prescored))
+postraw <- select(PrePostABC,matches("A-.Q[0-9]+\\.(ect|pot)"))
+names(postraw) <- sub("\\.(ect|pot)","",names(postraw))
+postscored <- select(PrePostABC,matches("A-.Q[0-9]+\\_scored.(ect|pot)"))
+names(postscored) <- sub("_scored\\.(ect|pot)","",names(postscored))
 ```
+
+Before/After data is trickier as People got Form A or B for the pre/posttest.
+
+```{r}
+BAdataA <- BAdata[BAdata$Pre_Form=="A",]
+BAdataB <- BAdata[BAdata$Pre_Form=="B",]
+```
+
+Now make naming conventions match.
+```{r}
+names(BAdataA)[30:43]<-paste("A-NQ",1:14,sep="")
+names(BAdataB)[30:43]<-paste("B-NQ",1:14,sep="")
+names(BAdataA)[44:57]<-paste("A-FQ",1:14,sep="")
+names(BAdataB)[44:57]<-paste("B-FQ",1:14,sep="")
+names(BAdataA)[58:71]<-paste("B-NQ",1:14,sep="")
+names(BAdataB)[58:71]<-paste("A-NQ",1:14,sep="")
+names(BAdataA)[72:85]<-paste("B-FQ",1:14,sep="")
+names(BAdataB)[72:85]<-paste("A-FQ",1:14,sep="")
+```
+
+Repackage into Form A and Form B (lumping pre- and posttest together).
+
+```{r}
+formA <- rbind(select(BAdataA,Pre_Form,starts_with("A-")),
+               select(BAdataB,Pre_Form,starts_with("A-")))
+formB <- rbind(select(BAdataA,Pre_Form,starts_with("B-")),
+               select(BAdataB,Pre_Form,starts_with("B-")))
+```
+
+Finally, split out form A and B keys (also covert to upper as used in raw data).
+
+```{r}
+formAkeys <- toupper(ppKeys$Key[ppKeys$Form=="A"])
+formBkeys <- toupper(ppKeys$Key[ppKeys$Form=="B"])
+```
+
 
 ## Pretest Item Analysis
 
 ```{r}
-knitr::kable(ItemAnalysis(prescored)[,c("Difficulty","SD","RIR","RIT","ULI","Alpha.drop")],digits=3)
+prealpha <- psych::alpha(prescored)
+postalpha <- psych::alpha(postscored)
+formAalpha <- psych::alpha(formA[,-1])
+formBalpha <- psych::alpha(formB[,-1])
 ```
 
+### Reliabilities
+
+Cronbach's alpha for the various forms.
+
 ```{r}
+cat("Timing Study Form A", round(formAalpha$total[[2]],3),"\n")
+cat("Timing Study Form B", round(formBalpha$total[[2]],3),"\n")
+cat("Efficacy Study Pretest", round(prealpha$total[[2]],3),"\n")
+cat("Efficacy Study Posttest", round(postalpha$total[[2]],3),"\n")
+```
+## Efficacy Pretest Difficulties and Discriminations
+
+```{r}
+#| fig-cap: "Item summaries Efficacy Study Pretest"
 DDplot(prescored)
 ```
 
+## Efficacy Posttest Difficulties and Discriminations
+
 ```{r}
-da <- DistractorAnalysis(preraw,toupper(ppKeys$Key[ppKeys$Form=="A"]),num.groups = 6)
+#| fig-cap: "Item summaries Efficacy Study Posttest"
+DDplot(postscored)
 ```
+
+## Timing Study Form A Difficulties and Discriminations
+
+```{r}
+#| fig-cap: "Item summaries Timing Study Form A (Pre+Post)"
+DDplot(formA[,-1])
+```
+
+## Timing Study Form B Difficulties and Discriminations
+
+```{r}
+#| fig-cap: "Item summaries Timing Study Form B (Pre+Post)"
+DDplot(formB[,-1])
+```
+
+
+## Item by Item
+
+```{r}
+itemStats <- function (iname) {
+  res <- rbind(pretest=prealpha$item.stats[iname,c(1,4,6,7)],
+               posttest=postalpha$item.stats[iname,c(1,4,6,7)],
+               formA=formAalpha$item.stats[iname,c(1,4,6,7)])
+  cbind(res,alpha.drop=c(prealpha$alpha.drop[iname,2],
+                         postalpha$alpha.drop[iname,2],
+                         formAalpha$alpha.drop[iname,2]))
+}                         
+istats <- map(names(prescored),itemStats)
+names(istats) <- names(prescored)
+```
+
+
+```{r}
+da <- DistractorAnalysis(preraw,formAkeys,num.groups = 6)
+pda <- function(item) plotDistractorAnalysis(preraw,formAkeys,num.groups=6,
+                                             item=item)[[1]]
+```
+
+
 ### Distractor Analysis ECT Near
 
-```{r}
-plotDistractorAnalysis(preraw,toupper(ppKeys$Key[ppKeys$Form=="A"]),
-                        item=1,num.groups = 6)
-da[1]
-```
+::: {.panel-tabset}
+
+### A-NQ1
 
 ```{r}
-plotDistractorAnalysis(preraw,toupper(ppKeys$Key[ppKeys$Form=="A"]),
-                        item=2,num.groups = 6)
-da[2]
+#| tbl-subcap: 
+#|  - "Item Analysis"
+#|  - "Counts"
+#| layout-ncol: 2
+item <- "A-NQ1"
+knitr::kable(istats[[item]],digits=2)
+knitr::kable(da[[item]])
 ```
+```{r}
+pda(item)
+```
+
+### A-NQ2
 
 ```{r}
-plotDistractorAnalysis(preraw,toupper(ppKeys$Key[ppKeys$Form=="A"]),
-                        item=3,num.groups = 6)
-da[3]
+#| tbl-subcap: 
+#|  - "Item Analysis"
+#|  - "Counts"
+#| layout-ncol: 2
+item <- "A-NQ2"
+knitr::kable(istats[[item]],digits=2)
+knitr::kable(da[[item]])
 ```
+```{r}
+pda(item)
+```
+### A-NQ3
 
 ```{r}
-plotDistractorAnalysis(preraw,toupper(ppKeys$Key[ppKeys$Form=="A"]),
-                        item=4,num.groups = 6)
-da[4]
+#| tbl-subcap: 
+#|  - "Item Analysis"
+#|  - "Counts"
+#| layout-ncol: 2
+item <- "A-NQ3"
+knitr::kable(istats[[item]],digits=2)
+knitr::kable(da[[item]])
 ```
+```{r}
+pda(item)
+```
+### A-NQ4
 
 ```{r}
-plotDistractorAnalysis(preraw,toupper(ppKeys$Key[ppKeys$Form=="A"]),
-                        item=5,num.groups = 6)
-da[5]
+#| tbl-subcap: 
+#|  - "Item Analysis"
+#|  - "Counts"
+#| layout-ncol: 2
+item <- "A-NQ4"
+knitr::kable(istats[[item]],digits=2)
+knitr::kable(da[[item]])
 ```
+```{r}
+pda(item)
+```
+### A-NQ5
 
 ```{r}
-plotDistractorAnalysis(preraw,toupper(ppKeys$Key[ppKeys$Form=="A"]),
-                        item=6,num.groups = 6)
-da[6]
+#| tbl-subcap: 
+#|  - "Item Analysis"
+#|  - "Counts"
+#| layout-ncol: 2
+item <- "A-NQ5"
+knitr::kable(istats[[item]],digits=2)
+knitr::kable(da[[item]])
 ```
+```{r}
+pda(item)
+```
+### A-NQ6
 
 ```{r}
-plotDistractorAnalysis(preraw,toupper(ppKeys$Key[ppKeys$Form=="A"]),
-                        item=7,num.groups = 6)
-da[7]
+#| tbl-subcap: 
+#|  - "Item Analysis"
+#|  - "Counts"
+#| layout-ncol: 2
+item <- "A-NQ7"
+knitr::kable(istats[[item]],digits=2)
+knitr::kable(da[[item]])
 ```
+```{r}
+pda(item)
+```
+### A-NQ6
 
 ```{r}
-plotDistractorAnalysis(preraw,toupper(ppKeys$Key[ppKeys$Form=="A"]),
-                        item=8,num.groups = 6)
-da[8]
+#| tbl-subcap: 
+#|  - "Item Analysis"
+#|  - "Counts"
+#| layout-ncol: 2
+item <- "A-NQ7"
+knitr::kable(istats[[item]],digits=2)
+knitr::kable(da[[item]])
+```
+```{r}
+pda(item)
 ```
 
-### Distractor analysis POT Near
+### A-NQ7
 
 ```{r}
-plotDistractorAnalysis(preraw,toupper(ppKeys$Key[ppKeys$Form=="A"]),
-                        item=9,num.groups = 6)
-da[9]
+#| tbl-subcap: 
+#|  - "Item Analysis"
+#|  - "Counts"
+#| layout-ncol: 2
+item <- "A-NQ7"
+knitr::kable(istats[[item]],digits=2)
+knitr::kable(da[[item]])
 ```
+```{r}
+pda(item)
+```
+:::
+
+### Distractor Analysis POT Near
+
+::: {.panel-tabset}
+
+### A-NQ9
 
 ```{r}
-plotDistractorAnalysis(preraw,toupper(ppKeys$Key[ppKeys$Form=="A"]),
-                        item=10,num.groups = 6)
-da[10]
+#| tbl-subcap: 
+#|  - "Item Analysis"
+#|  - "Counts"
+#| layout-ncol: 2
+item <- "A-NQ9"
+knitr::kable(istats[[item]],digits=2)
+knitr::kable(da[[item]])
 ```
+```{r}
+pda(item)
+```
+### A-NQ10
 
 ```{r}
-plotDistractorAnalysis(preraw,toupper(ppKeys$Key[ppKeys$Form=="A"]),
-                        item=11,num.groups = 6)
-da[11]
+#| tbl-subcap: 
+#|  - "Item Analysis"
+#|  - "Counts"
+#| layout-ncol: 2
+item <- "A-NQ10"
+knitr::kable(istats[[item]],digits=2)
+knitr::kable(da[[item]])
+```
+```{r}
+pda(item)
 ```
 
-```{r}
-plotDistractorAnalysis(preraw,toupper(ppKeys$Key[ppKeys$Form=="A"]),
-                        item=12,num.groups = 6)
-da[12]
-```
+### A-NQ11
 
 ```{r}
-plotDistractorAnalysis(preraw,toupper(ppKeys$Key[ppKeys$Form=="A"]),
-                        item=13,num.groups = 6)
-da[13]
+#| tbl-subcap: 
+#|  - "Item Analysis"
+#|  - "Counts"
+#| layout-ncol: 2
+item <- "A-NQ11"
+knitr::kable(istats[[item]],digits=2)
+knitr::kable(da[[item]])
+```
+```{r}
+pda(item)
 ```
 
+### A-NQ12
+
 ```{r}
-plotDistractorAnalysis(preraw,toupper(ppKeys$Key[ppKeys$Form=="A"]),
-                        item=14,num.groups = 6)
-da[14]
+#| tbl-subcap: 
+#|  - "Item Analysis"
+#|  - "Counts"
+#| layout-ncol: 2
+item <- "A-NQ12"
+knitr::kable(istats[[item]],digits=2)
+knitr::kable(da[[item]])
 ```
+```{r}
+pda(item)
+```
+
+### A-NQ13
+
+```{r}
+#| tbl-subcap: 
+#|  - "Item Analysis"
+#|  - "Counts"
+#| layout-ncol: 2
+item <- "A-NQ13"
+knitr::kable(istats[[item]],digits=2)
+knitr::kable(da[[item]])
+```
+```{r}
+pda(item)
+```
+
+### A-NQ14
+
+```{r}
+#| tbl-subcap: 
+#|  - "Item Analysis"
+#|  - "Counts"
+#| layout-ncol: 2
+item <- "A-NQ14"
+knitr::kable(istats[[item]],digits=2)
+knitr::kable(da[[item]])
+```
+```{r}
+pda(item)
+```
+
+:::
+
+
+
 ### Distractor Analysis ECT Far
 
-```{r}
-plotDistractorAnalysis(preraw,toupper(ppKeys$Key[ppKeys$Form=="A"]),
-                        item=1+14,num.groups = 6)
-da[15]
-```
+::: {.panel-tabset}
+
+### A-FQ1
 
 ```{r}
-plotDistractorAnalysis(preraw,toupper(ppKeys$Key[ppKeys$Form=="A"]),
-                        item=2+14,num.groups = 6)
-da[16]
+#| tbl-subcap: 
+#|  - "Item Analysis"
+#|  - "Counts"
+#| layout-ncol: 2
+item <- "A-FQ1"
+knitr::kable(istats[[item]],digits=2)
+knitr::kable(da[[item]])
 ```
+```{r}
+pda(item)
+```
+
+### A-FQ2
 
 ```{r}
-plotDistractorAnalysis(preraw,toupper(ppKeys$Key[ppKeys$Form=="A"]),
-                        item=3+14,num.groups = 6)
+#| tbl-subcap: 
+#|  - "Item Analysis"
+#|  - "Counts"
+#| layout-ncol: 2
+item <- "A-FQ2"
+knitr::kable(istats[[item]],digits=2)
+knitr::kable(da[[item]])
 ```
+```{r}
+pda(item)
+```
+### A-FQ3
 
 ```{r}
-plotDistractorAnalysis(preraw,toupper(ppKeys$Key[ppKeys$Form=="A"]),
-                        item=4+14,num.groups = 6)
+#| tbl-subcap: 
+#|  - "Item Analysis"
+#|  - "Counts"
+#| layout-ncol: 2
+item <- "A-FQ3"
+knitr::kable(istats[[item]],digits=2)
+knitr::kable(da[[item]])
 ```
+```{r}
+pda(item)
+```
+### A-FQ4
 
 ```{r}
-plotDistractorAnalysis(preraw,toupper(ppKeys$Key[ppKeys$Form=="A"]),
-                        item=5+14,num.groups = 6)
+#| tbl-subcap: 
+#|  - "Item Analysis"
+#|  - "Counts"
+#| layout-ncol: 2
+item <- "A-FQ4"
+knitr::kable(istats[[item]],digits=2)
+knitr::kable(da[[item]])
 ```
+```{r}
+pda(item)
+```
+### A-FQ5
 
 ```{r}
-plotDistractorAnalysis(preraw,toupper(ppKeys$Key[ppKeys$Form=="A"]),
-                        item=6+14,num.groups = 6)
+#| tbl-subcap: 
+#|  - "Item Analysis"
+#|  - "Counts"
+#| layout-ncol: 2
+item <- "A-FQ5"
+knitr::kable(istats[[item]],digits=2)
+knitr::kable(da[[item]])
 ```
+```{r}
+pda(item)
+```
+### A-FQ6
 
 ```{r}
-plotDistractorAnalysis(preraw,toupper(ppKeys$Key[ppKeys$Form=="A"]),
-                        item=7+14,num.groups = 6)
+#| tbl-subcap: 
+#|  - "Item Analysis"
+#|  - "Counts"
+#| layout-ncol: 2
+item <- "A-FQ6"
+knitr::kable(istats[[item]],digits=2)
+knitr::kable(da[[item]])
 ```
+```{r}
+pda(item)
+```
+### A-FQ7
 
 ```{r}
-plotDistractorAnalysis(preraw,toupper(ppKeys$Key[ppKeys$Form=="A"]),
-                        item=8+14,num.groups = 6)
+#| tbl-subcap: 
+#|  - "Item Analysis"
+#|  - "Counts"
+#| layout-ncol: 2
+item <- "A-FQ7"
+knitr::kable(istats[[item]],digits=2)
+knitr::kable(da[[item]])
+```
+```{r}
+pda(item)
 ```
 
-### Distractor analysis POT Far
+### A-FQ8
 
 ```{r}
-plotDistractorAnalysis(preraw,toupper(ppKeys$Key[ppKeys$Form=="A"]),
-                        item=9+14,num.groups = 6)
+#| tbl-subcap: 
+#|  - "Item Analysis"
+#|  - "Counts"
+#| layout-ncol: 2
+item <- "A-FQ8"
+knitr::kable(istats[[item]],digits=2)
+knitr::kable(da[[item]])
 ```
+```{r}
+pda(item)
+```
+:::
+
+### Distractor Analysis POT Far
+
+::: {.panel-tabset}
+
+### A-FQ9
 
 ```{r}
-plotDistractorAnalysis(preraw,toupper(ppKeys$Key[ppKeys$Form=="A"]),
-                        item=10+14,num.groups = 6)
+#| tbl-subcap: 
+#|  - "Item Analysis"
+#|  - "Counts"
+#| layout-ncol: 2
+item <- "A-FQ9"
+knitr::kable(istats[[item]],digits=2)
+knitr::kable(da[[item]])
 ```
+```{r}
+pda(item)
+```
+### A-FQ10
 
 ```{r}
-plotDistractorAnalysis(preraw,toupper(ppKeys$Key[ppKeys$Form=="A"]),
-                        item=11+14,num.groups = 6)
+#| tbl-subcap: 
+#|  - "Item Analysis"
+#|  - "Counts"
+#| layout-ncol: 2
+item <- "A-FQ10"
+knitr::kable(istats[[item]],digits=2)
+knitr::kable(da[[item]])
+```
+```{r}
+pda(item)
 ```
 
-```{r}
-plotDistractorAnalysis(preraw,toupper(ppKeys$Key[ppKeys$Form=="A"]),
-                        item=12+14,num.groups = 6)
-```
+### A-FQ11
 
 ```{r}
-plotDistractorAnalysis(preraw,toupper(ppKeys$Key[ppKeys$Form=="A"]),
-                        item=13+14,num.groups = 6)
+#| tbl-subcap: 
+#|  - "Item Analysis"
+#|  - "Counts"
+#| layout-ncol: 2
+item <- "A-FQ11"
+knitr::kable(istats[[item]],digits=2)
+knitr::kable(da[[item]])
+```
+```{r}
+pda(item)
 ```
 
+### A-FQ12
+
 ```{r}
-plotDistractorAnalysis(preraw,toupper(ppKeys$Key[ppKeys$Form=="A"]),
-                        item=14+14,num.groups = 6)
+#| tbl-subcap: 
+#|  - "Item Analysis"
+#|  - "Counts"
+#| layout-ncol: 2
+item <- "A-FQ12"
+knitr::kable(istats[[item]],digits=2)
+knitr::kable(da[[item]])
 ```
+```{r}
+pda(item)
+```
+
+### A-FQ13
+
+```{r}
+#| tbl-subcap: 
+#|  - "Item Analysis"
+#|  - "Counts"
+#| layout-ncol: 2
+item <- "A-FQ13"
+knitr::kable(istats[[item]],digits=2)
+knitr::kable(da[[item]])
+```
+```{r}
+pda(item)
+```
+
+### A-FQ14
+
+```{r}
+#| tbl-subcap: 
+#|  - "Item Analysis"
+#|  - "Counts"
+#| layout-ncol: 2
+item <- "A-FQ14"
+knitr::kable(istats[[item]],digits=2)
+knitr::kable(da[[item]])
+```
+```{r}
+pda(item)
+```
+
+:::
+

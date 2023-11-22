@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.3.433">
+<meta name="generator" content="quarto-1.3.450">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -19,6 +19,40 @@ ul.task-list li input[type="checkbox"] {
   width: 0.8em;
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 </style>
 
@@ -284,7 +318,15 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#data-from-the-support-timing-study" id="toc-data-from-the-support-timing-study" class="nav-link active" data-scroll-target="#data-from-the-support-timing-study">Data from the Support Timing Study</a></li>
+  <li><a href="#data-from-the-support-timing-study" id="toc-data-from-the-support-timing-study" class="nav-link active" data-scroll-target="#data-from-the-support-timing-study">Data from the Support Timing Study</a>
+  <ul class="collapse">
+  <li><a href="#ids-and-study-conditions" id="toc-ids-and-study-conditions" class="nav-link" data-scroll-target="#ids-and-study-conditions">IDs and Study Conditions</a></li>
+  <li><a href="#demographic-variables" id="toc-demographic-variables" class="nav-link" data-scroll-target="#demographic-variables">Demographic Variables</a></li>
+  <li><a href="#pretestposttest" id="toc-pretestposttest" class="nav-link" data-scroll-target="#pretestposttest">Pretest/Posttest</a></li>
+  <li><a href="#imi-questionnaire" id="toc-imi-questionnaire" class="nav-link" data-scroll-target="#imi-questionnaire">IMI Questionnaire</a></li>
+  <li><a href="#pretestpostest-scored-responses" id="toc-pretestpostest-scored-responses" class="nav-link" data-scroll-target="#pretestpostest-scored-responses">Pretest/Postest Scored Responses</a></li>
+  <li><a href="#game-and-learning-support-summaries" id="toc-game-and-learning-support-summaries" class="nav-link" data-scroll-target="#game-and-learning-support-summaries">Game and learning support summaries</a></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
@@ -310,8 +352,107 @@ ul.task-list li input[type="checkbox"] {
 
 <section id="data-from-the-support-timing-study" class="level1">
 <h1>Data from the Support Timing Study</h1>
+<p>This study was referred to as the “Before/After” study by the project team, as the principle conditions were supports before or supports after the levels.</p>
+<p>The data are available in the following file:</p>
+<p><a href="Data/BAdata.csv">Timing Support Data (CSV format)</a></p>
+<p>Metadata are available using the <a href="https://readr.tidyverse.org/">readr</a> <code>cols</code> format in this <a href="Data/BAMetadata.R">R metadata Before/After script</a>.</p>
+<p>The following steps will load the file using the metadata in R.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(readr)</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="fu">source</span>(<span class="st">"https://pluto.coe.fsu.edu/PhysicsDataPlayground/Data/BAMetadata.R"</span>)</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>PPIESBAdata <span class="ot">&lt;-</span> </span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">read_csv</span>(<span class="st">"https://pluto.coe.fsu.edu/PhysicsDataPlayground/Data/BAdata.csv"</span>,</span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>           <span class="at">col_types=</span>colBAdata)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<section id="ids-and-study-conditions" class="level2">
+<h2 class="anchored" data-anchor-id="ids-and-study-conditions">IDs and Study Conditions</h2>
+<ul>
+<li><code>UID</code>, <code>uid.x</code>, <code>uid.y</code> – Subject idenfiers identical except for three missing values.</li>
+<li><code>Source</code>, <code>Cohort</code> – The sample from which the subject was drawn: Values are <code>After School</code>, <code>DCSD</code>, <code>FSUS</code>, <code>HCR</code>, <code>Summer Camp</code></li>
+<li><code>Consent</code>, <code>Assent</code> – 1 if assent from student and consent from parents was received. (Note, all records with 0’s in either column were removed.)</li>
+<li><code>Condition</code></li>
+<li><code>CounterBalance</code></li>
+<li><code>Pre_Form</code>, <code>Post_Form</code></li>
+</ul>
+</section>
+<section id="demographic-variables" class="level2">
+<h2 class="anchored" data-anchor-id="demographic-variables">Demographic Variables</h2>
+<ul>
+<li><code>Age</code></li>
+<li><code>Sex</code></li>
+<li><code>Ethnicity</code></li>
+<li><code>Gaming</code></li>
+<li><code>Physics</code></li>
+</ul>
+</section>
+<section id="pretestposttest" class="level2">
+<h2 class="anchored" data-anchor-id="pretestposttest">Pretest/Posttest</h2>
+<ul>
+<li><code>Pre_Dur</code>, <code>Post_Dur</code></li>
+<li><code>Pre_Near</code>, <code>Post_Near</code></li>
+<li><code>Pre_Far</code>, <code>Post_Far</code></li>
+<li><code>Pre_Total</code>, <code>Post_Total</code></li>
+<li><code>Gain</code>, <code>Gain_Near</code>, <code>Gain_Far</code></li>
+</ul>
+</section>
+<section id="imi-questionnaire" class="level2">
+<h2 class="anchored" data-anchor-id="imi-questionnaire">IMI Questionnaire</h2>
+<ul>
+<li><code>Enjoy</code></li>
+<li><code>Competence</code></li>
+<li><code>Effort</code></li>
+<li><code>Frustation</code>, <code>LackOfFrustration</code> – Frustration and reversed Frustration scale.</li>
+<li><code>Value</code></li>
+<li><code>Survey_Missing</code> – 1 for (3) student who did not respond to IMI questionnaire</li>
+</ul>
+</section>
+<section id="pretestpostest-scored-responses" class="level2">
+<h2 class="anchored" data-anchor-id="pretestpostest-scored-responses">Pretest/Postest Scored Responses</h2>
+<ul>
+<li><p>Pretest Near Transfer ECT: <code>pre_NQ1_ect.lever</code>, <code>pre_NQ2_ect.lever</code>, <code>pre_NQ3_ect.pendulum</code>, <code>pre_NQ4_ect.pendulum</code>, <code>pre_NQ5_ect.ramp</code>, <code>pre_NQ6_ect.ramp</code>, <code>pre_NQ7_ect.springboard</code>, <code>pre_NQ8_ect.springboard</code></p></li>
+<li><p>Pretest Near Transfer POT: <code>pre_NQ9_pot.lever.distance</code>, <code>pre_NQ10_pot.lever.distance</code>, <code>pre_NQ11_pot.lever.mass</code>, <code>pre_NQ12_pot.lever.mass</code>, <code>pre_NQ13_pot.springboard</code>, <code>pre_NQ14_pot.springboard</code></p></li>
+<li><p>Pretest Far Transfer ECT: <code>pre_FQ1_ect.lever</code>, <code>pre_FQ2_ect.lever</code>, <code>pre_FQ3_ect.pendulum</code>, <code>pre_FQ4_ect.pendulum</code>, <code>pre_FQ5_ect.ramp</code>, <code>pre_FQ6_ect.ramp</code>, <code>pre_FQ7_ect.springboard</code>, <code>pre_FQ8_ect.springboard</code></p></li>
+<li><p>Pretest Far Transfer POT: <code>pre_FQ9_pot.lever.distance</code>, <code>pre_FQ10_pot.lever.distance</code>, <code>pre_FQ11_pot.lever.mass</code>, <code>pre_FQ12_pot.lever.mass</code>, <code>pre_FQ13_pot.springboard</code>, <code>pre_FQ14_pot.springboard</code></p></li>
+<li><p>Posttest Near Transfer ECT: <code>post_NQ1_ect.lever</code>, <code>post_NQ2_ect.lever</code>, <code>post_NQ3_ect.pendulum</code>, <code>post_NQ4_ect.pendulum</code>, <code>post_NQ5_ect.ramp</code>, <code>post_NQ6_ect.ramp</code>, <code>post_NQ7_ect.springboard</code>, <code>post_NQ8_ect.springboard</code></p></li>
+<li><p>Posttest Near Transfer POT: <code>post_NQ9_pot.lever.distance</code>, <code>post_NQ10_pot.lever.distance</code>, <code>post_NQ11_pot.lever.mass</code>, <code>post_NQ12_pot.lever.mass</code>, <code>post_NQ13_pot.springboard</code>, <code>post_NQ14_pot.springboard</code></p></li>
+<li><p>Posttest Far Transfer ECT: <code>post_FQ1_ect.lever</code>, <code>post_FQ2_ect.lever</code>, <code>post_FQ3_ect.pendulum</code>, <code>post_FQ4_ect.pendulum</code>, <code>post_FQ5_ect.ramp</code>, <code>post_FQ6_ect.ramp</code>, <code>post_FQ7_ect.springboard</code>, <code>post_FQ8_ect.springboard</code></p></li>
+<li><p>Posttest Far Transfer POT: <code>post_FQ9_pot.lever.distance</code>, <code>post_FQ10_pot.lever.distance</code>, <code>post_FQ11_pot.lever.mass</code>, <code>post_FQ12_pot.lever.mass</code>, <code>post_FQ13_pot.springboard</code>, <code>post_FQ14_pot.springboard</code></p></li>
+<li><p><code>Pre_Missing</code>, <code>Post_Missing</code> Is pretest or posttest missing. (Note, subject with zero in either value were removed from sample.)</p></li>
+</ul>
+</section>
+<section id="game-and-learning-support-summaries" class="level2">
+<h2 class="anchored" data-anchor-id="game-and-learning-support-summaries">Game and learning support summaries</h2>
+<ul>
+<li><p><code>n_levels_visited</code>, <code>levels_visited</code>,</p></li>
+<li><p><code>n_gold</code>, <code>n_silver</code>, <code>n_unsolved</code></p></li>
+<li><p><code>mean_level_duration</code></p></li>
+<li><p><code>n_gold</code>, <code>n_silver</code>, <code>n_unsolved</code></p></li>
+<li><p><code>mean_money_earned</code>,</p></li>
+<li><p><code>n_ls_viewed</code></p></li>
+<li><p><code>mean_PA_duration</code>,</p></li>
+<li><p><code>n_PA_spgbrd</code>, <code>n_PA_lever</code>, <code>n_PA_ramp</code>, <code>n_PA_pendulum</code>,</p></li>
+<li><p><code>n_hints</code>, <code>n_game_tools</code>,</p></li>
+<li><p><code>n_ramps_drawn</code>, <code>n_levers_drawn</code>, <code>n_spgbrd_drawn</code>, <code>n_pendulum_drawn</code>, <code>n_weights_drawn</code>, <code>n_freeform_drawn</code>, <code>n_pins_drawn</code>,</p></li>
+<li><p><code>PA_ECT_ramp_sum</code>, <code>PA_ECT_pen_sum</code>, <code>PA_ECT_sp_sum</code>, <code>PA_ECT_lever_sum</code>, <code>PA_POT_sp_sum</code>, <code>PA_POT_lever_distance_sum</code>, <code>PA_POT_lever_mass_sum</code></p></li>
+<li><p><code>SevenPVs</code>, <code>PVs_total</code></p></li>
+<li><p><code>n_coins</code>, <code>coin_score</code></p></li>
+<li><p><code>n_pa</code>, <code>n_otherSupports</code></p></li>
+<li><p><code>solutionRate</code></p></li>
+<li><p><code>n_unique_level_attempts</code>,</p></li>
+<li><p><code>level_duration_trim_sum_min</code>, <code>level_duration_trim_mn</code>,</p></li>
+<li><p><code>level_badge_number</code>,</p></li>
+<li><p><code>level_agents_count</code>,</p></li>
+<li><p><code>focal_agent_drawn_bin_mn</code>,</p></li>
+<li><p><code>nextLevelSuccess</code>,</p></li>
+<li><p><code>agentUsedNextLevel</code>,</p></li>
+<li><p><code>sucsess_rate</code>, <code>Pre_Missing</code><br>
+</p></li>
+<li><p><code>coinsByunsolved</code></p></li>
+<li><p><code>Game_Missing</code> – 1 for three students who lack game data.</p></li>
+</ul>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->
