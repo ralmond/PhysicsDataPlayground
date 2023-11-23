@@ -233,21 +233,7 @@ pda(item)
 #|  - "Item Analysis"
 #|  - "Counts"
 #| layout-ncol: 2
-item <- "A-NQ7"
-knitr::kable(istats[[item]],digits=2)
-knitr::kable(da[[item]])
-```
-```{r}
-pda(item)
-```
-### A-NQ6
-
-```{r}
-#| tbl-subcap: 
-#|  - "Item Analysis"
-#|  - "Counts"
-#| layout-ncol: 2
-item <- "A-NQ7"
+item <- "A-NQ6"
 knitr::kable(istats[[item]],digits=2)
 knitr::kable(da[[item]])
 ```
