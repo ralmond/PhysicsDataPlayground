@@ -5,12 +5,15 @@ format:
     code-fold: true
 ---
 
+# Initial Preparation
+
 ## Load the Pre/post data
 
 ```{r load}
 #| warning: false
 #| message: false
 library(tidyverse)
+library(lme4)
 source("Data/AllMetadata.R")
 PPIESFall2022 <- 
   read_csv("Data/PPIESFall2022Full.csv",
@@ -57,7 +60,7 @@ PPIESFall2022 %>%
   PPIESFall2022
 ```
 
-# Was there learning gains?
+# Were there learning gains?
 
 ```{r}
 n.POTgain <- sum(!is.na(PPIESFall2022$POTgain))
@@ -130,6 +133,20 @@ cat("R-squared: ",round(summary(ECTlm)$r.squared, 3),
 ECT is pretest.
 Affective supports are significant, but in the wrong direction.
 
+### Random Effects
+
+Add classroom as a random effect, as there is a considerable age, and scientific
+and mathematical sophistication differences.
+
+```{r}
+ECTlmer <- lmer(ECTpost ~ ECT+CognitiveSupports+AffectiveECT + (1|Class),
+              data=PPIESFall2022, na.action=na.omit)
+summary(ECTlmer)
+ECTcter <- cbind(coef(summary(ECTlmer)),d=fixef(ECTlmer)/summary(ECTlmer)$sigma)
+round(ECTcter,3)
+```
+
+
 ## POT
 
 ```{r}
@@ -143,7 +160,18 @@ cat("R-squared: ",round(summary(POTlm)$r.squared, 3),
 ```
 
 No significant effects of supports.
+### Random Effects
 
+Add classroom as a random effect, as there is a considerable age, and scientific
+and mathematical sophistication differences.
+
+```{r}
+POTlmer <- lmer(POTpost ~ POT+CognitiveSupports+AffectivePOT + (1|Class),
+              data=PPIESFall2022, na.action=na.omit)
+summary(POTlmer)
+POTcter <- cbind(coef(summary(POTlmer)),d=fixef(POTlmer)/summary(POTlmer)$sigma)
+round(POTcter,3)
+```
 ## Notes from the data collection
 
 1. General energy and excitement was high, so probably no need for affective supports.

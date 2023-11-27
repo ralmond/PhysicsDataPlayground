@@ -8,6 +8,10 @@ colPrePost <- cols(
   CognitiveSupports = col_logical(),
   AffectiveECT = col_logical(),
   AffectivePOT = col_logical(),
+  Class = col_factor(levels = c("class0", "class1", "class10", "class11", "class12", "class13", 
+    "class14", "class15", "class16", "class17", "class18", "class2", 
+    "class3", "class4", "class5", "class6", "class7", "class8", "class9"
+    ), ordered = FALSE, include_na = FALSE),
   Progress = col_number(),
   `Duration (in seconds)` = col_number(),
   Finished = col_number(),

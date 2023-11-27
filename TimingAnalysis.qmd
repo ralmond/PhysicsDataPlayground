@@ -1,0 +1,152 @@
+---
+title: "Support Timing Study"
+---
+
+
+```{r}
+library(tidyverse)
+library(lme4)
+library(psych)
+```
+
+```{r}
+source("Data/BAMetadata.R")
+BAdata <- 
+  read_csv("Data/BAdata.csv",
+           col_types=colBAdata)
+```
+
+Center the pretest as we are going to use it as a covariate and that will make our 
+life easier.
+
+```{r}
+BAdata$pre <- scale(BAdata$Pre_Total)
+summary(BAdata$pre)
+```
+
+
+## Number of levels
+```{r}
+summary(BAdata$n_levels_visited)
+select(BAdata,all_of(c("Condition","n_levels_visited"))) |> na.omit() |>
+       group_by(Condition) |> 
+       summarize(M=mean(n_levels_visited),SD=sd(n_levels_visited))
+                                        
+```
+
+```{r}
+lmLevels <- lmer(n_levels_visited ~ Condition + pre + (1 |Source),
+               data=BAdata, na.action=na.omit)
+summary(lmLevels)
+```
+
+Calculate effects
+```{r}
+coLevels <- summary(lmLevels)$coef[1:3,1:2]
+coLevels[2:3,1] <- coLevels[2:3,1] + coLevels[1,1]
+coLevels[2:3,2] <- sqrt(coLevels[2:3,2]^2 + coLevels[1,2]^2)
+knitr::kable(coLevels,digits=2)
+```
+## Average Duration
+
+```{r}
+summary(BAdata$mean_level_duration)
+select(BAdata,all_of(c("Condition","mean_level_duration"))) |> na.omit() |>
+       group_by(Condition) |> 
+       summarize(M=mean(mean_level_duration),SD=sd(mean_level_duration))
+                                        
+```
+
+There appears to be a fairly large outlier.  Lets use a trimmed mean
+
+```{r}
+summary(BAdata$level_duration_trim_mn)
+select(BAdata,all_of(c("Condition","level_duration_trim_mn"))) |> na.omit() |>
+       group_by(Condition) |> 
+       summarize(M=mean(level_duration_trim_mn),SD=sd(level_duration_trim_mn))
+                                        
+```
+
+```{r}
+lmDur <- lmer(level_duration_trim_mn ~ Condition + pre + (1|Source),
+               data=BAdata, na.action=na.omit)
+summary(lmDur)
+```
+
+Calculate effects
+```{r}
+coDur <- summary(lmDur)$coef[1:3,1:2]
+coDur[2:3,1] <- coDur[2:3,1] + coDur[1,1]
+coDur[2:3,2] <- sqrt(coDur[2:3,2]^2 + coDur[1,2]^2)
+knitr::kable(coDur,digits=2)
+```
+
+```{r}
+select(BAdata,all_of(c("Condition","mean_level_duration"))) |> na.omit() |>
+       group_by(Condition) |> 
+       summarize(M=mean(mean_level_duration),SD=sd(mean_level_duration))
+                                        
+```
+
+## Posttest
+
+```{r}
+summary(BAdata$Post_Total)
+select(BAdata,all_of(c("Condition","Post_Total"))) |> na.omit() |>
+       group_by(Condition) |> 
+       summarize(M=mean(Post_Total),SD=sd(Post_Total))
+                                        
+```
+```{r}
+lmPost <- lmer(Post_Total ~ Condition + pre + (1 | Source),
+               data=BAdata, na.action=na.omit)
+summary(lmPost)
+```
+
+Calculate effects
+```{r}
+coPost <- summary(lmPost)$coef[1:3,1:2]
+coPost[2:3,1] <- coPost[2:3,1] + coPost[1,1]
+coPost[2:3,2] <- sqrt(coPost[2:3,2]^2 + coPost[1,2]^2)
+knitr::kable(coPost,digits=2)
+```
+
+
+# Gain score
+
+```{r}
+summary(BAdata$Gain)
+Ngain <- sum(!is.na(BAdata$Gain))
+Mgain <- mean(BAdata$Gain,na.rm=TRUE)
+Sgain <- sd(BAdata$Gain,na.rm=TRUE)
+cat("M = ",round(Mgain,1), "(", round(Sgain,2), ")",
+    "t(",Ngain-1,") = ", round(Mgain/Sgain/sqrt(Ngain),2),
+    "d=",round(Mgain/Sgain,2),"\n")
+select(BAdata,all_of(c("Condition","Gain"))) |> na.omit() |>
+       group_by(Condition) |> 
+       summarize(M=mean(Gain),SD=sd(Gain))
+```
+```{r}
+summary(BAdata$Gain_Near)
+select(BAdata,all_of(c("Condition","Gain_Near"))) |> na.omit() |>
+       group_by(Condition) |> 
+       summarize(M=mean(Gain_Near),SD=sd(Gain_Near))
+```
+```{r}
+summary(BAdata$Gain_Far)
+select(BAdata,all_of(c("Condition","Gain_Far"))) |> na.omit() |>
+       group_by(Condition) |> 
+       summarize(M=mean(Gain_Far),SD=sd(Gain_Far))
+```
+
+```{r}
+lmGain <- lmer(Gain ~ Condition + (1 |Source),
+               data=BAdata, na.action=na.omit)
+summary(lmGain)
+```
+
+```{r}
+lmGain0 <- lmer(Gain ~ (1| Source),
+               data=BAdata, na.action=na.omit)
+summary(lmGain0)
+```
