@@ -451,24 +451,24 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <div class="sourceCode cell-code" id="cb7"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a>n.POTgain <span class="ot">&lt;-</span> <span class="fu">sum</span>(<span class="sc">!</span><span class="fu">is.na</span>(PPIESFall2022<span class="sc">$</span>POTgain))</span>
 <span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a>m.POTgain <span class="ot">&lt;-</span> <span class="fu">mean</span>(PPIESFall2022<span class="sc">$</span>POTgain,<span class="at">na.rm=</span><span class="cn">TRUE</span>)</span>
 <span id="cb7-3"><a href="#cb7-3" aria-hidden="true" tabindex="-1"></a>s.POTgain <span class="ot">&lt;-</span> <span class="fu">sd</span>(PPIESFall2022<span class="sc">$</span>POTgain,<span class="at">na.rm=</span><span class="cn">TRUE</span>)</span>
-<span id="cb7-4"><a href="#cb7-4" aria-hidden="true" tabindex="-1"></a>t.POTgain <span class="ot">&lt;-</span> m.POTgain<span class="sc">/</span>s.POTgain<span class="sc">/</span><span class="fu">sqrt</span>(s.POTgain)</span>
+<span id="cb7-4"><a href="#cb7-4" aria-hidden="true" tabindex="-1"></a>t.POTgain <span class="ot">&lt;-</span> m.POTgain<span class="sc">/</span>s.POTgain<span class="sc">/</span><span class="fu">sqrt</span>(n.POTgain)</span>
 <span id="cb7-5"><a href="#cb7-5" aria-hidden="true" tabindex="-1"></a><span class="fu">cat</span>(<span class="st">"Average POT gain "</span>,<span class="fu">round</span>(m.POTgain,<span class="dv">2</span>),<span class="st">"("</span>,<span class="fu">round</span>(s.POTgain,<span class="dv">3</span>),<span class="st">"); t("</span>,</span>
-<span id="cb7-6"><a href="#cb7-6" aria-hidden="true" tabindex="-1"></a>    n.POTgain,<span class="st">")="</span>,t.POTgain,<span class="st">"</span><span class="sc">\n</span><span class="st">"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb7-6"><a href="#cb7-6" aria-hidden="true" tabindex="-1"></a>    n.POTgain,<span class="st">")="</span>,t.POTgain,<span class="st">"d= "</span>,<span class="fu">round</span>(m.POTgain<span class="sc">/</span>s.POTgain,<span class="dv">2</span>),<span class="st">"</span><span class="sc">\n</span><span class="st">"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </details>
 <div class="cell-output cell-output-stdout">
-<pre><code>Average POT gain  0 ( 2.81 ); t( 242 )= -0.0008772412 </code></pre>
+<pre><code>Average POT gain  0 ( 2.81 ); t( 242 )= -9.452932e-05 d=  0 </code></pre>
 </div>
 <details>
 <summary>Code</summary>
 <div class="sourceCode cell-code" id="cb9"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a>n.ECTgain <span class="ot">&lt;-</span> <span class="fu">sum</span>(<span class="sc">!</span><span class="fu">is.na</span>(PPIESFall2022<span class="sc">$</span>ECTgain))</span>
 <span id="cb9-2"><a href="#cb9-2" aria-hidden="true" tabindex="-1"></a>m.ECTgain <span class="ot">&lt;-</span> <span class="fu">mean</span>(PPIESFall2022<span class="sc">$</span>ECTgain,<span class="at">na.rm=</span><span class="cn">TRUE</span>)</span>
 <span id="cb9-3"><a href="#cb9-3" aria-hidden="true" tabindex="-1"></a>s.ECTgain <span class="ot">&lt;-</span> <span class="fu">sd</span>(PPIESFall2022<span class="sc">$</span>ECTgain,<span class="at">na.rm=</span><span class="cn">TRUE</span>)</span>
-<span id="cb9-4"><a href="#cb9-4" aria-hidden="true" tabindex="-1"></a>t.ECTgain <span class="ot">&lt;-</span> m.ECTgain<span class="sc">/</span>s.ECTgain<span class="sc">/</span><span class="fu">sqrt</span>(s.ECTgain)</span>
+<span id="cb9-4"><a href="#cb9-4" aria-hidden="true" tabindex="-1"></a>t.ECTgain <span class="ot">&lt;-</span> m.ECTgain<span class="sc">/</span>s.ECTgain<span class="sc">/</span><span class="fu">sqrt</span>(n.ECTgain)</span>
 <span id="cb9-5"><a href="#cb9-5" aria-hidden="true" tabindex="-1"></a><span class="fu">cat</span>(<span class="st">"Average ECT gain "</span>,<span class="fu">round</span>(m.ECTgain,<span class="dv">2</span>),<span class="st">"("</span>,<span class="fu">round</span>(s.ECTgain,<span class="dv">3</span>),<span class="st">"); t("</span>,</span>
-<span id="cb9-6"><a href="#cb9-6" aria-hidden="true" tabindex="-1"></a>    n.ECTgain,<span class="st">")="</span>,t.ECTgain,<span class="st">"</span><span class="sc">\n</span><span class="st">"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb9-6"><a href="#cb9-6" aria-hidden="true" tabindex="-1"></a>    n.ECTgain,<span class="st">")="</span>,t.ECTgain,<span class="st">"d= "</span>,<span class="fu">round</span>(m.ECTgain<span class="sc">/</span>s.ECTgain,<span class="dv">2</span>),<span class="st">"</span><span class="sc">\n</span><span class="st">"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </details>
 <div class="cell-output cell-output-stdout">
-<pre><code>Average ECT gain  0.69 ( 2.39 ); t( 243 )= 0.18601 </code></pre>
+<pre><code>Average ECT gain  0.69 ( 2.39 ); t( 243 )= 0.01844695 d=  0.29 </code></pre>
 </div>
 </div>
 </section>
@@ -480,7 +480,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <details>
 <summary>Code</summary>
 <div class="sourceCode cell-code" id="cb11"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(PPIESFall2022,<span class="fu">aes</span>(<span class="at">x=</span>Condition,<span class="at">y=</span>ECTgain,<span class="at">color=</span>ECTcond)) <span class="sc">+</span></span>
-<span id="cb11-2"><a href="#cb11-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_violin</span>() <span class="sc">+</span><span class="fu">labs</span>(<span class="at">title=</span><span class="st">"ECT Gain scores"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb11-2"><a href="#cb11-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_boxplot</span>() <span class="sc">+</span><span class="fu">labs</span>(<span class="at">title=</span><span class="st">"ECT Gain scores"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </details>
 <div class="cell-output-display">
 <p><img src="EfficacyAnalysis_files/figure-html/unnamed-chunk-3-1.png" class="img-fluid" width="672"></p>
@@ -490,7 +490,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <details>
 <summary>Code</summary>
 <div class="sourceCode cell-code" id="cb12"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(PPIESFall2022,<span class="fu">aes</span>(<span class="at">x=</span>Condition,<span class="at">y=</span>NearECTgain,<span class="at">color=</span>ECTcond)) <span class="sc">+</span></span>
-<span id="cb12-2"><a href="#cb12-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_violin</span>() <span class="sc">+</span> <span class="fu">labs</span>(<span class="at">title=</span><span class="st">"ECT Near Transfer"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb12-2"><a href="#cb12-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_boxplot</span>() <span class="sc">+</span> <span class="fu">labs</span>(<span class="at">title=</span><span class="st">"ECT Near Transfer"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </details>
 <div class="cell-output-display">
 <p><img src="EfficacyAnalysis_files/figure-html/unnamed-chunk-4-1.png" class="img-fluid" width="672"></p>
@@ -500,7 +500,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <details>
 <summary>Code</summary>
 <div class="sourceCode cell-code" id="cb13"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb13-1"><a href="#cb13-1" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(PPIESFall2022,<span class="fu">aes</span>(<span class="at">x=</span>Condition,<span class="at">y=</span>FarECTgain,<span class="at">color=</span>ECTcond)) <span class="sc">+</span></span>
-<span id="cb13-2"><a href="#cb13-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_violin</span>()  <span class="sc">+</span> <span class="fu">labs</span>(<span class="at">title=</span><span class="st">"ECT Far Transfer"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb13-2"><a href="#cb13-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_boxplot</span>()  <span class="sc">+</span> <span class="fu">labs</span>(<span class="at">title=</span><span class="st">"ECT Far Transfer"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </details>
 <div class="cell-output-display">
 <p><img src="EfficacyAnalysis_files/figure-html/unnamed-chunk-5-1.png" class="img-fluid" width="672"></p>
@@ -513,7 +513,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <details>
 <summary>Code</summary>
 <div class="sourceCode cell-code" id="cb14"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb14-1"><a href="#cb14-1" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(PPIESFall2022,<span class="fu">aes</span>(<span class="at">x=</span>Condition,<span class="at">y=</span>POTgain,<span class="at">color=</span>POTcond)) <span class="sc">+</span></span>
-<span id="cb14-2"><a href="#cb14-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_violin</span>() <span class="sc">+</span> <span class="fu">labs</span>(<span class="at">title=</span><span class="st">"POT Gain Scores"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb14-2"><a href="#cb14-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_boxplot</span>() <span class="sc">+</span> <span class="fu">labs</span>(<span class="at">title=</span><span class="st">"POT Gain Scores"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </details>
 <div class="cell-output-display">
 <p><img src="EfficacyAnalysis_files/figure-html/unnamed-chunk-6-1.png" class="img-fluid" width="672"></p>
@@ -523,7 +523,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <details>
 <summary>Code</summary>
 <div class="sourceCode cell-code" id="cb15"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb15-1"><a href="#cb15-1" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(PPIESFall2022,<span class="fu">aes</span>(<span class="at">x=</span>Condition,<span class="at">y=</span>NearPOTgain,<span class="at">color=</span>POTcond)) <span class="sc">+</span></span>
-<span id="cb15-2"><a href="#cb15-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_violin</span>() <span class="sc">+</span> <span class="fu">labs</span>(<span class="at">title=</span><span class="st">"POT Near Transfer"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb15-2"><a href="#cb15-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_boxplot</span>() <span class="sc">+</span> <span class="fu">labs</span>(<span class="at">title=</span><span class="st">"POT Near Transfer"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </details>
 <div class="cell-output-display">
 <p><img src="EfficacyAnalysis_files/figure-html/unnamed-chunk-7-1.png" class="img-fluid" width="672"></p>
@@ -533,7 +533,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <details>
 <summary>Code</summary>
 <div class="sourceCode cell-code" id="cb16"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb16-1"><a href="#cb16-1" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(PPIESFall2022,<span class="fu">aes</span>(<span class="at">x=</span>Condition,<span class="at">y=</span>FarPOTgain,<span class="at">color=</span>POTcond)) <span class="sc">+</span></span>
-<span id="cb16-2"><a href="#cb16-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_violin</span>()  <span class="sc">+</span> <span class="fu">labs</span>(<span class="at">title=</span><span class="st">"POT Far Transfer"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb16-2"><a href="#cb16-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_boxplot</span>()  <span class="sc">+</span> <span class="fu">labs</span>(<span class="at">title=</span><span class="st">"POT Far Transfer"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </details>
 <div class="cell-output-display">
 <p><img src="EfficacyAnalysis_files/figure-html/unnamed-chunk-8-1.png" class="img-fluid" width="672"></p>

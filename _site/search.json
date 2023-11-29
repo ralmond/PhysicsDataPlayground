@@ -214,14 +214,14 @@
     "href": "EfficacyAnalysis.html#ect-by-condition",
     "title": "Support Effectiveness Results",
     "section": "ECT by Condition",
-    "text": "ECT by Condition\n\n\nCode\nggplot(PPIESFall2022,aes(x=Condition,y=ECTgain,color=ECTcond)) +\n  geom_violin() +labs(title=\"ECT Gain scores\")\n\n\n\n\n\n\n\nCode\nggplot(PPIESFall2022,aes(x=Condition,y=NearECTgain,color=ECTcond)) +\n  geom_violin() + labs(title=\"ECT Near Transfer\")\n\n\n\n\n\n\n\nCode\nggplot(PPIESFall2022,aes(x=Condition,y=FarECTgain,color=ECTcond)) +\n  geom_violin()  + labs(title=\"ECT Far Transfer\")"
+    "text": "ECT by Condition\n\n\nCode\nggplot(PPIESFall2022,aes(x=Condition,y=ECTgain,color=ECTcond)) +\n  geom_boxplot() +labs(title=\"ECT Gain scores\")\n\n\n\n\n\n\n\nCode\nggplot(PPIESFall2022,aes(x=Condition,y=NearECTgain,color=ECTcond)) +\n  geom_boxplot() + labs(title=\"ECT Near Transfer\")\n\n\n\n\n\n\n\nCode\nggplot(PPIESFall2022,aes(x=Condition,y=FarECTgain,color=ECTcond)) +\n  geom_boxplot()  + labs(title=\"ECT Far Transfer\")"
   },
   {
     "objectID": "EfficacyAnalysis.html#pot-exploratory-graphics",
     "href": "EfficacyAnalysis.html#pot-exploratory-graphics",
     "title": "Support Effectiveness Results",
     "section": "POT Exploratory graphics",
-    "text": "POT Exploratory graphics\n\n\nCode\nggplot(PPIESFall2022,aes(x=Condition,y=POTgain,color=POTcond)) +\n  geom_violin() + labs(title=\"POT Gain Scores\")\n\n\n\n\n\n\n\nCode\nggplot(PPIESFall2022,aes(x=Condition,y=NearPOTgain,color=POTcond)) +\n  geom_violin() + labs(title=\"POT Near Transfer\")\n\n\n\n\n\n\n\nCode\nggplot(PPIESFall2022,aes(x=Condition,y=FarPOTgain,color=POTcond)) +\n  geom_violin()  + labs(title=\"POT Far Transfer\")"
+    "text": "POT Exploratory graphics\n\n\nCode\nggplot(PPIESFall2022,aes(x=Condition,y=POTgain,color=POTcond)) +\n  geom_boxplot() + labs(title=\"POT Gain Scores\")\n\n\n\n\n\n\n\nCode\nggplot(PPIESFall2022,aes(x=Condition,y=NearPOTgain,color=POTcond)) +\n  geom_boxplot() + labs(title=\"POT Near Transfer\")\n\n\n\n\n\n\n\nCode\nggplot(PPIESFall2022,aes(x=Condition,y=FarPOTgain,color=POTcond)) +\n  geom_boxplot()  + labs(title=\"POT Far Transfer\")"
   },
   {
     "objectID": "EfficacyAnalysis.html#ect",
