@@ -31,3 +31,7 @@ example, the scoring can be redone.
 # Item Analysis for the Pretest
 
 [Pretest Item Analysis](PrePostIA.qmd)
+
+# Timing Study Analysis
+
+[Timing Study Analysis](TimingAnalysis.qmd)
