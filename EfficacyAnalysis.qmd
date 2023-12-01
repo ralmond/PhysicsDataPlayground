@@ -185,6 +185,11 @@ round(POTcter,3)
 ## Levels Solved
 
 ```{r}
+table(PPIESFall2022$Condition)
+```
+
+
+```{r}
 PPIESFall2022 %>% mutate(solved=silver.max+gold.max) -> PPIESFall2022
 
 ```

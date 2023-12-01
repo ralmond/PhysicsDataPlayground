@@ -98,6 +98,7 @@ cat("Timing Study Form A", round(formAalpha$total[[2]],3),"\n")
 cat("Timing Study Form B", round(formBalpha$total[[2]],3),"\n")
 cat("Efficacy Study Pretest", round(prealpha$total[[2]],3),"\n")
 cat("Efficacy Study Posttest", round(postalpha$total[[2]],3),"\n")
+alpha.ci(prealpha,N=nrow(prescored),k=ncol(prescord))
 ```
 ## Efficacy Pretest Difficulties and Discriminations
 
