@@ -2,3 +2,30 @@
 title: "Competency Model"
 ---
 
+![Competency Model](img/CompetencyModel.png)
+
+
+## Root Node
+
+* `Physics`
+
+## High-level Nodes
+
+* `ForceAndMotion`
+* `LinearMomentum`
+* `Energy`  --- This corresponds to the energy can transfer (ECT) parts of the pretest/posttest
+* `Torque` --- This corresponds to the properties of torquie (POT) parts of the
+pretest/posttest
+
+## Low-level nodes
+
+* `NFL` --- Newton's First Law
+* `NSL` --- Newton's Second Law
+* `NTL` --- Newton's Third Law
+* `POfMom` --- Properties of Momentum
+* `ConOfMom` --- Conservation of Momentum
+* `EnergyTransfer` --- Energy can transfer (note this the low-level, the high 
+level skill is `Energy`)
+* `EnergyDissipate` --- Energy can dissipate
+* `StaticEquilibrium` --- Related to circular motion
+* `PropertiesofTorque` --- again, a low-level node, the high level node is `Torque`

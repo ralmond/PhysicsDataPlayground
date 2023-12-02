@@ -62,6 +62,23 @@ PPIESFall2022PrePostABC <-
            col_types=colPrePostABC)
 ```
 
+There is also version of the full data set with the ABC coding on pre/posttest items.
+
+* [R metadata all ABC coding ](Data/AllMetadataABC.R).
+* [Full data ABC coding](Data/FSUSFall2022FullABC.csv)
+
+The following steps will load the file using the metadata in R.
+```{r ReadAllABC}
+#| eval: false
+library(readr)
+source("https://pluto.coe.fsu.edu/PhysicsDataPlayground/Data/AllMetadataABC.R")
+PPIESFall2022Full <- 
+  read_csv("https://pluto.coe.fsu.edu/PhysicsDataPlayground/Data/PPIESFall2022FullABC.csv",
+           col_types=colAll)
+```
+
+
+
 ## Game level outcome data
 
 These data contain information on how the learning supports were played.
