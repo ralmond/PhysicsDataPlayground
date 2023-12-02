@@ -79,15 +79,20 @@ chosen more than one category.
 
 ## Pretest/Post-test 
 
-Question texts and key are available [here](preposttest.qmd)
+Question texts and key are available [here](preposttest.qmd).  The `-` has been 
+replaced with `_`.  
+
+Posttest results have a suffix of `.ect` or `.pot` (note these two posttests were
+given of different days).
 
 ### Pretest Raw Scores
 
 `Progress`
 : Completion percentage for prettest questionnaire
 
-`Duration (in seconds)`
-: Length of time needed to complete pretest questionnaire
+`Duration`
+: Length of time (in seconds) needed to complete pretest questionnaire including
+demographic items
 
 `Finished`
 : Did Qualtrics consider the pretest questionnaire finished.
@@ -95,41 +100,59 @@ Question texts and key are available [here](preposttest.qmd)
 `RecordedDate`
 : Date pretest questionnaire was collected
 
-`A-NQ1` through `A-NQ8`
-: Pretest responses to near transfer ECT questions, raw responses
+`A_NQ1` through `A_NQ8`
+: Pretest responses to near transfer ECT questions, raw responses (note: available 
+with either the original option text or "A","B","C","D" coded options)
 
-`A-NQ8` through `A-NQ14`
-: Pretest responses to near transfer POT questions, raw responses
+`A_NQ8` through `A_NQ14`
+: Pretest responses to near transfer POT questions, raw responses 
+(either original options or A,B,C coding)
 
-`A-FQ1` through `A-FQ8`
+`A_FQ1` through `A_FQ8`
 : Pretest responses to far transfer ECT questions, raw responses
+(either original options or A,B,C coding)
 
-`A-FQ8` through `A-FQ14`
+`A_FQ8` through `A_FQ14`
+(either original options or A,B,C coding)
 : Pretest responses to far transfer POT questions, raw responses
 
 `SC0`
 : Prestest score as computed by Qualtrics
 
-`A-NQ1_scored` through `A-NQ8_scored`
+`A_NQ1_scored` through `A_NQ8_scored`
 : Pretest scored (0,1) responses to near transfer ECT questions, raw responses
 
-`A-NQ8_scored` through `A-NQ14_scored`
+`A_NQ8_scored` through `A_NQ14_scored`
 : Pretest scored (0,1) responses to near transfer POT questions, raw responses
 
-`A-FQ1_scored` through `A-FQ8_scored`
+`A_FQ1_scored` through `A_FQ8_scored`
 : Pretest scored (0,1) responses to far transfer ECT questions, raw responses
 
-`A-FQ8_scored` through `A-FQ14_scored`
+`A_FQ8_scored` through `A_FQ14_scored`
 : Pretest scored (0,1) responses to far transfer POT questions, raw responses
 
+`NearECT`, `FarECT`, `NearPOT`, `FarPOT`
+: Pretest sum of scored responses in that categories.
+
+`Near`, `Far`
+: `Near = NearECT + NearPOT`, `Far = FarECT + FarPOT`.  Note these are not
+available for the posttest because it would require adding across administrations on 
+different days.  
+
+`ECT`, `POT`
+: `ECT = NearECT + FarECT`, `POT = NearPOT + FarPOT`
+
+`PhysicsScore`
+: `PhysicsScore = ECT + POT`.  Again not available for posttest as this would 
+require adding across administrations.  
 
 ### Energy Can Transfer (ECT) Near and Far
 
 `Progress.ect`
 : Completion percentage for ECT posttest questionnaire
 
-`Duration (in seconds).ect`
-: Length of time needed to complete ECT posttest questionnaire (including IMI and PA)
+`Duration.ect`
+: Length of time (in seconds) needed to complete ECT posttest questionnaire (including IMI and PA)
 
 `Finished.ect`
 : Did Qualtrics consider the ECT posttest questionnaire finished.
@@ -137,28 +160,33 @@ Question texts and key are available [here](preposttest.qmd)
 `RecordedDate.ect`
 : Date ECT posttest questionnaire was collected
 
-`A-NQ1.ect` through `A-NQ8.ect`
-: Posttest responses to near transfer ECT questions, raw responses
+`A_NQ1.ect` through `A_NQ8.ect`
+: Posttest responses to near transfer ECT questions, raw responses (Again in 
+original text or ABC coding)
 
-`A-FQ1.ect` through `A-FQ8.ect`
-: Posttest responses to far transfer ECT questions, raw responses
+`A_FQ1.ect` through `A_FQ8.ect`
+: Posttest responses to far transfer ECT questions, raw responses 
+(Again in original text or ABC coding)
 
 `SC0.ect`
 : Posttest score as computed by Qualtrics
 
-`A-NQ1_scored.ect` through `A-NQ8_scored.ect`
-: Posttest scored (0,1) responses to near transfer ECT questions, raw responses
+`A_NQ1_scored.ect` through `A_NQ8_scored.ect`
+: Posttest scored (0,1) responses to near transfer ECT questions, scored responses
 
-`A-FQ1_scored.ect` through `A-FQ8_scored.ect`
-: Posttest scored (0,1) responses to far transfer ECT questions, raw responses
+`A_FQ1_scored.ect` through `A_FQ8_scored.ect`
+: Posttest scored (0,1) responses to far transfer ECT questions, scored responses
+
+`NearECT.ect`, `FarECT.ect`, `ECT.ect`
+: Sums of the scaled scores
 
 ### Properties of Torque (POT) Near and Far
 
 `Progress.pot`
 : Completion percentage for POT posttest questionnaire
 
-`Duration (in seconds).pot`
-: Length of time needed to complete POT posttest questionnaire
+`Duration.pot`
+: Length of time (in seconds) needed to complete POT posttest questionnaire (including IMI and PA items)
 
 `Finished.pot`
 : Did Qualtrics consider the POT posttest questionnaire finished.
@@ -166,11 +194,13 @@ Question texts and key are available [here](preposttest.qmd)
 `RecordedData.pot`
 : Date POT posttest questionnaire was collected
 
-`A-NQ8.pot` through `A-NQ14.pot`
+`A_NQ8.pot` through `A_NQ14.pot`
 : POT posttest responses to near transfer POT questions, raw responses
+(Again in original text or ABC coding)
 
-`A-FQ8.pot` through `A-FQ14.pot`
+`A_FQ8.pot` through `A_FQ14.pot`
 : POT posttest responses to far transfer POT questions, raw responses
+(Again in original text or ABC coding)
 
 `SC0.pot`
 : POT posttest score as computed by Qualtrics
@@ -182,20 +212,29 @@ Question texts and key are available [here](preposttest.qmd)
 `A-FQ8_scored.pot` through `A-FQ14_scored.pot`
 : POT posttest scored (0,1) responses to far transfer POT questions, raw responses
 
+`NearECT.ect`, `FarECT.ect`, `ECT.ect`
+: Sums of the scaled scores
 
 ### Sum Scores
 
-Pretest sum scores:
+Precomputed sums of scored pretest/posttest items
 
-`NearECT`, `FarECT`, `NearPOT`, `FarPOT`, `Near`, `Far`, `ECT`, `POT`, `PhysicsScore`
+Pretest sum scores:  `NearECT`, `FarECT`, `NearPOT`, `FarPOT`, `Near`, `Far`, `ECT`, `POT`, `PhysicsScore`
 
-ECT posttest score:
+ECT posttest score: `NearECTpost`, `FarECTpost`, `ECTpost`
 
-`NearECTpost`, `FarECTpost`, `ECTpost`
+POT posttest score: `NearPOTpost`, `FarPOTpost`, `POTpost`
 
-POT posttest score:
+Posttest version of `Near`, `Far` and `PhysicsScores` are not precomputed as these 
+require summing over tests given on different days. The following R code shows 
+how to compute them if desired:
 
-`NearPOTpost`, `FarPOTpost`, `POTpost`
+```{r NearFarPost}
+#| eval: FALSE
+Near.post <- NearECT.ect + NearPOT.pot
+Far.post <- FarECT.ect + FarPOT.pot
+Physics.post <- ECT.ect + POT.pot
+```
 
 
 ## Intrinsic Motivation Inventory 
@@ -245,11 +284,35 @@ with the POT posttest have the suffix `.pot`.
 
 ## Bayesian Network Scores
 
-* _context_
+`context`
+:
 
-### Marginal Distributions
+`timestamp`
+:
 
-### EAP and MAP Scores
+The competencies in the [competency model](CompetencyModel.qmd) are 
+
+* Root: `Physics` 
+* High-level:  `Energy`, `Torque` (These correstpond to the ECT and POT tests)
+* Low-level:  `NFL`, `NSL`, `NTL`, `POfMom`, `ConOfMom`, `EnergyTransfer`, `EnergyDissipate`, `StaticEquilibrium`, `PropertiesofTorque`
+
+All variables can take on values of `High`, `Medium` and `Low`.  The Bayes net 
+provides a posterior distribution over these values given the observed game outcomes.
+
+In the definitions below `XXX` or $X$ should be replaced with one of the competencies. 
+
+`XXX_EAP`
+:This is the expected _a posteriori_ score, mapping `Low` = -1, `Medium` = 0 
+and `High` = 1, 
+$\textrm{EAP}(X)= -1\Pr(X=\textrm{Low}) + 0\Pr(X=\textrm{Medium}) + 1\Pr(X=\textrm{High})$.  
+This value runs from 
+$-1$ 
+(very low) to $1$ (very high).
+
+`XXX_Margin.High`, `XXX_Margin.Medium`, `XXX_Margin.Low`
+:  Marginal distribution of `XXX`---$\PR(X=\textrm{High}$, $\PR(X=\textrm{Medium}$,
+$\PR(X=\textrm{Low}$, respectively.  The three values should always add to $1$.
+
 
 ## Observables (Attempts and Results)
 

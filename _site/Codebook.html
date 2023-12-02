@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.3.433">
+<meta name="generator" content="quarto-1.3.450">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -19,6 +19,40 @@ ul.task-list li input[type="checkbox"] {
   width: 0.8em;
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 </style>
 
@@ -60,6 +94,8 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
 <link rel="stylesheet" href="styles.css">
 </head>
@@ -296,11 +332,7 @@ ul.task-list li input[type="checkbox"] {
   </ul></li>
   <li><a href="#intrinsic-motivation-inventory" id="toc-intrinsic-motivation-inventory" class="nav-link" data-scroll-target="#intrinsic-motivation-inventory">Intrinsic Motivation Inventory</a></li>
   <li><a href="#physics-animation-learning-support-questionnaire" id="toc-physics-animation-learning-support-questionnaire" class="nav-link" data-scroll-target="#physics-animation-learning-support-questionnaire">Physics Animation (Learning Support) Questionnaire</a></li>
-  <li><a href="#bayesian-network-scores" id="toc-bayesian-network-scores" class="nav-link" data-scroll-target="#bayesian-network-scores">Bayesian Network Scores</a>
-  <ul class="collapse">
-  <li><a href="#marginal-distributions" id="toc-marginal-distributions" class="nav-link" data-scroll-target="#marginal-distributions">Marginal Distributions</a></li>
-  <li><a href="#eap-and-map-scores" id="toc-eap-and-map-scores" class="nav-link" data-scroll-target="#eap-and-map-scores">EAP and MAP Scores</a></li>
-  </ul></li>
+  <li><a href="#bayesian-network-scores" id="toc-bayesian-network-scores" class="nav-link" data-scroll-target="#bayesian-network-scores">Bayesian Network Scores</a></li>
   <li><a href="#observables-attempts-and-results" id="toc-observables-attempts-and-results" class="nav-link" data-scroll-target="#observables-attempts-and-results">Observables (Attempts and Results)</a></li>
   <li><a href="#learning-supports" id="toc-learning-supports" class="nav-link" data-scroll-target="#learning-supports">Learning Supports</a></li>
   </ul>
@@ -479,7 +511,8 @@ If single option was selected, that option. If multiple options selected, then <
 </section>
 <section id="pretestpost-test" class="level2">
 <h2 class="anchored" data-anchor-id="pretestpost-test">Pretest/Post-test</h2>
-<p>Question texts and key are available <a href="./preposttest.html">here</a></p>
+<p>Question texts and key are available <a href="./preposttest.html">here</a>. The <code>-</code> has been replaced with <code>_</code>.</p>
+<p>Posttest results have a suffix of <code>.ect</code> or <code>.pot</code> (note these two posttests were given of different days).</p>
 <section id="pretest-raw-scores" class="level3">
 <h3 class="anchored" data-anchor-id="pretest-raw-scores">Pretest Raw Scores</h3>
 <dl>
@@ -487,9 +520,9 @@ If single option was selected, that option. If multiple options selected, then <
 <dd>
 Completion percentage for prettest questionnaire
 </dd>
-<dt><code>Duration (in seconds)</code></dt>
+<dt><code>Duration</code></dt>
 <dd>
-Length of time needed to complete pretest questionnaire
+Length of time (in seconds) needed to complete pretest questionnaire including demographic items
 </dd>
 <dt><code>Finished</code></dt>
 <dd>
@@ -499,41 +532,56 @@ Did Qualtrics consider the pretest questionnaire finished.
 <dd>
 Date pretest questionnaire was collected
 </dd>
-<dt><code>A-NQ1</code> through <code>A-NQ8</code></dt>
+<dt><code>A_NQ1</code> through <code>A_NQ8</code></dt>
 <dd>
-Pretest responses to near transfer ECT questions, raw responses
+Pretest responses to near transfer ECT questions, raw responses (note: available with either the original option text or “A”,“B”,“C”,“D” coded options)
 </dd>
-<dt><code>A-NQ8</code> through <code>A-NQ14</code></dt>
+<dt><code>A_NQ8</code> through <code>A_NQ14</code></dt>
 <dd>
-Pretest responses to near transfer POT questions, raw responses
+Pretest responses to near transfer POT questions, raw responses (either original options or A,B,C coding)
 </dd>
-<dt><code>A-FQ1</code> through <code>A-FQ8</code></dt>
+<dt><code>A_FQ1</code> through <code>A_FQ8</code></dt>
 <dd>
-Pretest responses to far transfer ECT questions, raw responses
+Pretest responses to far transfer ECT questions, raw responses (either original options or A,B,C coding)
 </dd>
-<dt><code>A-FQ8</code> through <code>A-FQ14</code></dt>
-<dd>
-Pretest responses to far transfer POT questions, raw responses
-</dd>
+</dl>
+<p><code>A_FQ8</code> through <code>A_FQ14</code> (either original options or A,B,C coding) : Pretest responses to far transfer POT questions, raw responses</p>
+<dl>
 <dt><code>SC0</code></dt>
 <dd>
 Prestest score as computed by Qualtrics
 </dd>
-<dt><code>A-NQ1_scored</code> through <code>A-NQ8_scored</code></dt>
+<dt><code>A_NQ1_scored</code> through <code>A_NQ8_scored</code></dt>
 <dd>
 Pretest scored (0,1) responses to near transfer ECT questions, raw responses
 </dd>
-<dt><code>A-NQ8_scored</code> through <code>A-NQ14_scored</code></dt>
+<dt><code>A_NQ8_scored</code> through <code>A_NQ14_scored</code></dt>
 <dd>
 Pretest scored (0,1) responses to near transfer POT questions, raw responses
 </dd>
-<dt><code>A-FQ1_scored</code> through <code>A-FQ8_scored</code></dt>
+<dt><code>A_FQ1_scored</code> through <code>A_FQ8_scored</code></dt>
 <dd>
 Pretest scored (0,1) responses to far transfer ECT questions, raw responses
 </dd>
-<dt><code>A-FQ8_scored</code> through <code>A-FQ14_scored</code></dt>
+<dt><code>A_FQ8_scored</code> through <code>A_FQ14_scored</code></dt>
 <dd>
 Pretest scored (0,1) responses to far transfer POT questions, raw responses
+</dd>
+<dt><code>NearECT</code>, <code>FarECT</code>, <code>NearPOT</code>, <code>FarPOT</code></dt>
+<dd>
+Pretest sum of scored responses in that categories.
+</dd>
+<dt><code>Near</code>, <code>Far</code></dt>
+<dd>
+<code>Near = NearECT + NearPOT</code>, <code>Far = FarECT + FarPOT</code>. Note these are not available for the posttest because it would require adding across administrations on different days.
+</dd>
+<dt><code>ECT</code>, <code>POT</code></dt>
+<dd>
+<code>ECT = NearECT + FarECT</code>, <code>POT = NearPOT + FarPOT</code>
+</dd>
+<dt><code>PhysicsScore</code></dt>
+<dd>
+<code>PhysicsScore = ECT + POT</code>. Again not available for posttest as this would require adding across administrations.
 </dd>
 </dl>
 </section>
@@ -544,9 +592,9 @@ Pretest scored (0,1) responses to far transfer POT questions, raw responses
 <dd>
 Completion percentage for ECT posttest questionnaire
 </dd>
-<dt><code>Duration (in seconds).ect</code></dt>
+<dt><code>Duration.ect</code></dt>
 <dd>
-Length of time needed to complete ECT posttest questionnaire (including IMI and PA)
+Length of time (in seconds) needed to complete ECT posttest questionnaire (including IMI and PA)
 </dd>
 <dt><code>Finished.ect</code></dt>
 <dd>
@@ -556,25 +604,29 @@ Did Qualtrics consider the ECT posttest questionnaire finished.
 <dd>
 Date ECT posttest questionnaire was collected
 </dd>
-<dt><code>A-NQ1.ect</code> through <code>A-NQ8.ect</code></dt>
+<dt><code>A_NQ1.ect</code> through <code>A_NQ8.ect</code></dt>
 <dd>
-Posttest responses to near transfer ECT questions, raw responses
+Posttest responses to near transfer ECT questions, raw responses (Again in original text or ABC coding)
 </dd>
-<dt><code>A-FQ1.ect</code> through <code>A-FQ8.ect</code></dt>
+<dt><code>A_FQ1.ect</code> through <code>A_FQ8.ect</code></dt>
 <dd>
-Posttest responses to far transfer ECT questions, raw responses
+Posttest responses to far transfer ECT questions, raw responses (Again in original text or ABC coding)
 </dd>
 <dt><code>SC0.ect</code></dt>
 <dd>
 Posttest score as computed by Qualtrics
 </dd>
-<dt><code>A-NQ1_scored.ect</code> through <code>A-NQ8_scored.ect</code></dt>
+<dt><code>A_NQ1_scored.ect</code> through <code>A_NQ8_scored.ect</code></dt>
 <dd>
-Posttest scored (0,1) responses to near transfer ECT questions, raw responses
+Posttest scored (0,1) responses to near transfer ECT questions, scored responses
 </dd>
-<dt><code>A-FQ1_scored.ect</code> through <code>A-FQ8_scored.ect</code></dt>
+<dt><code>A_FQ1_scored.ect</code> through <code>A_FQ8_scored.ect</code></dt>
 <dd>
-Posttest scored (0,1) responses to far transfer ECT questions, raw responses
+Posttest scored (0,1) responses to far transfer ECT questions, scored responses
+</dd>
+<dt><code>NearECT.ect</code>, <code>FarECT.ect</code>, <code>ECT.ect</code></dt>
+<dd>
+Sums of the scaled scores
 </dd>
 </dl>
 </section>
@@ -585,9 +637,9 @@ Posttest scored (0,1) responses to far transfer ECT questions, raw responses
 <dd>
 Completion percentage for POT posttest questionnaire
 </dd>
-<dt><code>Duration (in seconds).pot</code></dt>
+<dt><code>Duration.pot</code></dt>
 <dd>
-Length of time needed to complete POT posttest questionnaire
+Length of time (in seconds) needed to complete POT posttest questionnaire (including IMI and PA items)
 </dd>
 <dt><code>Finished.pot</code></dt>
 <dd>
@@ -597,13 +649,13 @@ Did Qualtrics consider the POT posttest questionnaire finished.
 <dd>
 Date POT posttest questionnaire was collected
 </dd>
-<dt><code>A-NQ8.pot</code> through <code>A-NQ14.pot</code></dt>
+<dt><code>A_NQ8.pot</code> through <code>A_NQ14.pot</code></dt>
 <dd>
-POT posttest responses to near transfer POT questions, raw responses
+POT posttest responses to near transfer POT questions, raw responses (Again in original text or ABC coding)
 </dd>
-<dt><code>A-FQ8.pot</code> through <code>A-FQ14.pot</code></dt>
+<dt><code>A_FQ8.pot</code> through <code>A_FQ14.pot</code></dt>
 <dd>
-POT posttest responses to far transfer POT questions, raw responses
+POT posttest responses to far transfer POT questions, raw responses (Again in original text or ABC coding)
 </dd>
 <dt><code>SC0.pot</code></dt>
 <dd>
@@ -617,16 +669,24 @@ POT posttest scored (0,1) responses to near transfer POT questions, raw response
 <dd>
 POT posttest scored (0,1) responses to far transfer POT questions, raw responses
 </dd>
+<dt><code>NearECT.ect</code>, <code>FarECT.ect</code>, <code>ECT.ect</code></dt>
+<dd>
+Sums of the scaled scores
+</dd>
 </dl>
 </section>
 <section id="sum-scores" class="level3">
 <h3 class="anchored" data-anchor-id="sum-scores">Sum Scores</h3>
-<p>Pretest sum scores:</p>
-<p><code>NearECT</code>, <code>FarECT</code>, <code>NearPOT</code>, <code>FarPOT</code>, <code>Near</code>, <code>Far</code>, <code>ECT</code>, <code>POT</code>, <code>PhysicsScore</code></p>
-<p>ECT posttest score:</p>
-<p><code>NearECTpost</code>, <code>FarECTpost</code>, <code>ECTpost</code></p>
-<p>POT posttest score:</p>
-<p><code>NearPOTpost</code>, <code>FarPOTpost</code>, <code>POTpost</code></p>
+<p>Precomputed sums of scored pretest/posttest items</p>
+<p>Pretest sum scores: <code>NearECT</code>, <code>FarECT</code>, <code>NearPOT</code>, <code>FarPOT</code>, <code>Near</code>, <code>Far</code>, <code>ECT</code>, <code>POT</code>, <code>PhysicsScore</code></p>
+<p>ECT posttest score: <code>NearECTpost</code>, <code>FarECTpost</code>, <code>ECTpost</code></p>
+<p>POT posttest score: <code>NearPOTpost</code>, <code>FarPOTpost</code>, <code>POTpost</code></p>
+<p>Posttest version of <code>Near</code>, <code>Far</code> and <code>PhysicsScores</code> are not precomputed as these require summing over tests given on different days. The following R code shows how to compute them if desired:</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>Near.post <span class="ot">&lt;-</span> NearECT.ect <span class="sc">+</span> NearPOT.pot</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>Far.post <span class="ot">&lt;-</span> FarECT.ect <span class="sc">+</span> FarPOT.pot</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>Physics.post <span class="ot">&lt;-</span> ECT.ect <span class="sc">+</span> POT.pot</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
 </section>
 </section>
 <section id="intrinsic-motivation-inventory" class="level2">
@@ -685,15 +745,24 @@ Total score for PA questionnaire
 </section>
 <section id="bayesian-network-scores" class="level2">
 <h2 class="anchored" data-anchor-id="bayesian-network-scores">Bayesian Network Scores</h2>
+<p><code>context</code> :</p>
+<p><code>timestamp</code> :</p>
+<p>The competencies in the <a href="./CompetencyModel.html">competency model</a> are</p>
 <ul>
-<li><em>context</em></li>
+<li>Root: <code>Physics</code></li>
+<li>High-level: <code>Energy</code>, <code>Torque</code> (These correstpond to the ECT and POT tests)</li>
+<li>Low-level: <code>NFL</code>, <code>NSL</code>, <code>NTL</code>, <code>POfMom</code>, <code>ConOfMom</code>, <code>EnergyTransfer</code>, <code>EnergyDissipate</code>, <code>StaticEquilibrium</code>, <code>PropertiesofTorque</code></li>
 </ul>
-<section id="marginal-distributions" class="level3">
-<h3 class="anchored" data-anchor-id="marginal-distributions">Marginal Distributions</h3>
-</section>
-<section id="eap-and-map-scores" class="level3">
-<h3 class="anchored" data-anchor-id="eap-and-map-scores">EAP and MAP Scores</h3>
-</section>
+<p>All variables can take on values of <code>High</code>, <code>Medium</code> and <code>Low</code>. The Bayes net provides a posterior distribution over these values given the observed game outcomes.</p>
+<p>In the definitions below <code>XXX</code> or <span class="math inline">\(X\)</span> should be replaced with one of the competencies.</p>
+<p><code>XXX_EAP</code> :This is the expected <em>a posteriori</em> score, mapping <code>Low</code> = -1, <code>Medium</code> = 0 and <code>High</code> = 1, <span class="math inline">\(\textrm{EAP}(X)= -1\Pr(X=\textrm{Low}) + 0\Pr(X=\textrm{Medium}) + 1\Pr(X=\textrm{High})\)</span>.<br>
+This value runs from <span class="math inline">\(-1\)</span> (very low) to <span class="math inline">\(1\)</span> (very high).</p>
+<dl>
+<dt><code>XXX_Margin.High</code>, <code>XXX_Margin.Medium</code>, <code>XXX_Margin.Low</code></dt>
+<dd>
+Marginal distribution of <code>XXX</code>—<span class="math inline">\(\PR(X=\textrm{High}\)</span>, <span class="math inline">\(\PR(X=\textrm{Medium}\)</span>, <span class="math inline">\(\PR(X=\textrm{Low}\)</span>, respectively. The three values should always add to <span class="math inline">\(1\)</span>.
+</dd>
+</dl>
 </section>
 <section id="observables-attempts-and-results" class="level2">
 <h2 class="anchored" data-anchor-id="observables-attempts-and-results">Observables (Attempts and Results)</h2>

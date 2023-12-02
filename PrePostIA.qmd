@@ -27,20 +27,20 @@ Questions ANQ12, 13 and 14 were included erroneously on ect posttest.
 Remove them.
 
 ```{r}
-PrePostABC <- select(PrePostABC,!matches("A-NQ1[2-4](_scored)?.ect"))
-grep("A-NQ[0-9]+.ect",names(PrePostABC),value=TRUE)
+PrePostABC <- select(PrePostABC,!matches("A_NQ1[2-4](_scored)?.ect"))
+grep("A_NQ[0-9]+.ect",names(PrePostABC),value=TRUE)
 ```
 
 
 
 ```{r}
-preraw <- select(PrePostABC,`A-NQ1`:`A-FQ14`)
+preraw <- select(PrePostABC,`A_NQ1`:`A_FQ14`)
 itemnames <- names(preraw)
-prescored <- select(PrePostABC,`A-NQ1_scored`:`A-FQ14_scored`)
+prescored <- select(PrePostABC,`A_NQ1_scored`:`A_FQ14_scored`)
 names(prescored) <- sub("_scored","",names(prescored))
-postraw <- select(PrePostABC,matches("A-.Q[0-9]+\\.(ect|pot)"))
+postraw <- select(PrePostABC,matches("A_.Q[0-9]+\\.(ect|pot)"))
 names(postraw) <- sub("\\.(ect|pot)","",names(postraw))
-postscored <- select(PrePostABC,matches("A-.Q[0-9]+\\_scored.(ect|pot)"))
+postscored <- select(PrePostABC,matches("A_.Q[0-9]+\\_scored.(ect|pot)"))
 names(postscored) <- sub("_scored\\.(ect|pot)","",names(postscored))
 ```
 
@@ -53,30 +53,30 @@ BAdataB <- BAdata[BAdata$Pre_Form=="B",]
 
 Now make naming conventions match.
 ```{r}
-names(BAdataA)[30:43]<-paste("A-NQ",1:14,sep="")
-names(BAdataB)[30:43]<-paste("B-NQ",1:14,sep="")
-names(BAdataA)[44:57]<-paste("A-FQ",1:14,sep="")
-names(BAdataB)[44:57]<-paste("B-FQ",1:14,sep="")
-names(BAdataA)[58:71]<-paste("B-NQ",1:14,sep="")
-names(BAdataB)[58:71]<-paste("A-NQ",1:14,sep="")
-names(BAdataA)[72:85]<-paste("B-FQ",1:14,sep="")
-names(BAdataB)[72:85]<-paste("A-FQ",1:14,sep="")
+names(BAdataA)[30:43]<-paste("A_NQ",1:14,sep="")
+names(BAdataB)[30:43]<-paste("B_NQ",1:14,sep="")
+names(BAdataA)[44:57]<-paste("A_FQ",1:14,sep="")
+names(BAdataB)[44:57]<-paste("B_FQ",1:14,sep="")
+names(BAdataA)[58:71]<-paste("B_NQ",1:14,sep="")
+names(BAdataB)[58:71]<-paste("A_NQ",1:14,sep="")
+names(BAdataA)[72:85]<-paste("B_FQ",1:14,sep="")
+names(BAdataB)[72:85]<-paste("A_FQ",1:14,sep="")
 ```
 
 Repackage into Form A and Form B (lumping pre- and posttest together).
 
 ```{r}
-formA <- rbind(select(BAdataA,Pre_Form,starts_with("A-")),
-               select(BAdataB,Pre_Form,starts_with("A-")))
-formB <- rbind(select(BAdataA,Pre_Form,starts_with("B-")),
-               select(BAdataB,Pre_Form,starts_with("B-")))
+formA <- rbind(select(BAdataA,Pre_Form,starts_with("A_")),
+               select(BAdataB,Pre_Form,starts_with("A_")))
+formB <- rbind(select(BAdataA,Pre_Form,starts_with("B_")),
+               select(BAdataB,Pre_Form,starts_with("B_")))
 ```
 
 Finally, split out form A and B keys (also covert to upper as used in raw data).
 
 ```{r}
-formAkeys <- toupper(ppKeys$Key[ppKeys$Form=="A"])
-formBkeys <- toupper(ppKeys$Key[ppKeys$Form=="B"])
+formAkeys <- ppKeys$Key[ppKeys$Form=="A"]
+formBkeys <- ppKeys$Key[ppKeys$Form=="B"]
 ```
 
 
@@ -98,7 +98,6 @@ cat("Timing Study Form A", round(formAalpha$total[[2]],3),"\n")
 cat("Timing Study Form B", round(formBalpha$total[[2]],3),"\n")
 cat("Efficacy Study Pretest", round(prealpha$total[[2]],3),"\n")
 cat("Efficacy Study Posttest", round(postalpha$total[[2]],3),"\n")
-alpha.ci(prealpha,N=nrow(prescored),k=ncol(prescord))
 ```
 ## Efficacy Pretest Difficulties and Discriminations
 
@@ -156,14 +155,14 @@ pda <- function(item) plotDistractorAnalysis(preraw,formAkeys,num.groups=6,
 
 ::: {.panel-tabset}
 
-### A-NQ1
+### A_NQ1
 
-```{r}
+```{r A_NQ1}
 #| tbl-subcap: 
 #|  - "Item Analysis"
 #|  - "Counts"
 #| layout-ncol: 2
-item <- "A-NQ1"
+item <- "A_NQ1"
 knitr::kable(istats[[item]],digits=2)
 knitr::kable(da[[item]])
 ```
@@ -171,70 +170,70 @@ knitr::kable(da[[item]])
 pda(item)
 ```
 
-### A-NQ2
+### A_NQ2
 
-```{r}
+```{r A_NQ2}
 #| tbl-subcap: 
 #|  - "Item Analysis"
 #|  - "Counts"
 #| layout-ncol: 2
-item <- "A-NQ2"
+item <- "A_NQ2"
 knitr::kable(istats[[item]],digits=2)
 knitr::kable(da[[item]])
 ```
 ```{r}
 pda(item)
 ```
-### A-NQ3
+### A_NQ3
 
-```{r}
+```{r A_NQ3}
 #| tbl-subcap: 
 #|  - "Item Analysis"
 #|  - "Counts"
 #| layout-ncol: 2
-item <- "A-NQ3"
+item <- "A_NQ3"
 knitr::kable(istats[[item]],digits=2)
 knitr::kable(da[[item]])
 ```
 ```{r}
 pda(item)
 ```
-### A-NQ4
+### A_NQ4
 
-```{r}
+```{r A_NQ4}
 #| tbl-subcap: 
 #|  - "Item Analysis"
 #|  - "Counts"
 #| layout-ncol: 2
-item <- "A-NQ4"
+item <- "A_NQ4"
 knitr::kable(istats[[item]],digits=2)
 knitr::kable(da[[item]])
 ```
 ```{r}
 pda(item)
 ```
-### A-NQ5
+### A_NQ5
 
-```{r}
+```{r A_NQ5}
 #| tbl-subcap: 
 #|  - "Item Analysis"
 #|  - "Counts"
 #| layout-ncol: 2
-item <- "A-NQ5"
+item <- "A_NQ5"
 knitr::kable(istats[[item]],digits=2)
 knitr::kable(da[[item]])
 ```
 ```{r}
 pda(item)
 ```
-### A-NQ6
+### A_NQ6
 
-```{r}
+```{r A_NQ6}
 #| tbl-subcap: 
 #|  - "Item Analysis"
 #|  - "Counts"
 #| layout-ncol: 2
-item <- "A-NQ6"
+item <- "A_NQ6"
 knitr::kable(istats[[item]],digits=2)
 knitr::kable(da[[item]])
 ```
@@ -242,14 +241,30 @@ knitr::kable(da[[item]])
 pda(item)
 ```
 
-### A-NQ7
+### A_NQ7
 
-```{r}
+```{r A_NQ7}
 #| tbl-subcap: 
 #|  - "Item Analysis"
 #|  - "Counts"
 #| layout-ncol: 2
-item <- "A-NQ7"
+item <- "A_NQ7"
+knitr::kable(istats[[item]],digits=2)
+knitr::kable(da[[item]])
+```
+```{r}
+pda(item)
+```
+:::
+
+### A_NQ8
+
+```{r A_NQ8}
+#| tbl-subcap: 
+#|  - "Item Analysis"
+#|  - "Counts"
+#| layout-ncol: 2
+item <- "A_NQ8"
 knitr::kable(istats[[item]],digits=2)
 knitr::kable(da[[item]])
 ```
@@ -262,43 +277,28 @@ pda(item)
 
 ::: {.panel-tabset}
 
-### A-NQ9
+### A_NQ9
 
-```{r}
+```{r A_NQ9}
 #| tbl-subcap: 
 #|  - "Item Analysis"
 #|  - "Counts"
 #| layout-ncol: 2
-item <- "A-NQ9"
+item <- "A_NQ9"
 knitr::kable(istats[[item]],digits=2)
 knitr::kable(da[[item]])
 ```
 ```{r}
 pda(item)
 ```
-### A-NQ10
+### A_NQ10
 
-```{r}
+```{r A_NQ10}
 #| tbl-subcap: 
 #|  - "Item Analysis"
 #|  - "Counts"
 #| layout-ncol: 2
-item <- "A-NQ10"
-knitr::kable(istats[[item]],digits=2)
-knitr::kable(da[[item]])
-```
-```{r}
-pda(item)
-```
-
-### A-NQ11
-
-```{r}
-#| tbl-subcap: 
-#|  - "Item Analysis"
-#|  - "Counts"
-#| layout-ncol: 2
-item <- "A-NQ11"
+item <- "A_NQ10"
 knitr::kable(istats[[item]],digits=2)
 knitr::kable(da[[item]])
 ```
@@ -306,14 +306,14 @@ knitr::kable(da[[item]])
 pda(item)
 ```
 
-### A-NQ12
+### A_NQ11
 
-```{r}
+```{r A_NQ11}
 #| tbl-subcap: 
 #|  - "Item Analysis"
 #|  - "Counts"
 #| layout-ncol: 2
-item <- "A-NQ12"
+item <- "A_NQ11"
 knitr::kable(istats[[item]],digits=2)
 knitr::kable(da[[item]])
 ```
@@ -321,14 +321,14 @@ knitr::kable(da[[item]])
 pda(item)
 ```
 
-### A-NQ13
+### A_NQ12
 
-```{r}
+```{r A_NQ12}
 #| tbl-subcap: 
 #|  - "Item Analysis"
 #|  - "Counts"
 #| layout-ncol: 2
-item <- "A-NQ13"
+item <- "A_NQ12"
 knitr::kable(istats[[item]],digits=2)
 knitr::kable(da[[item]])
 ```
@@ -336,14 +336,29 @@ knitr::kable(da[[item]])
 pda(item)
 ```
 
-### A-NQ14
+### A_NQ13
 
-```{r}
+```{r A_NQ13}
 #| tbl-subcap: 
 #|  - "Item Analysis"
 #|  - "Counts"
 #| layout-ncol: 2
-item <- "A-NQ14"
+item <- "A_NQ13"
+knitr::kable(istats[[item]],digits=2)
+knitr::kable(da[[item]])
+```
+```{r}
+pda(item)
+```
+
+### A_NQ14
+
+```{r A_NQ14}
+#| tbl-subcap: 
+#|  - "Item Analysis"
+#|  - "Counts"
+#| layout-ncol: 2
+item <- "A_NQ14"
 knitr::kable(istats[[item]],digits=2)
 knitr::kable(da[[item]])
 ```
@@ -359,14 +374,14 @@ pda(item)
 
 ::: {.panel-tabset}
 
-### A-FQ1
+### A_FQ1
 
-```{r}
+```{r A_FQ1}
 #| tbl-subcap: 
 #|  - "Item Analysis"
 #|  - "Counts"
 #| layout-ncol: 2
-item <- "A-FQ1"
+item <- "A_FQ1"
 knitr::kable(istats[[item]],digits=2)
 knitr::kable(da[[item]])
 ```
@@ -374,84 +389,84 @@ knitr::kable(da[[item]])
 pda(item)
 ```
 
-### A-FQ2
+### A_FQ2
 
-```{r}
+```{r A_FQ2}
 #| tbl-subcap: 
 #|  - "Item Analysis"
 #|  - "Counts"
 #| layout-ncol: 2
-item <- "A-FQ2"
+item <- "A_FQ2"
 knitr::kable(istats[[item]],digits=2)
 knitr::kable(da[[item]])
 ```
 ```{r}
 pda(item)
 ```
-### A-FQ3
+### A_FQ3
 
-```{r}
+```{r A_FQ3}
 #| tbl-subcap: 
 #|  - "Item Analysis"
 #|  - "Counts"
 #| layout-ncol: 2
-item <- "A-FQ3"
+item <- "A_FQ3"
 knitr::kable(istats[[item]],digits=2)
 knitr::kable(da[[item]])
 ```
 ```{r}
 pda(item)
 ```
-### A-FQ4
+### A_FQ4
 
-```{r}
+```{r A_FQ4}
 #| tbl-subcap: 
 #|  - "Item Analysis"
 #|  - "Counts"
 #| layout-ncol: 2
-item <- "A-FQ4"
+item <- "A_FQ4"
 knitr::kable(istats[[item]],digits=2)
 knitr::kable(da[[item]])
 ```
 ```{r}
 pda(item)
 ```
-### A-FQ5
+### A_FQ5
 
-```{r}
+```{r A_FQ5}
 #| tbl-subcap: 
 #|  - "Item Analysis"
 #|  - "Counts"
 #| layout-ncol: 2
-item <- "A-FQ5"
+item <- "A_FQ5"
 knitr::kable(istats[[item]],digits=2)
 knitr::kable(da[[item]])
 ```
 ```{r}
 pda(item)
 ```
-### A-FQ6
+### A_FQ6
 
-```{r}
+```{r A_FQ6}
 #| tbl-subcap: 
 #|  - "Item Analysis"
 #|  - "Counts"
 #| layout-ncol: 2
-item <- "A-FQ6"
+item <- "A_FQ6"
 knitr::kable(istats[[item]],digits=2)
 knitr::kable(da[[item]])
 ```
 ```{r}
 pda(item)
 ```
-### A-FQ7
+### A_FQ7
 
-```{r}
+```{r A_FQ7}
 #| tbl-subcap: 
 #|  - "Item Analysis"
 #|  - "Counts"
 #| layout-ncol: 2
-item <- "A-FQ7"
+item <- "A_FQ7"
 knitr::kable(istats[[item]],digits=2)
 knitr::kable(da[[item]])
 ```
@@ -459,14 +474,14 @@ knitr::kable(da[[item]])
 pda(item)
 ```
 
-### A-FQ8
+### A_FQ8
 
-```{r}
+```{r A_FQ8}
 #| tbl-subcap: 
 #|  - "Item Analysis"
 #|  - "Counts"
 #| layout-ncol: 2
-item <- "A-FQ8"
+item <- "A_FQ8"
 knitr::kable(istats[[item]],digits=2)
 knitr::kable(da[[item]])
 ```
@@ -479,43 +494,28 @@ pda(item)
 
 ::: {.panel-tabset}
 
-### A-FQ9
+### A_FQ9
 
-```{r}
+```{r A_FQ9}
 #| tbl-subcap: 
 #|  - "Item Analysis"
 #|  - "Counts"
 #| layout-ncol: 2
-item <- "A-FQ9"
+item <- "A_FQ9"
 knitr::kable(istats[[item]],digits=2)
 knitr::kable(da[[item]])
 ```
 ```{r}
 pda(item)
 ```
-### A-FQ10
+### A_FQ10
 
-```{r}
+```{r A_FQ10}
 #| tbl-subcap: 
 #|  - "Item Analysis"
 #|  - "Counts"
 #| layout-ncol: 2
-item <- "A-FQ10"
-knitr::kable(istats[[item]],digits=2)
-knitr::kable(da[[item]])
-```
-```{r}
-pda(item)
-```
-
-### A-FQ11
-
-```{r}
-#| tbl-subcap: 
-#|  - "Item Analysis"
-#|  - "Counts"
-#| layout-ncol: 2
-item <- "A-FQ11"
+item <- "A_FQ10"
 knitr::kable(istats[[item]],digits=2)
 knitr::kable(da[[item]])
 ```
@@ -523,14 +523,14 @@ knitr::kable(da[[item]])
 pda(item)
 ```
 
-### A-FQ12
+### A_FQ11
 
-```{r}
+```{r A_FQ11}
 #| tbl-subcap: 
 #|  - "Item Analysis"
 #|  - "Counts"
 #| layout-ncol: 2
-item <- "A-FQ12"
+item <- "A_FQ11"
 knitr::kable(istats[[item]],digits=2)
 knitr::kable(da[[item]])
 ```
@@ -538,14 +538,14 @@ knitr::kable(da[[item]])
 pda(item)
 ```
 
-### A-FQ13
+### A_FQ12
 
-```{r}
+```{r A_FQ12}
 #| tbl-subcap: 
 #|  - "Item Analysis"
 #|  - "Counts"
 #| layout-ncol: 2
-item <- "A-FQ13"
+item <- "A_FQ12"
 knitr::kable(istats[[item]],digits=2)
 knitr::kable(da[[item]])
 ```
@@ -553,14 +553,29 @@ knitr::kable(da[[item]])
 pda(item)
 ```
 
-### A-FQ14
+### A_FQ13
 
-```{r}
+```{r A_FQ13}
 #| tbl-subcap: 
 #|  - "Item Analysis"
 #|  - "Counts"
 #| layout-ncol: 2
-item <- "A-FQ14"
+item <- "A_FQ13"
+knitr::kable(istats[[item]],digits=2)
+knitr::kable(da[[item]])
+```
+```{r}
+pda(item)
+```
+
+### A_FQ14
+
+```{r A_FQ14}
+#| tbl-subcap: 
+#|  - "Item Analysis"
+#|  - "Counts"
+#| layout-ncol: 2
+item <- "A_FQ14"
 knitr::kable(istats[[item]],digits=2)
 knitr::kable(da[[item]])
 ```

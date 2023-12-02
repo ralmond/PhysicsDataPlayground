@@ -62,7 +62,7 @@ PPIESFall2022 %>%
 
 # Were there learning gains?
 
-```{r}
+```{r tgain}
 n.POTgain <- sum(!is.na(PPIESFall2022$POTgain))
 m.POTgain <- mean(PPIESFall2022$POTgain,na.rm=TRUE)
 s.POTgain <- sd(PPIESFall2022$POTgain,na.rm=TRUE)
@@ -81,17 +81,17 @@ cat("Average ECT gain ",round(m.ECTgain,2),"(",round(s.ECTgain,3),"); t(",
 # Graphical Analysis of Pre/Post
 
 ## ECT by Condition
-```{r}
+```{r ECTboxplots}
 #| warning: false
 ggplot(PPIESFall2022,aes(x=Condition,y=ECTgain,color=ECTcond)) +
   geom_boxplot() +labs(title="ECT Gain scores")
 ```
-```{r}
+```{r NearECTboxplots}
 #| warning: false
 ggplot(PPIESFall2022,aes(x=Condition,y=NearECTgain,color=ECTcond)) +
   geom_boxplot() + labs(title="ECT Near Transfer")
 ```
-```{r}
+```{r FarECTboxplots}
 #| warning: false
 ggplot(PPIESFall2022,aes(x=Condition,y=FarECTgain,color=ECTcond)) +
   geom_boxplot()  + labs(title="ECT Far Transfer")
@@ -99,19 +99,19 @@ ggplot(PPIESFall2022,aes(x=Condition,y=FarECTgain,color=ECTcond)) +
 
 ## POT Exploratory graphics
 
-```{r}
+```{r POTboxplots}
 #| warning: false
 ggplot(PPIESFall2022,aes(x=Condition,y=POTgain,color=POTcond)) +
   geom_boxplot() + labs(title="POT Gain Scores")
 ```
 
-```{r}
+```{r NearPOTboxplots}
 #| warning: false
 ggplot(PPIESFall2022,aes(x=Condition,y=NearPOTgain,color=POTcond)) +
   geom_boxplot() + labs(title="POT Near Transfer")
 ```
 
-```{r}
+```{r FarPOTboxplots}
 #| warning: false
 ggplot(PPIESFall2022,aes(x=Condition,y=FarPOTgain,color=POTcond)) +
   geom_boxplot()  + labs(title="POT Far Transfer")
@@ -194,7 +194,7 @@ PPIESFall2022 %>% mutate(solved=silver.max+gold.max) -> PPIESFall2022
 
 ```
 
-```{r}
+```{r LevelSolvedViolin}
 ggplot(PPIESFall2022,aes(x=Condition,y=solved,color=POTcond)) +
   geom_violin()  + labs(title="Levels Solved")
 ```

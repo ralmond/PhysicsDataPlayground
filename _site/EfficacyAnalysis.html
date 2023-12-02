@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.3.433">
+<meta name="generator" content="quarto-1.3.450">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -456,7 +456,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb7-6"><a href="#cb7-6" aria-hidden="true" tabindex="-1"></a>    n.POTgain,<span class="st">")="</span>,t.POTgain,<span class="st">"d= "</span>,<span class="fu">round</span>(m.POTgain<span class="sc">/</span>s.POTgain,<span class="dv">2</span>),<span class="st">"</span><span class="sc">\n</span><span class="st">"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </details>
 <div class="cell-output cell-output-stdout">
-<pre><code>Average POT gain  0 ( 2.81 ); t( 242 )= -9.452932e-05 d=  0 </code></pre>
+<pre><code>Average POT gain  -0.01 ( 2.991 ); t( 242 )= -0.0001776204 d=  0 </code></pre>
 </div>
 <details>
 <summary>Code</summary>
@@ -468,7 +468,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb9-6"><a href="#cb9-6" aria-hidden="true" tabindex="-1"></a>    n.ECTgain,<span class="st">")="</span>,t.ECTgain,<span class="st">"d= "</span>,<span class="fu">round</span>(m.ECTgain<span class="sc">/</span>s.ECTgain,<span class="dv">2</span>),<span class="st">"</span><span class="sc">\n</span><span class="st">"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </details>
 <div class="cell-output cell-output-stdout">
-<pre><code>Average ECT gain  0.69 ( 2.39 ); t( 243 )= 0.01844695 d=  0.29 </code></pre>
+<pre><code>Average ECT gain  0.69 ( 2.414 ); t( 243 )= 0.0182629 d=  0.28 </code></pre>
 </div>
 </div>
 </section>
@@ -483,7 +483,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb11-2"><a href="#cb11-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_boxplot</span>() <span class="sc">+</span><span class="fu">labs</span>(<span class="at">title=</span><span class="st">"ECT Gain scores"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </details>
 <div class="cell-output-display">
-<p><img src="EfficacyAnalysis_files/figure-html/unnamed-chunk-3-1.png" class="img-fluid" width="672"></p>
+<p><img src="EfficacyAnalysis_files/figure-html/ECTboxplots-1.png" class="img-fluid" width="672"></p>
 </div>
 </div>
 <div class="cell">
@@ -493,7 +493,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb12-2"><a href="#cb12-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_boxplot</span>() <span class="sc">+</span> <span class="fu">labs</span>(<span class="at">title=</span><span class="st">"ECT Near Transfer"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </details>
 <div class="cell-output-display">
-<p><img src="EfficacyAnalysis_files/figure-html/unnamed-chunk-4-1.png" class="img-fluid" width="672"></p>
+<p><img src="EfficacyAnalysis_files/figure-html/NearECTboxplots-1.png" class="img-fluid" width="672"></p>
 </div>
 </div>
 <div class="cell">
@@ -503,7 +503,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb13-2"><a href="#cb13-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_boxplot</span>()  <span class="sc">+</span> <span class="fu">labs</span>(<span class="at">title=</span><span class="st">"ECT Far Transfer"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </details>
 <div class="cell-output-display">
-<p><img src="EfficacyAnalysis_files/figure-html/unnamed-chunk-5-1.png" class="img-fluid" width="672"></p>
+<p><img src="EfficacyAnalysis_files/figure-html/FarECTboxplots-1.png" class="img-fluid" width="672"></p>
 </div>
 </div>
 </section>
@@ -516,7 +516,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb14-2"><a href="#cb14-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_boxplot</span>() <span class="sc">+</span> <span class="fu">labs</span>(<span class="at">title=</span><span class="st">"POT Gain Scores"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </details>
 <div class="cell-output-display">
-<p><img src="EfficacyAnalysis_files/figure-html/unnamed-chunk-6-1.png" class="img-fluid" width="672"></p>
+<p><img src="EfficacyAnalysis_files/figure-html/POTboxplots-1.png" class="img-fluid" width="672"></p>
 </div>
 </div>
 <div class="cell">
@@ -526,7 +526,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb15-2"><a href="#cb15-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_boxplot</span>() <span class="sc">+</span> <span class="fu">labs</span>(<span class="at">title=</span><span class="st">"POT Near Transfer"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </details>
 <div class="cell-output-display">
-<p><img src="EfficacyAnalysis_files/figure-html/unnamed-chunk-7-1.png" class="img-fluid" width="672"></p>
+<p><img src="EfficacyAnalysis_files/figure-html/NearPOTboxplots-1.png" class="img-fluid" width="672"></p>
 </div>
 </div>
 <div class="cell">
@@ -536,7 +536,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb16-2"><a href="#cb16-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_boxplot</span>()  <span class="sc">+</span> <span class="fu">labs</span>(<span class="at">title=</span><span class="st">"POT Far Transfer"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </details>
 <div class="cell-output-display">
-<p><img src="EfficacyAnalysis_files/figure-html/unnamed-chunk-8-1.png" class="img-fluid" width="672"></p>
+<p><img src="EfficacyAnalysis_files/figure-html/FarPOTboxplots-1.png" class="img-fluid" width="672"></p>
 </div>
 </div>
 </section>
@@ -555,10 +555,10 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </details>
 <div class="cell-output cell-output-stdout">
 <pre><code>                      Estimate Std. Error t value Pr(&gt;|t|)      d
-(Intercept)              5.129      0.577   8.895    0.000  2.436
-ECT                      0.511      0.059   8.722    0.000  0.243
-CognitiveSupportsTRUE    0.101      0.335   0.301    0.764  0.048
-AffectiveECTTRUE        -0.654      0.322  -2.034    0.043 -0.311</code></pre>
+(Intercept)              4.894      0.601   8.144    0.000  2.244
+ECT                      0.575      0.057  10.014    0.000  0.263
+CognitiveSupportsTRUE   -0.049      0.347  -0.141    0.888 -0.022
+AffectiveECTTRUE        -0.574      0.333  -1.723    0.086 -0.263</code></pre>
 </div>
 <details>
 <summary>Code</summary>
@@ -566,7 +566,7 @@ AffectiveECTTRUE        -0.654      0.322  -2.034    0.043 -0.311</code></pre>
 <span id="cb19-2"><a href="#cb19-2" aria-hidden="true" tabindex="-1"></a>    <span class="st">"; d.f.="</span>, <span class="fu">summary</span>(ECTlm)<span class="sc">$</span>df[<span class="dv">2</span>],<span class="st">"</span><span class="sc">\n</span><span class="st">"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </details>
 <div class="cell-output cell-output-stdout">
-<pre><code>R-squared:  0.258 ; d.f.= 239 </code></pre>
+<pre><code>R-squared:  0.31 ; d.f.= 239 </code></pre>
 </div>
 </div>
 <p>ECT is pretest. Affective supports are significant, but in the wrong direction.</p>
@@ -577,58 +577,50 @@ AffectiveECTTRUE        -0.654      0.322  -2.034    0.043 -0.311</code></pre>
 <details>
 <summary>Code</summary>
 <div class="sourceCode cell-code" id="cb21"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb21-1"><a href="#cb21-1" aria-hidden="true" tabindex="-1"></a>ECTlmer <span class="ot">&lt;-</span> <span class="fu">lmer</span>(ECTpost <span class="sc">~</span> ECT<span class="sc">+</span>CognitiveSupports<span class="sc">+</span>AffectiveECT <span class="sc">+</span> (<span class="dv">1</span><span class="sc">|</span>Class),</span>
-<span id="cb21-2"><a href="#cb21-2" aria-hidden="true" tabindex="-1"></a>              <span class="at">data=</span>PPIESFall2022, <span class="at">na.action=</span>na.omit)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</details>
-<div class="cell-output cell-output-stderr">
-<pre><code>boundary (singular) fit: see help('isSingular')</code></pre>
-</div>
-<details>
-<summary>Code</summary>
-<div class="sourceCode cell-code" id="cb23"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb23-1"><a href="#cb23-1" aria-hidden="true" tabindex="-1"></a><span class="fu">summary</span>(ECTlmer)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb21-2"><a href="#cb21-2" aria-hidden="true" tabindex="-1"></a>              <span class="at">data=</span>PPIESFall2022, <span class="at">na.action=</span>na.omit)</span>
+<span id="cb21-3"><a href="#cb21-3" aria-hidden="true" tabindex="-1"></a><span class="fu">summary</span>(ECTlmer)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </details>
 <div class="cell-output cell-output-stdout">
 <pre><code>Linear mixed model fit by REML ['lmerMod']
 Formula: ECTpost ~ ECT + CognitiveSupports + AffectiveECT + (1 | Class)
    Data: PPIESFall2022
 
-REML criterion at convergence: 1054.6
+REML criterion at convergence: 1070.9
 
 Scaled residuals: 
     Min      1Q  Median      3Q     Max 
--3.6691 -0.5826  0.0922  0.6352  2.5143 
+-3.9923 -0.6111  0.0800  0.6840  2.4150 
 
 Random effects:
  Groups   Name        Variance Std.Dev.
- Class    (Intercept) 0.000    0.000   
- Residual             4.435    2.106   
+ Class    (Intercept) 0.0985   0.3139  
+ Residual             4.6633   2.1595  
 Number of obs: 243, groups:  Class, 19
 
 Fixed effects:
                       Estimate Std. Error t value
-(Intercept)            5.12929    0.57663   8.895
-ECT                    0.51083    0.05856   8.722
-CognitiveSupportsTRUE  0.10070    0.33510   0.301
-AffectiveECTTRUE      -0.65431    0.32171  -2.034
+(Intercept)            4.95841    0.60530   8.192
+ECT                    0.56596    0.05772   9.805
+CognitiveSupportsTRUE -0.02661    0.34574  -0.077
+AffectiveECTTRUE      -0.59284    0.33251  -1.783
 
 Correlation of Fixed Effects:
             (Intr) ECT    CSTRUE
-ECT         -0.901              
-CgntvSpTRUE -0.326  0.003       
-AffcECTTRUE -0.043  0.048 -0.462
-optimizer (nloptwrap) convergence code: 0 (OK)
-boundary (singular) fit: see help('isSingular')</code></pre>
+ECT         -0.897              
+CgntvSpTRUE -0.313 -0.005       
+AffcECTTRUE -0.047  0.053 -0.464</code></pre>
 </div>
 <details>
 <summary>Code</summary>
-<div class="sourceCode cell-code" id="cb25"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb25-1"><a href="#cb25-1" aria-hidden="true" tabindex="-1"></a>ECTcter <span class="ot">&lt;-</span> <span class="fu">cbind</span>(<span class="fu">coef</span>(<span class="fu">summary</span>(ECTlmer)),<span class="at">d=</span><span class="fu">fixef</span>(ECTlmer)<span class="sc">/</span><span class="fu">summary</span>(ECTlmer)<span class="sc">$</span>sigma)</span>
-<span id="cb25-2"><a href="#cb25-2" aria-hidden="true" tabindex="-1"></a><span class="fu">round</span>(ECTcter,<span class="dv">3</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb23"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb23-1"><a href="#cb23-1" aria-hidden="true" tabindex="-1"></a>ECTcter <span class="ot">&lt;-</span> <span class="fu">cbind</span>(<span class="fu">coef</span>(<span class="fu">summary</span>(ECTlmer)),<span class="at">d=</span><span class="fu">fixef</span>(ECTlmer)<span class="sc">/</span><span class="fu">summary</span>(ECTlmer)<span class="sc">$</span>sigma)</span>
+<span id="cb23-2"><a href="#cb23-2" aria-hidden="true" tabindex="-1"></a><span class="fu">round</span>(ECTcter,<span class="dv">3</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </details>
 <div class="cell-output cell-output-stdout">
 <pre><code>                      Estimate Std. Error t value      d
-(Intercept)              5.129      0.577   8.895  2.436
-ECT                      0.511      0.059   8.722  0.243
-CognitiveSupportsTRUE    0.101      0.335   0.301  0.048
-AffectiveECTTRUE        -0.654      0.322  -2.034 -0.311</code></pre>
+(Intercept)              4.958      0.605   8.192  2.296
+ECT                      0.566      0.058   9.805  0.262
+CognitiveSupportsTRUE   -0.027      0.346  -0.077 -0.012
+AffectiveECTTRUE        -0.593      0.333  -1.783 -0.275</code></pre>
 </div>
 </div>
 </section>
@@ -638,25 +630,25 @@ AffectiveECTTRUE        -0.654      0.322  -2.034 -0.311</code></pre>
 <div class="cell">
 <details>
 <summary>Code</summary>
-<div class="sourceCode cell-code" id="cb27"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb27-1"><a href="#cb27-1" aria-hidden="true" tabindex="-1"></a>POTlm <span class="ot">&lt;-</span> <span class="fu">lm</span>(POTpost <span class="sc">~</span> POT<span class="sc">+</span>CognitiveSupports<span class="sc">+</span>AffectivePOT,<span class="at">data=</span>PPIESFall2022,</span>
-<span id="cb27-2"><a href="#cb27-2" aria-hidden="true" tabindex="-1"></a>            <span class="at">na.action=</span>na.omit)</span>
-<span id="cb27-3"><a href="#cb27-3" aria-hidden="true" tabindex="-1"></a>POTct <span class="ot">&lt;-</span> <span class="fu">cbind</span>(<span class="fu">coef</span>(<span class="fu">summary</span>(POTlm)),<span class="at">d=</span><span class="fu">coef</span>(POTlm)<span class="sc">/</span><span class="fu">summary</span>(POTlm)<span class="sc">$</span>sigma)</span>
-<span id="cb27-4"><a href="#cb27-4" aria-hidden="true" tabindex="-1"></a><span class="fu">round</span>(POTct,<span class="dv">3</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb25"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb25-1"><a href="#cb25-1" aria-hidden="true" tabindex="-1"></a>POTlm <span class="ot">&lt;-</span> <span class="fu">lm</span>(POTpost <span class="sc">~</span> POT<span class="sc">+</span>CognitiveSupports<span class="sc">+</span>AffectivePOT,<span class="at">data=</span>PPIESFall2022,</span>
+<span id="cb25-2"><a href="#cb25-2" aria-hidden="true" tabindex="-1"></a>            <span class="at">na.action=</span>na.omit)</span>
+<span id="cb25-3"><a href="#cb25-3" aria-hidden="true" tabindex="-1"></a>POTct <span class="ot">&lt;-</span> <span class="fu">cbind</span>(<span class="fu">coef</span>(<span class="fu">summary</span>(POTlm)),<span class="at">d=</span><span class="fu">coef</span>(POTlm)<span class="sc">/</span><span class="fu">summary</span>(POTlm)<span class="sc">$</span>sigma)</span>
+<span id="cb25-4"><a href="#cb25-4" aria-hidden="true" tabindex="-1"></a><span class="fu">round</span>(POTct,<span class="dv">3</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </details>
 <div class="cell-output cell-output-stdout">
 <pre><code>                      Estimate Std. Error t value Pr(&gt;|t|)      d
-(Intercept)              7.654      0.516  14.843    0.000  3.999
-POT                     -0.086      0.065  -1.321    0.188 -0.045
-CognitiveSupportsTRUE    0.010      0.310   0.031    0.975  0.005
-AffectivePOTTRUE        -0.106      0.293  -0.360    0.719 -0.055</code></pre>
+(Intercept)              7.725      0.545  14.177    0.000  3.715
+POT                     -0.052      0.065  -0.796    0.427 -0.025
+CognitiveSupportsTRUE    0.073      0.336   0.217    0.829  0.035
+AffectivePOTTRUE        -0.128      0.318  -0.403    0.688 -0.062</code></pre>
 </div>
 <details>
 <summary>Code</summary>
-<div class="sourceCode cell-code" id="cb29"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb29-1"><a href="#cb29-1" aria-hidden="true" tabindex="-1"></a><span class="fu">cat</span>(<span class="st">"R-squared: "</span>,<span class="fu">round</span>(<span class="fu">summary</span>(POTlm)<span class="sc">$</span>r.squared, <span class="dv">3</span>), </span>
-<span id="cb29-2"><a href="#cb29-2" aria-hidden="true" tabindex="-1"></a>    <span class="st">"; d.f.="</span>, <span class="fu">summary</span>(POTlm)<span class="sc">$</span>df[<span class="dv">2</span>],<span class="st">"</span><span class="sc">\n</span><span class="st">"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb27"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb27-1"><a href="#cb27-1" aria-hidden="true" tabindex="-1"></a><span class="fu">cat</span>(<span class="st">"R-squared: "</span>,<span class="fu">round</span>(<span class="fu">summary</span>(POTlm)<span class="sc">$</span>r.squared, <span class="dv">3</span>), </span>
+<span id="cb27-2"><a href="#cb27-2" aria-hidden="true" tabindex="-1"></a>    <span class="st">"; d.f.="</span>, <span class="fu">summary</span>(POTlm)<span class="sc">$</span>df[<span class="dv">2</span>],<span class="st">"</span><span class="sc">\n</span><span class="st">"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </details>
 <div class="cell-output cell-output-stdout">
-<pre><code>R-squared:  0.008 ; d.f.= 238 </code></pre>
+<pre><code>R-squared:  0.003 ; d.f.= 238 </code></pre>
 </div>
 </div>
 <p>No significant effects of supports. ### Random Effects</p>
@@ -664,51 +656,51 @@ AffectivePOTTRUE        -0.106      0.293  -0.360    0.719 -0.055</code></pre>
 <div class="cell">
 <details>
 <summary>Code</summary>
-<div class="sourceCode cell-code" id="cb31"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb31-1"><a href="#cb31-1" aria-hidden="true" tabindex="-1"></a>POTlmer <span class="ot">&lt;-</span> <span class="fu">lmer</span>(POTpost <span class="sc">~</span> POT<span class="sc">+</span>CognitiveSupports<span class="sc">+</span>AffectivePOT <span class="sc">+</span> (<span class="dv">1</span><span class="sc">|</span>Class),</span>
-<span id="cb31-2"><a href="#cb31-2" aria-hidden="true" tabindex="-1"></a>              <span class="at">data=</span>PPIESFall2022, <span class="at">na.action=</span>na.omit)</span>
-<span id="cb31-3"><a href="#cb31-3" aria-hidden="true" tabindex="-1"></a><span class="fu">summary</span>(POTlmer)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb29"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb29-1"><a href="#cb29-1" aria-hidden="true" tabindex="-1"></a>POTlmer <span class="ot">&lt;-</span> <span class="fu">lmer</span>(POTpost <span class="sc">~</span> POT<span class="sc">+</span>CognitiveSupports<span class="sc">+</span>AffectivePOT <span class="sc">+</span> (<span class="dv">1</span><span class="sc">|</span>Class),</span>
+<span id="cb29-2"><a href="#cb29-2" aria-hidden="true" tabindex="-1"></a>              <span class="at">data=</span>PPIESFall2022, <span class="at">na.action=</span>na.omit)</span>
+<span id="cb29-3"><a href="#cb29-3" aria-hidden="true" tabindex="-1"></a><span class="fu">summary</span>(POTlmer)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </details>
 <div class="cell-output cell-output-stdout">
 <pre><code>Linear mixed model fit by REML ['lmerMod']
 Formula: POTpost ~ POT + CognitiveSupports + AffectivePOT + (1 | Class)
    Data: PPIESFall2022
 
-REML criterion at convergence: 1004.1
+REML criterion at convergence: 1043.5
 
 Scaled residuals: 
     Min      1Q  Median      3Q     Max 
--3.2720 -0.6319  0.0562  0.6330  2.2001 
+-2.6516 -0.6436  0.1717  0.7594  2.3040 
 
 Random effects:
  Groups   Name        Variance Std.Dev.
- Class    (Intercept) 0.04818  0.2195  
- Residual             3.61735  1.9019  
+ Class    (Intercept) 0.08439  0.2905  
+ Residual             4.24447  2.0602  
 Number of obs: 242, groups:  Class, 19
 
 Fixed effects:
-                       Estimate Std. Error t value
-(Intercept)            7.625558   0.518983  14.693
-POT                   -0.079524   0.065088  -1.222
-CognitiveSupportsTRUE  0.001084   0.308914   0.004
-AffectivePOTTRUE      -0.111920   0.292704  -0.382
+                      Estimate Std. Error t value
+(Intercept)            7.69608    0.54954  14.005
+POT                   -0.04444    0.06566  -0.677
+CognitiveSupportsTRUE  0.05497    0.33491   0.164
+AffectivePOTTRUE      -0.12557    0.31777  -0.395
 
 Correlation of Fixed Effects:
             (Intr) POT    CSTRUE
-POT         -0.894              
-CgntvSpTRUE -0.364  0.050       
-AffcPOTTRUE  0.028 -0.032 -0.488</code></pre>
+POT         -0.886              
+CgntvSpTRUE -0.361  0.038       
+AffcPOTTRUE  0.031 -0.036 -0.488</code></pre>
 </div>
 <details>
 <summary>Code</summary>
-<div class="sourceCode cell-code" id="cb33"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb33-1"><a href="#cb33-1" aria-hidden="true" tabindex="-1"></a>POTcter <span class="ot">&lt;-</span> <span class="fu">cbind</span>(<span class="fu">coef</span>(<span class="fu">summary</span>(POTlmer)),<span class="at">d=</span><span class="fu">fixef</span>(POTlmer)<span class="sc">/</span><span class="fu">summary</span>(POTlmer)<span class="sc">$</span>sigma)</span>
-<span id="cb33-2"><a href="#cb33-2" aria-hidden="true" tabindex="-1"></a><span class="fu">round</span>(POTcter,<span class="dv">3</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb31"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb31-1"><a href="#cb31-1" aria-hidden="true" tabindex="-1"></a>POTcter <span class="ot">&lt;-</span> <span class="fu">cbind</span>(<span class="fu">coef</span>(<span class="fu">summary</span>(POTlmer)),<span class="at">d=</span><span class="fu">fixef</span>(POTlmer)<span class="sc">/</span><span class="fu">summary</span>(POTlmer)<span class="sc">$</span>sigma)</span>
+<span id="cb31-2"><a href="#cb31-2" aria-hidden="true" tabindex="-1"></a><span class="fu">round</span>(POTcter,<span class="dv">3</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </details>
 <div class="cell-output cell-output-stdout">
 <pre><code>                      Estimate Std. Error t value      d
-(Intercept)              7.626      0.519  14.693  4.009
-POT                     -0.080      0.065  -1.222 -0.042
-CognitiveSupportsTRUE    0.001      0.309   0.004  0.001
-AffectivePOTTRUE        -0.112      0.293  -0.382 -0.059</code></pre>
+(Intercept)              7.696      0.550  14.005  3.736
+POT                     -0.044      0.066  -0.677 -0.022
+CognitiveSupportsTRUE    0.055      0.335   0.164  0.027
+AffectivePOTTRUE        -0.126      0.318  -0.395 -0.061</code></pre>
 </div>
 </div>
 </section>
@@ -726,6 +718,17 @@ AffectivePOTTRUE        -0.112      0.293  -0.382 -0.059</code></pre>
 <div class="cell">
 <details>
 <summary>Code</summary>
+<div class="sourceCode cell-code" id="cb33"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb33-1"><a href="#cb33-1" aria-hidden="true" tabindex="-1"></a><span class="fu">table</span>(PPIESFall2022<span class="sc">$</span>Condition)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+<div class="cell-output cell-output-stdout">
+<pre><code>
+ A  B  C  D  E  F 
+44 41 42 46 36 35 </code></pre>
+</div>
+</div>
+<div class="cell">
+<details>
+<summary>Code</summary>
 <div class="sourceCode cell-code" id="cb35"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb35-1"><a href="#cb35-1" aria-hidden="true" tabindex="-1"></a>PPIESFall2022 <span class="sc">%&gt;%</span> <span class="fu">mutate</span>(<span class="at">solved=</span>silver.max<span class="sc">+</span>gold.max) <span class="ot">-&gt;</span> PPIESFall2022</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </details>
 </div>
@@ -739,7 +742,7 @@ AffectivePOTTRUE        -0.112      0.293  -0.382 -0.059</code></pre>
 <pre><code>Warning: Removed 41 rows containing non-finite values (`stat_ydensity()`).</code></pre>
 </div>
 <div class="cell-output-display">
-<p><img src="EfficacyAnalysis_files/figure-html/unnamed-chunk-14-1.png" class="img-fluid" width="672"></p>
+<p><img src="EfficacyAnalysis_files/figure-html/LevelSolvedViolin-1.png" class="img-fluid" width="672"></p>
 </div>
 </div>
 <div class="cell">
