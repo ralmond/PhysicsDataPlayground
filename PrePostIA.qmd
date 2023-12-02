@@ -101,28 +101,28 @@ cat("Efficacy Study Posttest", round(postalpha$total[[2]],3),"\n")
 ```
 ## Efficacy Pretest Difficulties and Discriminations
 
-```{r}
+```{r PretestDD}
 #| fig-cap: "Item summaries Efficacy Study Pretest"
 DDplot(prescored)
 ```
 
 ## Efficacy Posttest Difficulties and Discriminations
 
-```{r}
+```{r PosttestDD}
 #| fig-cap: "Item summaries Efficacy Study Posttest"
 DDplot(postscored)
 ```
 
 ## Timing Study Form A Difficulties and Discriminations
 
-```{r}
+```{r FormADD}
 #| fig-cap: "Item summaries Timing Study Form A (Pre+Post)"
 DDplot(formA[,-1])
 ```
 
 ## Timing Study Form B Difficulties and Discriminations
 
-```{r}
+```{r FormBDD}
 #| fig-cap: "Item summaries Timing Study Form B (Pre+Post)"
 DDplot(formB[,-1])
 ```
