@@ -63,11 +63,9 @@ objectTypes
 
 ## Links to data
 
-The raw JSON data is available at
-<https://pluto.coe.fsu.edu/PhysicsPlayground/data/IES2022-AllP4Events.json.gz>
+The raw JSON data is available at [PPIES2022-AllP4Events.json.gz](Data/PPIES2022-AllP4Events.json.gz).
 
-The filtered data containing only “interesting” events is at:
-<https://pluto.coe.fsu.edu/PhysicsPlayground/data/PPIES2022-P4Filtered.json.gz>
+The filtered data containing only “interesting” events is at [PPIES2022-P4Filtered.json.gz](Data/PPIES2022-P4Filtered.json.gz).
 
 Both files are compressed using gnu zip (`gzip`)
 

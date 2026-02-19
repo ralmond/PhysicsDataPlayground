@@ -255,7 +255,6 @@ knitr::kable(da[[item]])
 ```{r}
 pda(item)
 ```
-:::
 
 ### A_NQ8
 
